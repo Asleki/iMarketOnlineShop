@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "jt_bag_001",
+    "name": "Classic Leather Tote",
+    "description": "A versatile and elegant classic leather tote bag, perfect for daily use and fitting all your essentials. Made with high-quality genuine leather.",
+    "category": "Tote Bag",
+    "price": 7500,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/classic_tote_black_1.webp",
+      "https://example.com/joytotes/classic_tote_black_2.webp",
+      "https://example.com/joytotes/classic_tote_black_3.webp"
+    ],
+    "features": [
+      "Genuine Leather",
+      "Spacious Main Compartment",
+      "Interior Zip Pocket",
+      "Comfortable Shoulder Straps",
+      "Magnetic Snap Closure"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black",
+      "Brown",
+      "Navy"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_002",
+    "name": "Compact Crossbody Bag",
+    "description": "A stylish and functional compact crossbody bag, ideal for light travel and keeping your valuables secure. Features multiple compartments.",
+    "category": "Crossbody Bag",
+    "price": 3200,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/crossbody_black_1.webp",
+      "https://example.com/joytotes/crossbody_black_2.webp",
+      "https://example.com/joytotes/crossbody_black_3.webp"
+    ],
+    "features": [
+      "Adjustable Strap",
+      "Front Zip Pocket",
+      "Internal Card Slots",
+      "Durable Material",
+      "Lightweight Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black",
+      "Red",
+      "Grey"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_003",
+    "name": "Everyday Backpack",
+    "description": "A comfortable and spacious backpack suitable for school, work, or casual outings. Ergonomic design with padded straps.",
+    "category": "Backpack",
+    "price": 4500,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/backpack_navy_1.webp",
+      "https://example.com/joytotes/backpack_navy_2.webp",
+      "https://example.com/joytotes/backpack_navy_3.webp"
+    ],
+    "features": [
+      "Laptop Compartment",
+      "Water-resistant Fabric",
+      "Multiple Pockets",
+      "Padded Shoulder Straps",
+      "Top Handle"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Navy",
+      "Black",
+      "Olive Green"
+    ],
+    "color": "Navy",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_004",
+    "name": "Elegant Evening Clutch",
+    "description": "A sophisticated clutch bag perfect for evening events and formal occasions. Features a delicate chain strap and secure clasp.",
+    "category": "Clutch Bag",
+    "price": 2800,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/clutch_silver_1.webp",
+      "https://example.com/joytotes/clutch_silver_2.webp",
+      "https://example.com/joytotes/clutch_silver_3.webp"
+    ],
+    "features": [
+      "Detachable Chain Strap",
+      "Sparkling Embellishments",
+      "Inner Pocket",
+      "Secure Clasp Closure",
+      "Compact Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Silver",
+      "Gold",
+      "Black"
+    ],
+    "color": "Silver",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_005",
+    "name": "Spacious Travel Duffel",
+    "description": "A durable and spacious duffel bag designed for weekend trips and gym sessions. Features multiple compartments and a comfortable carry handle.",
+    "category": "Duffel Bag",
+    "price": 6000,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/duffel_grey_1.webp",
+      "https://example.com/joytotes/duffel_grey_2.webp",
+      "https://example.com/joytotes/duffel_grey_3.webp"
+    ],
+    "features": [
+      "Water-resistant Exterior",
+      "Ventilated Shoe Compartment",
+      "Detachable Shoulder Strap",
+      "Reinforced Stitching",
+      "Large Capacity"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Grey",
+      "Black",
+      "Blue"
+    ],
+    "color": "Grey",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_006",
+    "name": "Chic Shoulder Bag",
+    "description": "A fashionable shoulder bag with ample space for your daily essentials. Features a secure zip closure and stylish design.",
+    "category": "Shoulder Bag",
+    "price": 4800,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/shoulder_brown_1.webp",
+      "https://example.com/joytotes/shoulder_brown_2.webp",
+      "https://example.com/joytotes/shoulder_brown_3.webp"
+    ],
+    "features": [
+      "Adjustable Shoulder Strap",
+      "Multiple Interior Pockets",
+      "High-Quality Zipper",
+      "Soft Lining",
+      "Elegant Hardware"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Brown",
+      "Black",
+      "Cream"
+    ],
+    "color": "Brown",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_007",
+    "name": "Casual Canvas Sling",
+    "description": "A lightweight and versatile canvas sling bag, perfect for quick errands or outdoor activities. Comfortable and easy to carry.",
+    "category": "Sling Bag",
+    "price": 2500,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/sling_khaki_1.webp",
+      "https://example.com/joytotes/sling_khaki_2.webp",
+      "https://example.com/joytotes/sling_khaki_3.webp"
+    ],
+    "features": [
+      "Adjustable Crossbody Strap",
+      "Front Zip Pocket",
+      "Main Compartment",
+      "Durable Canvas",
+      "Unisex Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Khaki",
+      "Black",
+      "Navy"
+    ],
+    "color": "Khaki",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_008",
+    "name": "Luxury Designer Handbag",
+    "description": "An exquisite designer handbag crafted with premium materials and attention to detail. A statement piece for any fashion enthusiast.",
+    "category": "Handbag",
+    "price": 18000,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/luxury_handbag_burgundy_1.webp",
+      "https://example.com/joytotes/luxury_handbag_burgundy_2.webp",
+      "https://example.com/joytotes/luxury_handbag_burgundy_3.webp"
+    ],
+    "features": [
+      "Premium Italian Leather",
+      "Gold-tone Hardware",
+      "Structured Design",
+      "Multiple Internal Compartments",
+      "Protective Metal Feet"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Burgundy",
+      "Black",
+      "Cream"
+    ],
+    "color": "Burgundy",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_009",
+    "name": "Travel Laptop Bag",
+    "description": "A durable and professional laptop bag with ample padding and compartments for all your tech essentials. Ideal for business travel.",
+    "category": "Laptop Bag",
+    "price": 5500,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/laptop_bag_black_1.webp",
+      "https://example.com/joytotes/laptop_bag_black_2.webp",
+      "https://example.com/joytotes/laptop_bag_black_3.webp"
+    ],
+    "features": [
+      "Padded Laptop Sleeve",
+      "RFID-Blocking Pocket",
+      "Trolley Sleeve",
+      "Water-resistant Material",
+      "External USB Charging Port"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black",
+      "Grey",
+      "Navy"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_010",
+    "name": "Stylish Waist Bag",
+    "description": "A trendy and practical waist bag (fanny pack) for carrying small items securely. Perfect for festivals, hikes, or quick errands.",
+    "category": "Waist Bag",
+    "price": 1800,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/waist_bag_black_1.webp",
+      "https://example.com/joytotes/waist_bag_black_2.webp",
+      "https://example.com/joytotes/waist_bag_black_3.webp"
+    ],
+    "features": [
+      "Adjustable Strap",
+      "Multiple Zip Pockets",
+      "Water-resistant Fabric",
+      "Lightweight",
+      "Secure Buckle Closure"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black",
+      "Camo",
+      "Neon Yellow"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_011",
+    "name": "Sophisticated Satchel Bag",
+    "description": "A structured satchel bag combining classic design with modern functionality. Ideal for both work and casual wear.",
+    "category": "Satchel Bag",
+    "price": 6800,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/satchel_burgundy_1.webp",
+      "https://example.com/joytotes/satchel_burgundy_2.webp",
+      "https://example.com/joytotes/satchel_burgundy_3.webp"
+    ],
+    "features": [
+      "Top Handle & Detachable Shoulder Strap",
+      "Multiple Compartments",
+      "Gold-Tone Hardware",
+      "Structured Base",
+      "Secure Zip Top"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Burgundy",
+      "Black",
+      "Dark Green"
+    ],
+    "color": "Burgundy",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_012",
+    "name": "Casual Drawstring Backpack",
+    "description": "A simple and lightweight drawstring backpack, perfect for gym essentials, beach days, or light travel.",
+    "category": "Drawstring Bag",
+    "price": 1200,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/drawstring_blue_1.webp",
+      "https://example.com/joytotes/drawstring_blue_2.webp",
+      "https://example.com/joytotes/drawstring_blue_3.webp"
+    ],
+    "features": [
+      "Durable Fabric",
+      "Easy Drawstring Closure",
+      "Front Zip Pocket",
+      "Compact When Folded",
+      "Machine Washable"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Blue",
+      "Red",
+      "Black"
+    ],
+    "color": "Blue",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_013",
+    "name": "Vintage Camera Bag",
+    "description": "A stylish and protective bag designed for photographers. Features padded compartments for camera gear and accessories.",
+    "category": "Camera Bag",
+    "price": 5000,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/camera_bag_brown_1.webp",
+      "https://example.com/joytotes/camera_bag_brown_2.webp",
+      "https://example.com/joytotes/camera_bag_brown_3.webp"
+    ],
+    "features": [
+      "Adjustable Padded Dividers",
+      "Water-resistant Canvas",
+      "External Pockets",
+      "Comfortable Shoulder Strap",
+      "Quick Access Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Brown",
+      "Khaki",
+      "Black"
+    ],
+    "color": "Brown",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_014",
+    "name": "Sporty Gym Bag",
+    "description": "A practical and spacious gym bag with dedicated compartments for shoes and wet clothes. Ideal for active lifestyles.",
+    "category": "Gym Bag",
+    "price": 3800,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/gym_bag_black_1.webp",
+      "https://example.com/joytotes/gym_bag_black_2.webp",
+      "https://example.com/joytotes/gym_bag_black_3.webp"
+    ],
+    "features": [
+      "Separate Shoe Compartment",
+      "Waterproof Inner Pocket",
+      "Durable Zippers",
+      "Padded Handles",
+      "Ventilated Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black",
+      "Grey",
+      "Royal Blue"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_015",
+    "name": "Multi-Pocket Messenger Bag",
+    "description": "A functional messenger bag with numerous pockets for organization. Perfect for students, professionals, and daily commuters.",
+    "category": "Messenger Bag",
+    "price": 4200,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/messenger_bag_grey_1.webp",
+      "https://example.com/joytotes/messenger_bag_grey_2.webp",
+      "https://example.com/joytotes/messenger_bag_grey_3.webp"
+    ],
+    "features": [
+      "Padded Laptop Sleeve",
+      "Adjustable Shoulder Strap",
+      "Front Flap Closure",
+      "Multiple Exterior Pockets",
+      "Durable Oxford Fabric"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Grey",
+      "Black",
+      "Brown"
+    ],
+    "color": "Grey",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_016",
+    "name": "Trendy Mini Backpack",
+    "description": "A cute and compact mini backpack, perfect for fashion-forward individuals who prefer a lighter carry. Ideal for casual outings.",
+    "category": "Mini Backpack",
+    "price": 3000,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/mini_backpack_pink_1.webp",
+      "https://example.com/joytotes/mini_backpack_pink_2.webp",
+      "https://example.com/joytotes/mini_backpack_pink_3.webp"
+    ],
+    "features": [
+      "Adjustable Straps",
+      "Small Front Pocket",
+      "Main Zip Compartment",
+      "Vegan Leather Material",
+      "Stylish Quilted Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Pink",
+      "Black",
+      "White"
+    ],
+    "color": "Pink",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_017",
+    "name": "Utility Tool Bag",
+    "description": "A rugged and robust tool bag designed for professionals and DIY enthusiasts. Features multiple loops and pockets for tools.",
+    "category": "Tool Bag",
+    "price": 2800,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/tool_bag_tan_1.webp",
+      "https://example.com/joytotes/tool_bag_tan_2.webp",
+      "https://example.com/joytotes/tool_bag_tan_3.webp"
+    ],
+    "features": [
+      "Heavy-Duty Canvas",
+      "Reinforced Handles",
+      "Internal & External Pockets",
+      "Wide Mouth Opening",
+      "Water-resistant Base"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Tan",
+      "Black",
+      "Green"
+    ],
+    "color": "Tan",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_018",
+    "name": "Quilted Puffy Shoulder Bag",
+    "description": "A fashionable and soft quilted shoulder bag with a puffy texture. A cozy and chic accessory for everyday use.",
+    "category": "Shoulder Bag",
+    "price": 3500,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/puffy_shoulder_white_1.webp",
+      "https://example.com/joytotes/puffy_shoulder_white_2.webp",
+      "https://example.com/joytotes/puffy_shoulder_white_3.webp"
+    ],
+    "features": [
+      "Soft Puffy Material",
+      "Chain Shoulder Strap",
+      "Main Zip Closure",
+      "Inner Pocket",
+      "Lightweight Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "White",
+      "Black",
+      "Beige"
+    ],
+    "color": "White",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_019",
+    "name": "Waterproof Dry Bag",
+    "description": "An essential dry bag for outdoor adventures. Keeps your belongings safe and dry during kayaking, hiking, or camping.",
+    "category": "Dry Bag",
+    "price": 2000,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/dry_bag_orange_1.webp",
+      "https://example.com/joytotes/dry_bag_orange_2.webp",
+      "https://example.com/joytotes/dry_bag_orange_3.webp"
+    ],
+    "features": [
+      "Roll-Top Closure",
+      "Durable PVC Material",
+      "Adjustable Shoulder Strap",
+      "Sealed Seams",
+      "Various Sizes Available"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Orange",
+      "Blue",
+      "Yellow"
+    ],
+    "color": "Orange",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_020",
+    "name": "Stylish Evening Pouch",
+    "description": "A small and chic pouch for your evening essentials. Perfect for carrying your phone, cards, and lipstick.",
+    "category": "Pouch",
+    "price": 1500,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/evening_pouch_gold_1.webp",
+      "https://example.com/joytotes/evening_pouch_gold_2.webp",
+      "https://example.com/joytotes/evening_pouch_gold_3.webp"
+    ],
+    "features": [
+      "Metallic Finish",
+      "Wristlet Strap",
+      "Zip Closure",
+      "Inner Slip Pocket",
+      "Compact Size"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Gold",
+      "Silver",
+      "Rose Gold"
+    ],
+    "color": "Gold",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_021",
+    "name": "Hiking Hydration Pack",
+    "description": "A lightweight hydration pack for hikers and runners. Includes a water bladder and multiple pockets for essentials.",
+    "category": "Hydration Pack",
+    "price": 5000,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/hydration_pack_green_1.webp",
+      "https://example.com/joytotes/hydration_pack_green_2.webp",
+      "https://example.com/joytotes/hydration_pack_green_3.webp"
+    ],
+    "features": [
+      "2L Water Bladder Included",
+      "Breathable Mesh Back Panel",
+      "Adjustable Chest Straps",
+      "Front Zip Pockets",
+      "Reflective Accents"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Green",
+      "Blue",
+      "Black"
+    ],
+    "color": "Green",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_022",
+    "name": "Luxury Duffel Bag",
+    "description": "An upscale duffel bag made with premium materials, perfect for stylish travelers. Combines durability with elegant design.",
+    "category": "Duffel Bag",
+    "price": 12000,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/luxury_duffel_leather_1.webp",
+      "https://example.com/joytotes/luxury_duffel_leather_2.webp",
+      "https://example.com/joytotes/luxury_duffel_leather_3.webp"
+    ],
+    "features": [
+      "Full Grain Leather",
+      "Padded Shoulder Strap",
+      "Interior Zip Pockets",
+      "Reinforced Base",
+      "Metal Feet Protection"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Brown",
+      "Black",
+      "Tan"
+    ],
+    "color": "Brown",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_023",
+    "name": "Everyday Hobo Bag",
+    "description": "A relaxed and comfortable hobo bag with a slouchy design. Perfect for a bohemian-chic look and easy carrying.",
+    "category": "Hobo Bag",
+    "price": 4000,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/hobo_bag_beige_1.webp",
+      "https://example.com/joytotes/hobo_bag_beige_2.webp",
+      "https://example.com/joytotes/hobo_bag_beige_3.webp"
+    ],
+    "features": [
+      "Soft Supple Material",
+      "Wide Shoulder Strap",
+      "Top Zip Closure",
+      "Inner Pockets",
+      "Spacious Interior"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Beige",
+      "Black",
+      "Olive"
+    ],
+    "color": "Beige",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_024",
+    "name": "Gym Drawstring Backpack",
+    "description": "A simple and light drawstring backpack made for gym-goers. Convenient for carrying sportswear and accessories.",
+    "category": "Drawstring Bag",
+    "price": 1000,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/gym_drawstring_black_1.webp",
+      "https://example.com/joytotes/gym_drawstring_black_2.webp",
+      "https://example.com/joytotes/gym_drawstring_black_3.webp"
+    ],
+    "features": [
+      "Durable Polyester",
+      "Reinforced Corners",
+      "Drawstring Closure",
+      "Lightweight",
+      "Unisex Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black",
+      "Red",
+      "Blue"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_025",
+    "name": "Multi-purpose Tote Bag",
+    "description": "A versatile tote bag, perfect for shopping, beach trips, or carrying books. Made from sturdy canvas.",
+    "category": "Tote Bag",
+    "price": 1500,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/canvas_tote_natural_1.webp",
+      "https://example.com/joytotes/canvas_tote_natural_2.webp",
+      "https://example.com/joytotes/canvas_tote_natural_3.webp"
+    ],
+    "features": [
+      "Heavy-Duty Canvas",
+      "Long Handles",
+      "Spacious Open Compartment",
+      "Reinforced Stitching",
+      "Foldable Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Natural",
+      "Black",
+      "Navy"
+    ],
+    "color": "Natural",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_026",
+    "name": "Fashion Mini Handbag",
+    "description": "A trendy mini handbag designed for a chic and minimalist look. Perfect for essentials and a night out.",
+    "category": "Handbag",
+    "price": 2500,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/mini_handbag_lilac_1.webp",
+      "https://example.com/joytotes/mini_handbag_lilac_2.webp",
+      "https://example.com/joytotes/mini_handbag_lilac_3.webp"
+    ],
+    "features": [
+      "Compact Size",
+      "Top Handle",
+      "Detachable Crossbody Strap",
+      "Magnetic Snap Closure",
+      "Inner Slip Pocket"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Lilac",
+      "Black",
+      "Cream"
+    ],
+    "color": "Lilac",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_027",
+    "name": "Professional Briefcase",
+    "description": "A sophisticated briefcase for the modern professional. Designed to carry documents, laptops, and business essentials with style.",
+    "category": "Briefcase",
+    "price": 9000,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/briefcase_brown_1.webp",
+      "https://example.com/joytotes/briefcase_brown_2.webp",
+      "https://example.com/joytotes/briefcase_brown_3.webp"
+    ],
+    "features": [
+      "Genuine Leather",
+      "Padded Laptop Compartment",
+      "Multiple Document Slots",
+      "Detachable Shoulder Strap",
+      "Secure Clasp Closure"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Brown",
+      "Black",
+      "Dark Blue"
+    ],
+    "color": "Brown",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_028",
+    "name": "Waterproof Backpack",
+    "description": "A rugged and fully waterproof backpack for extreme outdoor conditions. Ideal for camping, hiking, and water sports.",
+    "category": "Backpack",
+    "price": 6500,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/waterproof_backpack_black_1.webp",
+      "https://example.com/joytotes/waterproof_backpack_black_2.webp",
+      "https://example.com/joytotes/waterproof_backpack_black_3.webp"
+    ],
+    "features": [
+      "Roll-Top Waterproof Closure",
+      "Durable PVC Tarpaulin",
+      "Padded Back Panel",
+      "External Mesh Pockets",
+      "Adjustable Sternum Strap"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black",
+      "Yellow",
+      "Red"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_029",
+    "name": "Fashionable Bucket Bag",
+    "description": "A trendy bucket bag with a relaxed yet stylish silhouette. Features a drawstring closure and adjustable strap.",
+    "category": "Bucket Bag",
+    "price": 4300,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/bucket_bag_tan_1.webp",
+      "https://example.com/joytotes/bucket_bag_tan_2.webp",
+      "https://example.com/joytotes/bucket_bag_tan_3.webp"
+    ],
+    "features": [
+      "Drawstring Closure",
+      "Adjustable Shoulder/Crossbody Strap",
+      "Inner Zip Pocket",
+      "Structured Base",
+      "Soft Vegan Leather"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Tan",
+      "Black",
+      "Cream"
+    ],
+    "color": "Tan",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  },
+  {
+    "id": "jt_bag_030",
+    "name": "Sporty Waist Pack",
+    "description": "A compact and secure waist pack designed for runners and active individuals. Keeps essentials close during workouts.",
+    "category": "Waist Bag",
+    "price": 1600,
+    "currency": "KES",
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "images": [
+      "https://example.com/joytotes/sporty_waist_blue_1.webp",
+      "https://example.com/joytotes/sporty_waist_blue_2.webp",
+      "https://example.com/joytotes/sporty_waist_blue_3.webp"
+    ],
+    "features": [
+      "Water-resistant Material",
+      "Adjustable Elastic Strap",
+      "Main Zip Compartment",
+      "Headphone Port",
+      "Reflective Trim"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Blue",
+      "Black",
+      "Neon Green"
+    ],
+    "color": "Blue",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15"
+  }
+]

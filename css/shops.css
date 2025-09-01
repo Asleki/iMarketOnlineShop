@@ -1,0 +1,197 @@
+/*
+    File: shops.css
+    -------------------------------------------------
+    This stylesheet contains all specific styles for the shops directory page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Main Shops Grid Section                                                    */
+/* -------------------------------------------------------------------------- */
+.shops-directory-section {
+    padding: 40px 0;
+}
+
+.section-title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--color-primary);
+}
+
+.shops-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    justify-content: center;
+}
+
+.shop-card {
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px var(--color-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px;
+}
+
+.shop-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px var(--color-shadow-hover);
+}
+
+.shop-logo-container {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.shop-logo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.shop-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--color-text-primary);
+    margin-bottom: 5px;
+}
+
+.shop-details-summary p {
+    margin: 5px 0;
+    color: var(--color-text-secondary);
+    font-size: 0.95em;
+}
+
+.shop-details-summary i {
+    margin-right: 8px;
+    color: var(--color-primary);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Modal Styling                                                              */
+/* -------------------------------------------------------------------------- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 5px 15px var(--color-shadow-dark);
+    position: relative;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+#modal-shop-details {
+    text-align: center;
+}
+
+.modal-shop-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-shop-logo {
+    width: 150px;
+    height: 75px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.modal-shop-header h2 {
+    font-size: 2em;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+
+.modal-shop-description {
+    font-size: 1em;
+    color: var(--color-text-secondary);
+    margin-bottom: 20px;
+}
+
+.modal-shop-info {
+    text-align: left;
+    margin-bottom: 20px;
+    border-top: 1px solid var(--color-border);
+    padding-top: 20px;
+}
+
+.modal-shop-info p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.modal-shop-info i {
+    margin-right: 10px;
+    color: var(--color-accent);
+}
+
+.modal-shop-actions .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.modal-shop-actions .btn:hover {
+    background-color: var(--color-primary-dark);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Responsive Adjustments                                                     */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 600px) {
+    .shops-grid {
+        grid-template-columns: 1fr;
+    }
+    .modal-content {
+        width: 95%;
+        margin: 20px auto;
+    }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "type": "alert",
+    "message": "Site maintenance scheduled for Saturday at 2 AM EAT.",
+    "priority": "high"
+  },
+  {
+    "id": 2,
+    "type": "news",
+    "message": "iMarket now offers free shipping on orders over KSh 5,000!",
+    "priority": "medium"
+  },
+  {
+    "id": 3,
+    "type": "partner",
+    "message": "TechShop is opening a new branch in Nairobi. Shop with them now!",
+    "priority": "low"
+  },
+  {
+    "id": 4,
+    "type": "news",
+    "message": "New feature: Track your orders in real-time. Check it out in your account.",
+    "priority": "medium"
+  }
+]

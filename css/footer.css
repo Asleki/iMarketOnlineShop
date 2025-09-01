@@ -1,0 +1,209 @@
+/*
+    File: footer.css
+    -------------------------------------------------
+    This stylesheet is for the comprehensive iMarket footer.
+    It is designed to be used with `colors.css` and `header.css` to
+    provide a consistent look and feel across the entire website.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* General Footer Styles                                                      */
+/* -------------------------------------------------------------------------- */
+
+#main-footer {
+    background-color: var(--color-bg-header-footer);
+    color: var(--color-text-secondary);
+    padding: 40px 0 20px;
+    border-top: 1px solid var(--color-border);
+    font-size: 0.9em;
+}
+
+.footer-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-section {
+    flex: 1 1 200px; /* Flex-grow, flex-shrink, flex-basis */
+}
+
+.footer-section h4 {
+    color: var(--color-text-primary);
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.footer-section h4 i {
+    margin-right: 8px;
+    color: var(--color-primary);
+}
+
+.footer-section p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.footer-section a {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-section a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Contact Section                                                            */
+/* -------------------------------------------------------------------------- */
+
+.footer-contact address p {
+    font-style: normal;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Newsletter Section                                                         */
+/* -------------------------------------------------------------------------- */
+
+#newsletter-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+#newsletter-email {
+    flex: 1 1 150px;
+    padding: 10px 15px;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+    background-color: var(--color-bg-input);
+    color: var(--color-text-primary);
+    outline: none;
+}
+
+#newsletter-form .btn-primary {
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    color: var(--color-text-inverted);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#newsletter-form .btn-primary:hover {
+    background-color: var(--color-hover);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Links & Navigation Sections                                                */
+/* -------------------------------------------------------------------------- */
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section li {
+    margin-bottom: 8px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Social and Payments Section                                                */
+/* -------------------------------------------------------------------------- */
+
+.footer-social-payments {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1 1 200px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    font-size: 1.5em;
+    color: var(--color-text-secondary);
+}
+
+.social-icons a:hover {
+    color: var(--color-primary);
+}
+
+.payment-logos img {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Copyright Section                                                          */
+/* -------------------------------------------------------------------------- */
+
+.footer-copyright {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+}
+
+.footer-copyright p {
+    margin: 0;
+}
+
+.footer-copyright .divider {
+    color: var(--color-border);
+    margin: 0 10px;
+}
+
+.footer-copyright a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.footer-copyright a:hover {
+    text-decoration: underline;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* Responsive Design                                                          */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+    .footer-content-wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-section {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    #newsletter-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #newsletter-email {
+        width: 100%;
+    }
+}

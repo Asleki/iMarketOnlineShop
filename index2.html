@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="iMarket Kenya: Your one-stop online marketplace for electronics, fashion, properties, vehicles, and office solutions. Shop diverse categories from trusted Kenyan sellers.">
+    <meta name="keywords" content="iMarket, Kenya, online marketplace, e-commerce, electronics, fashion, properties, real estate, vehicles, cars, office equipment, bags, shoes, shops, deals, discounts, Nairobi, Mlolongo, Machakos">
+    <meta name="author" content="Alex Malunda">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="iMarket Kenya - Your One-Stop Online Marketplace">
+    <meta property="og:description" content="iMarket Kenya: Your one-stop online marketplace for electronics, fashion, properties, vehicles, and office solutions. Shop diverse categories from trusted Kenyan sellers.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.imarket.co.ke/index.html">
+    <meta property="og:image" content="https://www.imarket.co.ke/images/imarket-share-logo.jpg"> <meta property="og:site_name" content="iMarket Kenya">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@iMarketKE"> <meta name="twitter:creator" content="@iMarketKE"> <meta name="twitter:title" content="iMarket Kenya - Your One-Stop Online Marketplace">
+    <meta name="twitter:description" content="iMarket Kenya: Your one-stop online marketplace for electronics, fashion, properties, vehicles, and office solutions. Shop diverse categories from trusted Kenyan sellers.">
+    <meta name="twitter:image" content="https://www.imarket.co.ke/images/imarket-share-logo.jpg"> <link rel="canonical" href="https://www.imarket.co.ke/index.html">
+
+    <title>iMarket Kenya - Your One-Stop Online Marketplace</title>
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        /* General Body & Root Variables */
+        :root {
+            --primary-color: #007BFF; /* Blue */
+            --secondary-color: #6C757D; /* Grey */
+            --accent-color: #28A745; /* Green */
+            --danger-color: #DC3545; /* Red */
+            --warning-color: #FFC107; /* Yellow */
+
+            /* Typography */
+            --font-family-sans: 'Arial', sans-serif;
+            --font-family-serif: 'Georgia', serif;
+
+            /* Spacing */
+            --spacing-xs: 0.25rem;
+            --spacing-sm: 0.5rem;
+            --spacing-md: 1rem;
+            --spacing-lg: 1.5rem;
+            --spacing-xl: 2rem;
+        }
+
+        /* Light Mode Colors (Default) */
+        :root[data-theme='light'] {
+            --background-color: #F8F8F8; /* Light Grey */
+            --text-color: #333; /* Dark Grey */
+            --header-bg-color: #FFFFFF;
+            --nav-bg-color: #FFFFFF;
+            --nav-link-color: #333;
+            --nav-link-hover-color: var(--primary-color);
+            --card-bg-color: #FFFFFF;
+            --border-color: #E0E0E0;
+            --footer-bg-color: #333;
+            --footer-text-color: #F8F8F8;
+            --heading-color: #222;
+            --hero-bg-color: #f0f0f0;
+            --button-bg-primary: var(--primary-color);
+            --button-text-primary: #FFFFFF;
+            --search-bg-color: #f0f0f0; /* Lighter search bar */
+            --search-border-color: #ccc;
+        }
+
+        /* Dark Mode Colors */
+        [data-theme='dark'] {
+            --background-color: #1A1A1A; /* Dark Grey */
+            --text-color: #E0E0E0; /* Light Grey */
+            --header-bg-color: #2C2C2C;
+            --nav-bg-color: #2C2C2C;
+            --nav-link-color: #E0E0E0;
+            --nav-link-hover-color: var(--primary-color);
+            --card-bg-color: #3C3C3C;
+            --border-color: #555;
+            --footer-bg-color: #111;
+            --footer-text-color: #B0B0B0;
+            --heading-color: #FAFAFA;
+            --hero-bg-color: #222;
+            --button-bg-primary: var(--primary-color);
+            --button-text-primary: #FFFFFF;
+            --search-bg-color: #3C3C3C; /* Darker search bar */
+            --search-border-color: #666;
+        }
+
+        body {
+            font-family: var(--font-family-sans);
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-md);
+        }
+
+        /* Header */
+        header {
+            background-color: var(--header-bg-color);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky; /* Sticky header */
+            top: 0;
+            z-index: 1000;
+            transition: background-color 0.3s, border-color 0.3s;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            color: var(--text-color);
+        }
+
+        .header-top-left, .header-top-right {
+            display: flex;
+            gap: var(--spacing-lg);
+            align-items: center;
+        }
+
+        .header-top-item {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+        }
+
+        /* Main Header Row (Logo, Search, Icons) */
+        .header-main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--spacing-md) var(--spacing-md);
+            gap: var(--spacing-lg);
+        }
+
+        .logo a {
+            font-size: 2rem; /* Larger logo */
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .search-bar-container {
+            flex-grow: 1;
+            position: relative;
+            max-width: 700px; /* Super visible */
+            display: flex;
+            align-items: center;
+            border: 2px solid var(--primary-color); /* Prominent border */
+            border-radius: 30px; /* More rounded */
+            overflow: hidden;
+            background-color: var(--search-bg-color);
+            transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s;
+        }
+        .search-bar-container:focus-within {
+            box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+        }
+
+        .search-bar-container input {
+            flex-grow: 1;
+            padding: 0.8rem 1.2rem; /* More padding */
+            border: none;
+            background-color: transparent;
+            color: var(--text-color);
+            font-size: 1rem;
+            outline: none;
+        }
+        .search-bar-container input::placeholder {
+            color: var(--secondary-color);
+        }
+
+        .search-bar-buttons {
+            display: flex;
+            align-items: center;
+            padding-right: var(--spacing-sm);
+        }
+
+        .search-btn, .clear-search-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            padding: var(--spacing-sm);
+            transition: color 0.3s;
+        }
+        .search-btn:hover, .clear-search-btn:hover {
+            color: var(--primary-color-dark);
+        }
+
+        .clear-search-btn {
+            color: var(--secondary-color); /* 'X' icon color */
+            display: none; /* Hidden by default */
+        }
+
+        .nav-icons {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-lg);
+            white-space: nowrap;
+        }
+
+        .nav-icon {
+            font-size: 1.6rem; /* Larger icons */
+            color: var(--nav-link-color);
+            text-decoration: none;
+            position: relative;
+            transition: color 0.3s;
+        }
+
+        .nav-icon:hover {
+            color: var(--primary-color);
+        }
+
+        .icon-badge {
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background-color: var(--danger-color);
+            color: white;
+            border-radius: 50%;
+            padding: 2px 6px;
+            font-size: 0.7rem;
+            line-height: 1;
+            min-width: 18px;
+            text-align: center;
+            display: none;
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            font-size: 1.6rem; /* Larger toggle icon */
+            cursor: pointer;
+            color: var(--nav-link-color);
+            transition: color 0.3s;
+            padding: 0;
+        }
+        .theme-toggle:hover {
+            color: var(--primary-color);
+        }
+
+        /* Main Navigation Bar */
+        .header-nav {
+            background-color: var(--nav-bg-color);
+            border-top: 1px solid var(--border-color);
+            padding: var(--spacing-sm) var(--spacing-md);
+            box-shadow: inset 0 1px 3px rgba(0,0,0,0.05); /* Subtle inner shadow */
+        }
+
+        .header-nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between; /* Distribute items */
+            padding: 0;
+            margin: 0;
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+            gap: var(--spacing-lg); /* Space between main nav items */
+        }
+
+        .header-nav ul li {
+            position: relative; /* For dropdown positioning */
+        }
+
+        .header-nav ul li a {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+            color: var(--nav-link-color);
+            text-decoration: none;
+            font-weight: bold;
+            padding: var(--spacing-sm) 0;
+            transition: color 0.3s;
+        }
+
+        .header-nav ul li a:hover {
+            color: var(--nav-link-hover-color);
+        }
+
+        /* Dropdown Styling */
+        .dropdown-content {
+            display: none; /* Hidden by default */
+            position: absolute;
+            background-color: var(--card-bg-color); /* Use card background for dropdown */
+            min-width: 220px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1001; /* Above header */
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+            padding: var(--spacing-sm) 0;
+            max-height: 300px; /* Max height for scrollability */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+
+        .dropdown-content a {
+            color: var(--text-color);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        .dropdown-content a:hover {
+            background-color: var(--background-color); /* Lighter hover for dropdown items */
+            color: var(--primary-color);
+        }
+
+        .has-dropdown:hover .dropdown-content {
+            display: block; /* Show dropdown on hover */
+        }
+
+        /* Custom scrollbar for dropdowns */
+        .dropdown-content::-webkit-scrollbar {
+            width: 8px;
+        }
+        .dropdown-content::-webkit-scrollbar-track {
+            background: var(--background-color);
+            border-radius: 10px;
+        }
+        .dropdown-content::-webkit-scrollbar-thumb {
+            background: var(--primary-color-light);
+            border-radius: 10px;
+        }
+        .dropdown-content::-webkit-scrollbar-thumb:hover {
+            background: var(--primary-color);
+        }
+
+
+        /* Responsive Navigation Adjustments */
+        @media (max-width: 992px) {
+            .header-nav ul {
+                justify-content: center; /* Center nav items when they wrap */
+                gap: var(--spacing-md);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-main {
+                flex-direction: column;
+                align-items: center;
+            }
+            .search-bar-container {
+                width: 100%;
+                margin-top: var(--spacing-md);
+                order: 3;
+            }
+            .logo {
+                order: 1;
+            }
+            .nav-icons {
+                margin-top: var(--spacing-md);
+                width: 100%;
+                justify-content: space-around;
+                order: 2;
+            }
+            .header-nav {
+                display: none; /* Hide main nav on small screens, will be handled by mobile menu */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-icons {
+                gap: var(--spacing-md);
+                justify-content: space-between;
+            }
+            .nav-icon, .theme-toggle {
+                font-size: 1.2rem;
+            }
+            .search-bar-container input {
+                padding: 0.6rem 1rem;
+                font-size: 0.9rem;
+            }
+            .search-btn, .clear-search-btn {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="header-top-left">
+                <span class="header-top-item">
+                    <i class="fas fa-phone-alt"></i> +254 712 345678
+                </span>
+                <span class="header-top-item">
+                    <i class="fas fa-envelope"></i> support@imarket.co.ke
+                </span>
+            </div>
+            <div class="header-top-right">
+                <span class="header-top-item">
+                    <i class="fas fa-globe"></i> English
+                </span>
+                <span class="header-top-item">
+                    <i class="fas fa-money-bill-wave"></i> KES
+                </span>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    <i class="fas fa-sun"></i> </button>
+            </div>
+        </div>
+
+        <div class="header-main container">
+            <div class="logo">
+                <a href="index.html" aria-label="iMarket Home">iMarket</a>
+            </div>
+            <div class="search-bar-container">
+                <input type="text" id="main-search-input" placeholder="Search for products, shops, or categories..." aria-label="Search iMarket">
+                <div class="search-bar-buttons">
+                    <button id="clear-search-btn" class="clear-search-btn" aria-label="Clear Search">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <button id="search-submit-btn" class="search-btn" aria-label="Perform Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="nav-icons">
+                <a href="account.html" class="nav-icon" aria-label="My Account">
+                    <i class="fas fa-user-circle"></i>
+                    <span id="user-level-display" class="icon-badge" style="display:none;"></span> </a>
+                <a href="global-cart.html" class="nav-icon" aria-label="Shopping Cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="icon-badge" id="cart-item-count">0</span>
+                </a>
+                <a href="notifications.html" class="nav-icon" aria-label="Notifications">
+                    <i class="fas fa-bell"></i>
+                    <span class="icon-badge" id="notification-count">0</span>
+                </a>
+            </div>
+        </div>
+
+        <nav class="header-nav container">
+            <ul>
+                <li class="has-dropdown">
+                    <a href="#" id="all-categories-link">All Categories <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content" id="all-categories-dropdown">
+                        </div>
+                </li>
+                <li class="has-dropdown">
+                    <a href="#" id="shops-link">Shops <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content" id="shops-dropdown">
+                        </div>
+                </li>
+                <li><a href="coupons.html">Coupons</a></li>
+                <li><a href="products.html?filter=deals">Today's Deals</a></li>
+                <li><a href="products.html?filter=new-arrivals">New Arrivals</a></li>
+                <li><a href="spin-game.html">Spin & Win</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        </main>
+
+    <footer>
+        </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggle = document.getElementById('theme-toggle');
+            const mainSearchInput = document.getElementById('main-search-input');
+            const clearSearchBtn = document.getElementById('clear-search-btn');
+            const searchSubmitBtn = document.getElementById('search-submit-btn');
+            const allCategoriesDropdown = document.getElementById('all-categories-dropdown');
+            const shopsDropdown = document.getElementById('shops-dropdown');
+
+            // --- Dark/Light Mode Toggle ---
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            themeToggle.querySelector('i').className = currentTheme === 'dark' ? 'fas fa-moon' : 'fas fa-sun';
+
+            themeToggle.addEventListener('click', () => {
+                let theme = document.documentElement.getAttribute('data-theme');
+                if (theme === 'dark') {
+                    document.documentElement.setAttribute('data-theme', 'light');
+                    localStorage.setItem('theme', 'light');
+                    themeToggle.querySelector('i').className = 'fas fa-sun';
+                } else {
+                    document.documentElement.setAttribute('data-theme', 'dark');
+                    localStorage.setItem('theme', 'dark');
+                    themeToggle.querySelector('i').className = 'fas fa-moon';
+                }
+            });
+
+            // --- Search Bar Functionality ---
+            mainSearchInput.addEventListener('input', () => {
+                if (mainSearchInput.value.length > 0) {
+                    clearSearchBtn.style.display = 'block';
+                    searchSubmitBtn.querySelector('i').className = 'fas fa-search'; // Ensure search icon if user types
+                } else {
+                    clearSearchBtn.style.display = 'none';
+                    searchSubmitBtn.querySelector('i').className = 'fas fa-search'; // Default to search icon
+                }
+            });
+
+            clearSearchBtn.addEventListener('click', () => {
+                mainSearchInput.value = '';
+                clearSearchBtn.style.display = 'none';
+                mainSearchInput.focus(); // Keep focus on the input after clearing
+            });
+
+            searchSubmitBtn.addEventListener('click', () => {
+                const query = mainSearchInput.value.trim();
+                if (query) {
+                    // In a real application, you'd redirect or fetch search results
+                    console.log('Searching for:', query);
+                    alert(`Searching for: "${query}"`); // For demonstration
+                    // window.location.href = `search-results.html?q=${encodeURIComponent(query)}`;
+                }
+            });
+
+            mainSearchInput.addEventListener('keypress', (event) => {
+                if (event.key === 'Enter') {
+                    searchSubmitBtn.click(); // Trigger search on Enter key
+                }
+            });
+
+
+            // --- Populate Dropdowns from shops.json ---
+            fetch('shops.json') // Assuming shops.json is in the same directory as index.html
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(shopsData => {
+                    // Populate Shops Dropdown
+                    shopsData.forEach(shop => {
+                        const shopLink = document.createElement('a');
+                        shopLink.href = `shop-detail.html?shop_id=${shop.shop_id}`; // Example link
+                        shopLink.textContent = shop.name;
+                        shopsDropdown.appendChild(shopLink);
+                    });
+
+                    // Populate All Categories Dropdown
+                    const uniqueCategories = new Set();
+                    shopsData.forEach(shop => {
+                        shop.categories.forEach(category => {
+                            uniqueCategories.add(category);
+                        });
+                    });
+
+                    Array.from(uniqueCategories).sort().forEach(category => { // Sort categories alphabetically
+                        const categoryLink = document.createElement('a');
+                        categoryLink.href = `products.html?category=${encodeURIComponent(category)}`; // Example link
+                        categoryLink.textContent = category;
+                        allCategoriesDropdown.appendChild(categoryLink);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching shops data:', error);
+                    // You might want to display a user-friendly message here
+                    allCategoriesDropdown.innerHTML = '<a href="#">Error loading categories</a>';
+                    shopsDropdown.innerHTML = '<a href="#">Error loading shops</a>';
+                });
+
+            // --- Handle dropdown visibility on touch devices (optional, as CSS hover usually works) ---
+            // This can be added if you find hover isn't sufficient on touch
+            document.querySelectorAll('.has-dropdown > a').forEach(item => {
+                item.addEventListener('click', function(e) {
+                    if (window.innerWidth <= 768) { // Only for smaller screens/touch devices
+                        e.preventDefault();
+                        const dropdownContent = this.nextElementSibling;
+                        // Close other open dropdowns
+                        document.querySelectorAll('.dropdown-content').forEach(otherDropdown => {
+                            if (otherDropdown !== dropdownContent) {
+                                otherDropdown.style.display = 'none';
+                            }
+                        });
+                        dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+                    }
+                });
+            });
+
+            // Close dropdowns when clicking outside
+            document.addEventListener('click', (event) => {
+                if (window.innerWidth <= 768 && !event.target.closest('.has-dropdown')) {
+                    document.querySelectorAll('.dropdown-content').forEach(dropdown => {
+                        dropdown.style.display = 'none';
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

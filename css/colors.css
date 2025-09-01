@@ -1,0 +1,141 @@
+/*
+    iMarket Comprehensive Colors CSS File
+    ======================================
+
+    This file serves as the single source of truth for all color-related styles
+    in the iMarket e-commerce project. It defines a full range of variables
+    for both light and dark modes, and provides utility classes for quick
+    application.
+
+    This ensures that colors are never hardcoded in any other stylesheet.
+
+    How to Use:
+    - **Light Mode (Default):** No action needed. The variables are defined in the `:root`.
+    - **Dark Mode:** Add the `dark-mode` class to a parent element, e.g., `<body class="dark-mode">`.
+    - **Utility Classes:** Use classes like `.bg-primary` or `.text-link` directly in your HTML markup.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Base Variables                              */
+/* -------------------------------------------------------------------------- */
+
+:root {
+    /* --- Brand & Action Colors --- */
+    --color-primary: #007BFF;           /* A bright, brand-defining blue */
+    --color-secondary: #6C757D;         /* A subtle gray for secondary actions */
+    --color-success: #28A745;           /* Green for success messages and CTAs */
+    --color-info: #17A2B8;              /* Teal for informational alerts */
+    --color-warning: #FFC107;           /* Yellow for warnings */
+    --color-danger: #DC3545;            /* Red for errors and destructive actions */
+    --color-cta: #28A745;               /* Dedicated green for Call-to-Action buttons */
+
+    /* --- Text Colors --- */
+    --color-text-primary: #333333;      /* Main text color for headings and paragraphs */
+    --color-text-secondary: #6C757D;    /* Lighter text for secondary info (e.g., product descriptions) */
+    --color-text-link: #007BFF;         /* Color for hyperlinks */
+    --color-text-inverted: #FFFFFF;     /* White text for dark backgrounds */
+    --color-text-muted: #999999;        /* Lightest text for meta info */
+
+    /* --- Background Colors --- */
+    --color-bg-page: #FFFFFF;           /* The main page background color */
+    --color-bg-card: #F8F9FA;           /* Background for product cards and sections */
+    --color-bg-header-footer: #FFFFFF;  /* Background for headers and footers */
+    --color-bg-input: #FFFFFF;          /* Background for form input fields */
+    --color-bg-hover: #F1F1F1;          /* Subtle hover background for lists/items */
+
+    /* --- Border & Shadow Colors --- */
+    --color-border: #E9ECEF;            /* Default border color */
+    --color-border-subtle: #F1F1F1;     /* Very light border for separators */
+    --color-shadow: rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+
+    /* --- State Colors --- */
+    --color-hover: #0056B3;             /* Darker shade for primary hover state */
+    --color-active: #004085;            /* Even darker shade for active/clicked state */
+    --color-focus: #80BDFF;             /* Blue for focus rings */
+    --color-disabled: #6C757D;          /* Gray for disabled elements */
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* Dark Mode Overrides                         */
+/* -------------------------------------------------------------------------- */
+
+.dark-mode {
+    /* --- Brand & Action Colors (Dark Mode) --- */
+    --color-primary: #3498DB;
+    --color-secondary: #95A5A6;
+    --color-success: #2ECC71;
+    --color-info: #3498DB;
+    --color-warning: #F1C40F;
+    --color-danger: #E74C3C;
+    --color-cta: #2ECC71;
+
+    /* --- Text Colors (Dark Mode) --- */
+    --color-text-primary: #E0E0E0;
+    --color-text-secondary: #BDC3C7;
+    --color-text-link: #3498DB;
+    --color-text-inverted: #121212;
+    --color-text-muted: #7F8C8D;
+
+    /* --- Background Colors (Dark Mode) --- */
+    --color-bg-page: #121212;
+    --color-bg-card: #1E1E1E;
+    --color-bg-header-footer: #1E1E1E;
+    --color-bg-input: #2C2C2C;
+    --color-bg-hover: #2C2C2C;
+
+    /* --- Border & Shadow Colors (Dark Mode) --- */
+    --color-border: #2C2C2C;
+    --color-border-subtle: #2C2C2C;
+    --color-shadow: rgba(255, 255, 255, 0.05);
+
+    /* --- State Colors (Dark Mode) --- */
+    --color-hover: #2980B9;
+    --color-active: #2471A3;
+    --color-focus: #5DADE2;
+    --color-disabled: #7F8C8D;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* Utility Classes                             */
+/* -------------------------------------------------------------------------- */
+
+/* Backgrounds */
+.bg-primary { background-color: var(--color-primary); }
+.bg-secondary { background-color: var(--color-secondary); }
+.bg-success { background-color: var(--color-success); }
+.bg-cta { background-color: var(--color-cta); }
+.bg-page { background-color: var(--color-bg-page); }
+.bg-card { background-color: var(--color-bg-card); }
+.bg-input { background-color: var(--color-bg-input); }
+.bg-header-footer { background-color: var(--color-bg-header-footer); }
+.bg-hover { background-color: var(--color-bg-hover); }
+
+/* Text */
+.text-primary { color: var(--color-text-primary); }
+.text-secondary { color: var(--color-text-secondary); }
+.text-link { color: var(--color-text-link); }
+.text-inverted { color: var(--color-text-inverted); }
+.text-muted { color: var(--color-text-muted); }
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-text-inverted);
+}
+.btn-primary:hover {
+    background-color: var(--color-hover);
+}
+
+.btn-cta {
+    background-color: var(--color-cta);
+    color: var(--color-text-inverted);
+}
+.btn-cta:hover {
+    background-color: var(--color-success); /* Use success color for hover */
+}
+
+/* Borders */
+.border { border: 1px solid var(--color-border); }
+.border-subtle { border: 1px solid var(--color-border-subtle); }

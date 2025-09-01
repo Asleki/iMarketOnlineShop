@@ -1,0 +1,1623 @@
+[
+  {
+    "id": "nk_shoe_001",
+    "name": "Men's Running Sneakers Pro",
+    "description": "Advanced running sneakers engineered for peak performance, featuring responsive cushioning and a breathable mesh upper for ultimate comfort and support during intense workouts.",
+    "category": "Men's Running Shoes",
+    "price": 8999,
+    "currency": "KES",
+    "brand": "SwiftStride",
+    "gender": "Male",
+    "material": "Engineered Mesh, Rubber, EVA",
+    "availableSizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11",
+      "US 12"
+    ],
+    "availableColors": [
+      "Black",
+      "Neon Green",
+      "Deep Blue"
+    ],
+    "color": "Black",
+    "rating": 4.8,
+    "reviewsCount": 850,
+    "inStock": 150,
+    "features": [
+      "Breathable Upper",
+      "Responsive Cushioning",
+      "Non-slip Outsole",
+      "Lightweight Design",
+      "Arch Support"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": true,
+    "dateAdded": "2025-07-20",
+    "images": [
+      "https://example.com/nashaa-kicks/mens_running_black_1.webp",
+      "https://example.com/nashaa-kicks/mens_running_black_2.webp",
+      "https://example.com/nashaa-kicks/mens_running_black_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_002",
+    "name": "Women's Elegant Ballet Flats",
+    "description": "Chic and comfortable ballet flats, perfect for everyday elegance. Crafted with a soft inner lining and flexible sole for all-day wear.",
+    "category": "Women's Flats",
+    "price": 4500,
+    "currency": "KES",
+    "brand": "ComfyStride",
+    "gender": "Female",
+    "material": "Vegan Leather, Rubber",
+    "availableSizes": [
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9",
+      "US 10"
+    ],
+    "availableColors": [
+      "Beige",
+      "Classic Black",
+      "Navy Blue"
+    ],
+    "color": "Beige",
+    "rating": 4.6,
+    "reviewsCount": 1120,
+    "inStock": 200,
+    "features": [
+      "Soft Cushioned Insole",
+      "Flexible Outsole",
+      "Slip-on Design",
+      "Elegant Bow Detail",
+      "Anti-slip Sole"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-18",
+    "images": [
+      "https://example.com/nashaa-kicks/womens_flats_beige_1.webp",
+      "https://example.com/nashaa-kicks/womens_flats_beige_2.webp",
+      "https://example.com/nashaa-kicks/womens_flats_beige_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_003",
+    "name": "Unisex Classic Canvas Sneakers",
+    "description": "Timeless canvas sneakers offering comfort and style for any casual occasion. Durable construction with a vulcanized rubber sole.",
+    "category": "Unisex Casual Shoes",
+    "price": 3200,
+    "currency": "KES",
+    "brand": "Everlast Kicks",
+    "gender": "Unisex",
+    "material": "Canvas, Rubber",
+    "availableSizes": [
+      "US 5",
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11"
+    ],
+    "availableColors": [
+      "White",
+      "Black",
+      "Navy Blue"
+    ],
+    "color": "White",
+    "rating": 4.5,
+    "reviewsCount": 1500,
+    "inStock": 300,
+    "features": [
+      "Breathable Canvas",
+      "Durable Rubber Sole",
+      "Lace-up Closure",
+      "Padded Collar"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-15",
+    "images": [
+      "https://example.com/nashaa-kicks/canvas_white_1.webp",
+      "https://example.com/nashaa-kicks/canvas_white_2.webp",
+      "https://example.com/nashaa-kicks/canvas_white_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_004",
+    "name": "Kids' Velcro Play Shoes",
+    "description": "Fun and easy-to-wear shoes for kids, featuring durable construction and convenient velcro straps for quick on and off.",
+    "category": "Kids' Shoes",
+    "price": 2500,
+    "currency": "KES",
+    "brand": "TinyToes",
+    "gender": "Unisex",
+    "material": "Synthetic, Rubber",
+    "availableSizes": [
+      "Kids 10",
+      "Kids 11",
+      "Kids 12",
+      "Kids 13"
+    ],
+    "availableColors": [
+      "Red",
+      "Blue",
+      "Yellow"
+    ],
+    "color": "Red",
+    "rating": 4.7,
+    "reviewsCount": 980,
+    "inStock": 180,
+    "features": [
+      "Easy Velcro Closure",
+      "Non-slip Sole",
+      "Padded Ankle",
+      "Fun Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-22",
+    "images": [
+      "https://example.com/nashaa-kicks/kids_velcro_red_1.webp",
+      "https://example.com/nashaa-kicks/kids_velcro_red_2.webp",
+      "https://example.com/nashaa-kicks/kids_velcro_red_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_005",
+    "name": "Men's Formal Leather Oxfords",
+    "description": "Classic and sophisticated leather oxfords, perfect for business and formal occasions. Handcrafted with genuine leather and a polished finish.",
+    "category": "Men's Formal Shoes",
+    "price": 12000,
+    "currency": "KES",
+    "brand": "Gentleman's Step",
+    "gender": "Male",
+    "material": "Genuine Leather, Rubber",
+    "availableSizes": [
+      "US 7",
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11"
+    ],
+    "availableColors": [
+      "Black",
+      "Dark Brown"
+    ],
+    "color": "Black",
+    "rating": 4.9,
+    "reviewsCount": 600,
+    "inStock": 90,
+    "features": [
+      "Genuine Leather Upper",
+      "Lace-up Closure",
+      "Polished Finish",
+      "Comfortable Insole",
+      "Durable Outsole"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": true,
+    "dateAdded": "2025-07-25",
+    "images": [
+      "https://example.com/nashaa-kicks/mens_oxfords_black_1.webp",
+      "https://example.com/nashaa-kicks/mens_oxfords_black_2.webp",
+      "https://example.com/nashaa-kicks/mens_oxfords_black_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_006",
+    "name": "Women's High Heel Pumps",
+    "description": "Elegant high heel pumps designed to add a touch of sophistication to any outfit. Ideal for formal events and evenings out.",
+    "category": "Women's Heels",
+    "price": 7800,
+    "currency": "KES",
+    "brand": "BellaStride",
+    "gender": "Female",
+    "material": "Suede, Synthetic",
+    "availableSizes": [
+      "US 5",
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "availableColors": [
+      "Red",
+      "Black",
+      "Nude"
+    ],
+    "color": "Red",
+    "rating": 4.7,
+    "reviewsCount": 750,
+    "inStock": 110,
+    "features": [
+      "Comfortable Heel Height",
+      "Pointed Toe Design",
+      "Cushioned Insole",
+      "Non-slip Sole"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-19",
+    "images": [
+      "https://example.com/nashaa-kicks/womens_pumps_red_1.webp",
+      "https://example.com/nashaa-kicks/womens_pumps_red_2.webp",
+      "https://example.com/nashaa-kicks/womens_pumps_red_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_007",
+    "name": "Unisex Sports Sandals",
+    "description": "Durable and comfortable sports sandals, perfect for outdoor activities, beach days, or casual wear. Features adjustable straps and a grippy sole.",
+    "category": "Unisex Sandals",
+    "price": 3000,
+    "currency": "KES",
+    "brand": "AquaStep",
+    "gender": "Unisex",
+    "material": "Synthetic, Rubber",
+    "availableSizes": [
+      "US 7",
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11"
+    ],
+    "availableColors": [
+      "Black",
+      "Olive Green",
+      "Navy Blue"
+    ],
+    "color": "Black",
+    "rating": 4.5,
+    "reviewsCount": 900,
+    "inStock": 220,
+    "features": [
+      "Adjustable Straps",
+      "Water-resistant Material",
+      "Non-slip Outsole",
+      "Quick Dry"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-10",
+    "images": [
+      "https://example.com/nashaa-kicks/sports_sandals_black_1.webp",
+      "https://example.com/nashaa-kicks/sports_sandals_black_2.webp",
+      "https://example.com/nashaa-kicks/sports_sandals_black_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_008",
+    "name": "Men's Hiking Boots",
+    "description": "Robust hiking boots designed for challenging trails. Features waterproof construction, ankle support, and aggressive traction.",
+    "category": "Men's Hiking Boots",
+    "price": 9500,
+    "currency": "KES",
+    "brand": "TrailBlaze",
+    "gender": "Male",
+    "material": "Waterproof Leather, Rubber",
+    "availableSizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11",
+      "US 12"
+    ],
+    "availableColors": [
+      "Brown",
+      "Dark Grey"
+    ],
+    "color": "Brown",
+    "rating": 4.8,
+    "reviewsCount": 550,
+    "inStock": 80,
+    "features": [
+      "Waterproof Membrane",
+      "Ankle Support",
+      "Aggressive Outsole Tread",
+      "Durable Construction"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": true,
+    "dateAdded": "2025-07-28",
+    "images": [
+      "https://example.com/nashaa-kicks/mens_hiking_brown_1.webp",
+      "https://example.com/nashaa-kicks/mens_hiking_brown_2.webp",
+      "https://example.com/nashaa-kicks/mens_hiking_brown_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_009",
+    "name": "Women's Ankle Boots",
+    "description": "Stylish and comfortable ankle boots, perfect for autumn and winter fashion. Features a block heel and side zipper for easy wear.",
+    "category": "Women's Boots",
+    "price": 6800,
+    "currency": "KES",
+    "brand": "UrbanStride",
+    "gender": "Female",
+    "material": "Faux Leather, Rubber",
+    "availableSizes": [
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "availableColors": [
+      "Black",
+      "Taupe",
+      "Burgundy"
+    ],
+    "color": "Black",
+    "rating": 4.6,
+    "reviewsCount": 800,
+    "inStock": 130,
+    "features": [
+      "Comfortable Block Heel",
+      "Side Zipper Closure",
+      "Cushioned Insole",
+      "Versatile Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-16",
+    "images": [
+      "https://example.com/nashaa-kicks/womens_ankle_black_1.webp",
+      "https://example.com/nashaa-kicks/womens_ankle_black_2.webp",
+      "https://example.com/nashaa-kicks/womens_ankle_black_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_010",
+    "name": "Kids' Light-Up Sneakers",
+    "description": "Fun and flashy sneakers for kids with LED lights in the sole. Perfect for play and adding excitement to their steps.",
+    "category": "Kids' Sneakers",
+    "price": 3500,
+    "currency": "KES",
+    "brand": "GlowStep",
+    "gender": "Unisex",
+    "material": "Synthetic, Rubber",
+    "availableSizes": [
+      "Kids 11",
+      "Kids 12",
+      "Kids 13",
+      "Youth 1"
+    ],
+    "availableColors": [
+      "Blue",
+      "Pink",
+      "Green"
+    ],
+    "color": "Blue",
+    "rating": 4.7,
+    "reviewsCount": 1050,
+    "inStock": 160,
+    "features": [
+      "LED Lights in Sole",
+      "Velcro Strap Closure",
+      "Durable Design",
+      "Comfortable Fit"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-21",
+    "images": [
+      "https://example.com/nashaa-kicks/kids_lightup_blue_1.webp",
+      "https://example.com/nashaa-kicks/kids_lightup_blue_2.webp",
+      "https://example.com/nashaa-kicks/kids_lightup_blue_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_011",
+    "name": "Men's Casual Loafers",
+    "description": "Comfortable and stylish casual loafers for everyday wear. Slip-on design for convenience with a refined look.",
+    "category": "Men's Casual Shoes",
+    "price": 6000,
+    "currency": "KES",
+    "brand": "RelaxedStride",
+    "gender": "Male",
+    "material": "Suede, Rubber",
+    "availableSizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11"
+    ],
+    "availableColors": [
+      "Brown",
+      "Navy",
+      "Beige"
+    ],
+    "color": "Brown",
+    "rating": 4.6,
+    "reviewsCount": 700,
+    "inStock": 120,
+    "features": [
+      "Slip-on Style",
+      "Cushioned Insole",
+      "Durable Outsole",
+      "Soft Upper Material"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-14",
+    "images": [
+      "https://example.com/nashaa-kicks/mens_loafers_brown_1.webp",
+      "https://example.com/nashaa-kicks/mens_loafers_brown_2.webp",
+      "https://example.com/nashaa-kicks/mens_loafers_brown_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_012",
+    "name": "Women's Wedge Sandals",
+    "description": "Stylish wedge sandals offering comfort and height. Perfect for summer outfits and outdoor gatherings.",
+    "category": "Women's Sandals",
+    "price": 5200,
+    "currency": "KES",
+    "brand": "SunnySteps",
+    "gender": "Female",
+    "material": "Espadrille, Synthetic",
+    "availableSizes": [
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "availableColors": [
+      "White",
+      "Black",
+      "Tan"
+    ],
+    "color": "White",
+    "rating": 4.7,
+    "reviewsCount": 680,
+    "inStock": 140,
+    "features": [
+      "Comfortable Wedge Heel",
+      "Ankle Strap Closure",
+      "Cushioned Footbed",
+      "Breathable Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-23",
+    "images": [
+      "https://example.com/nashaa-kicks/womens_wedge_white_1.webp",
+      "https://example.com/nashaa-kicks/womens_wedge_white_2.webp",
+      "https://example.com/nashaa-kicks/womens_wedge_white_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_013",
+    "name": "Unisex Basketball High-Tops",
+    "description": "High-performance basketball shoes with ankle support and responsive cushioning for dynamic play on the court.",
+    "category": "Unisex Athletic Shoes",
+    "price": 10500,
+    "currency": "KES",
+    "brand": "CourtKing",
+    "gender": "Unisex",
+    "material": "Synthetic Leather, Rubber",
+    "availableSizes": [
+      "US 7",
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11",
+      "US 12"
+    ],
+    "availableColors": [
+      "Black/White",
+      "Red/Black"
+    ],
+    "color": "Black/White",
+    "rating": 4.8,
+    "reviewsCount": 450,
+    "inStock": 70,
+    "features": [
+      "Ankle Support",
+      "Responsive Midsole",
+      "Durable Outsole",
+      "Lace-up System"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": true,
+    "dateAdded": "2025-07-26",
+    "images": [
+      "https://example.com/nashaa-kicks/basketball_hightops_black_1.webp",
+      "https://example.com/nashaa-kicks/basketball_hightops_black_2.webp",
+      "https://example.com/nashaa-kicks/basketball_hightops_black_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_014",
+    "name": "Kids' Sporty Trainers",
+    "description": "Durable and flexible trainers for active kids. Ideal for sports, school, and everyday play.",
+    "category": "Kids' Sport Shoes",
+    "price": 2800,
+    "currency": "KES",
+    "brand": "ActiveYouth",
+    "gender": "Unisex",
+    "material": "Mesh, Synthetic, Rubber",
+    "availableSizes": [
+      "Kids 12",
+      "Kids 13",
+      "Youth 1",
+      "Youth 2"
+    ],
+    "availableColors": [
+      "Green",
+      "Pink",
+      "Navy"
+    ],
+    "color": "Green",
+    "rating": 4.6,
+    "reviewsCount": 920,
+    "inStock": 170,
+    "features": [
+      "Lightweight",
+      "Breathable Mesh",
+      "Velcro and Lace Closure",
+      "Flexible Sole"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-17",
+    "images": [
+      "https://example.com/nashaa-kicks/kids_trainers_green_1.webp",
+      "https://example.com/nashaa-kicks/kids_trainers_green_2.webp",
+      "https://example.com/nashaa-kicks/kids_trainers_green_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_015",
+    "name": "Men's Work Safety Boots",
+    "description": "Heavy-duty safety boots with steel toe protection and slip-resistant sole. Designed for demanding work environments.",
+    "category": "Men's Work Boots",
+    "price": 11000,
+    "currency": "KES",
+    "brand": "SafeStep",
+    "gender": "Male",
+    "material": "Genuine Leather, Rubber",
+    "availableSizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11",
+      "US 12"
+    ],
+    "availableColors": [
+      "Brown",
+      "Black"
+    ],
+    "color": "Brown",
+    "rating": 4.7,
+    "reviewsCount": 400,
+    "inStock": 60,
+    "features": [
+      "Steel Toe Cap",
+      "Slip-Resistant Outsole",
+      "Waterproof",
+      "Electrical Hazard Protection"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": false,
+    "isFreeShipping": true,
+    "dateAdded": "2025-07-24",
+    "images": [
+      "https://example.com/nashaa-kicks/mens_safety_boots_brown_1.webp",
+      "https://example.com/nashaa-kicks/mens_safety_boots_brown_2.webp",
+      "https://example.com/nashaa-kicks/mens_safety_boots_brown_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_016",
+    "name": "Women's Fashion Sneakers",
+    "description": "Stylish and comfortable fashion sneakers, perfect for elevating your casual look. Features a chunky sole and trendy design.",
+    "category": "Women's Fashion Sneakers",
+    "price": 5500,
+    "currency": "KES",
+    "brand": "TrendyFeet",
+    "gender": "Female",
+    "material": "Synthetic, Rubber",
+    "availableSizes": [
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "availableColors": [
+      "White",
+      "Black",
+      "Pastel Pink"
+    ],
+    "color": "White",
+    "rating": 4.5,
+    "reviewsCount": 880,
+    "inStock": 190,
+    "features": [
+      "Chunky Sole",
+      "Lace-up Front",
+      "Padded Collar",
+      "Breathable Lining"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-13",
+    "images": [
+      "https://example.com/nashaa-kicks/womens_fashion_sneakers_white_1.webp",
+      "https://example.com/nashaa-kicks/womens_fashion_sneakers_white_2.webp",
+      "https://example.com/nashaa-kicks/womens_fashion_sneakers_white_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_017",
+    "name": "Unisex Beach Flip-Flops",
+    "description": "Simple and comfortable flip-flops, ideal for beach days, poolside relaxation, or casual summer wear.",
+    "category": "Unisex Flip-Flops",
+    "price": 1200,
+    "currency": "KES",
+    "brand": "BeachWalk",
+    "gender": "Unisex",
+    "material": "EVA, Rubber",
+    "availableSizes": [
+      "US 7",
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11"
+    ],
+    "availableColors": [
+      "Blue",
+      "Black",
+      "Green"
+    ],
+    "color": "Blue",
+    "rating": 4.4,
+    "reviewsCount": 1300,
+    "inStock": 250,
+    "features": [
+      "Waterproof",
+      "Lightweight",
+      "Soft Footbed",
+      "Non-slip Sole"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-08",
+    "images": [
+      "https://example.com/nashaa-kicks/flipflops_blue_1.webp",
+      "https://example.com/nashaa-kicks/flipflops_blue_2.webp",
+      "https://example.com/nashaa-kicks/flipflops_blue_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_018",
+    "name": "Men's Classic Dress Boots",
+    "description": "Elegant and versatile dress boots, perfect for formal and smart-casual attire. Features a sleek design and comfortable fit.",
+    "category": "Men's Dress Boots",
+    "price": 10000,
+    "currency": "KES",
+    "brand": "UrbanGent",
+    "gender": "Male",
+    "material": "Genuine Leather, Rubber",
+    "availableSizes": [
+      "US 7",
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11"
+    ],
+    "availableColors": [
+      "Black",
+      "Dark Brown"
+    ],
+    "color": "Black",
+    "rating": 4.8,
+    "reviewsCount": 500,
+    "inStock": 85,
+    "features": [
+      "Genuine Leather",
+      "Lace-up Closure",
+      "Comfortable Insole",
+      "Durable Sole"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": true,
+    "dateAdded": "2025-07-27",
+    "images": [
+      "https://example.com/nashaa-kicks/mens_dress_boots_black_1.webp",
+      "https://example.com/nashaa-kicks/mens_dress_boots_black_2.webp",
+      "https://example.com/nashaa-kicks/mens_dress_boots_black_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_019",
+    "name": "Women's Strappy Heels",
+    "description": "Fashionable strappy heels, ideal for parties, weddings, and special occasions. Offers a secure fit and elegant look.",
+    "category": "Women's Heels",
+    "price": 7000,
+    "currency": "KES",
+    "brand": "GlamourSteps",
+    "gender": "Female",
+    "material": "Satin, Synthetic",
+    "availableSizes": [
+      "US 5",
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "availableColors": [
+      "Silver",
+      "Black",
+      "Gold"
+    ],
+    "color": "Silver",
+    "rating": 4.6,
+    "reviewsCount": 650,
+    "inStock": 100,
+    "features": [
+      "Multiple Straps",
+      "Open Toe Design",
+      "Cushioned Footbed",
+      "Stiletto Heel"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-11",
+    "images": [
+      "https://example.com/nashaa-kicks/womens_strappy_silver_1.webp",
+      "https://example.com/nashaa-kicks/womens_strappy_silver_2.webp",
+      "https://example.com/nashaa-kicks/womens_strappy_silver_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_020",
+    "name": "Kids' Velcro Sandals",
+    "description": "Easy-to-wear and comfortable sandals for kids, perfect for summer play and outdoor adventures. Features adjustable velcro straps.",
+    "category": "Kids' Sandals",
+    "price": 2000,
+    "currency": "KES",
+    "brand": "PlayFoot",
+    "gender": "Unisex",
+    "material": "Synthetic, Rubber",
+    "availableSizes": [
+      "Kids 10",
+      "Kids 11",
+      "Kids 12",
+      "Kids 13"
+    ],
+    "availableColors": [
+      "Pink",
+      "Blue",
+      "Green"
+    ],
+    "color": "Pink",
+    "rating": 4.5,
+    "reviewsCount": 890,
+    "inStock": 150,
+    "features": [
+      "Adjustable Velcro",
+      "Open Toe Design",
+      "Soft Footbed",
+      "Non-slip Sole"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-09",
+    "images": [
+      "https://example.com/nashaa-kicks/kids_velcro_sandals_pink_1.webp",
+      "https://example.com/nashaa-kicks/kids_velcro_sandals_pink_2.webp",
+      "https://example.com/nashaa-kicks/kids_velcro_sandals_pink_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_021",
+    "name": "Men's Trail Running Shoes",
+    "description": "Rugged trail running shoes with enhanced grip and protection for off-road adventures. Ideal for diverse terrains.",
+    "category": "Men's Running Shoes",
+    "price": 9500,
+    "currency": "KES",
+    "brand": "WildTrek",
+    "gender": "Male",
+    "material": "Ripstop Fabric, Rubber",
+    "availableSizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11"
+    ],
+    "availableColors": [
+      "Olive Green",
+      "Dark Grey"
+    ],
+    "color": "Olive Green",
+    "rating": 4.8,
+    "reviewsCount": 400,
+    "inStock": 75,
+    "features": [
+      "Aggressive Lugs",
+      "Protective Toe Cap",
+      "Water-resistant",
+      "Gusseted Tongue"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": true,
+    "dateAdded": "2025-07-28",
+    "images": [
+      "https://example.com/nashaa-kicks/mens_trail_green_1.webp",
+      "https://example.com/nashaa-kicks/mens_trail_green_2.webp",
+      "https://example.com/nashaa-kicks/mens_trail_green_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_022",
+    "name": "Women's Platform Sneakers",
+    "description": "Fashionable platform sneakers for a trendy elevated look. Comfortable for daily wear with added height.",
+    "category": "Women's Sneakers",
+    "price": 6000,
+    "currency": "KES",
+    "brand": "ElevateFeet",
+    "gender": "Female",
+    "material": "Synthetic Leather, Rubber",
+    "availableSizes": [
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "availableColors": [
+      "White",
+      "Black",
+      "Metallic Silver"
+    ],
+    "color": "White",
+    "rating": 4.6,
+    "reviewsCount": 720,
+    "inStock": 160,
+    "features": [
+      "Platform Sole",
+      "Lace-up Front",
+      "Padded Footbed",
+      "Trendy Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-12",
+    "images": [
+      "https://example.com/nashaa-kicks/womens_platform_white_1.webp",
+      "https://example.com/nashaa-kicks/womens_platform_white_2.webp",
+      "https://example.com/nashaa-kicks/womens_platform_white_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_023",
+    "name": "Unisex Slip-On Loafers",
+    "description": "Comfortable and easy slip-on loafers for quick errands or casual outings. Features a breathable design.",
+    "category": "Unisex Casual Shoes",
+    "price": 3800,
+    "currency": "KES",
+    "brand": "EasyWear",
+    "gender": "Unisex",
+    "material": "Canvas, Rubber",
+    "availableSizes": [
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9",
+      "US 10"
+    ],
+    "availableColors": [
+      "Grey",
+      "Black",
+      "Navy"
+    ],
+    "color": "Grey",
+    "rating": 4.5,
+    "reviewsCount": 1100,
+    "inStock": 210,
+    "features": [
+      "Slip-on Style",
+      "Breathable Fabric",
+      "Flexible Sole",
+      "Comfortable Fit"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-07",
+    "images": [
+      "https://example.com/nashaa-kicks/slipon_loafers_grey_1.webp",
+      "https://example.com/nashaa-kicks/slipon_loafers_grey_2.webp",
+      "https://example.com/nashaa-kicks/slipon_loafers_grey_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_024",
+    "name": "Men's Classic White Sneakers",
+    "description": "A timeless pair of white sneakers that complements any casual outfit. Clean design with durable construction.",
+    "category": "Men's Casual Shoes",
+    "price": 4900,
+    "currency": "KES",
+    "brand": "StreetKicks",
+    "gender": "Male",
+    "material": "PU Leather, Rubber",
+    "availableSizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11"
+    ],
+    "availableColors": [
+      "White"
+    ],
+    "color": "White",
+    "rating": 4.7,
+    "reviewsCount": 950,
+    "inStock": 180,
+    "features": [
+      "Clean Design",
+      "Lace-up Closure",
+      "Padded Collar",
+      "Durable Outsole"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-20",
+    "images": [
+      "https://example.com/nashaa-kicks/mens_white_sneakers_1.webp",
+      "https://example.com/nashaa-kicks/mens_white_sneakers_2.webp",
+      "https://example.com/nashaa-kicks/mens_white_sneakers_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_025",
+    "name": "Women's Comfortable Loafers",
+    "description": "Extremely comfortable loafers for women, ideal for long hours on your feet. Features a soft interior and supportive sole.",
+    "category": "Women's Casual Shoes",
+    "price": 4200,
+    "currency": "KES",
+    "brand": "CloudWalk",
+    "gender": "Female",
+    "material": "Suede, EVA",
+    "availableSizes": [
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "availableColors": [
+      "Black",
+      "Grey",
+      "Navy"
+    ],
+    "color": "Black",
+    "rating": 4.8,
+    "reviewsCount": 1300,
+    "inStock": 230,
+    "features": [
+      "Memory Foam Insole",
+      "Flexible Outsole",
+      "Slip-resistant",
+      "Soft Upper"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": true,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-15",
+    "images": [
+      "https://example.com/nashaa-kicks/womens_loafers_black_1.webp",
+      "https://example.com/nashaa-kicks/womens_loafers_black_2.webp",
+      "https://example.com/nashaa-kicks/womens_loafers_black_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_026",
+    "name": "Kids' Formal Dress Shoes",
+    "description": "Stylish formal shoes for kids, perfect for special occasions, school uniforms, or ceremonies. Features a comfortable fit.",
+    "category": "Kids' Formal Shoes",
+    "price": 3000,
+    "currency": "KES",
+    "brand": "LittleGentle",
+    "gender": "Unisex",
+    "material": "Synthetic Leather, Rubber",
+    "availableSizes": [
+      "Kids 11",
+      "Kids 12",
+      "Kids 13",
+      "Youth 1"
+    ],
+    "availableColors": [
+      "Black",
+      "Brown"
+    ],
+    "color": "Black",
+    "rating": 4.6,
+    "reviewsCount": 780,
+    "inStock": 110,
+    "features": [
+      "Lace-up or Velcro Closure",
+      "Comfortable Lining",
+      "Durable Outsole",
+      "Classic Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": false,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-19",
+    "images": [
+      "https://example.com/nashaa-kicks/kids_formal_black_1.webp",
+      "https://example.com/nashaa-kicks/kids_formal_black_2.webp",
+      "https://example.com/nashaa-kicks/kids_formal_black_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_027",
+    "name": "Men's Classic Slip-On Sneakers",
+    "description": "Effortless style with these classic slip-on sneakers. Perfect for casual wear and easy to pair with any outfit.",
+    "category": "Men's Casual Shoes",
+    "price": 4000,
+    "currency": "KES",
+    "brand": "UrbanStride",
+    "gender": "Male",
+    "material": "Canvas, Rubber",
+    "availableSizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11"
+    ],
+    "availableColors": [
+      "Navy",
+      "Black",
+      "White"
+    ],
+    "color": "Navy",
+    "rating": 4.5,
+    "reviewsCount": 1000,
+    "inStock": 200,
+    "features": [
+      "Slip-on Design",
+      "Elastic Side Gores",
+      "Durable Canvas Upper",
+      "Comfortable Footbed"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-10",
+    "images": [
+      "https://example.com/nashaa-kicks/mens_slipon_navy_1.webp",
+      "https://example.com/nashaa-kicks/mens_slipon_navy_2.webp",
+      "https://example.com/nashaa-kicks/mens_slipon_navy_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_028",
+    "name": "Women's Comfort Walking Shoes",
+    "description": "Designed for maximum comfort during long walks. Features a cushioned sole and breathable upper.",
+    "category": "Women's Walking Shoes",
+    "price": 5800,
+    "currency": "KES",
+    "brand": "StrideWell",
+    "gender": "Female",
+    "material": "Mesh, EVA, Rubber",
+    "availableSizes": [
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9",
+      "US 10"
+    ],
+    "availableColors": [
+      "Grey",
+      "Black",
+      "Purple"
+    ],
+    "color": "Grey",
+    "rating": 4.8,
+    "reviewsCount": 1500,
+    "inStock": 250,
+    "features": [
+      "Memory Foam Insole",
+      "Arch Support",
+      "Breathable Mesh",
+      "Lightweight Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": true,
+    "dateAdded": "2025-07-22",
+    "images": [
+      "https://example.com/nashaa-kicks/womens_walking_grey_1.webp",
+      "https://example.com/nashaa-kicks/womens_walking_grey_2.webp",
+      "https://example.com/nashaa-kicks/womens_walking_grey_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_029",
+    "name": "Unisex Winter Snow Boots",
+    "description": "Warm and waterproof snow boots, essential for cold winter conditions. Provides excellent insulation and grip.",
+    "category": "Unisex Winter Boots",
+    "price": 11500,
+    "currency": "KES",
+    "brand": "SnowGuard",
+    "gender": "Unisex",
+    "material": "Waterproof Synthetic, Faux Fur Lining, Rubber",
+    "availableSizes": [
+      "US 7",
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11"
+    ],
+    "availableColors": [
+      "Black",
+      "Brown"
+    ],
+    "color": "Black",
+    "rating": 4.9,
+    "reviewsCount": 350,
+    "inStock": 50,
+    "features": [
+      "Waterproof",
+      "Thermal Insulation",
+      "Anti-slip Outsole",
+      "Lace-up & Zipper Closure"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": true,
+    "dateAdded": "2025-07-25",
+    "images": [
+      "https://example.com/nashaa-kicks/snow_boots_black_1.webp",
+      "https://example.com/nashaa-kicks/snow_boots_black_2.webp",
+      "https://example.com/nashaa-kicks/snow_boots_black_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_030",
+    "name": "Kids' Rain Boots",
+    "description": "Fun and colorful rain boots for kids, keeping their feet dry and protected on rainy days. Easy to clean.",
+    "category": "Kids' Boots",
+    "price": 2200,
+    "currency": "KES",
+    "brand": "PuddleJumper",
+    "gender": "Unisex",
+    "material": "Rubber",
+    "availableSizes": [
+      "Kids 9",
+      "Kids 10",
+      "Kids 11",
+      "Kids 12"
+    ],
+    "availableColors": [
+      "Yellow",
+      "Blue",
+      "Green"
+    ],
+    "color": "Yellow",
+    "rating": 4.5,
+    "reviewsCount": 800,
+    "inStock": 140,
+    "features": [
+      "Waterproof Rubber",
+      "Easy Pull-on Handles",
+      "Non-slip Sole",
+      "Fun Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-14",
+    "images": [
+      "https://example.com/nashaa-kicks/kids_rain_yellow_1.webp",
+      "https://example.com/nashaa-kicks/kids_rain_yellow_2.webp",
+      "https://example.com/nashaa-kicks/kids_rain_yellow_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_031",
+    "name": "Men's Casual High-Top Sneakers",
+    "description": "Stylish high-top sneakers for a cool and casual look. Offers ankle support and a comfortable fit.",
+    "category": "Men's Casual Shoes",
+    "price": 6500,
+    "currency": "KES",
+    "brand": "UrbanKicks",
+    "gender": "Male",
+    "material": "Canvas, Rubber",
+    "availableSizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11"
+    ],
+    "availableColors": [
+      "Black",
+      "White",
+      "Red"
+    ],
+    "color": "Black",
+    "rating": 4.6,
+    "reviewsCount": 700,
+    "inStock": 110,
+    "features": [
+      "Ankle Support",
+      "Lace-up Design",
+      "Durable Canvas",
+      "Padded Footbed"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": false,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-21",
+    "images": [
+      "https://example.com/nashaa-kicks/mens_hightop_black_1.webp",
+      "https://example.com/nashaa-kicks/mens_hightop_black_2.webp",
+      "https://example.com/nashaa-kicks/mens_hightop_black_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_032",
+    "name": "Women's Comfort Slip-On Shoes",
+    "description": "Ultra-comfortable slip-on shoes for women, perfect for daily errands or travel. Features a stretchy upper and memory foam insole.",
+    "category": "Women's Casual Shoes",
+    "price": 4800,
+    "currency": "KES",
+    "brand": "EaseWalk",
+    "gender": "Female",
+    "material": "Knit Fabric, EVA",
+    "availableSizes": [
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "availableColors": [
+      "Navy",
+      "Grey",
+      "Burgundy"
+    ],
+    "color": "Navy",
+    "rating": 4.7,
+    "reviewsCount": 1400,
+    "inStock": 220,
+    "features": [
+      "Slip-on Style",
+      "Memory Foam Insole",
+      "Breathable Knit Upper",
+      "Lightweight & Flexible"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": true,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-16",
+    "images": [
+      "https://example.com/nashaa-kicks/womens_slipon_navy_1.webp",
+      "https://example.com/nashaa-kicks/womens_slipon_navy_2.webp",
+      "https://example.com/nashaa-kicks/womens_slipon_navy_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_033",
+    "name": "Unisex Aqua Shoes",
+    "description": "Quick-drying aqua shoes for water sports, beach activities, and poolside use. Provides protection and grip on wet surfaces.",
+    "category": "Unisex Water Shoes",
+    "price": 2500,
+    "currency": "KES",
+    "brand": "HydroFeet",
+    "gender": "Unisex",
+    "material": "Neoprene, Rubber",
+    "availableSizes": [
+      "US 7",
+      "US 8",
+      "US 9",
+      "US 10"
+    ],
+    "availableColors": [
+      "Black",
+      "Blue",
+      "Pink"
+    ],
+    "color": "Black",
+    "rating": 4.5,
+    "reviewsCount": 750,
+    "inStock": 130,
+    "features": [
+      "Quick Dry Material",
+      "Non-slip Sole",
+      "Drainage Holes",
+      "Flexible Fit"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-06",
+    "images": [
+      "https://example.com/nashaa-kicks/aqua_shoes_black_1.webp",
+      "https://example.com/nashaa-kicks/aqua_shoes_black_2.webp",
+      "https://example.com/nashaa-kicks/aqua_shoes_black_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_034",
+    "name": "Men's Luxury Driving Moccasins",
+    "description": "Elegant and comfortable driving moccasins crafted from premium leather. Perfect for a sophisticated casual look.",
+    "category": "Men's Casual Shoes",
+    "price": 8000,
+    "currency": "KES",
+    "brand": "FineDrive",
+    "gender": "Male",
+    "material": "Genuine Leather, Rubber Studs",
+    "availableSizes": [
+      "US 7",
+      "US 8",
+      "US 9",
+      "US 10"
+    ],
+    "availableColors": [
+      "Brown",
+      "Black",
+      "Navy"
+    ],
+    "color": "Brown",
+    "rating": 4.7,
+    "reviewsCount": 380,
+    "inStock": 60,
+    "features": [
+      "Soft Leather",
+      "Comfortable Footbed",
+      "Flexible Driving Sole",
+      "Slip-on Style"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": true,
+    "dateAdded": "2025-07-24",
+    "images": [
+      "https://example.com/nashaa-kicks/mens_moccasins_brown_1.webp",
+      "https://example.com/nashaa-kicks/mens_moccasins_brown_2.webp",
+      "https://example.com/nashaa-kicks/mens_moccasins_brown_3.webp"
+    ]
+  },
+  {
+    "id": "nk_shoe_035",
+    "name": "Women's Stylish Espadrilles",
+    "description": "Trendy espadrille flats, perfect for summer fashion and comfortable daily wear. Features a natural jute sole and breathable upper.",
+    "category": "Women's Flats",
+    "price": 3500,
+    "currency": "KES",
+    "brand": "SummerSole",
+    "gender": "Female",
+    "material": "Canvas, Jute, Rubber",
+    "availableSizes": [
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "availableColors": [
+      "Navy Stripe",
+      "Red",
+      "Black"
+    ],
+    "color": "Navy Stripe",
+    "rating": 4.6,
+    "reviewsCount": 900,
+    "inStock": 170,
+    "features": [
+      "Jute Wrapped Midsole",
+      "Breathable Canvas",
+      "Slip-on Design",
+      "Comfortable Footbed"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-07-13",
+    "images": [
+      "https://example.com/nashaa-kicks/womens_espadrilles_navy_1.webp",
+      "https://example.com/nashaa-kicks/womens_espadrilles_navy_2.webp",
+      "https://example.com/nashaa-kicks/womens_espadrilles_navy_3.webp"
+    ]
+  }
+]

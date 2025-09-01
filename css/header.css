@@ -1,0 +1,463 @@
+/*
+    File: header.css
+    -------------------------------------------------
+    This stylesheet is for the comprehensive iMarket header.
+    It is designed to be used in conjunction with `colors.css` and `main.css`.
+    It defines all structural, layout, and visual styles for the header
+    and its nested components across all screen sizes.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* General Header Styles                                                      */
+/* -------------------------------------------------------------------------- */
+
+header {
+    background-color: var(--color-bg-header-footer);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: 0 2px 4px var(--color-shadow);
+    color: var(--color-text-primary);
+    position: fixed; /* Changed from sticky to fixed */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Top Bar Styles                                                             */
+/* -------------------------------------------------------------------------- */
+
+.header-top-bar {
+    font-size: 0.85em;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+}
+
+.header-top-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-left,
+.top-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.top-left .divider {
+    color: var(--color-border);
+}
+
+.top-link,
+#theme-toggle {
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.top-link:hover,
+#theme-toggle:hover {
+    color: var(--color-primary);
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+/* Ad Ticker specific styles */
+.ad-ticker-container {
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 300px;
+    height: 1.2em; /* Ensure container has a fixed height */
+}
+
+#top-ad-placeholder {
+    font-weight: bold;
+    color: var(--color-primary);
+    display: inline-block;
+    white-space: nowrap;
+    position: relative; /* Add position relative to the element */
+    animation: marquee 15s linear infinite; /* Initial animation */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/* Middle Bar Styles (Logo, Search, Actions)                                  */
+/* -------------------------------------------------------------------------- */
+
+.header-middle-bar {
+    padding: 15px 0;
+}
+
+.header-middle-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header-logo img {
+    height: 70px; /* Adjust as needed */
+    width: auto;
+}
+
+/* Search Bar */
+.header-search-container {
+    position: relative; /* Container to hold search bar and suggestions */
+    flex-grow: 1;
+    max-width: 600px;
+}
+
+.header-search {
+    display: flex;
+    border: 1px solid var(--color-border);
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#main-search-input {
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    background-color: var(--color-bg-input);
+    color: var(--color-text-primary);
+}
+
+.header-search button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    color: var(--color-text-primary);
+    font-size: 1em;
+}
+
+#search-submit-button {
+    background-color: var(--color-primary);
+    color: var(--color-text-inverted);
+}
+
+#search-submit-button:hover {
+    background-color: var(--color-hover);
+}
+
+/* Search Suggestions */
+.search-suggestions-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-bg-header-footer);
+    border: 1px solid var(--color-border);
+    box-shadow: 0 4px 8px var(--color-shadow);
+    border-radius: 0 0 8px 8px;
+    z-index: 99;
+    max-height: 250px;
+    overflow-y: auto;
+    display: none;
+    padding: 10px 0;
+}
+
+.search-suggestions-container.show {
+    display: block;
+}
+
+.search-suggestions-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-suggestions-container li a {
+    display: block;
+    padding: 10px 20px;
+    color: var(--color-text-primary);
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.search-suggestions-container li a:hover {
+    background-color: var(--color-bg-hover);
+}
+
+.suggestion-type {
+    font-size: 0.8em;
+    color: var(--color-text-muted);
+    margin-left: 0.5rem;
+    float: right;
+}
+
+/* Header Actions */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-greeting {
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.user-greeting #user-name-display {
+    font-weight: bold;
+}
+
+.badge {
+    background-color: var(--color-primary);
+    color: var(--color-text-inverted);
+    font-size: 0.7em;
+    padding: 2px 6px;
+    border-radius: 12px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 20px;
+    text-align: center;
+}
+
+.membership-level-badge {
+    background-color: var(--color-info); /* Use info color for membership */
+}
+
+.action-icon {
+    position: relative;
+    color: var(--color-text-primary);
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.action-icon:hover {
+    color: var(--color-primary);
+}
+
+.count-badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: var(--color-danger);
+    color: var(--color-text-inverted);
+    font-size: 0.6em;
+    min-width: 18px;
+    padding: 1px 4px;
+    border-radius: 50%;
+    line-height: 1.2;
+}
+
+#hamburger-menu {
+    display: none; /* Hidden by default on desktop */
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: var(--color-text-primary);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Primary Navigation Styles                                                  */
+/* -------------------------------------------------------------------------- */
+
+.header-nav {
+    background-color: var(--color-bg-header-footer);
+    border-top: 1px solid var(--color-border);
+    box-shadow: 0 2px 4px var(--color-shadow);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links > li {
+    position: relative;
+}
+
+.nav-links > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: var(--color-text-primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.nav-links > li > a:hover {
+    background-color: var(--color-bg-hover);
+}
+
+/* Dropdown Menus */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--color-bg-header-footer);
+    border: 1px solid var(--color-border);
+    box-shadow: 0 4px 8px var(--color-shadow);
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    z-index: 100;
+    min-width: 200px;
+    visibility: hidden; /* Initially hidden with visibility */
+    opacity: 0; /* Initially transparent */
+    transition: visibility 0s 0.3s, opacity 0.3s ease; /* Transition for smooth fade */
+}
+
+.dropdown-menu.show {
+    visibility: visible; /* Show when class is added */
+    opacity: 1; /* Make it fully visible */
+    transition-delay: 0s; /* Start transition immediately */
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--color-text-primary);
+}
+
+.dropdown-menu li a:hover {
+    background-color: var(--color-bg-hover);
+    color: var(--color-primary);
+}
+
+.scrollable-menu {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Responsive Design (Mobile & Tablet)                                        */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 992px) {
+    .header-middle-content {
+        gap: 10px;
+    }
+
+    .header-search-container {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Hide top bar on smaller screens */
+    .header-top-bar {
+        display: none;
+    }
+
+    /* Adjust main header layout */
+    .header-middle-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header-logo {
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .header-search-container {
+        flex-grow: 1;
+        max-width: 100%;
+        order: 3; /* Move search below logo and actions */
+    }
+
+    .header-actions {
+        order: 2;
+        gap: 15px;
+    }
+
+    .user-greeting,
+    .header-actions .action-icon:nth-child(2), /* Wishlist */
+    .header-actions .action-icon:nth-child(3), /* Notifications */
+    .header-actions .action-icon:nth-child(4) { /* My Account */
+        display: none; /* Hide some elements on mobile */
+    }
+
+    .header-actions .action-icon:nth-child(5) { /* Cart */
+      display: block; /* Ensure cart is visible */
+    }
+
+    #hamburger-menu {
+        display: block; /* Show hamburger menu on mobile */
+    }
+
+    /* Mobile Navigation */
+    #primary-nav {
+        display: none; /* Hide navigation initially on mobile */
+        position: fixed;
+        top: 0; /* Or height of your mobile header */
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--color-bg-page);
+        z-index: 99;
+        overflow-y: auto;
+    }
+
+    #primary-nav.active {
+        display: block;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .nav-links li {
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .nav-links li a {
+        padding: 15px 25px;
+    }
+
+    .dropdown-menu {
+        position: static;
+        border: none;
+        box-shadow: none;
+        max-height: none;
+        padding-left: 20px;
+        transition: none; /* No transition on mobile */
+    }
+
+    .dropdown-menu.show {
+        transition: none;
+    }
+}

@@ -1,0 +1,2768 @@
+[
+  {
+    "make": "AC Schnitzer",
+    "model": "AC Schnitzer BMW X3",
+    "year": 2024,
+    "color": "Alpine White",
+    "price": 9500000,
+    "engine_type": "2.0L Turbo Inline-4 Petrol",
+    "features": [
+        "AC Schnitzer Performance Upgrades",
+        "Aerodynamic Body Kit",
+        "Sports Suspension",
+        "Unique Wheel Design",
+        "Custom Interior Trim",
+        "High-Performance Exhaust System"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+        "city_km_per_liter": 8.5,
+        "highway_km_per_liter": 12.0
+    },
+    "shipping_fee": 200000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 60,
+    "car_display_image": "https://example.com/images/AC-Schnitzer-BMW-X3-New-8-2048x1367.webp",
+    "images": [
+        "https://example.com/images/AC-Schnitzer-BMW-X3-New-8-2048x1367.webp",
+        "https://example.com/images/ac_schnitzer1.webp",
+        "https://example.com/images/ac_schnitzer5.webp",
+        "https://example.com/images/AC-Schnitzer-BMW-X3-New-7-2048x1367.webp",
+        "https://example.com/images/ac_schnitzer3.webp",
+        "https://example.com/images/ac_schnitzer2.webp",
+        "https://example.com/images/AC-Schnitzer-BMW-X3-New-6-2048x1367.webp",
+        "https://example.com/images/AC-Schnitzer-BMW-X3-New-4-2048x1367.webp",
+        "https://example.com/images/AC-Schnitzer-BMW-X3-New-10-2048x1367.webp",
+        "https://example.com/images/ac_schnitzer4.webp"
+    ],
+    "interior_images": [
+        "https://example.com/images/interior/download (36).jpg",
+        "https://example.com/images/interior/DRIVERS_ Nick Sisombath and His 1997 BMW M3 E36.jpg",
+        "https://example.com/images/interior/ac_schnitzer_interior4.jpg",
+        "https://example.com/images/interior/ac_schnitzer_interior3.jpg",
+        "https://example.com/images/interior/ac_schnitzer_interior1.jpg",
+        "https://example.com/images/interior/This 1995 BMW M3 GT can be purchased for $118,000.jpg",
+        "https://example.com/images/interior/ac_schnitzer_interior2.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+        "name": "Alex Malunda",
+        "tel": "0700000007",
+        "location": "Muthaiga, Nairobi"
+    },
+    "car_type": "SUV"
+},
+  {
+    "make": "Bentley",
+    "model": "Mulsanne Grand Limousine",
+    "year": 2024,
+    "color": "Two-tone Silver and Red",
+    "price": 100000000,
+    "engine_type": "6.75L Twin-Turbocharged V8 Petrol",
+    "features": [
+        "Extended Wheelbase for Limo Service",
+        "Hand-crafted Interior",
+        "Privacy Division between Driver and Passenger",
+        "Two-tone Exterior Paint",
+        "Integrated Entertainment System",
+        "Bespoke Interior Cabin Configuration"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 4,
+    "fuel_efficiency": {
+        "city_km_per_liter": 4.0,
+        "highway_km_per_liter": 7.0
+    },
+    "shipping_fee": 5000000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 180,
+    "car_display_image": "https://example.com/images/Bentley-Mulsanne-Grand-Limousine-4_result22.jpg",
+    "images": [
+        "https://example.com/images/Bentley-Mulsanne-Grand-Limousine-4_result22.jpg",
+        "https://example.com/images/Bentley-Mulsanne-Grand-Limousine-2_result22.webp",
+        "https://example.com/images/Bentley-Mulsanne-Grand-Limousine-9_result22.webp",
+        "https://example.com/images/Bentley-Mulsanne-Grand-Limousine-7_result22.webp",
+        "https://example.com/images/Bentley-Mulsanne-Grand-Limousine-12_result22.webp",
+        "https://example.com/images/Bentley-Mulsanne-Grand-Limousine-1_result22 (1).webp",
+        "https://example.com/images/Bentley-Mulsanne-Grand-Limousine-13_result22.jpg",
+        "https://example.com/images/Bentley-Mulsanne-Grand-Limousine-1_result22.webp",
+        "https://example.com/images/Bentley-Mulsanne-Grand-Limousine-8_result22.jpg"
+    ],
+    "interior_images": [
+        "https://example.com/images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-18_result22.webp",
+        "https://example.com/images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-15_result22.webp",
+        "https://example.com/images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-21_result22.webp",
+        "https://example.com/images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-16_result22.webp",
+        "https://example.com/images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-14_result22.webp",
+        "https://example.com/images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-24_result22.webp",
+        "https://example.com/images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-20_result22.webp",
+        "https://example.com/images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-17_result22.webp",
+        "https://example.com/images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-22_result22.jpg",
+        "https://example.com/images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-23_result22.webp"
+    ],
+    "electric": false,
+    "contact_agent": {
+        "name": "Alex Malunda",
+        "tel": "0700000007",
+        "location": "Muthaiga, Nairobi"
+    },
+    "car_type": "Luxury Sedan"
+},
+  {
+    "make": "Bugatti",
+    "model": "Chiron Super Sport",
+    "year": 2024,
+    "color": "French Racing Blue & Carbon",
+    "price": 280000000,
+    "engine_type": "8.0L Quad-Turbo W16 Petrol",
+    "features": [
+        "Limitless Top Speed",
+        "Full Carbon Fiber Body",
+        "Exclusive Interior Customization",
+        "Advanced Aerodynamics",
+        "Quad-Turbocharged Engine",
+        "Unique Exhaust System"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+        "city_km_per_liter": 2.0,
+        "highway_km_per_liter": 3.5
+    },
+    "shipping_fee": 5000000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 365,
+    "car_display_image": "https://example.com/images/download (34).jpg",
+    "images": [
+        "https://example.com/images/download (34).jpg",
+        "https://example.com/images/Bugatti-Chiron-Super-Sport-4.jpg",
+        "https://example.com/images/Bugatti-Chiron-Super-Sport-1.jpg",
+        "https://example.com/images/Bugatti-Chiron-Super-Sport-3.jpg",
+        "https://example.com/images/Bugatti-Chiron-Super-Sport-2.jpg",
+        "https://example.com/images/Check out this 2018 Bugatti Chiron finished in a Nocturne_Spirit Blue Livery over a Noctur.jpg",
+        "https://example.com/images/download (35).jpg",
+        "https://example.com/images/BUGATTI.jpg",
+        "https://example.com/images/Bugatti-Chrion-Super-Sport-1a-1536x832.jpg",
+        "https://example.com/images/Bugatti Chiron Super Sport.jpg"
+    ],
+    "interior_images": [
+        "https://example.com/images/interior/Bugatti-Chiron-Super-Sport/bugatti interior.jpg",
+        "https://example.com/images/interior/Bugatti-Chiron-Super-Sport/2022 Bugatti Chiron Super Sport - Full Image Gallery.jpg",
+        "https://example.com/images/interior/Bugatti-Chiron-Super-Sport/Bugatti.jpg",
+        "https://example.com/images/interior/Bugatti-Chiron-Super-Sport/Luxury Cars.jpg",
+        "https://example.com/images/interior/Bugatti-Chiron-Super-Sport/Bugatti-Chrion-Super-Sport-2.jpg",
+        "https://example.com/images/interior/Bugatti-Chiron-Super-Sport/download (34).jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+        "name": "Alex Malunda",
+        "tel": "0700000007",
+        "location": "Muthaiga, Nairobi"
+    },
+    "car_type": "Sports Car"
+},
+  {
+    "make": "Bugatti",
+    "model": "Tourbillon",
+    "year": 2024,
+    "color": "Grey & Blue",
+    "price": 400000000,
+    "engine_type": "8.3L V16 Hybrid Petrol",
+    "features": [
+        "Naturally Aspirated V16 Engine",
+        "Hybrid Powertrain",
+        "Open-faced Instrument Cluster",
+        "Advanced Aerodynamics",
+        "Carbon Fiber Monocoque",
+        "Exclusive Interior Materials"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+        "city_km_per_liter": 3.0,
+        "highway_km_per_liter": 5.5
+    },
+    "shipping_fee": 7000000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 730,
+    "car_display_image": "https://example.com/images/Bugatti Tourbillon.jpg",
+    "images": [
+        "https://example.com/images/Bugatti Tourbillon.jpg",
+        "https://example.com/images/Bugatti-Tourbillon-Asia-2.jpg",
+        "https://example.com/images/Bugatti-Tourbillon-Asia-3.webp",
+        "https://example.com/images/Bugatti-Tourbillon-Asia-1.webp",
+        "https://example.com/images/Bugatti-Tourbillon-Asia-1 (1).webp",
+        "https://example.com/images/Bugatti-Tourbillon-Asia-5.jpg",
+        "https://example.com/images/Bugatti-Tourbillon-Asia-6.webp",
+        "https://example.com/images/Bugatti-Tourbillon-5.jpg",
+        "https://example.com/images/Bugatti-Tourbillon-Asia-4.jpg",
+        "https://example.com/images/Bugatti-Tourbillon-Asia-10.jpg"
+    ],
+    "interior_images": [
+        "https://example.com/images/interior/Bugatti-Tourbillon/Bugatti-Tourbillon-00035-2048x1152.webp",
+        "https://example.com/images/interior/Bugatti-Tourbillon/download (36).jpg",
+        "https://example.com/images/interior/Bugatti-Tourbillon/Bugatti-Tourbillon-Asia-8.webp",
+        "https://example.com/images/interior/Bugatti-Tourbillon/download (35).jpg",
+        "https://example.com/images/interior/Bugatti-Tourbillon/download (34).jpg",
+        "https://example.com/images/interior/Bugatti-Tourbillon/Bugatti.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+        "name": "John Kamau",
+        "tel": "0700990007",
+        "location": "Muthaiga, Nairobi"
+    },
+    "car_type": "Sports Car"
+},
+  {
+    "make": "Bugatti",
+    "model": "Tourbillon EPS-320",
+    "year": 2024,
+    "color": "Black & Blue",
+    "price": 400000000,
+    "engine_type": "8.3L V16 Hybrid Petrol",
+    "features": [
+        "Hybrid Powertrain",
+        "Open-faced Instrument Cluster",
+        "Advanced Aerodynamics",
+        "Carbon Fiber Monocoque",
+        "Exclusive Interior Materials",
+        "High-Performance Brakes"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+        "city_km_per_liter": 3.0,
+        "highway_km_per_liter": 5.5
+    },
+    "shipping_fee": 7000000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 730,
+    "car_display_image": "https://example.com/images/Bugatti-Tourbillon-EPS-320-1-2048x1152.webp",
+    "images": [
+        "https://example.com/images/Bugatti-Tourbillon-EPS-320-1-2048x1152.webp",
+        "https://example.com/images/Bugatti-Tourbillon-EPS-320-1-2048x1152 (1).webp",
+        "https://example.com/images/Bugatti-Tourbillon-EPS-320-3-2048x1152.webp",
+        "https://example.com/images/Bugatti-Tourbillon-EPS-320-5-2048x1152.webp",
+        "https://example.com/images/download (34).jpg",
+        "https://example.com/images/download (35).jpg",
+        "https://example.com/images/BUGATTI TOURBILLON.jpg",
+        "https://example.com/images/BUGATTI TOURBILLON (1).jpg",
+        "https://example.com/images/AI - Bugatti Chiron Super Sport 300.jpg",
+        "https://example.com/images/Bugatti Divo - Dream Cars 2024.jpg"
+    ],
+    "interior_images": [
+        "https://example.com/images/interior/Bugatti-Tourbillon-EPS-320/Bugatti-Tourbillon-EPS-320-2-2048x1152.webp",
+        "https://example.com/images/interior/Bugatti-Tourbillon-EPS-320/download (37).jpg",
+        "https://example.com/images/interior/Bugatti-Tourbillon-EPS-320/Bugatti-Tourbillon-EPS-320-4-2048x1152.webp",
+        "https://example.com/images/interior/Bugatti-Tourbillon-EPS-320/Interior Details.jpg",
+        "https://example.com/images/interior/Bugatti-Tourbillon-EPS-320/download (34).jpg",
+        "https://example.com/images/interior/Bugatti-Tourbillon-EPS-320/Bugatti (1).jpg",
+        "https://example.com/images/interior/Bugatti-Tourbillon-EPS-320/download (35).jpg",
+        "https://example.com/images/interior/Bugatti-Tourbillon-EPS-320/BUGATTI.jpg",
+        "https://example.com/images/interior/Bugatti-Tourbillon-EPS-320/2018 Bugatti Chiron Interior.jpg",
+        "https://example.com/images/interior/Bugatti-Tourbillon-EPS-320/download (36).jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+        "name": "Janet Kenga",
+        "tel": "0700030011",
+        "location": "Gigiri, Nairobi"
+    },
+    "car_type": "Sports Car"
+},
+  {
+    "make": "Chevrolet",
+    "model": "Corvette ZR1X",
+    "year": 2026,
+    "color": "Silver",
+    "price": 12000000,
+    "engine_type": "5.5L Supercharged V8 Petrol",
+    "features": [
+        "Advanced Aerodynamics",
+        "Carbon Fiber Body Panels",
+        "Performance-Tuned Suspension",
+        "Unique Wheel Design",
+        "Custom Interior Trim",
+        "High-Performance Exhaust System"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+        "city_km_per_liter": 6.5,
+        "highway_km_per_liter": 9.0
+    },
+    "shipping_fee": 150000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 90,
+    "car_display_image": "https://example.com/images/Chevrolet-2026-Corvette-ZR1X-Pack-Shot-2048x1366.jpg",
+    "images": [
+        "https://example.com/images/Chevrolet-2026-Corvette-ZR1X-Pack-Shot-2048x1366.jpg",
+        "https://example.com/images/Chevrolet-2026-Corvette-ZR1X-Top-View-1-2048x1366.webp",
+        "https://example.com/images/Chevrolet-2026-Corvette-ZR1X-Overhead-2048x1534.webp",
+        "https://example.com/images/Chevrolet-2026-Corvette-ZR1X-Pack-Shot-copy.webp",
+        "https://example.com/images/Chevrolet-2026-Corvette-ZR1X-Badge-1-2048x1366.webp",
+        "https://example.com/images/Chevrolet-2026-Corvette-ZR1X-Blade-Silver-Front-scaled-e1750183881733-2048x1153.webp",
+        "https://example.com/images/Chevrolet-2026-Corvette-ZR1X-Blade-Silver-Front-scaled-e1750183881733-2048x1153 (1).webp",
+        "https://example.com/images/Black&Yellow Vette.jpg",
+        "https://example.com/images/Cars & more.jpg",
+        "https://example.com/images/Chevrolet Corvette.jpg"
+    ],
+    "interior_images": [
+        "https://example.com/images/interior/Chevrolet-2026-Corvette-ZR1X/Chevrolet-2026-Corvette-ZR1X-Interior-Santorini-Blue-1-2048x1366.webp",
+        "https://example.com/images/interior/Chevrolet-2026-Corvette-ZR1X/Chevrolet Corvette E-Ray.jpg",
+        "https://example.com/images/interior/Chevrolet-2026-Corvette-ZR1X/2025 Chevrolet Corvette ZR1 Convertible - Stunning HD Photos, Videos, Specs, Features & Price - DailyRevs.jpg",
+        "https://example.com/images/interior/Chevrolet-2026-Corvette-ZR1X/download (34).jpg",
+        "https://example.com/images/interior/Chevrolet-2026-Corvette-ZR1X/download (35).jpg",
+        "https://example.com/images/interior/Chevrolet-2026-Corvette-ZR1X/download (36).jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+        "name": "Joan Kimeu",
+        "tel": "0700800000",
+        "location": "Muthaiga, Nairobi"
+    },
+    "car_type": "Sports Car"
+},
+  {
+    "make": "Ferrari",
+    "model": "Amalfi 701",
+    "year": 2026,
+    "color": "Red",
+    "price": 18000000,
+    "engine_type": "7.0L V12 Petrol",
+    "features": [
+        "Naturally Aspirated V12 Engine",
+        "Carbon Fiber Body",
+        "F1-style Paddleshifters",
+        "Advanced Aerodynamics",
+        "Unique Exhaust System"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+        "city_km_per_liter": 4.5,
+        "highway_km_per_liter": 7.0
+    },
+    "shipping_fee": 200000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 180,
+    "car_display_image": "https://example.com/images/2026-Ferrari-Amalfi-701-16-2048x1152.webp",
+    "images": [
+        "https://example.com/images/2026-Ferrari-Amalfi-701-16-2048x1152.webp",
+        "https://example.com/images/2026-Ferrari-Amalfi-701-12-2048x1152.webp",
+        "https://example.com/images/2026-Ferrari-Amalfi-701-13-2048x1152.webp",
+        "https://example.com/images/2026-Ferrari-Amalfi-701-14-2048x1152.webp",
+        "https://example.com/images/2026-Ferrari-Amalfi-701-15-2048x1152.webp",
+        "https://example.com/images/2026-Ferrari-Amalfi-701-16-2048x1152 (1).webp",
+        "https://example.com/images/2026-Ferrari-Amalfi-701-17-2048x1152.webp",
+        "https://example.com/images/2026-Ferrari-Amalfi-701-19-2048x1152.webp",
+        "https://example.com/images/2026-Ferrari-Amalfi-701-21-2048x1152.webp",
+        "https://example.com/images/2026-Ferrari-Amalfi-701-22-2048x1152.webp"
+    ],
+    "interior_images": [
+        "https://example.com/images/interior/Ferrari-Amalfi-701/www.jpg",
+        "https://example.com/images/interior/Ferrari-Amalfi-701/www (2).jpg",
+        "https://example.com/images/interior/Ferrari-Amalfi-701/812.jpg",
+        "https://example.com/images/interior/Ferrari-Amalfi-701/812 SF.jpg",
+        "https://example.com/images/interior/Ferrari-Amalfi-701/download (34).jpg",
+        "https://example.com/images/interior/Ferrari-Amalfi-701/download (35).jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+        "name": "James Omondi",
+        "tel": "0700365407",
+        "location": "Muthaiga, Nairobi"
+    },
+    "car_type": "Sports Car"
+},
+  {
+    "make": "Ferrari",
+    "model": "F40",
+    "year": 1992,
+    "color": "Red",
+    "price": 30000000,
+    "engine_type": "2.9L Twin-Turbo V8 Petrol",
+    "features": [
+        "Lightweight Carbon Fiber Body",
+        "Classic Pininfarina Design",
+        "Race-Derived Technology",
+        "Iconic Rear Wing",
+        "Minimalist Interior"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+        "city_km_per_liter": 4.0,
+        "highway_km_per_liter": 6.5
+    },
+    "shipping_fee": 500000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 1,
+    "car_display_image": "https://example.com/images/1992-Ferrari-F40-Blue-Chip-Auction-1-2048x1362.webp",
+    "images": [
+        "https://example.com/images/1992-Ferrari-F40-Blue-Chip-Auction-1-2048x1362.webp",
+        "https://example.com/images/1992-Ferrari-F40-Blue-Chip-Auction-2-2048x1317.webp",
+        "https://example.com/images/1992-Ferrari-F40-Blue-Chip-Auction-3-2048x1367.webp",
+        "https://example.com/images/1992-Ferrari-F40-Blue-Chip-Auction-5-2048x1536.webp",
+        "https://example.com/images/1992-Ferrari-F40-Blue-Chip-Auction-6-2048x1536.webp",
+        "https://example.com/images/1992-Ferrari-F40-Blue-Chip-Auction-7-2048x1338.webp",
+        "https://example.com/images/1992-Ferrari-F40-Blue-Chip-Auction-19-2048x1366.webp",
+        "https://example.com/images/1992-Ferrari-F40-Blue-Chip-Auction-20-2048x1366.webp",
+        "https://example.com/images/1992-Ferrari-F40-Blue-Chip-Auction-21-2048x1366.webp",
+        "https://example.com/images/1992-Ferrari-F40-Blue-Chip-Auction-22-2048x1366.webp"
+    ],
+    "interior_images": [
+        "https://example.com/images/interior/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-10-2048x1366.webp",
+        "https://example.com/images/interior/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-11-2048x1366.webp",
+        "https://example.com/images/interior/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-13-2048x1366.webp",
+        "https://example.com/images/interior/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-14-2048x1366.webp"
+    ],
+    "electric": false,
+    "contact_agent": {
+        "name": "FCA Kenya",
+        "tel": "0794500000",
+        "location": "Lusaka Road, Nairobi"
+    },
+    "car_type": "Sports Car"
+},
+  {
+    "make": "Frank Stephenson",
+    "model": "P1 Tavarish",
+    "year": 2026,
+    "color": "Grey & Orange",
+    "price": 20000000,
+    "engine_type": "3.8L Twin-Turbo V8",
+    "features": [
+        "Lightweight Carbon Fiber Construction",
+        "Hybrid Powertrain",
+        "Active Aerodynamics",
+        "Adjustable Suspension",
+        "High-Performance Brakes"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+        "city_km_per_liter": 5.0,
+        "highway_km_per_liter": 8.0
+    },
+    "shipping_fee": 1000000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 100,
+    "car_display_image": "https://example.com/images/Frank-Stephenson-P1-Tavarish-00001-2048x1218.webp",
+    "images": [
+        "https://example.com/images/Frank-Stephenson-P1-Tavarish-00001-2048x1218.webp",
+        "https://example.com/images/Frank-Stephenson-P1-Tavarish-00002-2048x1152.webp",
+        "https://example.com/images/Frank-Stephenson-P1-Tavarish-00003-2048x1535.jpg",
+        "https://example.com/images/Frank-Stephenson-P1-Tavarish-00004-2048x1535.webp",
+        "https://example.com/images/Frank-Stephenson-P1-Tavarish-00005-2048x1280.webp",
+        "https://example.com/images/Frank-Stephenson-P1-Tavarish-00006-2048x1152.webp"
+    ],
+    "interior_images": [
+        "https://example.com/images/interior/Frank-Stephenson-P1-Tavarish/download (34).jpg",
+        "https://example.com/images/interior/Frank-Stephenson-P1-Tavarish/download (35).jpg",
+        "https://example.com/images/interior/Frank-Stephenson-P1-Tavarish/download (36).jpg",
+        "https://example.com/images/interior/Frank-Stephenson-P1-Tavarish/Phaeton.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+        "name": "AGT Motors",
+        "tel": "0725 000 000",
+        "location": "Lang'ata, Nairobi"
+    },
+    "car_type": "Hypercar"
+},
+  {
+    "make": "Lamborghini",
+    "model": "Murcielago",
+    "year": 2006,
+    "color": "Black",
+    "price": 25000000,
+    "engine_type": "6.5L V12 Petrol",
+    "features": [
+        "Lightweight Aluminum and Carbon Fiber Body",
+        "Scissor Doors",
+        "All-Wheel Drive",
+        "Adjustable Air Intakes",
+        "Minimalist Cockpit"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+        "city_km_per_liter": 3.5,
+        "highway_km_per_liter": 6.0
+    },
+    "shipping_fee": 750000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 10,
+    "car_display_image": "https://example.com/images/Lamborghini-Murcielago-Six-Speed-8.jpg",
+    "images": [
+        "https://example.com/images/Lamborghini-Murcielago-Six-Speed-8.jpg",
+        "https://example.com/images/Lamborghini-Murcielago-Six-Speed-9.jpg",
+        "https://example.com/images/Lamborghini-Murcielago-Six-Speed-10.jpg",
+        "https://example.com/images/Lamborghini-Murcielago-Six-Speed-11.jpg",
+        "https://example.com/images/Lamborghini-Murcielago-Six-Speed-12.jpg",
+        "https://example.com/images/Lamborghini-Murcielago-Six-Speed-14.webp"
+    ],
+    "interior_images": [
+        "https://example.com/images/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-15.webp",
+        "https://example.com/images/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-16.webp",
+        "https://example.com/images/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-20.webp",
+        "https://example.com/images/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-21.webp",
+        "https://example.com/images/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-22.webp",
+        "https://example.com/images/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-23.webp",
+        "https://example.com/images/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-25.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+        "name": "AGT Motors",
+        "tel": "0725 000 000",
+        "location": "Lang'ata, Nairobi"
+    },
+    "car_type": "Sports Car"
+},
+  {
+    "make": "Lamborghini",
+    "model": "Revuelto",
+    "year": 2024,
+    "color": "Creative Bespoke",
+    "price": 32000000,
+    "engine_type": "6.5L V12 with Three Electric Motors (PHEV)",
+    "features": [
+        "Carbon Fiber Monofuselage",
+        "Scissor Doors",
+        "Aerodynamic Design",
+        "Hybrid Powertrain",
+        "All-Wheel Drive",
+        "8-Speed Dual-Clutch Transmission"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+        "city_km_per_liter": 4.5,
+        "highway_km_per_liter": 7.0
+    },
+    "shipping_fee": 900000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 15,
+    "car_display_image": "https://example.com/images/Lamborghini-Revuelto-Creative-Bespoke-1.webp",
+    "images": [
+        "https://example.com/images/Lamborghini-Revuelto-Creative-Bespoke-1.webp",
+        "https://example.com/images/Lamborghini-Revuelto-Creative-Bespoke-2.webp",
+        "https://example.com/images/Lamborghini-Revuelto-Creative-Bespoke-3.webp",
+        "https://example.com/images/Lamborghini-Revuelto-Creative-Bespoke-4.webp",
+        "https://example.com/images/Lamborghini-Revuelto-Creative-Bespoke-5.webp",
+        "https://example.com/images/Lamborghini-Revuelto-Creative-Bespoke-13.webp",
+        "https://example.com/images/Lamborghini-Revuelto-Creative-Bespoke-14.webp",
+        "https://example.com/images/Lamborghini-Revuelto-Creative-Bespoke-16.webp",
+        "https://example.com/images/Lamborghini-Revuelto-Creative-Bespoke-17.webp",
+        "https://example.com/images/Lamborghini-Revuelto-Creative-Bespoke-18.webp"
+    ],
+    "interior_images": [
+        "https://example.com/images/interior/Lamborghini-Revuelto/placeholder-26.webp",
+        "https://example.com/images/interior/Lamborghini-Revuelto/placeholder-27.webp",
+        "https://example.com/images/interior/Lamborghini-Revuelto/placeholder-28.webp"
+    ],
+    "electric": true,
+    "contact_agent": {
+        "name": "Nairobi Auto Sales",
+        "tel": "0723456789",
+        "location": "Karen, Nairobi"
+    },
+    "car_type": "Sports Car"
+},
+  {
+    "make": "Mercedes-Benz",
+    "model": "CLA",
+    "year": 2026,
+    "color": "Multiple (White, Red, Black)",
+    "price": 6000000,
+    "engine_type": "2.0L Turbocharged I4 Petrol",
+    "features": [
+      "MBUX Infotainment System",
+      "Digital Cockpit Display",
+      "LED Headlights",
+      "Active Brake Assist",
+      "Ambient Lighting"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 9.5,
+      "highway_km_per_liter": 15.0
+    },
+    "shipping_fee": 150000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 60,
+    "car_display_image": "images/2026-Mercedes-CLA-313-22-2048x1365.webp",
+    "images": [
+      "images/2026-Mercedes-CLA-313-18-2048x1365.webp",
+      "images/2026-Mercedes-CLA-313-16-2048x1366.webp",
+      "images/2026-Mercedes-CLA-313-12-2048x1365.webp",
+      "images/2026-Mercedes-CLA-313-2-2048x1366.webp",
+      "images/2026-Mercedes-CLA-313-9-2048x1365.webp",
+      "images/2026-Mercedes-CLA-313-21-2048x1365.webp",
+      "images/2026-Mercedes-CLA-313-17-2048x1365.webp",
+      "images/2026-Mercedes-CLA.webp",
+      "images/2026-Mercedes-CLA-313-1-2048x1366.webp"
+    ],
+    "interior_images": [
+      "images/interior/Mercedes-Benz-CLA-200--05.webp",
+      "images/interior/OIP (1).webp",
+      "images/interior/eKmU9g.jpg",
+      "images/interior/OIP.webp"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Ann Njeri",
+      "tel": "0712345678",
+      "location": "Westlands, Nairobi"
+    },
+    "car_type": "Sedan"
+  },
+  {
+    "make": "Bentley",
+    "model": "Continental GT",
+    "year": 2024,
+    "color": "Black",
+    "price": 35000000,
+    "engine_type": "6.0L W12 Twin-Turbo",
+    "features": [
+      "Mansory Widebody Kit",
+      "Carbon Fiber Accents",
+      "22-inch Forged Wheels",
+      "Diamond Quilted Leather Interior",
+      "Naim for Bentley Audio System"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 4,
+    "fuel_efficiency": {
+      "city_km_per_liter": 5.0,
+      "highway_km_per_liter": 8.0
+    },
+    "shipping_fee": 500000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 120,
+    "car_display_image": "images/Mansory-Bentley-Continental-GT-1.jpg",
+    "images": [
+      "images/Mansory-Bentley-Continental-GT-3.jpg",
+      "images/Mansory-Bentley-Continental-GT-4.jpg",
+      "images/Mansory-Bentley-Continental-GT-5.webp",
+      "images/Mansory-Bentley-Continental-GT-7.jpg",
+      "images/Mansory-Bentley-Continental-GT-8.webp"
+    ],
+    "interior_images": [
+      "images/interior/Mansory-Bentley-Continental-GT-6.jpg",
+      "images/interior/Mansory-Bentley-Continental-GT-16.jpg",
+      "images/interior/Mansory-Bentley-Continental-GT-13.jpg",
+      "images/interior/Mansory-Bentley-Continental-GT-12.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Nairobi Auto Sales",
+      "tel": "0723456789",
+      "location": "Karen, Nairobi"
+    },
+    "car_type": "Coupe"
+  },
+  {
+    "make": "Rolls-Royce",
+    "model": "Cullinan",
+    "year": 2024,
+    "color": "Black and Copper",
+    "price": 55000000,
+    "engine_type": "6.75L Twin-Turbo V12",
+    "features": [
+      "Mansory Linea Body Kit",
+      "Starlight Headliner",
+      "Custom Interior Trim",
+      "Rear Entertainment System",
+      "Executive Seating"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 4.5,
+      "highway_km_per_liter": 7.0
+    },
+    "shipping_fee": 700000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 150,
+    "car_display_image": "images/Mansory-Rolls-Royce-Cullinan-Linea-7.jpg",
+    "images": [
+      "images/Mansory-Rolls-Royce-Cullinan-Linea-13.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea-3.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea-4.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea-15.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea-1.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea-11.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea-8.jpg",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea-16.webp"
+    ],
+    "interior_images": [
+      "images/interior/Mansory-Rolls-Royce-Cullinan-Linea-5.jpg",
+      "images/interior/Mansory-Rolls-Royce-Cullinan-Linea-18.jpg",
+      "images/interior/Mansory004-RRR.jpg",
+      "images/interior/Mansory001-RRR.jpg",
+      "images/interior/Mansory005-RRR.webp",
+      "images/interior/Mansory003-RRR.webp"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "James Mwangi",
+      "tel": "0734567890",
+      "location": "CBD, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Nissan",
+    "model": "GT-R R34",
+    "year": 2002,
+    "color": "Silver",
+    "price": 25000000,
+    "engine_type": "2.6L Twin-Turbo Inline-6 (RB26DETT)",
+    "features": [
+      "ATTESA E-TS Pro AWD",
+      "HICAS 4-Wheel Steering",
+      "Multifunction Display",
+      "Brembo Brakes",
+      "Recaro Seats"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 4,
+    "fuel_efficiency": {
+      "city_km_per_liter": 6.0,
+      "highway_km_per_liter": 9.0
+    },
+    "shipping_fee": 300000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 90,
+    "car_display_image": "images/Nissan Skyline.jpg",
+    "images": [
+      "images/download (38).jpg",
+      "images/download (34).jpg",
+      "images/download (36).jpg",
+      "images/download (35).jpg",
+      "images/download (37).jpg"
+    ],
+    "interior_images": [
+      "images/interior/Nissan-GT-R-R34-Clubman-Race-Spec-5-2048x1331.webp",
+      "images/interior/Nissan-GT-R-R34-Clubman-Race-Spec-6-2048x1331.webp",
+      "images/interior/Nissan-GT-R-R34-Clubman-Race-Spec-7-2048x1331.webp",
+      "images/interior/Nissan-GT-R-R34-Clubman-Race-Spec-8-2048x1331.webp",
+      "images/interior/Nissan-GT-R-R34-Clubman-Race-Spec-9-2048x1331.webp",
+      "images/interior/Nissan-GT-R-R34-Clubman-Race-Spec-11-2048x1331.webp"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Metro Wheels",
+      "tel": "0745678901",
+      "location": "Rongai, Nairobi"
+    },
+    "car_type": "Coupe"
+  },
+  {
+    "make": "Rolls-Royce",
+    "model": "Corniche",
+    "year": 1994,
+    "color": "White",
+    "price": 18000000,
+    "engine_type": "6.75L V8",
+    "features": [
+      "Convertible Soft Top",
+      "Hand-built Interior",
+      "Wood Veneer Dash",
+      "Leather Seating",
+      "Power Seats"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 4,
+    "fuel_efficiency": {
+      "city_km_per_liter": 3.0,
+      "highway_km_per_liter": 6.0
+    },
+    "shipping_fee": 200000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 100,
+    "car_display_image": "images/1994-Rolls-Royce-Corniche_1321136.webp",
+    "images": [
+      "images/1994-Rolls-Royce-Corniche_1321137.webp",
+      "images/1994-Rolls-Royce-Corniche_1321144.webp",
+      "images/1994-Rolls-Royce-Corniche_1321145.webp",
+      "images/1994-Rolls-Royce-Corniche_1321147.webp",
+      "images/1994-Rolls-Royce-Corniche_1321148.webp",
+      "images/1994-Rolls-Royce-Corniche_1321149.webp",
+      "images/1994-Rolls-Royce-Corniche_1321182.webp",
+      "images/1994-Rolls-Royce-Corniche_1321183.webp",
+      "images/1994-Rolls-Royce-Corniche_1321189.webp"
+    ],
+    "interior_images": [
+      "images/interior/1994-Rolls-Royce-Corniche_1321150.webp",
+      "images/interior/1994-Rolls-Royce-Corniche_1321159.webp",
+      "images/interior/1994-Rolls-Royce-Corniche_1321164.webp",
+      "images/interior/1994-Rolls-Royce-Corniche_1321165.webp",
+      "images/interior/1994-Rolls-Royce-Corniche_1321166.webp",
+      "images/interior/1994-Rolls-Royce-Corniche_1321167.webp",
+      "images/interior/1994-Rolls-Royce-Corniche_1321176.webp",
+      "images/interior/1994-Rolls-Royce-Corniche_1321178.webp",
+      "images/interior/1994-Rolls-Royce-Corniche_1321179 (1).webp",
+      "images/interior/1994-Rolls-Royce-Corniche_1321179.webp"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Grace Wanjiku",
+      "tel": "0756789012",
+      "location": "Embakasi, Nairobi"
+    },
+    "car_type": "Convertible"
+  },
+  {
+    "make": "Rolls-Royce",
+    "model": "Cullinan",
+    "year": 2024,
+    "color": "Black",
+    "price": 48000000,
+    "engine_type": "6.75L Twin-Turbo V12",
+    "features": [
+      "1016 Industries Carbon Fiber Kit",
+      "Starlight Headliner",
+      "Bespoke Interior",
+      "Rear Lounge Seating",
+      "Retractable 'Spirit of Ecstasy'"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 4.5,
+      "highway_km_per_liter": 7.0
+    },
+    "shipping_fee": 600000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 140,
+    "car_display_image": "images/1016-Industries-Rolls-Royce-Cullinan-1-scaled.webp",
+    "images": [
+      "images/1016-Industries-Rolls-Royce-Cullinan-2-scaled.webp",
+      "images/1016-Industries-Rolls-Royce-Cullinan-3-scaled.webp",
+      "images/1016-Industries-Rolls-Royce-Cullinan-4-scaled.webp",
+      "images/1016-Industries-Rolls-Royce-Cullinan-5-scaled.webp",
+      "images/1016-Industries-Rolls-Royce-Cullinan-6-scaled.webp",
+      "images/1016-Industries-Rolls-Royce-Cullinan-9-scaled.jpg",
+      "images/1016-Industries-Rolls-Royce-Cullinan-10-scaled.jpg"
+    ],
+    "interior_images": [
+      "images/interior/cullinan-mr-interior-2.jpg",
+      "images/interior/R.jpg",
+      "images/interior/OIP.webp"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Excel Motors",
+      "tel": "0767890123",
+      "location": "Gigiri, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Porsche",
+    "model": "911 Carrera",
+    "year": 2024,
+    "color": "Guards Red",
+    "price": 25000000,
+    "engine_type": "3.0L Twin-Turbo Flat-6 Petrol",
+    "features": [
+      "Porsche Communication Management (PCM)",
+      "Porsche Active Suspension Management (PASM)",
+      "Sport Chrono Package",
+      "Rear-Axle Steering",
+      "Ceramic Composite Brakes (PCCB)"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+      "city_km_per_liter": 7.0,
+      "highway_km_per_liter": 10.0
+    },
+    "shipping_fee": 600000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 180,
+    "car_display_image": "https://example.com/images/porsche_911_carrera_display.jpg",
+    "images": [
+      "https://example.com/images/porsche_911_carrera_exterior_1.jpg",
+      "https://example.com/images/porsche_911_carrera_exterior_2.jpg",
+      "https://example.com/images/porsche_911_carrera_exterior_3.jpg",
+      "https://example.com/images/porsche_911_carrera_exterior_4.jpg",
+      "https://example.com/images/porsche_911_carrera_exterior_5.jpg",
+      "https://example.com/images/porsche_911_carrera_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/porsche_911_carrera_interior_1.jpg",
+      "https://example.com/images/porsche_911_carrera_interior_2.jpg",
+      "https://example.com/images/porsche_911_carrera_interior_3.jpg",
+      "https://example.com/images/porsche_911_carrera_interior_4.jpg",
+      "https://example.com/images/porsche_911_carrera_interior_5.jpg",
+      "https://example.com/images/porsche_911_carrera_interior_6.jpg",
+      "https://example.com/images/porsche_911_carrera_interior_7.jpg",
+      "https://example.com/images/porsche_911_carrera_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Porsche Centre Nairobi",
+      "tel": "0700000023",
+      "location": "Chiromo Road, Nairobi"
+    },
+    "car_type": "Sports Car"
+  },
+  {
+    "make": "Ferrari",
+    "model": "SF90 Stradale",
+    "year": 2024,
+    "color": "Rosso Corsa",
+    "price": 40000000,
+    "engine_type": "4.0L Twin-Turbo V8 Hybrid",
+    "features": [
+      "Plug-in Hybrid System",
+      "eSSC (electric Side Slip Control)",
+      "Matrix LED Headlights",
+      "Carbon Fibre Racing Seats",
+      "Assetto Fiorano Package"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+      "city_km_per_liter": 5.0,
+      "highway_km_per_liter": 8.0
+    },
+    "shipping_fee": 1000000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 400,
+    "car_display_image": "https://example.com/images/ferrari_sf90_stradale_display.jpg",
+    "images": [
+      "https://example.com/images/ferrari_sf90_stradale_exterior_1.jpg",
+      "https://example.com/images/ferrari_sf90_stradale_exterior_2.jpg",
+      "https://example.com/images/ferrari_sf90_stradale_exterior_3.jpg",
+      "https://example.com/images/ferrari_sf90_stradale_exterior_4.jpg",
+      "https://example.com/images/ferrari_sf90_stradale_exterior_5.jpg",
+      "https://example.com/images/ferrari_sf90_stradale_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/ferrari_sf90_stradale_interior_1.jpg",
+      "https://example.com/images/ferrari_sf90_stradale_interior_2.jpg",
+      "https://example.com/images/ferrari_sf90_stradale_interior_3.jpg",
+      "https://example.com/images/ferrari_sf90_stradale_interior_4.jpg",
+      "https://example.com/images/ferrari_sf90_stradale_interior_5.jpg",
+      "https://example.com/images/ferrari_sf90_stradale_interior_6.jpg",
+      "https://example.com/images/ferrari_sf90_stradale_interior_7.jpg",
+      "https://example.com/images/ferrari_sf90_stradale_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Mombasa Luxury Motors",
+      "tel": "0700000024",
+      "location": "Nyali, Mombasa"
+    },
+    "car_type": "Sports Car"
+  },
+  {
+    "make": "Lamborghini",
+    "model": "Huracan EVO",
+    "year": 2023,
+    "color": "Arancio Borealis",
+    "price": 35000000,
+    "engine_type": "5.2L Naturally Aspirated V10 Petrol",
+    "features": [
+      "Lamborghini Dinamica Veicolo Integrata (LDVI)",
+      "Touchscreen Infotainment",
+      "Carbon Ceramic Brakes",
+      "Magnetorheological Suspension",
+      "Aerodinamica Lamborghini Attiva (ALA)"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+      "city_km_per_liter": 6.0,
+      "highway_km_per_liter": 9.0
+    },
+    "shipping_fee": 800000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 250,
+    "car_display_image": "https://example.com/images/lamborghini_huracan_evo_display.jpg",
+    "images": [
+      "https://example.com/images/lamborghini_huracan_evo_exterior_1.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_exterior_2.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_exterior_3.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_exterior_4.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_exterior_5.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/lamborghini_huracan_evo_interior_1.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_interior_2.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_interior_3.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_interior_4.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_interior_5.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_interior_6.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_interior_7.jpg",
+      "https://example.com/images/lamborghini_huracan_evo_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Luxury Motors Kenya",
+      "tel": "0700000025",
+      "location": "Karen, Nairobi"
+    },
+    "car_type": "Sports Car"
+  },
+  {
+    "make": "Bentley",
+    "model": "Continental GT",
+    "year": 2023,
+    "color": "Moonbeam",
+    "price": 30000000,
+    "engine_type": "4.0L Twin-Turbo V8 Petrol",
+    "features": [
+      "Rotating Display",
+      "Naim for Bentley Audio",
+      "Adaptive Ride",
+      "Diamond Knurling",
+      "Touring Specification"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 4,
+    "fuel_efficiency": {
+      "city_km_per_liter": 6.5,
+      "highway_km_per_liter": 9.5
+    },
+    "shipping_fee": 700000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 200,
+    "car_display_image": "https://example.com/images/bentley_continental_gt_display.jpg",
+    "images": [
+      "https://example.com/images/bentley_continental_gt_exterior_1.jpg",
+      "https://example.com/images/bentley_continental_gt_exterior_2.jpg",
+      "https://example.com/images/bentley_continental_gt_exterior_3.jpg",
+      "https://example.com/images/bentley_continental_gt_exterior_4.jpg",
+      "https://example.com/images/bentley_continental_gt_exterior_5.jpg",
+      "https://example.com/images/bentley_continental_gt_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/bentley_continental_gt_interior_1.jpg",
+      "https://example.com/images/bentley_continental_gt_interior_2.jpg",
+      "https://example.com/images/bentley_continental_gt_interior_3.jpg",
+      "https://example.com/images/bentley_continental_gt_interior_4.jpg",
+      "https://example.com/images/bentley_continental_gt_interior_5.jpg",
+      "https://example.com/images/bentley_continental_gt_interior_6.jpg",
+      "https://example.com/images/bentley_continental_gt_interior_7.jpg",
+      "https://example.com/images/bentley_continental_gt_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Bentley Kenya",
+      "tel": "0700000026",
+      "location": "Karen, Nairobi"
+    },
+    "car_type": "Sports Car"
+  },
+  {
+    "make": "Rolls-Royce",
+    "model": "Cullinan",
+    "year": 2024,
+    "color": "Black Diamond",
+    "price": 60000000,
+    "engine_type": "6.75L Twin-Turbo V12 Petrol",
+    "features": [
+      "The Gallery Dashboard",
+      "Starlight Headliner",
+      "Recreational Module",
+      "Off-Road Mode",
+      "All-Wheel Drive"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 4.0,
+      "highway_km_per_liter": 7.0
+    },
+    "shipping_fee": 1500000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 300,
+    "car_display_image": "https://example.com/images/rollsroyce_cullinan_display.jpg",
+    "images": [
+      "https://example.com/images/rollsroyce_cullinan_exterior_1.jpg",
+      "https://example.com/images/rollsroyce_cullinan_exterior_2.jpg",
+      "https://example.com/images/rollsroyce_cullinan_exterior_3.jpg",
+      "https://example.com/images/rollsroyce_cullinan_exterior_4.jpg",
+      "https://example.com/images/rollsroyce_cullinan_exterior_5.jpg",
+      "https://example.com/images/rollsroyce_cullinan_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/rollsroyce_cullinan_interior_1.jpg",
+      "https://example.com/images/rollsroyce_cullinan_interior_2.jpg",
+      "https://example.com/images/rollsroyce_cullinan_interior_3.jpg",
+      "https://example.com/images/rollsroyce_cullinan_interior_4.jpg",
+      "https://example.com/images/rollsroyce_cullinan_interior_5.jpg",
+      "https://example.com/images/rollsroyce_cullinan_interior_6.jpg",
+      "https://example.com/images/rollsroyce_cullinan_interior_7.jpg",
+      "https://example.com/images/rollsroyce_cullinan_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Rolls-Royce Kenya",
+      "tel": "0700000027",
+      "location": "Muthaiga, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Aston Martin",
+    "model": "DBX707",
+    "year": 2024,
+    "color": "Satin Aston Martin Green",
+    "price": 27000000,
+    "engine_type": "4.0L Twin-Turbo V8 Petrol",
+    "features": [
+      "Carbon Ceramic Brakes",
+      "Electronic Active Roll Control",
+      "Adaptive Triple Chamber Air Suspension",
+      "Sport Exhaust",
+      "Alcantara Headlining"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 6.0,
+      "highway_km_per_liter": 9.0
+    },
+    "shipping_fee": 650000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 180,
+    "car_display_image": "https://example.com/images/aston_martin_dbx707_display.jpg",
+    "images": [
+      "https://example.com/images/aston_martin_dbx707_exterior_1.jpg",
+      "https://example.com/images/aston_martin_dbx707_exterior_2.jpg",
+      "https://example.com/images/aston_martin_dbx707_exterior_3.jpg",
+      "https://example.com/images/aston_martin_dbx707_exterior_4.jpg",
+      "https://example.com/images/aston_martin_dbx707_exterior_5.jpg",
+      "https://example.com/images/aston_martin_dbx707_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/aston_martin_dbx707_interior_1.jpg",
+      "https://example.com/images/aston_martin_dbx707_interior_2.jpg",
+      "https://example.com/images/aston_martin_dbx707_interior_3.jpg",
+      "https://example.com/images/aston_martin_dbx707_interior_4.jpg",
+      "https://example.com/images/aston_martin_dbx707_interior_5.jpg",
+      "https://example.com/images/aston_martin_dbx707_interior_6.jpg",
+      "https://example.com/images/aston_martin_dbx707_interior_7.jpg",
+      "https://example.com/images/aston_martin_dbx707_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Aston Martin Kenya",
+      "tel": "0700000028",
+      "location": "Westlands, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "McLaren",
+    "model": "750S",
+    "year": 2024,
+    "color": "Volcano Orange",
+    "price": 38000000,
+    "engine_type": "4.0L Twin-Turbo V8 Petrol",
+    "features": [
+      "Proactive Chassis Control III",
+      "Carbon Fibre Monocage",
+      "Active Aerodynamics",
+      "Electro-Hydraulic Steering",
+      "Ceramic Brakes"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 2,
+    "fuel_efficiency": {
+      "city_km_per_liter": 5.5,
+      "highway_km_per_liter": 8.5
+    },
+    "shipping_fee": 900000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 280,
+    "car_display_image": "https://example.com/images/mclaren_750s_display.jpg",
+    "images": [
+      "https://example.com/images/mclaren_750s_exterior_1.jpg",
+      "https://example.com/images/mclaren_750s_exterior_2.jpg",
+      "https://example.com/images/mclaren_750s_exterior_3.jpg",
+      "https://example.com/images/mclaren_750s_exterior_4.jpg",
+      "https://example.com/images/mclaren_750s_exterior_5.jpg",
+      "https://example.com/images/mclaren_750s_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mclaren_750s_interior_1.jpg",
+      "https://example.com/images/mclaren_750s_interior_2.jpg",
+      "https://example.com/images/mclaren_750s_interior_3.jpg",
+      "https://example.com/images/mclaren_750s_interior_4.jpg",
+      "https://example.com/images/mclaren_750s_interior_5.jpg",
+      "https://example.com/images/mclaren_750s_interior_6.jpg",
+      "https://example.com/images/mclaren_750s_interior_7.jpg",
+      "https://example.com/images/mclaren_750s_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Luxury Car Imports Kenya",
+      "tel": "0700000029",
+      "location": "Runda, Nairobi"
+    },
+    "car_type": "Sports Car"
+  },
+  {
+    "make": "Mercedes-AMG",
+    "model": "GT 63 S E Performance",
+    "year": 2024,
+    "color": "Graphite Grey Magno",
+    "price": 22000000,
+    "engine_type": "4.0L Twin-Turbo V8 Hybrid",
+    "features": [
+      "AMG Performance 4MATIC+",
+      "AMG RIDE CONTROL+ Suspension",
+      "Rear-Axle Steering",
+      "AMG High-Performance Composite Braking System",
+      "Hybrid Powertrain"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 4,
+    "fuel_efficiency": {
+      "city_km_per_liter": 7.0,
+      "highway_km_per_liter": 10.0
+    },
+    "shipping_fee": 500000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 150,
+    "car_display_image": "https://example.com/images/amg_gt63s_e_display.jpg",
+    "images": [
+      "https://example.com/images/amg_gt63s_e_exterior_1.jpg",
+      "https://example.com/images/amg_gt63s_e_exterior_2.jpg",
+      "https://example.com/images/amg_gt63s_e_exterior_3.jpg",
+      "https://example.com/images/amg_gt63s_e_exterior_4.jpg",
+      "https://example.com/images/amg_gt63s_e_exterior_5.jpg",
+      "https://example.com/images/amg_gt63s_e_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/amg_gt63s_e_interior_1.jpg",
+      "https://example.com/images/amg_gt63s_e_interior_2.jpg",
+      "https://example.com/images/amg_gt63s_e_interior_3.jpg",
+      "https://example.com/images/amg_gt63s_e_interior_4.jpg",
+      "https://example.com/images/amg_gt63s_e_interior_5.jpg",
+      "https://example.com/images/amg_gt63s_e_interior_6.jpg",
+      "https://example.com/images/amg_gt63s_e_interior_7.jpg",
+      "https://example.com/images/amg_gt63s_e_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Mercedes-Benz Kenya (AMG Specialist)",
+      "tel": "0700000030",
+      "location": "Westlands, Nairobi"
+    },
+    "car_type": "Sedan"
+  },
+  {
+    "make": "BMW",
+    "model": "M3 Competition",
+    "year": 2023,
+    "color": "Isle of Man Green Metallic",
+    "price": 14000000,
+    "engine_type": "3.0L Twin-Turbo Inline-6 Petrol",
+    "features": [
+      "M Drive Professional",
+      "M Carbon Ceramic Brakes",
+      "Adaptive M Suspension",
+      "M Sport Differential",
+      "Carbon Fibre Exterior Package"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 8.0,
+      "highway_km_per_liter": 11.0
+    },
+    "shipping_fee": 400000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 100,
+    "car_display_image": "https://example.com/images/bmw_m3_competition_display.jpg",
+    "images": [
+      "https://example.com/images/bmw_m3_competition_exterior_1.jpg",
+      "https://example.com/images/bmw_m3_competition_exterior_2.jpg",
+      "https://example.com/images/bmw_m3_competition_exterior_3.jpg",
+      "https://example.com/images/bmw_m3_competition_exterior_4.jpg",
+      "https://example.com/images/bmw_m3_competition_exterior_5.jpg",
+      "https://example.com/images/bmw_m3_competition_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/bmw_m3_competition_interior_1.jpg",
+      "https://example.com/images/bmw_m3_competition_interior_2.jpg",
+      "https://example.com/images/bmw_m3_competition_interior_3.jpg",
+      "https://example.com/images/bmw_m3_competition_interior_4.jpg",
+      "https://example.com/images/bmw_m3_competition_interior_5.jpg",
+      "https://example.com/images/bmw_m3_competition_interior_6.jpg",
+      "https://example.com/images/bmw_m3_competition_interior_7.jpg",
+      "https://example.com/images/bmw_m3_competition_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "BMW Kenya",
+      "tel": "0700000031",
+      "location": "Lusaka Road, Nairobi"
+    },
+    "car_type": "Sedan"
+  },
+  {
+    "make": "Audi",
+    "model": "RS 7 Sportback",
+    "year": 2023,
+    "color": "Nardo Gray",
+    "price": 18000000,
+    "engine_type": "4.0L Twin-Turbo V8 Petrol",
+    "features": [
+      "quattro All-Wheel Drive",
+      "RS Adaptive Air Suspension",
+      "Dynamic All-Wheel Steering",
+      "RS Sport Exhaust",
+      "Valcona Leather Interior"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 7.5,
+      "highway_km_per_liter": 10.5
+    },
+    "shipping_fee": 450000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 130,
+    "car_display_image": "https://example.com/images/audi_rs7_sportback_display.jpg",
+    "images": [
+      "https://example.com/images/audi_rs7_sportback_exterior_1.jpg",
+      "https://example.com/images/audi_rs7_sportback_exterior_2.jpg",
+      "https://example.com/images/audi_rs7_sportback_exterior_3.jpg",
+      "https://example.com/images/audi_rs7_sportback_exterior_4.jpg",
+      "https://example.com/images/audi_rs7_sportback_exterior_5.jpg",
+      "https://example.com/images/audi_rs7_sportback_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/audi_rs7_sportback_interior_1.jpg",
+      "https://example.com/images/audi_rs7_sportback_interior_2.jpg",
+      "https://example.com/images/audi_rs7_sportback_interior_3.jpg",
+      "https://example.com/images/audi_rs7_sportback_interior_4.jpg",
+      "https://example.com/images/audi_rs7_sportback_interior_5.jpg",
+      "https://example.com/images/audi_rs7_sportback_interior_6.jpg",
+      "https://example.com/images/audi_rs7_sportback_interior_7.jpg",
+      "https://example.com/images/audi_rs7_sportback_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Audi Kenya",
+      "tel": "0700000032",
+      "location": "Karen, Nairobi"
+    },
+    "car_type": "Hatchback"
+  },
+  {
+    "make": "Porsche",
+    "model": "Cayenne Turbo GT",
+    "year": 2024,
+    "color": "Arctic Grey",
+    "price": 20000000,
+    "engine_type": "4.0L Twin-Turbo V8 Petrol",
+    "features": [
+      "Porsche Ceramic Composite Brakes (PCCB)",
+      "Porsche Active Suspension Management (PASM)",
+      "Porsche Dynamic Chassis Control (PDCC)",
+      "Rear-Axle Steering",
+      "Sport Exhaust System with Titanium Tailpipes"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 4,
+    "fuel_efficiency": {
+      "city_km_per_liter": 6.5,
+      "highway_km_per_liter": 9.5
+    },
+    "shipping_fee": 550000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 160,
+    "car_display_image": "https://example.com/images/porsche_cayenne_turbo_gt_display.jpg",
+    "images": [
+      "https://example.com/images/porsche_cayenne_turbo_gt_exterior_1.jpg",
+      "https://example.com/images/porsche_cayenne_turbo_gt_exterior_2.jpg",
+      "https://example.com/images/porsche_cayenne_turbo_gt_exterior_3.jpg",
+      "https://example.com/images/porsche_cayenne_turbo_gt_exterior_4.jpg",
+      "https://example.com/images/porsche_cayenne_turbo_gt_exterior_5.jpg",
+      "https://example.com/images/porsche_cayenne_turbo_gt_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/porsche_cayenne_turbo_gt_interior_1.jpg",
+      "https://example.com/images/porsche_cayenne_turbo_gt_interior_2.jpg",
+      "https://example.com/images/porsche_cayenne_turbo_gt_interior_3.jpg",
+      "https://example.com/images/porsche_cayenne_turbo_gt_interior_4.jpg",
+      "https://example.com/images/porsche_cayenne_turbo_gt_interior_5.jpg",
+      "https://example.com/images/porsche_cayenne_turbo_gt_interior_6.jpg",
+      "https://example.com/images/porsche_cayenne_turbo_gt_interior_7.jpg",
+      "https://example.com/images/porsche_cayenne_turbo_gt_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Porsche Centre Nairobi",
+      "tel": "0700000033",
+      "location": "Chiromo Road, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Ferrari",
+    "model": "Purosangue",
+    "year": 2024,
+    "color": "Blu Pozzi",
+    "price": 50000000,
+    "engine_type": "6.5L Naturally Aspirated V12 Petrol",
+    "features": [
+      "Ferrari Active Suspension Technology (FAST)",
+      "All-Wheel Drive",
+      "Four-Wheel Steering",
+      "Suicide Doors",
+      "Bespoke Interior Options"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 4,
+    "fuel_efficiency": {
+      "city_km_per_liter": 4.5,
+      "highway_km_per_liter": 7.5
+    },
+    "shipping_fee": 1200000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 380,
+    "car_display_image": "https://example.com/images/ferrari_purosangue_display.jpg",
+    "images": [
+      "https://example.com/images/ferrari_purosangue_exterior_1.jpg",
+      "https://example.com/images/ferrari_purosangue_exterior_2.jpg",
+      "https://example.com/images/ferrari_purosangue_exterior_3.jpg",
+      "https://example.com/images/ferrari_purosangue_exterior_4.jpg",
+      "https://example.com/images/ferrari_purosangue_exterior_5.jpg",
+      "https://example.com/images/ferrari_purosangue_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/ferrari_purosangue_interior_1.jpg",
+      "https://example.com/images/ferrari_purosangue_interior_2.jpg",
+      "https://example.com/images/ferrari_purosangue_interior_3.jpg",
+      "https://example.com/images/ferrari_purosangue_interior_4.jpg",
+      "https://example.com/images/ferrari_purosangue_interior_5.jpg",
+      "https://example.com/images/ferrari_purosangue_interior_6.jpg",
+      "https://example.com/images/ferrari_purosangue_interior_7.jpg",
+      "https://example.com/images/ferrari_purosangue_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Mombasa Luxury Motors",
+      "tel": "0700000034",
+      "location": "Nyali, Mombasa"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Lamborghini",
+    "model": "Urus Performante",
+    "year": 2023,
+    "color": "Giallo Auge",
+    "price": 42000000,
+    "engine_type": "4.0L Twin-Turbo V8 Petrol",
+    "features": [
+      "Akrapovič Titanium Exhaust",
+      "Carbon Fibre Elements",
+      "Rally Mode",
+      "Torque Vectoring Rear Differential",
+      "Alcantara Interior"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 5.0,
+      "highway_km_per_liter": 8.0
+    },
+    "shipping_fee": 1000000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 260,
+    "car_display_image": "https://example.com/images/lamborghini_urus_performante_display.jpg",
+    "images": [
+      "https://example.com/images/lamborghini_urus_performante_exterior_1.jpg",
+      "https://example.com/images/lamborghini_urus_performante_exterior_2.jpg",
+      "https://example.com/images/lamborghini_urus_performante_exterior_3.jpg",
+      "https://example.com/images/lamborghini_urus_performante_exterior_4.jpg",
+      "https://example.com/images/lamborghini_urus_performante_exterior_5.jpg",
+      "https://example.com/images/lamborghini_urus_performante_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/lamborghini_urus_performante_interior_1.jpg",
+      "https://example.com/images/lamborghini_urus_performante_interior_2.jpg",
+      "https://example.com/images/lamborghini_urus_performante_interior_3.jpg",
+      "https://example.com/images/lamborghini_urus_performante_interior_4.jpg",
+      "https://example.com/images/lamborghini_urus_performante_interior_5.jpg",
+      "https://example.com/images/lamborghini_urus_performante_interior_6.jpg",
+      "https://example.com/images/lamborghini_urus_performante_interior_7.jpg",
+      "https://example.com/images/lamborghini_urus_performante_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Luxury Motors Kenya",
+      "tel": "0700000035",
+      "location": "Karen, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Toyota",
+    "model": "Hilux",
+    "year": 2022,
+    "color": "Super White",
+    "price": 4200000,
+    "engine_type": "2.8L Turbo Diesel",
+    "features": [
+      "Toyota Safety Sense",
+      "Off-Road Capabilities",
+      "Differential Lock",
+      "Touchscreen Display",
+      "Durable Chassis"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 9.0,
+      "highway_km_per_liter": 12.0
+    },
+    "shipping_fee": 170000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 60,
+    "car_display_image": "https://example.com/images/toyota_hilux_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_hilux_exterior_1.jpg",
+      "https://example.com/images/toyota_hilux_exterior_2.jpg",
+      "https://example.com/images/toyota_hilux_exterior_3.jpg",
+      "https://example.com/images/toyota_hilux_exterior_4.jpg",
+      "https://example.com/images/toyota_hilux_exterior_5.jpg",
+      "https://example.com/images/toyota_hilux_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_hilux_interior_1.jpg",
+      "https://example.com/images/toyota_hilux_interior_2.jpg",
+      "https://example.com/images/toyota_hilux_interior_3.jpg",
+      "https://example.com/images/toyota_hilux_interior_4.jpg",
+      "https://example.com/images/toyota_hilux_interior_5.jpg",
+      "https://example.com/images/toyota_hilux_interior_6.jpg",
+      "https://example.com/images/toyota_hilux_interior_7.jpg",
+      "https://example.com/images/toyota_hilux_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Toyota Kenya",
+      "tel": "0700000036",
+      "location": "Uhuru Highway, Nairobi"
+    },
+    "car_type": "Truck"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "G-Class",
+    "year": 2024,
+    "color": "Emerald Green Metallic",
+    "price": 25000000,
+    "engine_type": "4.0L Twin-Turbo V8 Petrol",
+    "features": [
+      "Three Differential Locks",
+      "G-Mode",
+      "Burmester Surround Sound System",
+      "Widescreen Cockpit",
+      "Exclusive Interior Plus Package"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 6.0,
+      "highway_km_per_liter": 9.0
+    },
+    "shipping_fee": 600000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 200,
+    "car_display_image": "https://example.com/images/mercedes_g_class_display.jpg",
+    "images": [
+      "https://example.com/images/mercedes_g_class_exterior_1.jpg",
+      "https://example.com/images/mercedes_g_class_exterior_2.jpg",
+      "https://example.com/images/mercedes_g_class_exterior_3.jpg",
+      "https://example.com/images/mercedes_g_class_exterior_4.jpg",
+      "https://example.com/images/mercedes_g_class_exterior_5.jpg",
+      "https://example.com/images/mercedes_g_class_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mercedes_g_class_interior_1.jpg",
+      "https://example.com/images/mercedes_g_class_interior_2.jpg",
+      "https://example.com/images/mercedes_g_class_interior_3.jpg",
+      "https://example.com/images/mercedes_g_class_interior_4.jpg",
+      "https://example.com/images/mercedes_g_class_interior_5.jpg",
+      "https://example.com/images/mercedes_g_class_interior_6.jpg",
+      "https://example.com/images/mercedes_g_class_interior_7.jpg",
+      "https://example.com/images/mercedes_g_class_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Mercedes-Benz Kenya",
+      "tel": "0700000037",
+      "location": "Westlands, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "BMW",
+    "model": "iX",
+    "year": 2023,
+    "color": "Sophisto Grey Brilliant Effect Metallic",
+    "price": 13000000,
+    "engine_type": "Electric",
+    "features": [
+      "BMW Curved Display",
+      "Harman Kardon Surround Sound System",
+      "Active Driving Assistant Pro",
+      "Sky Lounge LED Roof",
+      "Integrated Universal Remote Control"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": null,
+      "highway_km_per_liter": null
+    },
+    "shipping_fee": 350000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 100,
+    "car_display_image": "https://example.com/images/bmw_ix_display.jpg",
+    "images": [
+      "https://example.com/images/bmw_ix_exterior_1.jpg",
+      "https://example.com/images/bmw_ix_exterior_2.jpg",
+      "https://example.com/images/bmw_ix_exterior_3.jpg",
+      "https://example.com/images/bmw_ix_exterior_4.jpg",
+      "https://example.com/images/bmw_ix_exterior_5.jpg",
+      "https://example.com/images/bmw_ix_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/bmw_ix_interior_1.jpg",
+      "https://example.com/images/bmw_ix_interior_2.jpg",
+      "https://example.com/images/bmw_ix_interior_3.jpg",
+      "https://example.com/images/bmw_ix_interior_4.jpg",
+      "https://example.com/images/bmw_ix_interior_5.jpg",
+      "https://example.com/images/bmw_ix_interior_6.jpg",
+      "https://example.com/images/bmw_ix_interior_7.jpg",
+      "https://example.com/images/bmw_ix_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "BMW Kenya",
+      "tel": "0700000038",
+      "location": "Lusaka Road, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Tesla",
+    "model": "Model X",
+    "year": 2023,
+    "color": "Deep Blue Metallic",
+    "price": 15000000,
+    "engine_type": "Electric",
+    "features": [
+      "Falcon Wing Doors",
+      "Tri-Motor All-Wheel Drive",
+      "22-inch Turbine Wheels",
+      "HEPA Air Filtration System",
+      "Yoke Steering Wheel"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": null,
+      "highway_km_per_liter": null
+    },
+    "shipping_fee": 400000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 150,
+    "car_display_image": "https://example.com/images/tesla_modelx_display.jpg",
+    "images": [
+      "https://example.com/images/tesla_modelx_exterior_1.jpg",
+      "https://example.com/images/tesla_modelx_exterior_2.jpg",
+      "https://example.com/images/tesla_modelx_exterior_3.jpg",
+      "https://example.com/images/tesla_modelx_exterior_4.jpg",
+      "https://example.com/images/tesla_modelx_exterior_5.jpg",
+      "https://example.com/images/tesla_modelx_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/tesla_modelx_interior_1.jpg",
+      "https://example.com/images/tesla_modelx_interior_2.jpg",
+      "https://example.com/images/tesla_modelx_interior_3.jpg",
+      "https://example.com/images/tesla_modelx_interior_4.jpg",
+      "https://example.com/images/tesla_modelx_interior_5.jpg",
+      "https://example.com/images/tesla_modelx_interior_6.jpg",
+      "https://example.com/images/tesla_modelx_interior_7.jpg",
+      "https://example.com/images/tesla_modelx_interior_8.jpg"
+    ],
+    "electric": true,
+    "contact_agent": {
+      "name": "Tesla Kenya (unofficial)",
+      "tel": "0700000039",
+      "location": "Gigiri, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Toyota",
+    "model": "Land Cruiser 300 Series",
+    "year": 2024,
+    "color": "Pearl White",
+    "price": 18000000,
+    "engine_type": "3.5L Twin-Turbo V6 Petrol",
+    "features": [
+      "Toyota Safety Sense 2.5",
+      "Multi-Terrain Select",
+      "Crawl Control",
+      "12.3-inch Infotainment Display",
+      "Executive Seating Package"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 7.0,
+      "highway_km_per_liter": 10.0
+    },
+    "shipping_fee": 500000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 180,
+    "car_display_image": "https://example.com/images/toyota_landcruiser_300_display.jpg",
+    "images": [
+      "https://example.com/images/toyota_landcruiser_300_exterior_1.jpg",
+      "https://example.com/images/toyota_landcruiser_300_exterior_2.jpg",
+      "https://example.com/images/toyota_landcruiser_300_exterior_3.jpg",
+      "https://example.com/images/toyota_landcruiser_300_exterior_4.jpg",
+      "https://example.com/images/toyota_landcruiser_300_exterior_5.jpg",
+      "https://example.com/images/toyota_landcruiser_300_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/toyota_landcruiser_300_interior_1.jpg",
+      "https://example.com/images/toyota_landcruiser_300_interior_2.jpg",
+      "https://example.com/images/toyota_landcruiser_300_interior_3.jpg",
+      "https://example.com/images/toyota_landcruiser_300_interior_4.jpg",
+      "https://example.com/images/toyota_landcruiser_300_interior_5.jpg",
+      "https://example.com/images/toyota_landcruiser_300_interior_6.jpg",
+      "https://example.com/images/toyota_landcruiser_300_interior_7.jpg",
+      "https://example.com/images/toyota_landcruiser_300_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Toyota Kenya",
+      "tel": "0700000040",
+      "location": "Uhuru Highway, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2023,
+    "color": "Oxford White",
+    "price": 7000000,
+    "engine_type": "3.5L EcoBoost V6 Petrol",
+    "features": [
+      "Pro Power Onboard",
+      "Max Trailer Tow Package",
+      "SYNC 4 with 12-inch Screen",
+      "Ford Co-Pilot360 2.0",
+      "Built-in Work Surface"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 6,
+    "fuel_efficiency": {
+      "city_km_per_liter": 6.5,
+      "highway_km_per_liter": 9.0
+    },
+    "shipping_fee": 250000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 90,
+    "car_display_image": "https://example.com/images/ford_f150_display.jpg",
+    "images": [
+      "https://example.com/images/ford_f150_exterior_1.jpg",
+      "https://example.com/images/ford_f150_exterior_2.jpg",
+      "https://example.com/images/ford_f150_exterior_3.jpg",
+      "https://example.com/images/ford_f150_exterior_4.jpg",
+      "https://example.com/images/ford_f150_exterior_5.jpg",
+      "https://example.com/images/ford_f150_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/ford_f150_interior_1.jpg",
+      "https://example.com/images/ford_f150_interior_2.jpg",
+      "https://example.com/images/ford_f150_interior_3.jpg",
+      "https://example.com/images/ford_f150_interior_4.jpg",
+      "https://example.com/images/ford_f150_interior_5.jpg",
+      "https://example.com/images/ford_f150_interior_6.jpg",
+      "https://example.com/images/ford_f150_interior_7.jpg",
+      "https://example.com/images/ford_f150_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "CMC Motors Group",
+      "tel": "0700000041",
+      "location": "Lusaka Road, Nairobi"
+    },
+    "car_type": "Truck"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Touareg",
+    "year": 2022,
+    "color": "Deep Black Pearl Effect",
+    "price": 8000000,
+    "engine_type": "3.0L V6 Turbo Diesel",
+    "features": [
+      "Innovision Cockpit",
+      "IQ.LIGHT – Matrix LED Headlights",
+      "Air Suspension",
+      "Night Vision",
+      "Head-up Display"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 10.0,
+      "highway_km_per_liter": 13.0
+    },
+    "shipping_fee": 280000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 80,
+    "car_display_image": "https://example.com/images/vw_touareg_display.jpg",
+    "images": [
+      "https://example.com/images/vw_touareg_exterior_1.jpg",
+      "https://example.com/images/vw_touareg_exterior_2.jpg",
+      "https://example.com/images/vw_touareg_exterior_3.jpg",
+      "https://example.com/images/vw_touareg_exterior_4.jpg",
+      "https://example.com/images/vw_touareg_exterior_5.jpg",
+      "https://example.com/images/vw_touareg_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/vw_touareg_interior_1.jpg",
+      "https://example.com/images/vw_touareg_interior_2.jpg",
+      "https://example.com/images/vw_touareg_interior_3.jpg",
+      "https://example.com/images/vw_touareg_interior_4.jpg",
+      "https://example.com/images/vw_touareg_interior_5.jpg",
+      "https://example.com/images/vw_touareg_interior_6.jpg",
+      "https://example.com/images/vw_touareg_interior_7.jpg",
+      "https://example.com/images/vw_touareg_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "DT Dobie",
+      "tel": "0700000042",
+      "location": "Baba Dogo Road, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Audi",
+    "model": "Q7",
+    "year": 2023,
+    "color": "Navarra Blue Metallic",
+    "price": 9500000,
+    "engine_type": "3.0L V6 Turbo Petrol",
+    "features": [
+      "MMI Touch Response",
+      "Bang & Olufsen 3D Advanced Sound System",
+      "Adaptive Air Suspension",
+      "All-Wheel Steering",
+      "Matrix-Design LED Headlights"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 9.0,
+      "highway_km_per_liter": 12.0
+    },
+    "shipping_fee": 320000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 95,
+    "car_display_image": "https://example.com/images/audi_q7_display.jpg",
+    "images": [
+      "https://example.com/images/audi_q7_exterior_1.jpg",
+      "https://example.com/images/audi_q7_exterior_2.jpg",
+      "https://example.com/images/audi_q7_exterior_3.jpg",
+      "https://example.com/images/audi_q7_exterior_4.jpg",
+      "https://example.com/images/audi_q7_exterior_5.jpg",
+      "https://example.com/images/audi_q7_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/audi_q7_interior_1.jpg",
+      "https://example.com/images/audi_q7_interior_2.jpg",
+      "https://example.com/images/audi_q7_interior_3.jpg",
+      "https://example.com/images/audi_q7_interior_4.jpg",
+      "https://example.com/images/audi_q7_interior_5.jpg",
+      "https://example.com/images/audi_q7_interior_6.jpg",
+      "https://example.com/images/audi_q7_interior_7.jpg",
+      "https://example.com/images/audi_q7_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Audi Kenya",
+      "tel": "0700000043",
+      "location": "Karen, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Subaru",
+    "model": "Outback",
+    "year": 2022,
+    "color": "Autumn Green Metallic",
+    "price": 4000000,
+    "engine_type": "2.5L Boxer Petrol",
+    "features": [
+      "Subaru EyeSight Driver Assist",
+      "Symmetrical All-Wheel Drive",
+      "STARLINK 11.6-inch Multimedia",
+      "X-MODE with Dual-Function",
+      "Hands-Free Power Rear Gate"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 11.5,
+      "highway_km_per_liter": 14.5
+    },
+    "shipping_fee": 150000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 55,
+    "car_display_image": "https://example.com/images/subaru_outback_display.jpg",
+    "images": [
+      "https://example.com/images/subaru_outback_exterior_1.jpg",
+      "https://example.com/images/subaru_outback_exterior_2.jpg",
+      "https://example.com/images/subaru_outback_exterior_3.jpg",
+      "https://example.com/images/subaru_outback_exterior_4.jpg",
+      "https://example.com/images/subaru_outback_exterior_5.jpg",
+      "https://example.com/images/subaru_outback_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/subaru_outback_interior_1.jpg",
+      "https://example.com/images/subaru_outback_interior_2.jpg",
+      "https://example.com/images/subaru_outback_interior_3.jpg",
+      "https://example.com/images/subaru_outback_interior_4.jpg",
+      "https://example.com/images/subaru_outback_interior_5.jpg",
+      "https://example.com/images/subaru_outback_interior_6.jpg",
+      "https://example.com/images/subaru_outback_interior_7.jpg",
+      "https://example.com/images/subaru_outback_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Subaru Kenya",
+      "tel": "0700000044",
+      "location": "Enterprise Road, Nairobi"
+    },
+    "car_type": "Wagon"
+  },
+  {
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "year": 2023,
+    "color": "Bright White Clear-Coat",
+    "price": 8500000,
+    "engine_type": "3.6L Pentastar V6 Petrol",
+    "features": [
+      "Quadra-Trac II 4x4 System",
+      "Quadra-Lift Air Suspension",
+      "Uconnect 5 with 10.1-inch Display",
+      "Night Vision Camera",
+      "McIntosh Audio System"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 7.5,
+      "highway_km_per_liter": 11.0
+    },
+    "shipping_fee": 280000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 90,
+    "car_display_image": "https://example.com/images/jeep_grand_cherokee_display.jpg",
+    "images": [
+      "https://example.com/images/jeep_grand_cherokee_exterior_1.jpg",
+      "https://example.com/images/jeep_grand_cherokee_exterior_2.jpg",
+      "https://example.com/images/jeep_grand_cherokee_exterior_3.jpg",
+      "https://example.com/images/jeep_grand_cherokee_exterior_4.jpg",
+      "https://example.com/images/jeep_grand_cherokee_exterior_5.jpg",
+      "https://example.com/images/jeep_grand_cherokee_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/jeep_grand_cherokee_interior_1.jpg",
+      "https://example.com/images/jeep_grand_cherokee_interior_2.jpg",
+      "https://example.com/images/jeep_grand_cherokee_interior_3.jpg",
+      "https://example.com/images/jeep_grand_cherokee_interior_4.jpg",
+      "https://example.com/images/jeep_grand_cherokee_interior_5.jpg",
+      "https://example.com/images/jeep_grand_cherokee_interior_6.jpg",
+      "https://example.com/images/jeep_grand_cherokee_interior_7.jpg",
+      "https://example.com/images/jeep_grand_cherokee_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "FCA Kenya",
+      "tel": "0700000045",
+      "location": "Limuru Road, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Santa Fe",
+    "year": 2022,
+    "color": "Stormy Sea",
+    "price": 4200000,
+    "engine_type": "2.5L Petrol",
+    "features": [
+      "Hyundai SmartSense",
+      "HTRAC All-Wheel Drive",
+      "10.25-inch Touchscreen Navigation",
+      "Harman Kardon Premium Audio",
+      "Blind-Spot View Monitor"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 10.5,
+      "highway_km_per_liter": 13.5
+    },
+    "shipping_fee": 160000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 65,
+    "car_display_image": "https://example.com/images/hyundai_santafe_display.jpg",
+    "images": [
+      "https://example.com/images/hyundai_santafe_exterior_1.jpg",
+      "https://example.com/images/hyundai_santafe_exterior_2.jpg",
+      "https://example.com/images/hyundai_santafe_exterior_3.jpg",
+      "https://example.com/images/hyundai_santafe_exterior_4.jpg",
+      "https://example.com/images/hyundai_santafe_exterior_5.jpg",
+      "https://example.com/images/hyundai_santafe_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/hyundai_santafe_interior_1.jpg",
+      "https://example.com/images/hyundai_santafe_interior_2.jpg",
+      "https://example.com/images/hyundai_santafe_interior_3.jpg",
+      "https://example.com/images/hyundai_santafe_interior_4.jpg",
+      "https://example.com/images/hyundai_santafe_interior_5.jpg",
+      "https://example.com/images/hyundai_santafe_interior_6.jpg",
+      "https://example.com/images/hyundai_santafe_interior_7.jpg",
+      "https://example.com/images/hyundai_santafe_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Hyundai Kenya",
+      "tel": "0700000046",
+      "location": "Mombasa Road, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Kia",
+    "model": "Sorento",
+    "year": 2023,
+    "color": "Everlasting Silver",
+    "price": 4300000,
+    "engine_type": "2.5L Petrol",
+    "features": [
+      "Kia Drive Wise",
+      "Available AWD",
+      "10.25-inch Touchscreen",
+      "Bose Premium Audio",
+      "Smart Power Liftgate"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 10.0,
+      "highway_km_per_liter": 13.0
+    },
+    "shipping_fee": 165000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 65,
+    "car_display_image": "https://example.com/images/kia_sorento_display.jpg",
+    "images": [
+      "https://example.com/images/kia_sorento_exterior_1.jpg",
+      "https://example.com/images/kia_sorento_exterior_2.jpg",
+      "https://example.com/images/kia_sorento_exterior_3.jpg",
+      "https://example.com/images/kia_sorento_exterior_4.jpg",
+      "https://example.com/images/kia_sorento_exterior_5.jpg",
+      "https://example.com/images/kia_sorento_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/kia_sorento_interior_1.jpg",
+      "https://example.com/images/kia_sorento_interior_2.jpg",
+      "https://example.com/images/kia_sorento_interior_3.jpg",
+      "https://example.com/images/kia_sorento_interior_4.jpg",
+      "https://example.com/images/kia_sorento_interior_5.jpg",
+      "https://example.com/images/kia_sorento_interior_6.jpg",
+      "https://example.com/images/kia_sorento_interior_7.jpg",
+      "https://example.com/images/kia_sorento_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Kia Motors Kenya",
+      "tel": "0700000047",
+      "location": "Mombasa Road, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Mazda",
+    "model": "CX-9",
+    "year": 2022,
+    "color": "Deep Crystal Blue Mica",
+    "price": 4000000,
+    "engine_type": "2.5L Turbo Skyactiv-G Petrol",
+    "features": [
+      "Mazda i-Activsense",
+      "i-Activ AWD",
+      "Bose 12-speaker Audio",
+      "Head-Up Display",
+      "Third-Row Seating"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 10.0,
+      "highway_km_per_liter": 13.0
+    },
+    "shipping_fee": 150000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 60,
+    "car_display_image": "https://example.com/images/mazda_cx9_display.jpg",
+    "images": [
+      "https://example.com/images/mazda_cx9_exterior_1.jpg",
+      "https://example.com/images/mazda_cx9_exterior_2.jpg",
+      "https://example.com/images/mazda_cx9_exterior_3.jpg",
+      "https://example.com/images/mazda_cx9_exterior_4.jpg",
+      "https://example.com/images/mazda_cx9_exterior_5.jpg",
+      "https://example.com/images/mazda_cx9_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mazda_cx9_interior_1.jpg",
+      "https://example.com/images/mazda_cx9_interior_2.jpg",
+      "https://example.com/images/mazda_cx9_interior_3.jpg",
+      "https://example.com/images/mazda_cx9_interior_4.jpg",
+      "https://example.com/images/mazda_cx9_interior_5.jpg",
+      "https://example.com/images/mazda_cx9_interior_6.jpg",
+      "https://example.com/images/mazda_cx9_interior_7.jpg",
+      "https://example.com/images/mazda_cx9_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Mazda Kenya",
+      "tel": "0700000048",
+      "location": "Ngong Road, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Nissan",
+    "model": "Titan",
+    "year": 2023,
+    "color": "Gun Metallic",
+    "price": 6500000,
+    "engine_type": "5.6L Endurance V8 Petrol",
+    "features": [
+      "Nissan Safety Shield 360",
+      "Intelligent Around View Monitor",
+      "Utili-track Channel System",
+      "Integrated Gooseneck Hitch",
+      "Fender Premium Audio System"
+    ],
+    "number_of_doors": 4,
+    "seating_capacity": 6,
+    "fuel_efficiency": {
+      "city_km_per_liter": 6.0,
+      "highway_km_per_liter": 8.5
+    },
+    "shipping_fee": 220000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 80,
+    "car_display_image": "https://example.com/images/nissan_titan_display.jpg",
+    "images": [
+      "https://example.com/images/nissan_titan_exterior_1.jpg",
+      "https://example.com/images/nissan_titan_exterior_2.jpg",
+      "https://example.com/images/nissan_titan_exterior_3.jpg",
+      "https://example.com/images/nissan_titan_exterior_4.jpg",
+      "https://example.com/images/nissan_titan_exterior_5.jpg",
+      "https://example.com/images/nissan_titan_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/nissan_titan_interior_1.jpg",
+      "https://example.com/images/nissan_titan_interior_2.jpg",
+      "https://example.com/images/nissan_titan_interior_3.jpg",
+      "https://example.com/images/nissan_titan_interior_4.jpg",
+      "https://example.com/images/nissan_titan_interior_5.jpg",
+      "https://example.com/images/nissan_titan_interior_6.jpg",
+      "https://example.com/images/nissan_titan_interior_7.jpg",
+      "https://example.com/images/nissan_titan_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Nissan Kenya",
+      "tel": "0700000049",
+      "location": "Enterprise Road, Nairobi"
+    },
+    "car_type": "Truck"
+  },
+  {
+    "make": "Land Rover",
+    "model": "Defender",
+    "year": 2024,
+    "color": "Gondwana Stone Metallic",
+    "price": 12000000,
+    "engine_type": "3.0L Turbo Inline-6 MHEV Petrol",
+    "features": [
+      "Pivi Pro Infotainment",
+      "Terrain Response 2 with Configurable Programs",
+      "ClearSight Interior Rear View Mirror",
+      "Electronic Air Suspension",
+      "Wade Sensing"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 8.0,
+      "highway_km_per_liter": 11.0
+    },
+    "shipping_fee": 380000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 120,
+    "car_display_image": "https://example.com/images/landrover_defender_display.jpg",
+    "images": [
+      "https://example.com/images/landrover_defender_exterior_1.jpg",
+      "https://example.com/images/landrover_defender_exterior_2.jpg",
+      "https://example.com/images/landrover_defender_exterior_3.jpg",
+      "https://example.com/images/landrover_defender_exterior_4.jpg",
+      "https://example.com/images/landrover_defender_exterior_5.jpg",
+      "https://example.com/images/landrover_defender_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/landrover_defender_interior_1.jpg",
+      "https://example.com/images/landrover_defender_interior_2.jpg",
+      "https://example.com/images/landrover_defender_interior_3.jpg",
+      "https://example.com/images/landrover_defender_interior_4.jpg",
+      "https://example.com/images/landrover_defender_interior_5.jpg",
+      "https://example.com/images/landrover_defender_interior_6.jpg",
+      "https://example.com/images/landrover_defender_interior_7.jpg",
+      "https://example.com/images/landrover_defender_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Inchcape Kenya",
+      "tel": "0700000050",
+      "location": "Lusaka Road, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Volvo",
+    "model": "XC90",
+    "year": 2023,
+    "color": "Onyx Black Metallic",
+    "price": 9000000,
+    "engine_type": "2.0L Turbo & Supercharged Petrol (B6)",
+    "features": [
+      "Google built-in",
+      "Bowers & Wilkins Sound System",
+      "Pilot Assist",
+      "Adaptive Cruise Control",
+      "Air Suspension"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 9.0,
+      "highway_km_per_liter": 12.0
+    },
+    "shipping_fee": 300000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 80,
+    "car_display_image": "https://example.com/images/volvo_xc90_display.jpg",
+    "images": [
+      "https://example.com/images/volvo_xc90_exterior_1.jpg",
+      "https://example.com/images/volvo_xc90_exterior_2.jpg",
+      "https://example.com/images/volvo_xc90_exterior_3.jpg",
+      "https://example.com/images/volvo_xc90_exterior_4.jpg",
+      "https://example.com/images/volvo_xc90_exterior_5.jpg",
+      "https://example.com/images/volvo_xc90_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/volvo_xc90_interior_1.jpg",
+      "https://example.com/images/volvo_xc90_interior_2.jpg",
+      "https://example.com/images/volvo_xc90_interior_3.jpg",
+      "https://example.com/images/volvo_xc90_interior_4.jpg",
+      "https://example.com/images/volvo_xc90_interior_5.jpg",
+      "https://example.com/images/volvo_xc90_interior_6.jpg",
+      "https://example.com/images/volvo_xc90_interior_7.jpg",
+      "https://example.com/images/volvo_xc90_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Volvo Kenya",
+      "tel": "0700000051",
+      "location": "Waiyaki Way, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Lexus",
+    "model": "RX 350",
+    "year": 2023,
+    "color": "Caviar",
+    "price": 8000000,
+    "engine_type": "2.4L Turbo Petrol",
+    "features": [
+      "Lexus Safety System+ 3.0",
+      "Lexus Interface with 14-inch Touchscreen",
+      "Mark Levinson Premium Surround Sound",
+      "Panoramic View Monitor",
+      "Heated and Ventilated Seats"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 10.0,
+      "highway_km_per_liter": 13.0
+    },
+    "shipping_fee": 270000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 85,
+    "car_display_image": "https://example.com/images/lexus_rx350_display.jpg",
+    "images": [
+      "https://example.com/images/lexus_rx350_exterior_1.jpg",
+      "https://example.com/images/lexus_rx350_exterior_2.jpg",
+      "https://example.com/images/lexus_rx350_exterior_3.jpg",
+      "https://example.com/images/lexus_rx350_exterior_4.jpg",
+      "https://example.com/images/lexus_rx350_exterior_5.jpg",
+      "https://example.com/images/lexus_rx350_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/lexus_rx350_interior_1.jpg",
+      "https://example.com/images/lexus_rx350_interior_2.jpg",
+      "https://example.com/images/lexus_rx350_interior_3.jpg",
+      "https://example.com/images/lexus_rx350_interior_4.jpg",
+      "https://example.com/images/lexus_rx350_interior_5.jpg",
+      "https://example.com/images/lexus_rx350_interior_6.jpg",
+      "https://example.com/images/lexus_rx350_interior_7.jpg",
+      "https://example.com/images/lexus_rx350_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Toyota Kenya (Lexus Division)",
+      "tel": "0700000052",
+      "location": "Uhuru Highway, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Acura",
+    "model": "MDX",
+    "year": 2023,
+    "color": "Platinum White Pearl",
+    "price": 7500000,
+    "engine_type": "3.5L V6 Petrol",
+    "features": [
+      "AcuraWatch Safety Suite",
+      "Super Handling All-Wheel Drive (SH-AWD)",
+      "ELS STUDIO 3D Premium Audio",
+      "Panoramic Moonroof",
+      "Integrated Dynamics System (IDS)"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 7,
+    "fuel_efficiency": {
+      "city_km_per_liter": 9.5,
+      "highway_km_per_liter": 12.5
+    },
+    "shipping_fee": 260000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 80,
+    "car_display_image": "https://example.com/images/acura_mdx_display.jpg",
+    "images": [
+      "https://example.com/images/acura_mdx_exterior_1.jpg",
+      "https://example.com/images/acura_mdx_exterior_2.jpg",
+      "https://example.com/images/acura_mdx_exterior_3.jpg",
+      "https://example.com/images/acura_mdx_exterior_4.jpg",
+      "https://example.com/images/acura_mdx_exterior_5.jpg",
+      "https://example.com/images/acura_mdx_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/acura_mdx_interior_1.jpg",
+      "https://example.com/images/acura_mdx_interior_2.jpg",
+      "https://example.com/images/acura_mdx_interior_3.jpg",
+      "https://example.com/images/acura_mdx_interior_4.jpg",
+      "https://example.com/images/acura_mdx_interior_5.jpg",
+      "https://example.com/images/acura_mdx_interior_6.jpg",
+      "https://example.com/images/acura_mdx_interior_7.jpg",
+      "https://example.com/images/acura_mdx_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Luxury Car Imports Kenya",
+      "tel": "0700000053",
+      "location": "Gigiri, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Infiniti",
+    "model": "QX80",
+    "year": 2023,
+    "color": "Moonstone White",
+    "price": 9800000,
+    "engine_type": "5.6L V8 Petrol",
+    "features": [
+      "Intelligent All-Wheel Drive",
+      "Hydraulic Body Motion Control System",
+      "Bose Cabin Surround Sound System",
+      "Smart Rearview Mirror",
+      "Quilted Semi-Aniline Leather"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 8,
+    "fuel_efficiency": {
+      "city_km_per_liter": 6.0,
+      "highway_km_per_liter": 8.5
+    },
+    "shipping_fee": 350000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 90,
+    "car_display_image": "https://example.com/images/infiniti_qx80_display.jpg",
+    "images": [
+      "https://example.com/images/infiniti_qx80_exterior_1.jpg",
+      "https://example.com/images/infiniti_qx80_exterior_2.jpg",
+      "https://example.com/images/infiniti_qx80_exterior_3.jpg",
+      "https://example.com/images/infiniti_qx80_exterior_4.jpg",
+      "https://example.com/images/infiniti_qx80_exterior_5.jpg",
+      "https://example.com/images/infiniti_qx80_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/infiniti_qx80_interior_1.jpg",
+      "https://example.com/images/infiniti_qx80_interior_2.jpg",
+      "https://example.com/images/infiniti_qx80_interior_3.jpg",
+      "https://example.com/images/infiniti_qx80_interior_4.jpg",
+      "https://example.com/images/infiniti_qx80_interior_5.jpg",
+      "https://example.com/images/infiniti_qx80_interior_6.jpg",
+      "https://example.com/images/infiniti_qx80_interior_7.jpg",
+      "https://example.com/images/infiniti_qx80_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Infiniti Kenya",
+      "tel": "0700000054",
+      "location": "Enterprise Road, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Jaguar",
+    "model": "F-PACE SVR",
+    "year": 2023,
+    "color": "Ultra Blue Metallic",
+    "price": 13000000,
+    "engine_type": "5.0L Supercharged V8 Petrol",
+    "features": [
+      "All-Wheel Drive with Intelligent Driveline Dynamics",
+      "Adaptive Dynamics",
+      "Configurable Dynamics",
+      "Meridian Surround Sound System",
+      "SVR Performance Seats"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 6.5,
+      "highway_km_per_liter": 9.0
+    },
+    "shipping_fee": 380000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 110,
+    "car_display_image": "https://example.com/images/jaguar_f_pace_svr_display.jpg",
+    "images": [
+      "https://example.com/images/jaguar_f_pace_svr_exterior_1.jpg",
+      "https://example.com/images/jaguar_f_pace_svr_exterior_2.jpg",
+      "https://example.com/images/jaguar_f_pace_svr_exterior_3.jpg",
+      "https://example.com/images/jaguar_f_pace_svr_exterior_4.jpg",
+      "https://example.com/images/jaguar_f_pace_svr_exterior_5.jpg",
+      "https://example.com/images/jaguar_f_pace_svr_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/jaguar_f_pace_svr_interior_1.jpg",
+      "https://example.com/images/jaguar_f_pace_svr_interior_2.jpg",
+      "https://example.com/images/jaguar_f_pace_svr_interior_3.jpg",
+      "https://example.com/images/jaguar_f_pace_svr_interior_4.jpg",
+      "https://example.com/images/jaguar_f_pace_svr_interior_5.jpg",
+      "https://example.com/images/jaguar_f_pace_svr_interior_6.jpg",
+      "https://example.com/images/jaguar_f_pace_svr_interior_7.jpg",
+      "https://example.com/images/jaguar_f_pace_svr_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Inchcape Kenya",
+      "tel": "0700000055",
+      "location": "Lusaka Road, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Maserati",
+    "model": "Grecale",
+    "year": 2023,
+    "color": "Bianco Astro",
+    "price": 10000000,
+    "engine_type": "2.0L Mild Hybrid Turbo Petrol",
+    "features": [
+      "Maserati Intelligent Assistant (MIA)",
+      "Sonus faber High Premium Audio System",
+      "Level 2 Advanced Driving Assist Systems",
+      "Sporty Driving Modes",
+      "Carbon Fibre Trim"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 8.0,
+      "highway_km_per_liter": 11.0
+    },
+    "shipping_fee": 300000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 100,
+    "car_display_image": "https://example.com/images/maserati_grecale_display.jpg",
+    "images": [
+      "https://example.com/images/maserati_grecale_exterior_1.jpg",
+      "https://example.com/images/maserati_grecale_exterior_2.jpg",
+      "https://example.com/images/maserati_grecale_exterior_3.jpg",
+      "https://example.com/images/maserati_grecale_exterior_4.jpg",
+      "https://example.com/images/maserati_grecale_exterior_5.jpg",
+      "https://example.com/images/maserati_grecale_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/maserati_grecale_interior_1.jpg",
+      "https://example.com/images/maserati_grecale_interior_2.jpg",
+      "https://example.com/images/maserati_grecale_interior_3.jpg",
+      "https://example.com/images/maserati_grecale_interior_4.jpg",
+      "https://example.com/images/maserati_grecale_interior_5.jpg",
+      "https://example.com/images/maserati_grecale_interior_6.jpg",
+      "https://example.com/images/maserati_grecale_interior_7.jpg",
+      "https://example.com/images/maserati_grecale_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Luxury Car Imports Kenya",
+      "tel": "0700000056",
+      "location": "Gigiri, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Porsche",
+    "model": "Macan",
+    "year": 2023,
+    "color": "Gentian Blue Metallic",
+    "price": 10000000,
+    "engine_type": "2.0L Turbo Petrol",
+    "features": [
+      "Porsche Communication Management (PCM)",
+      "Porsche Active Suspension Management (PASM)",
+      "Sport Chrono Package",
+      "LED Headlights with PDLS Plus",
+      "Alcantara Sport Seats"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 9.0,
+      "highway_km_per_liter": 12.0
+    },
+    "shipping_fee": 320000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 90,
+    "car_display_image": "https://example.com/images/porsche_macan_display.jpg",
+    "images": [
+      "https://example.com/images/porsche_macan_exterior_1.jpg",
+      "https://example.com/images/porsche_macan_exterior_2.jpg",
+      "https://example.com/images/porsche_macan_exterior_3.jpg",
+      "https://example.com/images/porsche_macan_exterior_4.jpg",
+      "https://example.com/images/porsche_macan_exterior_5.jpg",
+      "https://example.com/images/porsche_macan_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/porsche_macan_interior_1.jpg",
+      "https://example.com/images/porsche_macan_interior_2.jpg",
+      "https://example.com/images/porsche_macan_interior_3.jpg",
+      "https://example.com/images/porsche_macan_interior_4.jpg",
+      "https://example.com/images/porsche_macan_interior_5.jpg",
+      "https://example.com/images/porsche_macan_interior_6.jpg",
+      "https://example.com/images/porsche_macan_interior_7.jpg",
+      "https://example.com/images/porsche_macan_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Porsche Centre Nairobi",
+      "tel": "0700000057",
+      "location": "Chiromo Road, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "GLC",
+    "year": 2022,
+    "color": "Mojave Silver Metallic",
+    "price": 7000000,
+    "engine_type": "2.0L Turbo Petrol",
+    "features": [
+      "MBUX Infotainment",
+      "Burmester Surround Sound System",
+      "Driving Assistance Package",
+      "AIR BODY CONTROL Suspension",
+      "LED High Performance Headlights"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 10.0,
+      "highway_km_per_liter": 14.0
+    },
+    "shipping_fee": 250000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 70,
+    "car_display_image": "https://example.com/images/mercedes_glc_display.jpg",
+    "images": [
+      "https://example.com/images/mercedes_glc_exterior_1.jpg",
+      "https://example.com/images/mercedes_glc_exterior_2.jpg",
+      "https://example.com/images/mercedes_glc_exterior_3.jpg",
+      "https://example.com/images/mercedes_glc_exterior_4.jpg",
+      "https://example.com/images/mercedes_glc_exterior_5.jpg",
+      "https://example.com/images/mercedes_glc_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/mercedes_glc_interior_1.jpg",
+      "https://example.com/images/mercedes_glc_interior_2.jpg",
+      "https://example.com/images/mercedes_glc_interior_3.jpg",
+      "https://example.com/images/mercedes_glc_interior_4.jpg",
+      "https://example.com/images/mercedes_glc_interior_5.jpg",
+      "https://example.com/images/mercedes_glc_interior_6.jpg",
+      "https://example.com/images/mercedes_glc_interior_7.jpg",
+      "https://example.com/images/mercedes_glc_interior_8.jpg"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Mercedes-Benz Kenya",
+      "tel": "0700000058",
+      "location": "Westlands, Nairobi"
+    },
+    "car_type": "SUV"
+  },
+  {
+    "make": "BMW",
+    "model": "X3",
+    "year": 2023,
+    "color": "Phytonic Blue Metallic",
+    "price": 8500000,
+    "engine_type": "2.0L TwinPower Turbo Petrol",
+    "features": [
+      "iDrive 7 Infotainment",
+      "Harman Kardon Surround Sound System",
+      "Driving Assistant Plus",
+      "Panoramic Moonroof",
+      "Sport Seats"
+    ],
+    "number_of_doors": 5,
+    "seating_capacity": 5,
+    "fuel_efficiency": {
+      "city_km_per_liter": 9.5,
+      "highway_km_per_liter": 13.0
+    },
+    "shipping_fee": 280000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 80,
+    "car_display_image": "https://example.com/images/bmw_x3_display.jpg",
+    "images": [
+      "https://example.com/images/bmw_x3_exterior_1.jpg",
+      "https://example.com/images/bmw_x3_exterior_2.jpg",
+      "https://example.com/images/bmw_x3_exterior_3.jpg",
+      "https://example.com/images/bmw_x3_exterior_4.jpg",
+      "https://example.com/images/bmw_x3_exterior_5.jpg",
+      "https://example.com/images/bmw_x3_exterior_6.jpg"
+    ],
+    "interior_images": [
+      "https://example.com/images/bmw_x3_interior_1.jpg",
+      "https://example.com/images/bmw_x3_interior_2.jpg",
+      "https://example.com/images/bmw_x3_interior_3.jpg",
+      "https://example.com/images/bmw_x3_interior_4.jpg",
+      "https://example.com/images/bmw_x3_interior_5.jpg"
+      ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Porsche Centre Nairobi",
+      "tel": "0700000057",
+      "location": "Chiromo Road, Nairobi"
+    },
+    "car_type": "SUV"
+  }
+  ]

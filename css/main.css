@@ -1,0 +1,391 @@
+/*
+    File: main.css
+    -------------------------------------------------
+    This stylesheet contains all global, foundational, and homepage-specific styles
+    for the iMarket e-commerce website. It should be linked last to ensure it can
+    override base styles from `header.css` and `footer.css` if necessary.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Global & Utility Styles                                                    */
+/* -------------------------------------------------------------------------- */
+
+:root {
+    /* Define the header height as a variable for easy maintenance.
+       Adjust this value if your header's height changes. */
+    --header-height: 110px; 
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: var(--color-bg-page);
+    color: var(--color-text-primary);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main-content {
+    min-height: 70vh; /* Ensures the footer stays at the bottom on short pages */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-text-primary);
+    font-weight: bold;
+    margin-top: 0;
+}
+
+h2.section-title {
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+h2.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--color-primary);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 12px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-text-inverted);
+    border: 1px solid var(--color-primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-hover);
+    border-color: var(--color-hover);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-primary);
+    color: var(--color-text-inverted);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Homepage Section Styles                                                    */
+/* -------------------------------------------------------------------------- */
+section {
+    padding: 50px 0;
+}
+/* -------------------------------------------------------------------------- */
+/* Hero Section Enhancements                                                  */
+/* -------------------------------------------------------------------------- */
+#hero-section {
+    padding: 0;
+    overflow: hidden;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: flex-end; /* Pushes the slider to the right of the spin-card */
+    align-items: center;
+    position: relative;
+    height: 400px;
+    background-color: var(--color-bg-light); /* Fallback background */
+}
+
+.hero-slider {
+    position: relative;
+    width: calc(100% - 280px); /* Adjusts width to account for the spin-win-card */
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Slider slides */
+.hero-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.hero-slide.active {
+    opacity: 1;
+}
+
+.hero-bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%; /* Position hero content after the spin-win-card */
+    transform: translateY(-50%);
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: left;
+    padding: 20px;
+}
+
+.hero-slide-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-slide-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Spin 'n Win Card - Positioned on the left */
+.spin-win-card {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%) scale(1);
+    width: 250px;
+    padding: 20px;
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--color-shadow);
+    text-align: center;
+    z-index: 10;
+    animation: hover-effect 2s infinite ease-in-out;
+    display: flex; /* For icon and text layout */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.spin-icon {
+    font-size: 3em;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes hover-effect {
+    0%, 100% {
+        transform: translateY(-50%) scale(1);
+    }
+    50% {
+        transform: translateY(-50%) scale(1.03);
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/* Responsive Adjustments for Hero Section                                    */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 992px) {
+    .hero-wrapper {
+        height: 350px;
+    }
+    .hero-slider {
+        width: 100%;
+    }
+    .hero-slide-content {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .spin-win-card {
+        display: none; /* Hides the card on smaller screens to prioritize slider content */
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-wrapper {
+        height: 250px;
+    }
+    .hero-slide-content h2 {
+        font-size: 1.5em;
+    }
+    .hero-slide-content p {
+        font-size: 0.9em;
+    }
+}
+/* Grid for Cards */
+.grid-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* Card Styles */
+.card, .shop-card, .benefit-card {
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px var(--color-shadow);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover, .shop-card:hover, .benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px var(--color-shadow-hover);
+}
+
+.shop-card img, .benefit-card i {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.shop-card img {
+    height: 75px;
+    width: auto;
+}
+
+.shop-card h3 {
+    font-size: 1.2em;
+}
+
+.shop-card p {
+    padding: 0 15px;
+    font-size: 0.9em;
+}
+
+.shop-card .btn-primary {
+    margin: 15px;
+}
+
+.benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.benefit-card {
+    flex: 1 1 300px;
+    padding: 30px 20px;
+}
+
+.benefit-card i {
+    font-size: 3em;
+    color: var(--color-primary);
+}
+
+.benefit-card h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* Responsive Design                                                          */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 992px) {
+    h2.section-title {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-wrapper {
+        height: 250px;
+    }
+
+    .spin-win-card {
+        width: 180px;
+        left: 50%;
+        top: 80%;
+        transform: translateX(-50%) translateY(-50%) scale(1);
+        padding: 15px;
+    }
+
+    @keyframes hover-effect {
+        0%, 100% {
+            transform: translateX(-50%) translateY(-50%) scale(1);
+        }
+        50% {
+            transform: translateX(-50%) translateY(-50%) scale(1.03);
+        }
+    }
+    
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/* Theme Toggle & Scroll-to-Top Button CSS                                    */
+/* -------------------------------------------------------------------------- */
+#theme-toggle:hover {
+    color: var(--color-primary);
+}
+
+#scroll-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 1.5rem;
+    background-color: var(--color-primary);
+    color: var(--color-text-inverted);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#scroll-to-top-btn.show {
+    display: block;
+    opacity: 1;
+}
+
+#scroll-to-top-btn:hover {
+    background-color: var(--color-hover);
+}

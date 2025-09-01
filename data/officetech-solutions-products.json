@@ -1,0 +1,695 @@
+[
+  {
+    "item_id": "OFF-COMP001",
+    "name": "Desktop Computer (Mid-Range Office PC)",
+    "category": "Computers",
+    "features": [
+      "Intel Core i5 Processor (12th Gen or newer)",
+      "8GB RAM (DDR4)",
+      "256GB SSD + 1TB HDD Storage",
+      "Windows 11 Pro",
+      "Integrated Graphics",
+      "Multiple USB ports, HDMI, DisplayPort",
+      "Ethernet port"
+    ],
+    "price_ksh": 75000,
+    "size_cm": "40 x 17 x 45 (Tower)",
+    "discount_percent": 5,
+    "in_stock": true,
+    "review_star_rate": 4.5,
+    "product_image_url": "https://example.com/office_solutions/desktop_computer_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/desktop_computer_thumb1.webp",
+      "https://example.com/office_solutions/desktop_computer_thumb2.webp",
+      "https://example.com/office_solutions/desktop_computer_thumb3.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-PRT001",
+    "name": "Multi-function Laser Printer (Print, Scan, Copy)",
+    "category": "Printers",
+    "features": [
+      "Monochrome Laser Printing",
+      "Up to 30 ppm print speed",
+      "Automatic Duplex Printing",
+      "Flatbed & ADF Scanner",
+      "Wireless & Ethernet Connectivity",
+      "250-sheet paper tray"
+    ],
+    "price_ksh": 32000,
+    "size_cm": "42 x 40 x 35",
+    "discount_percent": 10,
+    "in_stock": true,
+    "review_star_rate": 4.7,
+    "product_image_url": "https://example.com/office_solutions/laser_printer_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/laser_printer_thumb1.webp",
+      "https://example.com/office_solutions/laser_printer_thumb2.webp",
+      "https://example.com/office_solutions/laser_printer_thumb3.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-SHR001",
+    "name": "Cross-Cut Paper Shredder (Office Use)",
+    "category": "Office Equipment",
+    "features": [
+      "Cross-Cut Shredding (P-4 Security)",
+      "Shreds up to 12 sheets at once",
+      "4-gallon pull-out bin",
+      "Shreds credit cards and staples",
+      "Overheat protection"
+    ],
+    "price_ksh": 9500,
+    "size_cm": "35 x 20 x 48",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.3,
+    "product_image_url": "https://example.com/office_solutions/paper_shredder_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/paper_shredder_thumb1.webp",
+      "https://example.com/office_solutions/paper_shredder_thumb2.webp",
+      "https://example.com/office_solutions/paper_shredder_thumb3.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-PROJ001",
+    "name": "Business Projector (Full HD)",
+    "category": "Presentation Equipment",
+    "features": [
+      "1080p (Full HD) Resolution",
+      "4000 Lumens Brightness",
+      "HDMI, VGA, USB inputs",
+      "Keystone Correction",
+      "Long lamp life (up to 10,000 hours in Eco mode)"
+    ],
+    "price_ksh": 58000,
+    "size_cm": "30 x 25 x 10",
+    "discount_percent": 8,
+    "in_stock": true,
+    "review_star_rate": 4.6,
+    "product_image_url": "https://example.com/office_solutions/projector_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/projector_thumb1.webp",
+      "https://example.com/office_solutions/projector_thumb2.webp",
+      "https://example.com/office_solutions/projector_thumb3.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-NET001",
+    "name": "Gigabit Ethernet Switch (8-Port)",
+    "category": "Networking Equipment",
+    "features": [
+      "8 x 10/100/1000Mbps RJ45 Ports",
+      "Plug and Play setup",
+      "Fanless Design for silent operation",
+      "Energy-Efficient Technology",
+      "Durable Metal Casing"
+    ],
+    "price_ksh": 4500,
+    "size_cm": "15 x 10 x 3",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.4,
+    "product_image_url": "https://example.com/office_solutions/ethernet_switch_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/ethernet_switch_thumb1.webp",
+      "https://example.com/office_solutions/ethernet_switch_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-FURN001",
+    "name": "Ergonomic Office Chair (Mesh Back)",
+    "category": "Office Furniture",
+    "features": [
+      "Adjustable Lumbar Support",
+      "Breathable Mesh Back",
+      "Padded Armrests",
+      "Height Adjustable",
+      "Swivel Base with Casters",
+      "Weight Capacity: 120kg"
+    ],
+    "price_ksh": 18000,
+    "size_cm": "60 x 60 x 110-120 (adjustable height)",
+    "discount_percent": 15,
+    "in_stock": true,
+    "review_star_rate": 4.7,
+    "product_image_url": "https://example.com/office_solutions/office_chair_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/office_chair_thumb1.webp",
+      "https://example.com/office_solutions/office_chair_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-LAP001",
+    "name": "Business Laptop (14-inch, Everyday Use)",
+    "category": "Computers",
+    "features": [
+      "Intel Core i5 Processor (11th Gen)",
+      "8GB RAM",
+      "256GB SSD Storage",
+      "14-inch Full HD Display",
+      "Windows 11 Pro",
+      "Webcam, Wi-Fi, Bluetooth"
+    ],
+    "price_ksh": 95000,
+    "size_cm": "32.5 x 22.5 x 1.8",
+    "discount_percent": 7,
+    "in_stock": true,
+    "review_star_rate": 4.6,
+    "product_image_url": "https://example.com/office_solutions/business_laptop_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/business_laptop_thumb1.webp",
+      "https://example.com/office_solutions/business_laptop_thumb2.webp",
+      "https://example.com/office_solutions/business_laptop_thumb3.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-PRT002",
+    "name": "Color Inkjet Printer (Wireless)",
+    "category": "Printers",
+    "features": [
+      "Color Inkjet Printing",
+      "Wireless (Wi-Fi) Connectivity",
+      "Mobile Printing Capable",
+      "Compact Design",
+      "Ideal for home office or small business"
+    ],
+    "price_ksh": 18000,
+    "size_cm": "38 x 30 x 15",
+    "discount_percent": 5,
+    "in_stock": true,
+    "review_star_rate": 4.2,
+    "product_image_url": "https://example.com/office_solutions/inkjet_printer_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/inkjet_printer_thumb1.webp",
+      "https://example.com/office_solutions/inkjet_printer_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-SHR002",
+    "name": "Micro-Cut Paper Shredder (High Security)",
+    "category": "Office Equipment",
+    "features": [
+      "Micro-Cut Shredding (P-5 Security)",
+      "Shreds up to 8 sheets at once",
+      "Large 6-gallon bin",
+      "Quiet operation",
+      "Continuous run time: 20 minutes"
+    ],
+    "price_ksh": 16000,
+    "size_cm": "40 x 25 x 55",
+    "discount_percent": 10,
+    "in_stock": true,
+    "review_star_rate": 4.8,
+    "product_image_url": "https://example.com/office_solutions/micro_shredder_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/micro_shredder_thumb1.webp",
+      "https://example.com/office_solutions/micro_shredder_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-MON001",
+    "name": "24-inch Full HD LED Monitor",
+    "category": "Monitors",
+    "features": [
+      "24-inch Full HD (1920x1080) Resolution",
+      "IPS Panel for wide viewing angles",
+      "HDMI and VGA Inputs",
+      "Slim Bezel Design",
+      "Flicker-Free Technology"
+    ],
+    "price_ksh": 19000,
+    "size_cm": "54 x 32 x 5 (screen only)",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.5,
+    "product_image_url": "https://example.com/office_solutions/monitor_24inch_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/monitor_24inch_thumb1.webp",
+      "https://example.com/office_solutions/monitor_24inch_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-UPS001",
+    "name": "Uninterruptible Power Supply (UPS - 1000VA)",
+    "category": "Power Solutions",
+    "features": [
+      "1000VA/600W Capacity",
+      "Battery Backup & Surge Protection",
+      "4 Battery Backup Outlets",
+      "Automatic Voltage Regulation (AVR)",
+      "LED Status Indicators"
+    ],
+    "price_ksh": 12000,
+    "size_cm": "14 x 10 x 30",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.4,
+    "product_image_url": "https://example.com/office_solutions/ups_1000va_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/ups_1000va_thumb1.webp",
+      "https://example.com/office_solutions/ups_1000va_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-FURN002",
+    "name": "Executive Office Desk (L-Shaped)",
+    "category": "Office Furniture",
+    "features": [
+      "Spacious L-shaped design",
+      "Durable MDF construction with laminate finish",
+      "Built-in filing cabinet (2 drawers)",
+      "Cable management grommets",
+      "Dimensions: 160cm x 150cm (L-side) x 75cm (H)"
+    ],
+    "price_ksh": 45000,
+    "size_cm": "160 x 150 x 75 (L-shaped)",
+    "discount_percent": 10,
+    "in_stock": true,
+    "review_star_rate": 4.8,
+    "product_image_url": "https://example.com/office_solutions/executive_desk_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/executive_desk_thumb1.webp",
+      "https://example.com/office_solutions/executive_desk_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-PHONE001",
+    "name": "Corded Office Phone (Basic)",
+    "category": "Telephony",
+    "features": [
+      "Caller ID Display",
+      "Speakerphone function",
+      "Redial and Flash buttons",
+      "Volume control",
+      "Wall-mountable"
+    ],
+    "price_ksh": 2500,
+    "size_cm": "20 x 15 x 8",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.0,
+    "product_image_url": "https://example.com/office_solutions/corded_phone_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/corded_phone_thumb1.webp",
+      "https://example.com/office_solutions/corded_phone_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-SCAN001",
+    "name": "Desktop Document Scanner",
+    "category": "Scanners",
+    "features": [
+      "High-speed Duplex Scanning (up to 40 ppm)",
+      "Automatic Document Feeder (ADF) - 50 sheets",
+      "Optical Resolution: 600 dpi",
+      "USB 3.0 Connectivity",
+      "Bundled with document management software"
+    ],
+    "price_ksh": 40000,
+    "size_cm": "30 x 18 x 15",
+    "discount_percent": 7,
+    "in_stock": true,
+    "review_star_rate": 4.7,
+    "product_image_url": "https://example.com/office_solutions/document_scanner_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/document_scanner_thumb1.webp",
+      "https://example.com/office_solutions/document_scanner_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-ACCS001",
+    "name": "Wireless Keyboard and Mouse Combo",
+    "category": "Accessories",
+    "features": [
+      "2.4 GHz Wireless Connection",
+      "Full-size Keyboard with Numeric Keypad",
+      "Ergonomic Mouse Design",
+      "Long Battery Life",
+      "USB Receiver"
+    ],
+    "price_ksh": 3000,
+    "size_cm": "45 x 15 x 2 (keyboard)",
+    "discount_percent": 5,
+    "in_stock": true,
+    "review_star_rate": 4.3,
+    "product_image_url": "https://example.com/office_solutions/keyboard_mouse_combo_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/keyboard_mouse_combo_thumb1.webp",
+      "https://example.com/office_solutions/keyboard_mouse_combo_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-CAB001",
+    "name": "Metal Filing Cabinet (4-Drawer)",
+    "category": "Office Furniture",
+    "features": [
+      "Durable Steel Construction",
+      "4 spacious drawers for legal/letter size files",
+      "Lockable system for security",
+      "Anti-tilt mechanism",
+      "Smooth glide drawers"
+    ],
+    "price_ksh": 28000,
+    "size_cm": "45 x 60 x 132",
+    "discount_percent": 8,
+    "in_stock": true,
+    "review_star_rate": 4.6,
+    "product_image_url": "https://example.com/office_solutions/filing_cabinet_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/filing_cabinet_thumb1.webp",
+      "https://example.com/office_solutions/filing_cabinet_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-NET002",
+    "name": "Wireless Router (Dual-Band)",
+    "category": "Networking Equipment",
+    "features": [
+      "AC1200 Dual-Band Wi-Fi",
+      "4 Gigabit Ethernet Ports",
+      "Easy Setup",
+      "Guest Network Support",
+      "Parental Controls"
+    ],
+    "price_ksh": 7500,
+    "size_cm": "25 x 18 x 5",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.5,
+    "product_image_url": "https://example.com/office_solutions/wifi_router_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/wifi_router_thumb1.webp",
+      "https://example.com/office_solutions/wifi_router_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-WHITE001",
+    "name": "Magnetic Whiteboard (120x90cm)",
+    "category": "Presentation Equipment",
+    "features": [
+      "Smooth Magnetic Surface",
+      "Aluminum Frame",
+      "Includes Pen Tray",
+      "Easy to Mount",
+      "Ideal for presentations and brainstorming"
+    ],
+    "price_ksh": 6000,
+    "size_cm": "120 x 90",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.3,
+    "product_image_url": "https://example.com/office_solutions/whiteboard_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/whiteboard_thumb1.webp",
+      "https://example.com/office_solutions/whiteboard_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-LABEL001",
+    "name": "Label Maker (Handheld)",
+    "category": "Office Equipment",
+    "features": [
+      "QWERTY Keyboard",
+      "Multiple Font Styles and Sizes",
+      "Print up to 2 Lines",
+      "Uses D1 tapes (6mm, 9mm, 12mm)",
+      "Battery powered (AA not included)"
+    ],
+    "price_ksh": 5500,
+    "size_cm": "15 x 10 x 5",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.1,
+    "product_image_url": "https://example.com/office_solutions/label_maker_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/label_maker_thumb1.webp",
+      "https://example.com/office_solutions/label_maker_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-CONF001",
+    "name": "Conference Table (Rectangular, 8-Seater)",
+    "category": "Office Furniture",
+    "features": [
+      "Spacious Rectangular Design",
+      "Durable Melamine Surface",
+      "Sturdy Metal Legs",
+      "Seats up to 8 people comfortably",
+      "Ideal for meeting rooms"
+    ],
+    "price_ksh": 65000,
+    "size_cm": "240 x 120 x 75",
+    "discount_percent": 12,
+    "in_stock": true,
+    "review_star_rate": 4.9,
+    "product_image_url": "https://example.com/office_solutions/conference_table_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/conference_table_thumb1.webp",
+      "https://example.com/office_solutions/conference_table_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-ACCS002",
+    "name": "Webcam (Full HD 1080p)",
+    "category": "Accessories",
+    "features": [
+      "Full HD 1080p Video Calling",
+      "Built-in Microphone with Noise Reduction",
+      "Automatic Low-Light Correction",
+      "Plug & Play USB Connectivity",
+      "Universal Mounting Clip"
+    ],
+    "price_ksh": 6000,
+    "size_cm": "9 x 7 x 4",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.4,
+    "product_image_url": "https://example.com/office_solutions/webcam_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/webcam_thumb1.webp",
+      "https://example.com/office_solutions/webcam_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-BIND001",
+    "name": "Comb Binding Machine",
+    "category": "Office Equipment",
+    "features": [
+      "Manual Punching (up to 12 sheets)",
+      "Binding Capacity: 450 sheets",
+      "Adjustable Edge Guide",
+      "Integrated Waste Tray",
+      "Ideal for reports and presentations"
+    ],
+    "price_ksh": 14000,
+    "size_cm": "40 x 30 x 20",
+    "discount_percent": 5,
+    "in_stock": true,
+    "review_star_rate": 4.2,
+    "product_image_url": "https://example.com/office_solutions/binding_machine_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/binding_machine_thumb1.webp",
+      "https://example.com/office_solutions/binding_machine_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-NET003",
+    "name": "Network Attached Storage (NAS - 2-Bay)",
+    "category": "Networking Equipment",
+    "features": [
+      "2-Bay Diskless NAS Enclosure",
+      "Supports 3.5\" SATA HDDs",
+      "Gigabit Ethernet Port",
+      "Cloud Integration",
+      "Data Backup and Sync Functions"
+    ],
+    "price_ksh": 22000,
+    "size_cm": "10 x 22 x 16",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.6,
+    "product_image_url": "https://example.com/office_solutions/nas_2bay_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/nas_2bay_thumb1.webp",
+      "https://example.com/office_solutions/nas_2bay_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-CONF002",
+    "name": "Video Conference Camera (PTZ)",
+    "category": "Presentation Equipment",
+    "features": [
+      "Full HD 1080p Video",
+      "Pan, Tilt, and Zoom (PTZ) Functionality",
+      "10x Optical Zoom",
+      "USB Plug & Play",
+      "Remote Control Included",
+      "Ideal for medium to large meeting rooms"
+    ],
+    "price_ksh": 70000,
+    "size_cm": "15 x 15 x 18",
+    "discount_percent": 10,
+    "in_stock": true,
+    "review_star_rate": 4.8,
+    "product_image_url": "https://example.com/office_solutions/video_conf_cam_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/video_conf_cam_thumb1.webp",
+      "https://example.com/office_solutions/video_conf_cam_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-PHONE002",
+    "name": "Cordless DECT Phone System",
+    "category": "Telephony",
+    "features": [
+      "DECT 6.0 Technology",
+      "Expandable up to 5 Handsets",
+      "Caller ID/Call Waiting",
+      "Digital Answering System",
+      "Backlit Keypad and Display"
+    ],
+    "price_ksh": 9000,
+    "size_cm": "18 x 10 x 5 (base unit)",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.1,
+    "product_image_url": "https://example.com/office_solutions/cordless_phone_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/cordless_phone_thumb1.webp",
+      "https://example.com/office_solutions/cordless_phone_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-LAMI001",
+    "name": "Laminator (A3 Size)",
+    "category": "Office Equipment",
+    "features": [
+      "Laminates up to A3 size documents",
+      "Hot and Cold Lamination",
+      "Fast Warm-up Time",
+      "Jam Release Button",
+      "Ideal for protecting important documents"
+    ],
+    "price_ksh": 11000,
+    "size_cm": "48 x 15 x 10",
+    "discount_percent": 5,
+    "in_stock": true,
+    "review_star_rate": 4.3,
+    "product_image_url": "https://example.com/office_solutions/laminator_a3_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/laminator_a3_thumb1.webp",
+      "https://example.com/office_solutions/laminator_a3_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-ACCS003",
+    "name": "External Hard Drive (1TB, USB 3.0)",
+    "category": "Storage",
+    "features": [
+      "1TB Storage Capacity",
+      "USB 3.0 for Fast Data Transfer",
+      "Compact and Portable Design",
+      "Plug and Play",
+      "Compatible with Windows & Mac"
+    ],
+    "price_ksh": 8000,
+    "size_cm": "11 x 8 x 1.5",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.5,
+    "product_image_url": "https://example.com/office_solutions/external_hdd_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/external_hdd_thumb1.webp",
+      "https://example.com/office_solutions/external_hdd_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-FURN003",
+    "name": "Reception Desk (Small Office)",
+    "category": "Office Furniture",
+    "features": [
+      "Compact Design for Small Spaces",
+      "Durable Countertop",
+      "Storage Drawer and Shelf",
+      "Cable Management Access",
+      "Modern Aesthetic"
+    ],
+    "price_ksh": 35000,
+    "size_cm": "120 x 60 x 100",
+    "discount_percent": 10,
+    "in_stock": true,
+    "review_star_rate": 4.7,
+    "product_image_url": "https://example.com/office_solutions/reception_desk_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/reception_desk_thumb1.webp",
+      "https://example.com/office_solutions/reception_desk_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-PROJ002",
+    "name": "Portable Mini Projector",
+    "category": "Presentation Equipment",
+    "features": [
+      "Compact and Lightweight Design",
+      "Supports 1080p Input",
+      "Built-in Speaker",
+      "HDMI, USB, and Micro SD Inputs",
+      "Ideal for on-the-go presentations"
+    ],
+    "price_ksh": 25000,
+    "size_cm": "13 x 9 x 5",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.0,
+    "product_image_url": "https://example.com/office_solutions/mini_projector_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/mini_projector_thumb1.webp",
+      "https://example.com/office_solutions/mini_projector_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-MON002",
+    "name": "27-inch QHD Monitor",
+    "category": "Monitors",
+    "features": [
+      "27-inch QHD (2560x1440) Resolution",
+      "IPS Panel",
+      "HDR10 Support",
+      "USB-C Connectivity (Power Delivery)",
+      "Adjustable Stand (Height, Tilt, Swivel, Pivot)"
+    ],
+    "price_ksh": 48000,
+    "size_cm": "61 x 36 x 6 (screen only)",
+    "discount_percent": 5,
+    "in_stock": true,
+    "review_star_rate": 4.8,
+    "product_image_url": "https://example.com/office_solutions/monitor_27inch_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/monitor_27inch_thumb1.webp",
+      "https://example.com/office_solutions/monitor_27inch_thumb2.webp"
+    ]
+  },
+  {
+    "item_id": "OFF-ACCS004",
+    "name": "Desk Lamp with Wireless Charger",
+    "category": "Accessories",
+    "features": [
+      "Dimmable LED Light",
+      "Multiple Color Temperatures",
+      "Integrated Wireless Charging Pad (Qi-enabled)",
+      "Flexible Gooseneck Design",
+      "USB Charging Port"
+    ],
+    "price_ksh": 7000,
+    "size_cm": "15 x 15 x 40 (adjustable height)",
+    "discount_percent": 0,
+    "in_stock": true,
+    "review_star_rate": 4.6,
+    "product_image_url": "https://example.com/office_solutions/desk_lamp_charger_main.webp",
+    "thumbnail_urls": [
+      "https://example.com/office_solutions/desk_lamp_charger_thumb1.webp",
+      "https://example.com/office_solutions/desk_lamp_charger_thumb2.webp"
+    ]
+  }
+]

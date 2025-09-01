@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Shops - iMarket Kenya</title>
+    
+    <meta name="description" content="Browse all trusted shops and sellers on iMarket Kenya. Find the best electronics, fashion, properties, vehicles, and more.">
+    <meta name="keywords" content="iMarket, Kenya, online marketplace, e-commerce, shops, sellers, stores, Nairobi, Mlolongo, Machakos">
+    <meta name="author" content="Alex Malunda">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="All Shops - iMarket Kenya">
+    <meta property="og:description" content="Browse all trusted shops and sellers on iMarket Kenya.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.imarket.co.ke/shops.html">
+    <meta property="og:image" content="https://www.imarket.co.ke/images/imarket-share-logo.jpg">
+    <meta property="og:site_name" content="iMarket Kenya">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@iMarketKE">
+    <meta name="twitter:creator" content="@iMarketKE">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVK8WpS0P7Z7lT7G1P6fC6dE9X2A8w7a67W4xXQ9Q5d5lM2fP6R8u7g..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/shops.css">
+    <style>
+    .main-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        background-color: var(--color-bg-header-footer);
+        border-bottom: 1px solid var(--color-border);
+        box-shadow: 0 2px 4px var(--color-shadow);
+        color: var(--color-text-primary);
+    }
+</style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="main-header-placeholder"></div>
+
+        <main id="main-content" class="main-content">
+            <section class="shops-directory-section">
+                <div class="container">
+                    <h2 class="section-title">All Shops</h2>
+                    <div id="shops-grid" class="shops-grid">
+                        </div>
+                </div>
+            </section>
+        </main>
+
+        <div id="shop-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <div id="modal-shop-details">
+                    </div>
+            </div>
+        </div>
+
+        <footer id="main-footer-placeholder" class="main-footer"></footer>
+        <button id="scroll-to-top-btn" title="Go to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/shops.js"></script>
+</body>
+</html>

@@ -1,0 +1,2581 @@
+[
+      {
+    "propertyId": "PROP001",
+    "title": "Spacious 3-Bedroom Family Home in Lavington",
+    "description": "A beautiful and modern 3-bedroom house located in the serene and upscale neighborhood of Lavington. Features include a large garden, en-suite bathrooms, a modern kitchen, and close proximity to international schools and shopping centers.",
+    "price": {
+      "amount": 45000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "123 Gardenia Lane, Lavington",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2833,
+      "longitude": 36.7833
+    },
+    "propertyType": "House",
+    "bedrooms": 3,
+    "bathrooms": 3.5,
+    "area": {
+      "size": 300,
+      "unit": "sqm"
+    },
+    "plotSize": {
+      "size": 0.25,
+      "unit": "acre"
+    },
+    "yearBuilt": 2015,
+    "status": "Available",
+    "features": [
+      "Swimming Pool",
+      "Garden",
+      "Parking (2 cars)",
+      "Balcony",
+      "Pets Allowed",
+      "Gated Community",
+      "Backup Generator",
+      "Borehole"
+    ],
+    "images": [
+      "images/prop001_exterior_1.webp",
+      "images/prop001_exterior_2.webp",
+      "images/prop001_exterior_3.webp"
+    ],
+    "interiorImages": [
+      "images/prop001_living_room.webp",
+      "images/prop001_kitchen.webp",
+      "images/prop001_bedroom_master.webp",
+      "images/prop001_bathroom.webp"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Mortgage",
+      "Cheque",
+      "Installments (negotiable)"
+    ],
+    "views": 1567,
+    "reviews": [
+      {
+        "reviewId": "REV001A",
+        "reviewerName": "Alice Johnson",
+        "rating": 5,
+        "comment": "Absolutely stunning property! The garden is a dream, and the location is perfect for families.",
+        "date": "2025-07-22T09:15:00Z"
+      },
+      {
+        "reviewId": "REV001B",
+        "reviewerName": "Bob Williams",
+        "rating": 4,
+        "comment": "Great house, spacious rooms. Minor issue with water pressure, but overall very happy.",
+        "date": "2025-07-23T14:00:00Z"
+      }
+    ],
+    "agentInfo": {
+      "name": "Luxury Homes Realty",
+      "contactPerson": "Jane Doe",
+      "phone": "+254712345678",
+      "email": "jane.doe@luxuryhomes.com"
+    },
+    "listingDate": "2025-07-20T10:00:00Z",
+    "lastUpdated": "2025-07-23T14:30:00Z"
+  },
+  {
+    "propertyId": "PROP002",
+    "title": "Modern 2-Bedroom Apartment in Kilimani with City Views",
+    "description": "Experience urban living in this stylish 2-bedroom, 2-bathroom apartment situated in the heart of Kilimani. Enjoy breathtaking city views from your private balcony and access to state-of-the-art amenities.",
+    "price": {
+      "amount": 18500000,
+      "currency": "KES"
+    },
+    "isDiscounted": true,
+    "discountPercentage": 5,
+    "location": {
+      "address": "456 Skyline Towers, Kilimani",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2921,
+      "longitude": 36.8219
+    },
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": {
+      "size": 120,
+      "unit": "sqm"
+    },
+    "floorNumber": 8,
+    "yearBuilt": 2020,
+    "status": "Available",
+    "features": [
+      "Gym",
+      "Rooftop Deck",
+      "24/7 Security",
+      "Elevator",
+      "Intercom",
+      "Fitted Kitchen"
+    ],
+    "images": [
+      "images/prop002_exterior_1.webp",
+      "images/prop002_exterior_2.webp"
+    ],
+    "interiorImages": [
+      "images/prop002_living_area.webp",
+      "images/prop002_kitchenette.webp",
+      "images/prop002_balcony_view.webp"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Mortgage"
+    ],
+    "views": 2345,
+    "reviews": [
+      {
+        "reviewId": "REV002A",
+        "reviewerName": "Catherine Green",
+        "rating": 5,
+        "comment": "Fantastic city views and a very modern apartment. Love the gym access!",
+        "date": "2025-07-20T11:00:00Z"
+      }
+    ],
+    "agentInfo": {
+      "name": "Urban Dwellings Ltd.",
+      "contactPerson": "John Smith",
+      "phone": "+254721987654",
+      "email": "john.smith@urbandwellings.com"
+    },
+    "listingDate": "2025-07-15T09:30:00Z",
+    "lastUpdated": "2025-07-22T11:00:00Z"
+  },
+  {
+    "propertyId": "PROP003",
+    "title": "Prime Commercial Plot for Sale in Westlands",
+    "description": "An excellent opportunity to acquire a prime commercial plot in the bustling Westlands business district, ideal for developing offices, retail spaces, or a mixed-use building. Zoned for high-rise development.",
+    "price": {
+      "amount": 120000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Plot 789 Waiyaki Way, Westlands",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2678,
+      "longitude": 36.8041
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 0.5,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Main Road Access",
+      "Utilities Ready (Water, Electricity, Sewer)",
+      "High Growth Area"
+    ],
+    "images": [
+      "images/prop003_plot_aerial.webp",
+      "images/prop003_street_view.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Financing Options"
+    ],
+    "views": 890,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Commercial Properties Kenya",
+      "contactPerson": "Sarah Mbuthia",
+      "phone": "+254733112233",
+      "email": "sarah.mbuthia@cpk.com"
+    },
+    "listingDate": "2025-07-01T15:00:00Z",
+    "lastUpdated": "2025-07-21T09:00:00Z"
+  },
+  {
+    "propertyId": "PROP004",
+    "title": "Charming 4-Bedroom House in Karen with Lush Garden",
+    "description": "A serene and spacious 4-bedroom family home located in the prestigious Karen neighborhood, boasting a sprawling lush garden, modern interiors, and excellent security. Ideal for families seeking tranquility.",
+    "price": {
+      "amount": 75000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "567 Acacia Drive, Karen",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.3345,
+      "longitude": 36.6850
+    },
+    "propertyType": "House",
+    "bedrooms": 4,
+    "bathrooms": 4.5,
+    "area": {
+      "size": 400,
+      "unit": "sqm"
+    },
+    "plotSize": {
+      "size": 0.5,
+      "unit": "acre"
+    },
+    "yearBuilt": 2018,
+    "status": "Available",
+    "features": [
+      "Large Garden",
+      "Double Garage",
+      "Fireplace",
+      "Pets Allowed",
+      "24/7 Security",
+      "Staff Quarters"
+    ],
+    "images": [
+      "images/prop004_ext_1.webp",
+      "images/prop004_ext_2.webp"
+    ],
+    "interiorImages": [
+      "images/prop004_living.webp",
+      "images/prop004_bed.webp"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Mortgage"
+    ],
+    "views": 987,
+    "reviews": [
+      {
+        "reviewId": "REV004A",
+        "reviewerName": "David Lee",
+        "rating": 5,
+        "comment": "An absolute gem! The garden is magnificent.",
+        "date": "2025-07-20T10:00:00Z"
+      }
+    ],
+    "agentInfo": {
+      "name": "Karen Properties Ltd.",
+      "contactPerson": "Sophia Ali",
+      "phone": "+254701234567",
+      "email": "sophia.ali@karenprop.com"
+    },
+    "listingDate": "2025-07-15T09:00:00Z",
+    "lastUpdated": "2025-07-22T16:00:00Z"
+  },
+  {
+    "propertyId": "PROP005",
+    "title": "Executive 1-Bedroom Apartment in Upper Hill",
+    "description": "Perfect for urban professionals, this sleek 1-bedroom apartment offers unparalleled city views from Upper Hill. Features include a modern open-plan kitchen, gym, and proximity to CBD.",
+    "price": {
+      "amount": 12500000,
+      "currency": "KES"
+    },
+    "isDiscounted": true,
+    "discountPercentage": 7,
+    "location": {
+      "address": "789 City View Apartments, Upper Hill",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2945,
+      "longitude": 36.8120
+    },
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": {
+      "size": 70,
+      "unit": "sqm"
+    },
+    "floorNumber": 15,
+    "yearBuilt": 2022,
+    "status": "Available",
+    "features": [
+      "Gym",
+      "Rooftop Pool",
+      "24/7 Security",
+      "Backup Power",
+      "High-Speed Internet"
+    ],
+    "images": [
+      "images/prop005_ext_1.webp",
+      "images/prop005_view.webp"
+    ],
+    "interiorImages": [
+      "images/prop005_living.webp",
+      "images/prop005_kitchen.webp"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer"
+    ],
+    "views": 1850,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Prime City Estates",
+      "contactPerson": "Michael Omondi",
+      "phone": "+254722987654",
+      "email": "michael.omondi@primecity.com"
+    },
+    "listingDate": "2025-07-18T11:00:00Z",
+    "lastUpdated": "2025-07-23T09:30:00Z"
+  },
+  {
+    "propertyId": "PROP006",
+    "title": "Agricultural Land for Sale in Isinya, Kajiado",
+    "description": "Expansive 10-acre agricultural land suitable for farming or future development. Located in Isinya, Kajiado County, with good road access and reliable water sources. Great investment opportunity.",
+    "price": {
+      "amount": 35000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Near Isinya Town, Kajiado",
+      "city": "Isinya",
+      "county": "Kajiado",
+      "country": "Kenya",
+      "latitude": -1.9750,
+      "longitude": 36.8500
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 10,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Borehole Access",
+      "Electricity Connection Nearby",
+      "Good Road Network"
+    ],
+    "images": [
+      "images/prop006_land_1.webp",
+      "images/prop006_land_2.webp"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Negotiable Terms"
+    ],
+    "views": 620,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Rift Valley Land Solutions",
+      "contactPerson": "Peter Kariuki",
+      "phone": "+254710112233",
+      "email": "peter.kariuki@rvlands.com"
+    },
+    "listingDate": "2025-07-05T14:00:00Z",
+    "lastUpdated": "2025-07-21T10:00:00Z"
+  },
+  {
+    "propertyId": "PROP007",
+    "title": "Newly Built 3-Bedroom Townhouse in Syokimau",
+    "description": "Contemporary 3-bedroom townhouse in a gated community in Syokimau. Features spacious living areas, modern finishes, and easy access to Mombasa Road and SGR station.",
+    "price": {
+      "amount": 15500000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Syokimau Gardens, Syokimau",
+      "city": "Mlolongo",
+      "county": "Machakos",
+      "country": "Kenya",
+      "latitude": -1.3800,
+      "longitude": 36.9300
+    },
+    "propertyType": "Townhouse",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "area": {
+      "size": 180,
+      "unit": "sqm"
+    },
+    "yearBuilt": 2024,
+    "status": "Available",
+    "features": [
+      "Gated Community",
+      "Kids Play Area",
+      "Ample Parking",
+      "Solar Water Heating"
+    ],
+    "images": [
+      "images/prop007_ext_1.webp",
+      "images/prop007_int_1.webp"
+    ],
+    "interiorImages": [
+      "images/prop007_living.webp",
+      "images/prop007_kitchen.webp"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Installments"
+    ],
+    "views": 1120,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Eastern Estates Agents",
+      "contactPerson": "Mercy Wanjiku",
+      "phone": "+254720123456",
+      "email": "mercy.w@easternestates.com"
+    },
+    "listingDate": "2025-07-10T10:00:00Z",
+    "lastUpdated": "2025-07-23T12:00:00Z"
+  },
+  {
+    "propertyId": "PROP008",
+    "title": "Studio Apartment for Rent in Kilimani (Investment Opportunity)",
+    "description": "Compact and modern studio apartment in a sought-after Kilimani location, ideal for single occupants or as a rental investment. Close to amenities, public transport, and entertainment spots.",
+    "price": {
+      "amount": 6800000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "321 Quick Access Rd, Kilimani",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2910,
+      "longitude": 36.7990
+    },
+    "propertyType": "Apartment",
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "area": {
+      "size": 40,
+      "unit": "sqm"
+    },
+    "floorNumber": 5,
+    "yearBuilt": 2021,
+    "status": "Available",
+    "features": [
+      "CCTV Surveillance",
+      "Elevator",
+      "Fitted Kitchenette",
+      "Shared Laundry"
+    ],
+    "images": [
+      "images/prop008_studio_1.webp",
+      "images/prop008_studio_2.webp"
+    ],
+    "interiorImages": [
+      "images/prop008_interior.webp"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer"
+    ],
+    "views": 2100,
+    "reviews": [
+      {
+        "reviewId": "REV008A",
+        "reviewerName": "Pauline Cherono",
+        "rating": 4,
+        "comment": "Great starter home or rental unit. Very convenient location.",
+        "date": "2025-07-19T17:00:00Z"
+      }
+    ],
+    "agentInfo": {
+      "name": "Urban Living Solutions",
+      "contactPerson": "Sam Muriuki",
+      "phone": "+254733998877",
+      "email": "sam.m@urbanliving.com"
+    },
+    "listingDate": "2025-07-16T13:00:00Z",
+    "lastUpdated": "2025-07-22T08:00:00Z"
+  },
+  {
+    "propertyId": "PROP009",
+    "title": "Commercial Building for Sale in CBD, Nairobi",
+    "description": "Multi-story commercial building with retail and office spaces available for sale in Nairobi's Central Business District. High foot traffic area, ideal for various business ventures.",
+    "price": {
+      "amount": 250000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Moi Avenue, CBD",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2833,
+      "longitude": 36.8167
+    },
+    "propertyType": "Commercial",
+    "area": {
+      "size": 1000,
+      "unit": "sqm"
+    },
+    "yearBuilt": 1995,
+    "status": "Available",
+    "features": [
+      "Multiple Floors",
+      "Retail Frontage",
+      "Office Spaces",
+      "High Traffic Area"
+    ],
+    "images": [
+      "images/prop009_bld_1.webp",
+      "images/prop009_bld_2.webp"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Investment Partnerships"
+    ],
+    "views": 450,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Nairobi Business Properties",
+      "contactPerson": "Daniel Otieno",
+      "phone": "+254711223344",
+      "email": "daniel.o@nbp.com"
+    },
+    "listingDate": "2025-06-25T09:00:00Z",
+    "lastUpdated": "2025-07-19T14:00:00Z"
+  },
+  {
+    "propertyId": "PROP010",
+    "title": "Spacious 5-Bedroom Villa in Runda",
+    "description": "An exquisite 5-bedroom villa nestled in the tranquil Runda area, offering expansive living spaces, a private swimming pool, and manicured gardens. Ultimate luxury living.",
+    "price": {
+      "amount": 110000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Runda Evergreen, Runda",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2200,
+      "longitude": 36.8300
+    },
+    "propertyType": "House",
+    "bedrooms": 5,
+    "bathrooms": 5.5,
+    "area": {
+      "size": 600,
+      "unit": "sqm"
+    },
+    "plotSize": {
+      "size": 0.75,
+      "unit": "acre"
+    },
+    "yearBuilt": 2017,
+    "status": "Available",
+    "features": [
+      "Swimming Pool",
+      "Guest Wing",
+      "Large Kitchen",
+      "Serene Neighborhood",
+      "Ample Parking"
+    ],
+    "images": [
+      "images/prop010_ext_1.webp",
+      "images/prop010_pool.webp"
+    ],
+    "interiorImages": [
+      "images/prop010_living.webp",
+      "images/prop010_master.webp"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Mortgage"
+    ],
+    "views": 780,
+    "reviews": [
+      {
+        "reviewId": "REV010A",
+        "reviewerName": "Grace Kimani",
+        "rating": 5,
+        "comment": "Absolutely stunning! A true dream home.",
+        "date": "2025-07-21T11:00:00Z"
+      }
+    ],
+    "agentInfo": {
+      "name": "Prime Estates Runda",
+      "contactPerson": "Esther Njoroge",
+      "phone": "+254700554433",
+      "email": "esther.n@primerunda.com"
+    },
+    "listingDate": "2025-07-08T16:00:00Z",
+    "lastUpdated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "propertyId": "PROP011",
+    "title": "Affordable 2-Bedroom Apartment in Thika",
+    "description": "A pocket-friendly 2-bedroom apartment ideal for young families or first-time homeowners in Thika. Conveniently located near amenities and transport links.",
+    "price": {
+      "amount": 5500000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Blue Bells Estate, Thika",
+      "city": "Thika",
+      "county": "Kiambu",
+      "country": "Kenya",
+      "latitude": -1.0370,
+      "longitude": 37.0700
+    },
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area": {
+      "size": 80,
+      "unit": "sqm"
+    },
+    "floorNumber": 2,
+    "yearBuilt": 2019,
+    "status": "Available",
+    "features": [
+      "Kids Play Area",
+      "Secure Parking",
+      "Fitted Kitchen"
+    ],
+    "images": [
+      "images/prop011_ext_1.webp"
+    ],
+    "interiorImages": [
+      "images/prop011_living.webp"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Sacco Financing"
+    ],
+    "views": 1400,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Kiambu Homes",
+      "contactPerson": "Joseph Mwangi",
+      "phone": "+254724876543",
+      "email": "joseph.m@kiambuhomes.com"
+    },
+    "listingDate": "2025-07-12T15:00:00Z",
+    "lastUpdated": "2025-07-22T09:00:00Z"
+  },
+  {
+    "propertyId": "PROP012",
+    "title": "Vacant Half-Acre Plot in Limuru",
+    "description": "A prime half-acre plot available in the scenic and rapidly developing area of Limuru. Ideal for building a dream home or for future subdivision. Great views of the landscape.",
+    "price": {
+      "amount": 9000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Near Tigoni Road, Limuru",
+      "city": "Limuru",
+      "county": "Kiambu",
+      "country": "Kenya",
+      "latitude": -1.0900,
+      "longitude": 36.7000
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 0.5,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Scenic Views",
+      "Good Access Road",
+      "Proximity to Limuru Town"
+    ],
+    "images": [
+      "images/prop012_plot_1.webp",
+      "images/prop012_view.webp"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer"
+    ],
+    "views": 550,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Highlands Realty",
+      "contactPerson": "Faith Wambui",
+      "phone": "+254715678901",
+      "email": "faith.w@highlandsrealty.com"
+    },
+    "listingDate": "2025-07-01T11:00:00Z",
+    "lastUpdated": "2025-07-20T10:00:00Z"
+  },
+  {
+    "propertyId": "PROP013",
+    "title": "Luxurious 4-Bedroom Duplex in Kileleshwa",
+    "description": "A magnificent 4-bedroom duplex offering opulent living in the heart of Kileleshwa. Features high-end finishes, spacious balconies, and exclusive amenities for residents.",
+    "price": {
+      "amount": 38000000,
+      "currency": "KES"
+    },
+    "isDiscounted": true,
+    "discountPercentage": 3,
+    "location": {
+      "address": "45 Sunset Drive, Kileleshwa",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2800,
+      "longitude": 36.7800
+    },
+    "propertyType": "Duplex",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area": {
+      "size": 250,
+      "unit": "sqm"
+    },
+    "floorNumber": 3,
+    "yearBuilt": 2023,
+    "status": "Available",
+    "features": [
+      "Servant Quarters",
+      "Gym",
+      "Elevator",
+      "Intercom",
+      "24/7 Security",
+      "Backup Generator"
+    ],
+    "images": [
+      "https://example.com/images/prop013_ext_1.jpg",
+      "https://example.com/images/prop013_balcony.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop013_living.jpg",
+      "https://example.com/images/prop013_kitchen.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Mortgage"
+    ],
+    "views": 1050,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Premium Dwellings Nairobi",
+      "contactPerson": "Susan Wambui",
+      "phone": "+254790123456",
+      "email": "susan.w@premiumdwellings.com"
+    },
+    "listingDate": "2025-07-03T10:00:00Z",
+    "lastUpdated": "2025-07-23T11:00:00Z"
+  },
+  {
+    "propertyId": "PROP014",
+    "title": "Residential Plot in Malindi Near Beach",
+    "description": "A prime residential plot of 1/8th acre in Malindi, a short walk from the pristine beaches. Ideal for building a holiday home or guesthouse. Growing tourist area.",
+    "price": {
+      "amount": 6000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Watamu Road, Malindi",
+      "city": "Malindi",
+      "county": "Kilifi",
+      "country": "Kenya",
+      "latitude": -3.2000,
+      "longitude": 40.1000
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 0.125,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Beach Access",
+      "Good for Holiday Home",
+      "Utilities Nearby"
+    ],
+    "images": [
+      "https://example.com/images/prop014_plot_1.jpg",
+      "https://example.com/images/prop014_beach.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer"
+    ],
+    "views": 700,
+    "reviews": [
+      {
+        "reviewId": "REV014A",
+        "reviewerName": "Fatuma Ahmed",
+        "rating": 5,
+        "comment": "Perfect location for a vacation spot!",
+        "date": "2025-07-18T09:00:00Z"
+      }
+    ],
+    "agentInfo": {
+      "name": "Coastline Properties",
+      "contactPerson": "Omar Said",
+      "phone": "+254789012345",
+      "email": "omar.s@coastlineprop.com"
+    },
+    "listingDate": "2025-07-06T14:00:00Z",
+    "lastUpdated": "2025-07-22T10:00:00Z"
+  },
+  {
+    "propertyId": "PROP015",
+    "title": "Modern 3-Bedroom Bungalow in Kitengela",
+    "description": "A spacious and modern 3-bedroom bungalow situated in a peaceful part of Kitengela. Features include a private compound, ample parking, and easy access to local amenities.",
+    "price": {
+      "amount": 9500000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Acacia Estate, Kitengela",
+      "city": "Kitengela",
+      "county": "Kajiado",
+      "country": "Kenya",
+      "latitude": -1.4800,
+      "longitude": 36.9700
+    },
+    "propertyType": "House",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": {
+      "size": 150,
+      "unit": "sqm"
+    },
+    "plotSize": {
+      "size": 0.08,
+      "unit": "acre"
+    },
+    "yearBuilt": 2020,
+    "status": "Available",
+    "features": [
+      "Private Compound",
+      "Borehole",
+      "Perimeter Wall",
+      "Kids Play Area"
+    ],
+    "images": [
+      "https://example.com/images/prop015_ext_1.jpg",
+      "https://example.com/images/prop015_ext_2.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop015_living.jpg",
+      "https://example.com/images/prop015_kitchen.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Installments"
+    ],
+    "views": 1600,
+    "reviews": [
+      {
+        "reviewId": "REV015A",
+        "reviewerName": "Charles Njoroge",
+        "rating": 4,
+        "comment": "Good value for money. Quiet neighborhood.",
+        "date": "2025-07-21T15:00:00Z"
+      }
+    ],
+    "agentInfo": {
+      "name": "Kitengela Home Finders",
+      "contactPerson": "Mary Mwangi",
+      "phone": "+254727123456",
+      "email": "mary.m@kitengelahomes.com"
+    },
+    "listingDate": "2025-07-13T10:00:00Z",
+    "lastUpdated": "2025-07-23T08:00:00Z"
+  },
+  {
+    "propertyId": "PROP016",
+    "title": "Prime 1/4 Acre Commercial Plot in Ruiru",
+    "description": "Excellent opportunity to acquire a 1/4 acre commercial plot along the busy Thika Superhighway in Ruiru. High visibility and foot traffic, perfect for retail or industrial development.",
+    "price": {
+      "amount": 40000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Thika Rd, Ruiru",
+      "city": "Ruiru",
+      "county": "Kiambu",
+      "country": "Kenya",
+      "latitude": -1.1700,
+      "longitude": 36.9500
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 0.25,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Main Road Frontage",
+      "Utilities On-Site",
+      "High Growth Area"
+    ],
+    "images": [
+      "https://example.com/images/prop016_plot_1.jpg",
+      "https://example.com/images/prop016_road.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Financing Options"
+    ],
+    "views": 750,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Greater Nairobi Lands",
+      "contactPerson": "George Otieno",
+      "phone": "+254718223344",
+      "email": "george.o@gnl.com"
+    },
+    "listingDate": "2025-06-30T10:00:00Z",
+    "lastUpdated": "2025-07-20T16:00:00Z"
+  },
+  {
+    "propertyId": "PROP017",
+    "title": "Cozy 2-Bedroom Apartment in Rongai",
+    "description": "An inviting 2-bedroom apartment in a secure complex in Rongai. Features include a spacious living room, balconies, and proximity to schools and shopping centers.",
+    "price": {
+      "amount": 7800000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Laiser Hill Area, Ongata Rongai",
+      "city": "Ongata Rongai",
+      "county": "Kajiado",
+      "country": "Kenya",
+      "latitude": -1.4100,
+      "longitude": 36.7800
+    },
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": {
+      "size": 90,
+      "unit": "sqm"
+    },
+    "floorNumber": 4,
+    "yearBuilt": 2018,
+    "status": "Available",
+    "features": [
+      "Gated Community",
+      "Ample Parking",
+      "Backup Water",
+      "Balcony"
+    ],
+    "images": [
+      "https://example.com/images/prop017_ext_1.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop017_living.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Sacco Loans"
+    ],
+    "views": 1300,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Rongai Homes Connect",
+      "contactPerson": "Susan Njeri",
+      "phone": "+254705678901",
+      "email": "susan.n@rongaihomes.com"
+    },
+    "listingDate": "2025-07-14T11:00:00Z",
+    "lastUpdated": "2025-07-22T13:00:00Z"
+  },
+  {
+    "propertyId": "PROP018",
+    "title": "Large Industrial Warehouse in Athi River",
+    "description": "Massive industrial warehouse space in Athi River, ideal for manufacturing, storage, or logistics. Features high ceilings, loading docks, and ample parking for heavy vehicles.",
+    "price": {
+      "amount": 95000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Mombasa Road, Athi River",
+      "city": "Athi River",
+      "county": "Machakos",
+      "country": "Kenya",
+      "latitude": -1.4800,
+      "longitude": 37.0500
+    },
+    "propertyType": "Commercial",
+    "area": {
+      "size": 2000,
+      "unit": "sqm"
+    },
+    "plotSize": {
+      "size": 1,
+      "unit": "acre"
+    },
+    "yearBuilt": 2010,
+    "status": "Available",
+    "features": [
+      "Loading Docks",
+      "Three Phase Power",
+      "Security Fencing",
+      "Office Space"
+    ],
+    "images": [
+      "https://example.com/images/prop018_warehouse_1.jpg",
+      "https://example.com/images/prop018_warehouse_2.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Long-Term Lease Options"
+    ],
+    "views": 380,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Machakos Industrial Realty",
+      "contactPerson": "David Wekesa",
+      "phone": "+254729123456",
+      "email": "david.w@machaindustrial.com"
+    },
+    "listingDate": "2025-06-20T09:00:00Z",
+    "lastUpdated": "2025-07-17T14:00:00Z"
+  },
+  {
+    "propertyId": "PROP019",
+    "title": "Seaside 3-Bedroom Cottage in Diani",
+    "description": "Escape to this charming 3-bedroom seaside cottage in Diani, just steps from the white sandy beach. Perfect as a holiday home or a lucrative Airbnb investment.",
+    "price": {
+      "amount": 28000000,
+      "currency": "KES"
+    },
+    "isDiscounted": true,
+    "discountPercentage": 10,
+    "location": {
+      "address": "Near Diani Beach Road, Diani",
+      "city": "Diani",
+      "county": "Kwale",
+      "country": "Kenya",
+      "latitude": -4.2800,
+      "longitude": 39.5600
+    },
+    "propertyType": "House",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": {
+      "size": 180,
+      "unit": "sqm"
+    },
+    "plotSize": {
+      "size": 0.15,
+      "unit": "acre"
+    },
+    "yearBuilt": 2015,
+    "status": "Available",
+    "features": [
+      "Beach Access",
+      "Swimming Pool",
+      "Air Conditioning",
+      "Furnished (Optional)"
+    ],
+    "images": [
+      "https://example.com/images/prop019_beach_1.jpg",
+      "https://example.com/images/prop019_cottage.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop019_living.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer"
+    ],
+    "views": 1900,
+    "reviews": [
+      {
+        "reviewId": "REV019A",
+        "reviewerName": "Sophia Johnson",
+        "rating": 5,
+        "comment": "An amazing beach getaway! Loved every moment.",
+        "date": "2025-07-23T09:00:00Z"
+      }
+    ],
+    "agentInfo": {
+      "name": "Diani Dream Homes",
+      "contactPerson": "Amina Said",
+      "phone": "+254702345678",
+      "email": "amina.s@dianidreamhomes.com"
+    },
+    "listingDate": "2025-07-07T12:00:00Z",
+    "lastUpdated": "2025-07-23T11:30:00Z"
+  },
+  {
+    "propertyId": "PROP020",
+    "title": "Serviced Office Space in Westlands",
+    "description": "Premium serviced office spaces available for lease in a modern building in Westlands. Fully furnished with high-speed internet, meeting rooms, and receptionist services. Flexible terms.",
+    "price": {
+      "amount": 150000,
+      "currency": "KES",
+      "perUnit": "per month"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Mpesi Lane, Westlands",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2600,
+      "longitude": 36.8000
+    },
+    "propertyType": "Office Space",
+    "area": {
+      "size": 20,
+      "unit": "sqm"
+    },
+    "yearBuilt": 2022,
+    "status": "Available",
+    "features": [
+      "Furnished",
+      "High-Speed Internet",
+      "Meeting Rooms",
+      "Receptionist",
+      "24/7 Access"
+    ],
+    "images": [
+      "https://example.com/images/prop020_office_1.jpg",
+      "https://example.com/images/prop020_office_2.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer"
+    ],
+    "views": 950,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Corporate Space Solutions",
+      "contactPerson": "Eric Njoroge",
+      "phone": "+254719234567",
+      "email": "eric.n@corpspace.com"
+    },
+    "listingDate": "2025-07-11T10:00:00Z",
+    "lastUpdated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "propertyId": "PROP021",
+    "title": "Prime 5-Acre Land in Naivasha",
+    "description": "Scenic 5-acre land in Naivasha, perfect for a country home, resort development, or agricultural venture. Close proximity to Lake Naivasha and tourist attractions.",
+    "price": {
+      "amount": 22000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "South Lake Road, Naivasha",
+      "city": "Naivasha",
+      "county": "Nakuru",
+      "country": "Kenya",
+      "latitude": -0.7600,
+      "longitude": 36.4300
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 5,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Lake Proximity",
+      "Scenic Views",
+      "Good Road Access",
+      "Utilities Nearby"
+    ],
+    "images": [
+      "https://example.com/images/prop021_land_1.jpg",
+      "https://example.com/images/prop021_lake_view.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Flexible Terms"
+    ],
+    "views": 670,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Great Rift Realty",
+      "contactPerson": "Joyce Adhiambo",
+      "phone": "+254726543210",
+      "email": "joyce.a@greatrift.com"
+    },
+    "listingDate": "2025-07-09T15:00:00Z",
+    "lastUpdated": "2025-07-21T11:00:00Z"
+  },
+  {
+    "propertyId": "PROP022",
+    "title": "Compact 2-Bedroom House in Ruaka",
+    "description": "A quaint 2-bedroom house in a secure gated community in Ruaka, offering affordable living with easy access to Gigiri and Westlands.",
+    "price": {
+      "amount": 13000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Limuru Road, Ruaka",
+      "city": "Ruaka",
+      "county": "Kiambu",
+      "country": "Kenya",
+      "latitude": -1.2000,
+      "longitude": 36.7500
+    },
+    "propertyType": "House",
+    "bedrooms": 2,
+    "bathrooms": 1.5,
+    "area": {
+      "size": 100,
+      "unit": "sqm"
+    },
+    "plotSize": {
+      "size": 0.05,
+      "unit": "acre"
+    },
+    "yearBuilt": 2016,
+    "status": "Available",
+    "features": [
+      "Gated Community",
+      "Shared Garden",
+      "Ample Parking"
+    ],
+    "images": [
+      "https://example.com/images/prop022_ext_1.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop022_living.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Mortgage"
+    ],
+    "views": 1150,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Ruaka Homes",
+      "contactPerson": "Kevin Muchiri",
+      "phone": "+254717876543",
+      "email": "kevin.m@ruakahomes.com"
+    },
+    "listingDate": "2025-07-17T09:00:00Z",
+    "lastUpdated": "2025-07-22T14:00:00Z"
+  },
+  {
+    "propertyId": "PROP023",
+    "title": "Prime 1/8 Acre Residential Plot in Ngong",
+    "description": "An ideal 1/8 acre residential plot in Ngong, perfect for building a family home. Located in a developed area with utilities readily available. Growing suburban feel.",
+    "price": {
+      "amount": 4200000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Gataka Road, Ngong",
+      "city": "Ngong",
+      "county": "Kajiado",
+      "country": "Kenya",
+      "latitude": -1.3500,
+      "longitude": 36.6300
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 0.125,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Water & Electricity",
+      "Good Access Road",
+      "Developed Neighborhood"
+    ],
+    "images": [
+      "https://example.com/images/prop023_plot_1.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Sacco Payments"
+    ],
+    "views": 800,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Ngong Land Developers",
+      "contactPerson": "Gladys Nyokabi",
+      "phone": "+254728987654",
+      "email": "gladys.n@ngongland.com"
+    },
+    "listingDate": "2025-07-04T16:00:00Z",
+    "lastUpdated": "2025-07-21T09:00:00Z"
+  },
+  {
+    "propertyId": "PROP024",
+    "title": "Boutique Hotel for Sale in Watamu",
+    "description": "A charming boutique hotel with 10 rooms, restaurant, and pool, located just off the beach in Watamu. Fully operational with excellent reviews, ideal for investors.",
+    "price": {
+      "amount": 85000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Short Beach Road, Watamu",
+      "city": "Watamu",
+      "county": "Kilifi",
+      "country": "Kenya",
+      "latitude": -3.3500,
+      "longitude": 40.0100
+    },
+    "propertyType": "Commercial",
+    "bedrooms": 10,
+    "bathrooms": 10,
+    "area": {
+      "size": 800,
+      "unit": "sqm"
+    },
+    "plotSize": {
+      "size": 0.3,
+      "unit": "acre"
+    },
+    "yearBuilt": 2012,
+    "status": "Available",
+    "features": [
+      "Swimming Pool",
+      "Restaurant",
+      "Beach Proximity",
+      "High Occupancy Rate"
+    ],
+    "images": [
+      "https://example.com/images/prop024_hotel_1.jpg",
+      "https://example.com/images/prop024_pool.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Business Acquisition Loan"
+    ],
+    "views": 400,
+    "reviews": [
+      {
+        "reviewId": "REV024A",
+        "reviewerName": "Foreign Investor",
+        "rating": 5,
+        "comment": "A fantastic business opportunity in a beautiful location.",
+        "date": "2025-07-22T10:00:00Z"
+      }
+    ],
+    "agentInfo": {
+      "name": "Coastal Business Brokers",
+      "contactPerson": "Mohammed Omar",
+      "phone": "+254714567890",
+      "email": "mohammed.o@coastalbiz.com"
+    },
+    "listingDate": "2025-06-28T10:00:00Z",
+    "lastUpdated": "2025-07-23T15:00:00Z"
+  },
+  {
+    "propertyId": "PROP025",
+    "title": "Spacious 3-Bedroom Apartment in Thindigua",
+    "description": "A well-maintained 3-bedroom apartment in a serene part of Thindigua, offering ample space and natural light. Close to Quickmart and bypass for easy commuting.",
+    "price": {
+      "amount": 14000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Thindigua Heights, Thindigua",
+      "city": "Kiambu",
+      "county": "Kiambu",
+      "country": "Kenya",
+      "latitude": -1.2150,
+      "longitude": 36.8550
+    },
+    "propertyType": "Apartment",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "area": {
+      "size": 130,
+      "unit": "sqm"
+    },
+    "floorNumber": 6,
+    "yearBuilt": 2017,
+    "status": "Available",
+    "features": [
+      "Gated Community",
+      "Elevator",
+      "Ample Parking",
+      "Backup Water"
+    ],
+    "images": [
+      "https://example.com/images/prop025_ext_1.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop025_living.jpg",
+      "https://example.com/images/prop025_kitchen.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Mortgage"
+    ],
+    "views": 1000,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Kiambu Property Hub",
+      "contactPerson": "Carol Wanjiru",
+      "phone": "+254721123456",
+      "email": "carol.w@kiambupropertyhub.com"
+    },
+    "listingDate": "2025-07-10T14:00:00Z",
+    "lastUpdated": "2025-07-23T09:00:00Z"
+  },
+  {
+    "propertyId": "PROP026",
+    "title": "Half-Acre Residential Plot in Membley",
+    "description": "A well-located half-acre residential plot in the established Membley Estate, ideal for building a large family home. Secure and quiet neighborhood.",
+    "price": {
+      "amount": 25000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Membley Estate, Ruiru",
+      "city": "Ruiru",
+      "county": "Kiambu",
+      "country": "Kenya",
+      "latitude": -1.2050,
+      "longitude": 36.9550
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 0.5,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Gated Estate",
+      "Developed Area",
+      "Utilities Ready"
+    ],
+    "images": [
+      "https://example.com/images/prop026_plot_1.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer"
+    ],
+    "views": 600,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Thika Road Properties",
+      "contactPerson": "James Gitau",
+      "phone": "+254708765432",
+      "email": "james.g@thikaroadprop.com"
+    },
+    "listingDate": "2025-07-02T09:00:00Z",
+    "lastUpdated": "2025-07-20T11:00:00Z"
+  },
+  {
+    "propertyId": "PROP027",
+    "title": "Riverside 4-Bedroom House in Rosslyn",
+    "description": "A stunning 4-bedroom house with serene river views in the exclusive Rosslyn estate. Features include a spacious patio, mature garden, and proximity to diplomatic institutions.",
+    "price": {
+      "amount": 90000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Rosslyn Lone Tree, Rosslyn",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2100,
+      "longitude": 36.7500
+    },
+    "propertyType": "House",
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "area": {
+      "size": 450,
+      "unit": "sqm"
+    },
+    "plotSize": {
+      "size": 0.6,
+      "unit": "acre"
+    },
+    "yearBuilt": 2016,
+    "status": "Available",
+    "features": [
+      "River View",
+      "Mature Garden",
+      "Security System",
+      "Detached SQ",
+      "Fireplace"
+    ],
+    "images": [
+      "https://example.com/images/prop027_ext_1.jpg",
+      "https://example.com/images/prop027_river.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop027_living.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Mortgage"
+    ],
+    "views": 850,
+    "reviews": [
+      {
+        "reviewId": "REV027A",
+        "reviewerName": "Robert Davies",
+        "rating": 5,
+        "comment": "Absolutely breathtaking views and a lovely home.",
+        "date": "2025-07-21T16:00:00Z"
+      }
+    ],
+    "agentInfo": {
+      "name": "Diplomatic Homes Agency",
+      "contactPerson": "Fiona Chebet",
+      "phone": "+254723456789",
+      "email": "fiona.c@diplomatichomes.com"
+    },
+    "listingDate": "2025-07-08T11:00:00Z",
+    "lastUpdated": "2025-07-23T10:00:00Z"
+  },
+  {
+    "propertyId": "PROP028",
+    "title": "Bedsitter Apartment in Roysambu",
+    "description": "An affordable and well-maintained bedsitter apartment in Roysambu, ideal for students or single professionals. Close to USIU-Africa and Thika Road Mall.",
+    "price": {
+      "amount": 2800000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Mihango Road, Roysambu",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2200,
+      "longitude": 36.8800
+    },
+    "propertyType": "Apartment",
+    "bedrooms": 0,
+    "bathrooms": 1,
+    "area": {
+      "size": 30,
+      "unit": "sqm"
+    },
+    "floorNumber": 3,
+    "yearBuilt": 2019,
+    "status": "Available",
+    "features": [
+      "Secure Building",
+      "Balcony",
+      "Proximity to Amenities"
+    ],
+    "images": [
+      "https://example.com/images/prop028_studio_1.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop028_interior.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "M-Pesa"
+    ],
+    "views": 1800,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Student Housing Kenya",
+      "contactPerson": "Simon Kamau",
+      "phone": "+254716789012",
+      "email": "simon.k@studenthousing.com"
+    },
+    "listingDate": "2025-07-15T10:00:00Z",
+    "lastUpdated": "2025-07-23T07:00:00Z"
+  },
+  {
+    "propertyId": "PROP029",
+    "title": "Prime 1-Acre Land in Limuru for Development",
+    "description": "Strategic 1-acre land parcel in Limuru, ideal for a private residence, small gated community, or agricultural venture. Serene environment with good access.",
+    "price": {
+      "amount": 16000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Near Brackenhurst, Limuru",
+      "city": "Limuru",
+      "county": "Kiambu",
+      "country": "Kenya",
+      "latitude": -1.1000,
+      "longitude": 36.6800
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 1,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Red Soil",
+      "Electricity Available",
+      "Good Road Access"
+    ],
+    "images": [
+      "https://example.com/images/prop029_plot_1.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Flexible Terms"
+    ],
+    "views": 500,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Limuru Land Investments",
+      "contactPerson": "Christine Moraa",
+      "phone": "+254725901234",
+      "email": "christine.m@limurulands.com"
+    },
+    "listingDate": "2025-07-01T14:00:00Z",
+    "lastUpdated": "2025-07-19T10:00:00Z"
+  },
+  {
+    "propertyId": "PROP030",
+    "title": "Family-Friendly 3-Bedroom Apartment in Loresho",
+    "description": "A spacious 3-bedroom apartment perfect for a family, located in the quiet and leafy Loresho area. Features include a large living room, modern kitchen, and access to communal gardens.",
+    "price": {
+      "amount": 25000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Loresho Ridge, Loresho",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2500,
+      "longitude": 36.7500
+    },
+    "propertyType": "Apartment",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "area": {
+      "size": 160,
+      "unit": "sqm"
+    },
+    "floorNumber": 2,
+    "yearBuilt": 2016,
+    "status": "Available",
+    "features": [
+      "Communal Garden",
+      "Kids Play Area",
+      "24/7 Security",
+      "Ample Parking"
+    ],
+    "images": [
+      "https://example.com/images/prop030_ext_1.jpg",
+      "https://example.com/images/prop030_garden.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop030_living.jpg",
+      "https://example.com/images/prop030_kitchen.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Mortgage"
+    ],
+    "views": 900,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Nairobi West Realty",
+      "contactPerson": "Patrick Ndegwa",
+      "phone": "+254713456789",
+      "email": "patrick.n@nairobiwest.com"
+    },
+    "listingDate": "2025-07-12T09:00:00Z",
+    "lastUpdated": "2025-07-23T13:00:00Z"
+  },
+  {
+    "propertyId": "PROP031",
+    "title": "Commercial Plot in Mombasa CBD",
+    "description": "A valuable commercial plot in the heart of Mombasa CBD, ideal for retail shops, offices, or mixed-use development. High visibility and strategic location.",
+    "price": {
+      "amount": 70000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Moi Avenue, Mombasa",
+      "city": "Mombasa",
+      "county": "Mombasa",
+      "country": "Kenya",
+      "latitude": -4.0500,
+      "longitude": 39.6600
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 0.15,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Prime Location",
+      "High Traffic Area",
+      "All Utilities"
+    ],
+    "images": [
+      "https://example.com/images/prop031_plot_1.jpg",
+      "https://example.com/images/prop031_street.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Investment Funds"
+    ],
+    "views": 350,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Mombasa Commercial Agents",
+      "contactPerson": "Ali Juma",
+      "phone": "+254710987654",
+      "email": "ali.j@mombasabiz.com"
+    },
+    "listingDate": "2025-06-20T11:00:00Z",
+    "lastUpdated": "2025-07-18T09:00:00Z"
+  },
+  {
+    "propertyId": "PROP032",
+    "title": "Contemporary 5-Bedroom House in Muthaiga",
+    "description": "An architectural masterpiece: a 5-bedroom contemporary house in the exclusive Muthaiga suburb. Features include smart home technology, infinity pool, and expansive grounds.",
+    "price": {
+      "amount": 180000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Muthaiga Road, Muthaiga",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2500,
+      "longitude": 36.8500
+    },
+    "propertyType": "House",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "area": {
+      "size": 700,
+      "unit": "sqm"
+    },
+    "plotSize": {
+      "size": 1.0,
+      "unit": "acre"
+    },
+    "yearBuilt": 2024,
+    "status": "Available",
+    "features": [
+      "Infinity Pool",
+      "Smart Home System",
+      "Gym",
+      "Home Cinema",
+      "Lush Garden",
+      "Staff Quarters"
+    ],
+    "images": [
+      "https://example.com/images/prop032_ext_1.jpg",
+      "https://example.com/images/prop032_pool.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop032_living.jpg",
+      "https://example.com/images/prop032_kitchen.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "High-Value Mortgage"
+    ],
+    "views": 650,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Elite Homes Kenya",
+      "contactPerson": "Jessica Ochieng",
+      "phone": "+254707654321",
+      "email": "jessica.o@elitehomes.com"
+    },
+    "listingDate": "2025-07-05T09:00:00Z",
+    "lastUpdated": "2025-07-23T14:00:00Z"
+  },
+  {
+    "propertyId": "PROP033",
+    "title": "Renovated 2-Bedroom Apartment in Langata",
+    "description": "A recently renovated 2-bedroom apartment in a quiet part of Langata. Features modern fittings, spacious bedrooms, and easy access to shopping malls and national park.",
+    "price": {
+      "amount": 9800000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Off Langata Road, Langata",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.3100,
+      "longitude": 36.7800
+    },
+    "propertyType": "Apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": {
+      "size": 100,
+      "unit": "sqm"
+    },
+    "floorNumber": 1,
+    "yearBuilt": 2005,
+    "status": "Available",
+    "features": [
+      "Newly Renovated",
+      "Secure Compound",
+      "Ample Parking"
+    ],
+    "images": [
+      "https://example.com/images/prop033_ext_1.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop033_living.jpg",
+      "https://example.com/images/prop033_kitchen.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Mortgage"
+    ],
+    "views": 1100,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Langata Estate Agents",
+      "contactPerson": "Samuel Maina",
+      "phone": "+254711223344",
+      "email": "samuel.m@langataagents.com"
+    },
+    "listingDate": "2025-07-16T10:00:00Z",
+    "lastUpdated": "2025-07-23T08:30:00Z"
+  },
+  {
+    "propertyId": "PROP034",
+    "title": "Plot for Sale in Athi River (Residential)",
+    "description": "An affordable 1/8th acre residential plot in a developing area of Athi River. Ideal for building a starter home. Growing infrastructure.",
+    "price": {
+      "amount": 2500000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Green Park, Athi River",
+      "city": "Athi River",
+      "county": "Machakos",
+      "country": "Kenya",
+      "latitude": -1.4500,
+      "longitude": 37.0000
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 0.125,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Developing Area",
+      "Near Amenities",
+      "Good Access"
+    ],
+    "images": [
+      "https://example.com/images/prop034_plot_1.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Installments"
+    ],
+    "views": 700,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Athi River Land Deals",
+      "contactPerson": "Patrick Mwenda",
+      "phone": "+254703456789",
+      "email": "patrick.m@athiriverlands.com"
+    },
+    "listingDate": "2025-07-03T13:00:00Z",
+    "lastUpdated": "2025-07-22T10:00:00Z"
+  },
+  {
+    "propertyId": "PROP035",
+    "title": "Spacious 4-Bedroom Townhouse in Lavington",
+    "description": "A modern and very spacious 4-bedroom townhouse with a private garden in a secure compound in Lavington. Ideal for a growing family.",
+    "price": {
+      "amount": 48000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Hatheru Road, Lavington",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2850,
+      "longitude": 36.7850
+    },
+    "propertyType": "Townhouse",
+    "bedrooms": 4,
+    "bathrooms": 3.5,
+    "area": {
+      "size": 350,
+      "unit": "sqm"
+    },
+    "plotSize": {
+      "size": 0.18,
+      "unit": "acre"
+    },
+    "yearBuilt": 2019,
+    "status": "Available",
+    "features": [
+      "Private Garden",
+      "Gated Community",
+      "Backup Generator",
+      "Staff Quarters"
+    ],
+    "images": [
+      "https://example.com/images/prop035_ext_1.jpg",
+      "https://example.com/images/prop035_garden.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop035_living.jpg",
+      "https://example.com/images/prop035_bedroom.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Mortgage"
+    ],
+    "views": 1300,
+    "reviews": [
+      {
+        "reviewId": "REV035A",
+        "reviewerName": "Sophia Ng'ang'a",
+        "rating": 5,
+        "comment": "Beautifully maintained home with lovely garden space.",
+        "date": "2025-07-22T11:00:00Z"
+      }
+    ],
+    "agentInfo": {
+      "name": "Lavington Exclusive Homes",
+      "contactPerson": "Victor Odhiambo",
+      "phone": "+254724123456",
+      "email": "victor.o@lavingtonhomes.com"
+    },
+    "listingDate": "2025-07-10T12:00:00Z",
+    "lastUpdated": "2025-07-23T10:30:00Z"
+  },
+  {
+    "propertyId": "PROP036",
+    "title": "Student Accommodation Block in Ruiru",
+    "description": "A purpose-built student accommodation block with 20 rooms, communal kitchen, and study areas, located near Kenyatta University (Ruiru Campus). High rental income potential.",
+    "price": {
+      "amount": 60000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Off KU Bypass, Ruiru",
+      "city": "Ruiru",
+      "county": "Kiambu",
+      "country": "Kenya",
+      "latitude": -1.1800,
+      "longitude": 36.9500
+    },
+    "propertyType": "Commercial",
+    "bedrooms": 20,
+    "bathrooms": 10,
+    "area": {
+      "size": 1200,
+      "unit": "sqm"
+    },
+    "plotSize": {
+      "size": 0.2,
+      "unit": "acre"
+    },
+    "yearBuilt": 2021,
+    "status": "Available",
+    "features": [
+      "Proximity to University",
+      "High Rental Yield",
+      "Secure Compound",
+      "Shared Facilities"
+    ],
+    "images": [
+      "https://example.com/images/prop036_hostel_1.jpg",
+      "https://example.com/images/prop036_rooms.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Developer Financing"
+    ],
+    "views": 480,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Campus Property Investments",
+      "contactPerson": "Peter Kamau",
+      "phone": "+254717123456",
+      "email": "peter.k@campusprop.com"
+    },
+    "listingDate": "2025-06-25T13:00:00Z",
+    "lastUpdated": "2025-07-20T10:00:00Z"
+  },
+  {
+    "propertyId": "PROP037",
+    "title": "Residential Plot with Views in Tigoni",
+    "description": "A stunning 0.75-acre residential plot in Tigoni, offering panoramic views of the tea plantations. Perfect for building a luxury country home.",
+    "price": {
+      "amount": 30000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Tea Farm Lane, Tigoni",
+      "city": "Limuru",
+      "county": "Kiambu",
+      "country": "Kenya",
+      "latitude": -1.0500,
+      "longitude": 36.7000
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 0.75,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Scenic Views",
+      "Tea Zone",
+      "Quiet Environment",
+      "Utilities Nearby"
+    ],
+    "images": [
+      "https://example.com/images/prop037_plot_1.jpg",
+      "https://example.com/images/prop037_view.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer"
+    ],
+    "views": 720,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Tigoni Land & Homes",
+      "contactPerson": "Agnes Wanjiku",
+      "phone": "+254700987654",
+      "email": "agnes.w@tigoni.com"
+    },
+    "listingDate": "2025-07-07T10:00:00Z",
+    "lastUpdated": "2025-07-22T15:00:00Z"
+  },
+  {
+    "propertyId": "PROP038",
+    "title": "Spacious 3-Bedroom Apartment in Kileleshwa",
+    "description": "A well-appointed 3-bedroom apartment in a prime Kileleshwa location, offering ample living space, modern kitchen, and access to a gym and pool.",
+    "price": {
+      "amount": 22000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Mandera Road, Kileleshwa",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2820,
+      "longitude": 36.7900
+    },
+    "propertyType": "Apartment",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": {
+      "size": 150,
+      "unit": "sqm"
+    },
+    "floorNumber": 7,
+    "yearBuilt": 2018,
+    "status": "Available",
+    "features": [
+      "Gym",
+      "Swimming Pool",
+      "24/7 Security",
+      "Backup Generator",
+      "Elevator"
+    ],
+    "images": [
+      "https://example.com/images/prop038_ext_1.jpg",
+      "https://example.com/images/prop038_pool.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop038_living.jpg",
+      "https://example.com/images/prop038_kitchen.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Mortgage"
+    ],
+    "views": 1500,
+    "reviews": [
+      {
+        "reviewId": "REV038A",
+        "reviewerName": "Catherine Muthoni",
+        "rating": 4,
+        "comment": "Great amenities and central location.",
+        "date": "2025-07-20T14:00:00Z"
+      }
+    ],
+    "agentInfo": {
+      "name": "Kileleshwa Residential",
+      "contactPerson": "George Njoroge",
+      "phone": "+254718123456",
+      "email": "george.n@kileleshwahomes.com"
+    },
+    "listingDate": "2025-07-13T10:00:00Z",
+    "lastUpdated": "2025-07-23T12:00:00Z"
+  },
+  {
+    "propertyId": "PROP039",
+    "title": "Half-Acre Plot in Limuru (Agricultural)",
+    "description": "A fertile half-acre plot in Limuru, ideal for small-scale farming or a hobby farm. Good access to water and existing agricultural activities nearby.",
+    "price": {
+      "amount": 7500000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Limuru-Mai Mahiu Road, Limuru",
+      "city": "Limuru",
+      "county": "Kiambu",
+      "country": "Kenya",
+      "latitude": -1.0800,
+      "longitude": 36.6500
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 0.5,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Fertile Soil",
+      "Water Access",
+      "Good for Farming"
+    ],
+    "images": [
+      "https://example.com/images/prop039_plot_1.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer"
+    ],
+    "views": 580,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Rural Lands Kenya",
+      "contactPerson": "Mark Ochieng",
+      "phone": "+254720987654",
+      "email": "mark.o@rurallands.com"
+    },
+    "listingDate": "2025-07-09T10:00:00Z",
+    "lastUpdated": "2025-07-22T08:00:00Z"
+  },
+  {
+    "propertyId": "PROP040",
+    "title": "Bungalow for Sale in Utawala",
+    "description": "A well-built 3-bedroom bungalow in Utawala, offering comfortable living with a small private compound. Close to Eastern Bypass for easy commute.",
+    "price": {
+      "amount": 8500000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Benedicta Road, Utawala",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2750,
+      "longitude": 36.9800
+    },
+    "propertyType": "House",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": {
+      "size": 120,
+      "unit": "sqm"
+    },
+    "plotSize": {
+      "size": 0.06,
+      "unit": "acre"
+    },
+    "yearBuilt": 2017,
+    "status": "Available",
+    "features": [
+      "Private Compound",
+      "Ample Parking",
+      "Secure Area"
+    ],
+    "images": [
+      "https://example.com/images/prop040_ext_1.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop040_living.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Installments"
+    ],
+    "views": 1450,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Eastlands Realty",
+      "contactPerson": "Joyce Wangari",
+      "phone": "+254719012345",
+      "email": "joyce.w@eastlandsrealty.com"
+    },
+    "listingDate": "2025-07-14T09:00:00Z",
+    "lastUpdated": "2025-07-23T09:30:00Z"
+  },
+  {
+    "propertyId": "PROP041",
+    "title": "Commercial Office Suite in Upper Hill",
+    "description": "A modern office suite with city views in Upper Hill, suitable for small to medium-sized businesses. Features shared reception, meeting rooms, and ample parking.",
+    "price": {
+      "amount": 80000,
+      "currency": "KES",
+      "perUnit": "per month"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Upper Hill Road, Upper Hill",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2850,
+      "longitude": 36.8150
+    },
+    "propertyType": "Office Space",
+    "area": {
+      "size": 50,
+      "unit": "sqm"
+    },
+    "floorNumber": 12,
+    "yearBuilt": 2020,
+    "status": "Available",
+    "features": [
+      "Fitted Office",
+      "Shared Amenities",
+      "High Speed Lifts",
+      "24/7 Security"
+    ],
+    "images": [
+      "https://example.com/images/prop041_office_1.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer"
+    ],
+    "views": 600,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Corporate Solutions Africa",
+      "contactPerson": "Ben Mutua",
+      "phone": "+254728765432",
+      "email": "ben.m@corpafrica.com"
+    },
+    "listingDate": "2025-07-18T11:00:00Z",
+    "lastUpdated": "2025-07-23T11:00:00Z"
+  },
+  {
+    "propertyId": "PROP042",
+    "title": "Farm Land for Sale in Machakos",
+    "description": "An expansive 15-acre farm land parcel in Machakos County, suitable for large-scale agriculture or a development project. Good access to water and major roads.",
+    "price": {
+      "amount": 45000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Near Tala Town, Machakos",
+      "city": "Machakos",
+      "county": "Machakos",
+      "country": "Kenya",
+      "latitude": -1.2000,
+      "longitude": 37.3000
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 15,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Water Source (Borehole)",
+      "Red Soil",
+      "Electricity Nearby",
+      "Fenced"
+    ],
+    "images": [
+      "https://example.com/images/prop042_farm_1.jpg",
+      "https://example.com/images/prop042_farm_2.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Flexible Financing"
+    ],
+    "views": 300,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Machakos Agri-Lands",
+      "contactPerson": "Caleb Musyoka",
+      "phone": "+254727112233",
+      "email": "caleb.m@machakosagri.com"
+    },
+    "listingDate": "2025-06-22T14:00:00Z",
+    "lastUpdated": "2025-07-19T10:00:00Z"
+  },
+  {
+    "propertyId": "PROP043",
+    "title": "Affordable 1-Bedroom Apartment in Nairobi West",
+    "description": "A compact and budget-friendly 1-bedroom apartment in Nairobi West, ideal for singles or young couples. Close to amenities and public transport routes.",
+    "price": {
+      "amount": 4000000,
+      "currency": "KES"
+    },
+    "isDiscounted": true,
+    "discountPercentage": 5,
+    "location": {
+      "address": "Tisa Road, Nairobi West",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.3050,
+      "longitude": 36.8050
+    },
+    "propertyType": "Apartment",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": {
+      "size": 55,
+      "unit": "sqm"
+    },
+    "floorNumber": 2,
+    "yearBuilt": 2015,
+    "status": "Available",
+    "features": [
+      "Secure Building",
+      "Fitted Wardrobes",
+      "Accessible by Public Transport"
+    ],
+    "images": [
+      "https://example.com/images/prop043_ext_1.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop043_living.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "M-Pesa"
+    ],
+    "views": 2000,
+    "reviews": [
+      {
+        "reviewId": "REV043A",
+        "reviewerName": "Esther Chege",
+        "rating": 4,
+        "comment": "Good price for the location. Ideal for a single person.",
+        "date": "2025-07-21T10:00:00Z"
+      }
+    ],
+    "agentInfo": {
+      "name": "Affordable Homes Nairobi",
+      "contactPerson": "Kevin Ndungu",
+      "phone": "+254714123456",
+      "email": "kevin.n@affordablehomes.com"
+    },
+    "listingDate": "2025-07-15T15:00:00Z",
+    "lastUpdated": "2025-07-23T09:00:00Z"
+  },
+  {
+    "propertyId": "PROP044",
+    "title": "Prime Beachfront Plot in Watamu",
+    "description": "An exclusive 0.5-acre beachfront plot in the highly sought-after area of Watamu. Direct access to the beach, perfect for a luxury villa or resort development.",
+    "price": {
+      "amount": 90000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Garoda Beach, Watamu",
+      "city": "Watamu",
+      "county": "Kilifi",
+      "country": "Kenya",
+      "latitude": -3.3000,
+      "longitude": 40.0500
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 0.5,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Direct Beach Access",
+      "Prime Location",
+      "Stunning Views",
+      "Utilities Available"
+    ],
+    "images": [
+      "https://example.com/images/prop044_beach_1.jpg",
+      "https://example.com/images/prop044_plot_aerial.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Developer Financing"
+    ],
+    "views": 250,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Watamu Luxury Properties",
+      "contactPerson": "Mohammed Hassan",
+      "phone": "+254705123456",
+      "email": "mohammed.h@watamuluxury.com"
+    },
+    "listingDate": "2025-06-29T10:00:00Z",
+    "lastUpdated": "2025-07-22T13:00:00Z"
+  },
+  {
+    "propertyId": "PROP045",
+    "title": "Modern 3-Bedroom Apartment in Lavington",
+    "description": "A stylish and spacious 3-bedroom apartment in a contemporary development in Lavington. Features include en-suite bedrooms, a fitted kitchen, and access to a gym and pool.",
+    "price": {
+      "amount": 32000000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Waiyaki Way, Lavington",
+      "city": "Nairobi",
+      "county": "Nairobi",
+      "country": "Kenya",
+      "latitude": -1.2750,
+      "longitude": 36.7750
+    },
+    "propertyType": "Apartment",
+    "bedrooms": 3,
+    "bathrooms": 3.5,
+    "area": {
+      "size": 180,
+      "unit": "sqm"
+    },
+    "floorNumber": 9,
+    "yearBuilt": 2021,
+    "status": "Available",
+    "features": [
+      "Gym",
+      "Swimming Pool",
+      "Backup Generator",
+      "Elevator",
+      "Intercom",
+      "24/7 Security"
+    ],
+    "images": [
+      "https://example.com/images/prop045_ext_1.jpg",
+      "https://example.com/images/prop045_pool.jpg"
+    ],
+    "interiorImages": [
+      "https://example.com/images/prop045_living.jpg",
+      "https://example.com/images/prop045_kitchen.jpg"
+    ],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Mortgage"
+    ],
+    "views": 1600,
+    "reviews": [
+      {
+        "reviewId": "REV045A",
+        "reviewerName": "Emily Jones",
+        "rating": 5,
+        "comment": "High-quality finishes and great amenities. Very comfortable living.",
+        "date": "2025-07-23T10:00:00Z"
+      }
+    ],
+    "agentInfo": {
+      "name": "Lavington Modern Living",
+      "contactPerson": "Dennis Kiarie",
+      "phone": "+254712987654",
+      "email": "dennis.k@lavingtonmodern.com"
+    },
+    "listingDate": "2025-07-11T13:00:00Z",
+    "lastUpdated": "2025-07-23T11:45:00Z"
+  },
+  {
+    "propertyId": "PROP046",
+    "title": "Prime 1/8 Acre Residential Plot in Syokimau",
+    "description": "A well-located 1/8 acre residential plot in a developed part of Syokimau, ready for immediate development. Close to community amenities and main roads.",
+    "price": {
+      "amount": 4800000,
+      "currency": "KES"
+    },
+    "isDiscounted": false,
+    "location": {
+      "address": "Off Katani Road, Syokimau",
+      "city": "Mlolongo",
+      "county": "Machakos",
+      "country": "Kenya",
+      "latitude": -1.3700,
+      "longitude": 36.9500
+    },
+    "propertyType": "Land",
+    "plotSize": {
+      "size": 0.125,
+      "unit": "acre"
+    },
+    "status": "Available",
+    "features": [
+      "Developed Area",
+      "Water and Electricity Available",
+      "Good Access"
+    ],
+    "images": [
+      "https://example.com/images/prop046_plot_1.jpg"
+    ],
+    "interiorImages": [],
+    "allowedPaymentModes": [
+      "Bank Transfer",
+      "Installments"
+    ],
+    "views": 900,
+    "reviews": [],
+    "agentInfo": {
+      "name": "Syokimau Land Deals",
+      "contactPerson": "Christine Kariuki",
+      "phone": "+254700112233",
+      "email": "christine.k@syokimauland.com"
+    },
+    "listingDate": "2025-07-08T15:00:00Z",
+    "lastUpdated": "2025-07-22T09:00:00Z"
+    }
+]
+
+
+
+
+
+

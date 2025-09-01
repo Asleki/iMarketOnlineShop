@@ -1,0 +1,2443 @@
+[
+  {
+    "id": "prod_C&G_001",
+    "name": "Super AMOLED Smart TV 65 Inch",
+    "description": "Immersive viewing experience with stunning 4K resolution and smart features. Enjoy your favorite shows and movies with vibrant colors and deep blacks.",
+    "category": "Electronics",
+    "subCategory": "Televisions",
+    "brand": "TechVision",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=TechVision",
+    "price": 99999.00,
+    "originalPrice": 119999.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/B0E0E6/000000?text=TV+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E6B0E6/000000?text=TV+T1",
+      "https://placehold.co/100x75/D0E0A0/000000?text=TV+T2",
+      "https://placehold.co/100x75/A0E0D0/000000?text=TV+T3",
+      "https://placehold.co/100x75/C0C0C0/000000?text=TV+T4"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 1230,
+    "inStock": 85,
+    "sku": "TV-TECHV-65SM",
+    "features": [
+      "4K UHD Resolution",
+      "Smart TV OS",
+      "Built-in Wi-Fi",
+      "Multiple HDMI Ports"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-15",
+    "specifications": {
+      "Screen Size": "65 inches",
+      "Display Technology": "AMOLED",
+      "Resolution": "3840 x 2160 (4K UHD)",
+      "Smart TV Platform": "Android TV",
+      "Connectivity": "Wi-Fi, Bluetooth, 4x HDMI, 2x USB"
+    }
+  },
+  {
+    "id": "prod_C&G_002",
+    "name": "Ultra-Fast Wireless Gaming Mouse",
+    "description": "Achieve peak performance with this ergonomic gaming mouse featuring customizable DPI and RGB lighting.",
+    "category": "Electronics",
+    "subCategory": "Gaming Peripherals",
+    "brand": "GamePro",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=GamePro",
+    "price": 6999.00,
+    "originalPrice": 7999.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/E0F0E0/000000?text=Mouse+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/F0E6D0/000000?text=Mouse+T1",
+      "https://placehold.co/100x75/D0E0F0/000000?text=Mouse+T2",
+      "https://placehold.co/100x75/E0F0A0/000000?text=Mouse+T3",
+      "https://placehold.co/100x75/F0A0E0/000000?text=Mouse+T4"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 870,
+    "inStock": 210,
+    "sku": "GP-GAM-MOUSE",
+    "features": [
+      "Adjustable DPI",
+      "RGB Backlighting",
+      "Programmable Buttons",
+      "Wireless Connectivity"
+    ],
+    "shipping": "express",
+    "waitingPeriod": "1-2 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 5,
+    "availableColors": [
+      "Black",
+      "White"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": true,
+    "dateAdded": "2025-01-20",
+    "specifications": {
+      "Connectivity": "2.4GHz Wireless, USB-C",
+      "DPI": "Up to 16000",
+      "Sensor": "Optical",
+      "Buttons": "8 Programmable",
+      "Battery Life": "Up to 70 hours"
+    }
+  },
+  {
+    "id": "prod_C&G_003",
+    "name": "Noise-Cancelling Over-Ear Headphones",
+    "description": "Experience pure sound with advanced noise cancellation and comfortable earcups, perfect for travel and daily commute.",
+    "category": "Electronics",
+    "subCategory": "Audio",
+    "brand": "SonicWave",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=SonicWave",
+    "price": 24999.00,
+    "originalPrice": 24999.00,
+    "isDiscounted": false,
+    "images": [
+      "https://placehold.co/600x400/D0D0E0/000000?text=Headphones+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/C0C0E0/000000?text=HP+T1",
+      "https://placehold.co/100x75/E0C0D0/000000?text=HP+T2",
+      "https://placehold.co/100x75/D0E0C0/000000?text=HP+T3",
+      "https://placehold.co/100x75/A0A0B0/000000?text=HP+T4"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 1500,
+    "inStock": 150,
+    "sku": "SW-NC-HP",
+    "features": [
+      "Active Noise Cancellation",
+      "40-hour Battery Life",
+      "Comfort-fit Design",
+      "Bluetooth 5.2"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 3,
+    "availableColors": [
+      "Black",
+      "Silver",
+      "Navy Blue"
+    ],
+    "color": "Silver",
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-12-01",
+    "specifications": {
+      "Driver Size": "40mm",
+      "Frequency Response": "20Hz - 20kHz",
+      "Impedance": "32 Ohms",
+      "Weight": "250g"
+    }
+  },
+  {
+    "id": "prod_C&G_004",
+    "name": "Compact Portable Bluetooth Speaker",
+    "description": "Powerful sound in a pocket-sized design. Waterproof and dustproof, perfect for outdoor adventures.",
+    "category": "Electronics",
+    "subCategory": "Audio",
+    "brand": "Acousta",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=Acousta",
+    "price": 8999.00,
+    "originalPrice": 8999.00,
+    "isDiscounted": false,
+    "images": [
+      "https://placehold.co/600x400/A0D0A0/000000?text=Speaker+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/B0E0B0/000000?text=Spkr+T1",
+      "https://placehold.co/100x75/D0F0D0/000000?text=Spkr+T2",
+      "https://placehold.co/100x75/A0C0A0/000000?text=Spkr+T3"
+    ],
+    "rating": 4.5,
+    "reviewsCount": 980,
+    "inStock": 300,
+    "sku": "AC-PORT-SPK",
+    "features": [
+      "IP67 Waterproof",
+      "12-hour Battery Life",
+      "Built-in Microphone",
+      "Stereo Pairing"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 5,
+    "availableColors": [
+      "Black",
+      "Red",
+      "Blue"
+    ],
+    "color": "Red",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-03-10",
+    "specifications": {
+      "Output Power": "10W",
+      "Bluetooth Version": "5.0",
+      "Dimensions": "10cm x 10cm x 5cm",
+      "Weight": "350g"
+    }
+  },
+  {
+    "id": "prod_C&G_005",
+    "name": "Smart Fitness Tracker with Heart Rate Monitor",
+    "description": "Track your steps, calories, sleep, and heart rate with this sleek and comfortable fitness band.",
+    "category": "Electronics",
+    "subCategory": "Wearables",
+    "brand": "FitLife",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=FitLife",
+    "price": 12999.00,
+    "originalPrice": 14999.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/E0E0A0/000000?text=Tracker+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/F0F0B0/000000?text=FT+T1",
+      "https://placehold.co/100x75/D0D0F0/000000?text=FT+T2",
+      "https://placehold.co/100x75/A0F0D0/000000?text=FT+T3"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 1120,
+    "inStock": 180,
+    "sku": "FL-FIT-TRACKER",
+    "features": [
+      "24/7 Heart Rate Monitoring",
+      "Sleep Tracking",
+      "Water Resistant",
+      "Long Battery Life"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Black",
+      "Pink",
+      "Blue"
+    ],
+    "color": "Pink",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": true,
+    "isFreeShipping": false,
+    "dateAdded": "2025-02-05",
+    "specifications": {
+      "Display": "OLED Touchscreen",
+      "Battery Life": "Up to 7 days",
+      "Compatibility": "iOS & Android",
+      "Sensors": "Optical HR, Accelerometer"
+    }
+  },
+  {
+    "id": "prod_C&G_006",
+    "name": "Professional DSLR Camera Kit",
+    "description": "Capture breathtaking photos and videos with this high-performance DSLR camera, perfect for aspiring photographers.",
+    "category": "Electronics",
+    "subCategory": "Cameras",
+    "brand": "PhotoMaster",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=PhotoMaster",
+    "price": 129999.00,
+    "originalPrice": 129999.00,
+    "isDiscounted": false,
+    "images": [
+      "https://placehold.co/600x400/B0C0D0/000000?text=Camera+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/C0D0E0/000000?text=Cam+T1",
+      "https://placehold.co/100x75/D0E0F0/000000?text=Cam+T2",
+      "https://placehold.co/100x75/E0F0D0/000000?text=Cam+T3"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 450,
+    "inStock": 30,
+    "sku": "PM-DSLR-KIT",
+    "features": [
+      "24.2MP APS-C Sensor",
+      "4K Video Recording",
+      "Built-in Wi-Fi & NFC",
+      "Includes 18-55mm Lens"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": false,
+    "dateAdded": "2024-10-20",
+    "specifications": {
+      "Sensor Type": "CMOS",
+      "ISO Range": "100-25600",
+      "Autofocus Points": "45-point All Cross-type",
+      "Screen Size": "3.0 inch Vari-angle"
+    }
+  },
+  {
+    "id": "prod_C&G_007",
+    "name": "Lightweight Ultraportable Laptop 13.3 Inch",
+    "description": "Ideal for students and professionals on the go. Fast performance and long battery life in a slim design.",
+    "category": "Electronics",
+    "subCategory": "Computers",
+    "brand": "ProBook",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=ProBook",
+    "price": 65000.00,
+    "originalPrice": 70000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/F0D0E0/000000?text=Laptop+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0F0F0/000000?text=Lap+T1",
+      "https://placehold.co/100x75/D0E0E0/000000?text=Lap+T2"
+    ],
+    "rating": 4.4,
+    "reviewsCount": 600,
+    "inStock": 75,
+    "sku": "PB-ULTRA-13",
+    "features": [
+      "Intel Core i5",
+      "8GB RAM",
+      "256GB SSD",
+      "Full HD Display"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Space Gray",
+      "Silver"
+    ],
+    "color": "Space Gray",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-01-05",
+    "specifications": {
+      "Processor": "Intel Core i5-1235U",
+      "RAM": "8GB LPDDR4X",
+      "Storage": "256GB NVMe SSD",
+      "Graphics": "Intel Iris Xe",
+      "OS": "Windows 11 Home"
+    }
+  },
+  {
+    "id": "prod_C&G_008",
+    "name": "Android Smartphone Pro X (128GB)",
+    "description": "Powerful smartphone with stunning camera, long-lasting battery, and vibrant display.",
+    "category": "Electronics",
+    "subCategory": "Mobile Phones",
+    "brand": "NextGen",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=NextGen",
+    "price": 45000.00,
+    "originalPrice": 50000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/C0E0F0/000000?text=Phone+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/D0F0A0/000000?text=Ph+T1",
+      "https://placehold.co/100x75/E0C0F0/000000?text=Ph+T2"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 1800,
+    "inStock": 120,
+    "sku": "NG-PRO-X-128",
+    "features": [
+      "64MP Quad Camera",
+      "4500mAh Battery",
+      "6.5 inch AMOLED Display",
+      "Fast Charging"
+    ],
+    "shipping": "express",
+    "waitingPeriod": "1-2 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Phantom Black",
+      "Midnight Blue",
+      "Arctic White"
+    ],
+    "color": "Phantom Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": true,
+    "isFreeShipping": true,
+    "dateAdded": "2025-03-22",
+    "specifications": {
+      "Processor": "Octa-core 2.8GHz",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Display Resolution": "2400 x 1080",
+      "OS": "Android 14"
+    }
+  },
+  {
+    "id": "prod_C&G_009",
+    "name": "Smartwatch with GPS & ECG",
+    "description": "Monitor your health and stay connected with this feature-packed smartwatch, compatible with iOS and Android.",
+    "category": "Electronics",
+    "subCategory": "Wearables",
+    "brand": "Chronos",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=Chronos",
+    "price": 28999.00,
+    "originalPrice": 32999.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/A0D0B0/000000?text=Smartwatch+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/B0E0D0/000000?text=SW+T1",
+      "https://placehold.co/100x75/D0F0A0/000000?text=SW+T2"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 950,
+    "inStock": 90,
+    "sku": "CH-SMARTW-GPS",
+    "features": [
+      "Built-in GPS",
+      "ECG Monitor",
+      "Blood Oxygen Sensor",
+      "Swim-proof Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Black",
+      "Rose Gold",
+      "Midnight Green"
+    ],
+    "color": "Rose Gold",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-01",
+    "specifications": {
+      "Display Type": "AMOLED",
+      "Battery Life": "Up to 10 days",
+      "Water Resistance": "5 ATM",
+      "Sensors": "Accelerometer, Gyroscope, Barometer"
+    }
+  },
+  {
+    "id": "prod_C&G_010",
+    "name": "High-Performance Gaming Desktop PC",
+    "description": "Unleash your gaming potential with this custom-built, liquid-cooled gaming PC, ready for 4K gaming and streaming.",
+    "category": "Electronics",
+    "subCategory": "Computers",
+    "brand": "ApexGaming",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=ApexGaming",
+    "price": 250000.00,
+    "originalPrice": 250000.00,
+    "isDiscounted": false,
+    "images": [
+      "https://placehold.co/600x400/E0B0B0/000000?text=Gaming+PC+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/F0C0C0/000000?text=PC+T1",
+      "https://placehold.co/100x75/D0A0A0/000000?text=PC+T2"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 320,
+    "inStock": 15,
+    "sku": "AG-GAMING-PC",
+    "features": [
+      "Intel Core i9",
+      "NVIDIA RTX 4080",
+      "32GB DDR5 RAM",
+      "1TB NVMe SSD"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "5-7 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": false,
+    "dateAdded": "2025-04-01",
+    "specifications": {
+      "Processor": "Intel Core i9-13900K",
+      "Graphics Card": "NVIDIA GeForce RTX 4080",
+      "RAM": "32GB DDR5 5600MHz",
+      "Storage": "1TB PCIe Gen4 NVMe SSD + 2TB HDD",
+      "Cooling": "240mm AIO Liquid Cooler"
+    }
+  },
+  {
+    "id": "prod_C&G_011",
+    "name": "4-Slice Stainless Steel Toaster",
+    "description": "Toast your bread evenly with multiple settings and a sleek, durable stainless steel design.",
+    "category": "Home & Kitchen",
+    "subCategory": "Kitchen Appliances",
+    "brand": "HomeChef",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=HomeChef",
+    "price": 4999.00,
+    "originalPrice": 5500.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/C0E0C0/000000?text=Toaster+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/D0F0D0/000000?text=Toaster+T1",
+      "https://placehold.co/100x75/B0D0B0/000000?text=Toaster+T2"
+    ],
+    "rating": 4.3,
+    "reviewsCount": 410,
+    "inStock": 100,
+    "sku": "HC-TOASTER-4S",
+    "features": [
+      "Wide Slots",
+      "Defrost Function",
+      "Cancel Button",
+      "Removable Crumb Tray"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Silver"
+    ],
+    "color": "Silver",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-02-18",
+    "specifications": {
+      "Power": "1500W",
+      "Material": "Stainless Steel",
+      "Dimensions": "30cm x 20cm x 18cm"
+    }
+  },
+  {
+    "id": "prod_C&G_012",
+    "name": "Electric Kettle 1.7L",
+    "description": "Boil water quickly and safely with this cordless electric kettle, perfect for tea, coffee, and instant meals.",
+    "category": "Home & Kitchen",
+    "subCategory": "Kitchen Appliances",
+    "brand": "RapidBoil",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=RapidBoil",
+    "price": 3200.00,
+    "originalPrice": 3500.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/E0F0E0/000000?text=Kettle+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/F0E6D0/000000?text=Kettle+T1",
+      "https://placehold.co/100x75/D0E0F0/000000?text=Kettle+T2"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 550,
+    "inStock": 180,
+    "sku": "RB-EKETTLE-17",
+    "features": [
+      "Rapid Boil Technology",
+      "Auto Shut-off",
+      "Boil-Dry Protection",
+      "360-degree Swivel Base"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 3,
+    "availableColors": [
+      "Black",
+      "White"
+    ],
+    "color": "Black",
+    "isFeatured": false,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": false,
+    "dateAdded": "2025-01-25",
+    "specifications": {
+      "Capacity": "1.7 Liters",
+      "Power": "1800W",
+      "Material": "BPA-Free Plastic & Stainless Steel"
+    }
+  },
+  {
+    "id": "prod_C&G_013",
+    "name": "Non-Stick 10-Piece Cookware Set",
+    "description": "Essential cookware for every kitchen. Durable non-stick coating for easy cooking and cleaning.",
+    "category": "Home & Kitchen",
+    "subCategory": "Cookware",
+    "brand": "CookWell",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=CookWell",
+    "price": 15000.00,
+    "originalPrice": 18000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/D0B0E0/000000?text=Cookware+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0C0F0/000000?text=Cook+T1",
+      "https://placehold.co/100x75/F0D0A0/000000?text=Cook+T2"
+    ],
+    "rating": 4.4,
+    "reviewsCount": 320,
+    "inStock": 60,
+    "sku": "CW-10PC-SET",
+    "features": [
+      "PFOA-free Non-stick",
+      "Dishwasher Safe",
+      "Oven Safe Handles",
+      "Glass Lids Included"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black"
+    ],
+    "color": "Black",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-10",
+    "specifications": {
+      "Material": "Aluminum with Ceramic Coating",
+      "Includes": "Frying Pans, Saucepans, Stock Pot",
+      "Compatibility": "Gas, Electric, Ceramic"
+    }
+  },
+  {
+    "id": "prod_C&G_014",
+    "name": "Robotic Vacuum Cleaner with Mopping",
+    "description": "Automate your cleaning with this smart robot vacuum that sweeps, vacuums, and mops.",
+    "category": "Home & Kitchen",
+    "subCategory": "Home Appliances",
+    "brand": "CleanBot",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=CleanBot",
+    "price": 38000.00,
+    "originalPrice": 42000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/A0E0E0/000000?text=RobotVac+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/B0F0F0/000000?text=RV+T1",
+      "https://placehold.co/100x75/C0D0C0/000000?text=RV+T2"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 680,
+    "inStock": 50,
+    "sku": "CB-ROBO-VAC",
+    "features": [
+      "Smart Navigation",
+      "App Control",
+      "Auto-return to Charger",
+      "Multiple Cleaning Modes"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black",
+      "White"
+    ],
+    "color": "White",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-03-01",
+    "specifications": {
+      "Battery Life": "Up to 120 minutes",
+      "Dustbin Capacity": "600ml",
+      "Water Tank Capacity": "300ml",
+      "Noise Level": "65dB"
+    }
+  },
+  {
+    "id": "prod_C&G_015",
+    "name": "Memory Foam Orthopedic Pillow",
+    "description": "Ergonomically designed pillow for neck and back support, ensuring a restful night's sleep.",
+    "category": "Home & Kitchen",
+    "subCategory": "Bedding",
+    "brand": "DreamCloud",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=DreamCloud",
+    "price": 5500.00,
+    "originalPrice": 6000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/D0D0F0/000000?text=Pillow+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0E0F0/000000?text=Pillow+T1",
+      "https://placehold.co/100x75/F0F0D0/000000?text=Pillow+T2"
+    ],
+    "rating": 4.5,
+    "reviewsCount": 290,
+    "inStock": 120,
+    "sku": "DC-MEMO-PIL",
+    "features": [
+      "Pressure Relief",
+      "Hypoallergenic Cover",
+      "Machine Washable Cover",
+      "Medium Firmness"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 4,
+    "availableColors": [
+      "White"
+    ],
+    "color": "White",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-12-15",
+    "specifications": {
+      "Material": "100% Memory Foam",
+      "Cover Material": "Polyester Blend",
+      "Dimensions": "60cm x 40cm x 12cm"
+    }
+  },
+  {
+    "id": "prod_C&G_016",
+    "name": "Men's Slim Fit Chinos",
+    "description": "Versatile and stylish slim fit chinos, perfect for casual or semi-formal occasions.",
+    "category": "Fashion",
+    "subCategory": "Men's Apparel",
+    "brand": "UrbanThreads",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=UrbanThreads",
+    "price": 4500.00,
+    "originalPrice": 5000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/C0A0A0/000000?text=Chinos+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/D0B0B0/000000?text=Chinos+T1",
+      "https://placehold.co/100x75/E0C0C0/000000?text=Chinos+T2"
+    ],
+    "rating": 4.2,
+    "reviewsCount": 180,
+    "inStock": 70,
+    "sku": "UT-MENS-CHINO",
+    "features": [
+      "Stretch Fabric",
+      "Tapered Leg",
+      "Machine Washable",
+      "Comfortable Fit"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 3,
+    "availableColors": [
+      "Khaki",
+      "Navy",
+      "Grey",
+      "Black"
+    ],
+    "color": "Navy",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-01-10",
+    "specifications": {
+      "Material": "Cotton Blend",
+      "Closure Type": "Zipper with Button",
+      "Sizes Available": "28, 30, 32, 34, 36"
+    }
+  },
+  {
+    "id": "prod_C&G_017",
+    "name": "Women's Floral Print Maxi Dress",
+    "description": "Flowy and elegant maxi dress with a vibrant floral print, perfect for summer days or evening events.",
+    "category": "Fashion",
+    "subCategory": "Women's Apparel",
+    "brand": "BloomStyle",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=BloomStyle",
+    "price": 6800.00,
+    "originalPrice": 7500.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/E0B0D0/000000?text=MaxiDress+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/F0C0E0/000000?text=Dress+T1",
+      "https://placehold.co/100x75/D0A0F0/000000?text=Dress+T2"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 250,
+    "inStock": 90,
+    "sku": "BS-WOMEN-MAXI",
+    "features": [
+      "Breathable Fabric",
+      "Adjustable Straps",
+      "Bohemian Style",
+      "Wrinkle Resistant"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Blue Floral",
+      "Pink Floral",
+      "Yellow Floral"
+    ],
+    "color": "Blue Floral",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-03-05",
+    "specifications": {
+      "Material": "Viscose Blend",
+      "Neckline": "V-Neck",
+      "Sizes Available": "S, M, L, XL"
+    }
+  },
+  {
+    "id": "prod_C&G_018",
+    "name": "Unisex Canvas Backpack",
+    "description": "Durable and spacious canvas backpack, ideal for school, travel, or daily use.",
+    "category": "Fashion",
+    "subCategory": "Bags",
+    "brand": "JourneyGear",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=JourneyGear",
+    "price": 3500.00,
+    "originalPrice": 4000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/A0D0E0/000000?text=Backpack+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/B0E0F0/000000?text=Bag+T1",
+      "https://placehold.co/100x75/C0F0D0/000000?text=Bag+T2"
+    ],
+    "rating": 4.3,
+    "reviewsCount": 150,
+    "inStock": 110,
+    "sku": "JG-CANVAS-BP",
+    "features": [
+      "Multiple Compartments",
+      "Padded Laptop Sleeve",
+      "Water-resistant Material",
+      "Adjustable Straps"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 3,
+    "availableColors": [
+      "Olive Green",
+      "Charcoal Grey",
+      "Navy Blue"
+    ],
+    "color": "Charcoal Grey",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-20",
+    "specifications": {
+      "Material": "High-Density Canvas",
+      "Capacity": "25 Liters",
+      "Laptop Compatibility": "Up to 15.6 inches"
+    }
+  },
+  {
+    "id": "prod_C&G_019",
+    "name": "Classic Leather Wallet for Men",
+    "description": "Handcrafted genuine leather wallet with multiple card slots and a slim profile.",
+    "category": "Fashion",
+    "subCategory": "Accessories",
+    "brand": "LeatherCraft",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=LeatherCraft",
+    "price": 2800.00,
+    "originalPrice": 3000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/D0C0A0/000000?text=Wallet+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0D0B0/000000?text=Wallet+T1",
+      "https://placehold.co/100x75/F0E0C0/000000?text=Wallet+T2"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 110,
+    "inStock": 80,
+    "sku": "LC-MENS-WAL",
+    "features": [
+      "Genuine Leather",
+      "RFID Blocking",
+      "6 Card Slots",
+      "Slim Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Brown",
+      "Black"
+    ],
+    "color": "Brown",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-02-01",
+    "specifications": {
+      "Material": "Cowhide Leather",
+      "Dimensions": "11cm x 9cm x 1.5cm"
+    }
+  },
+  {
+    "id": "prod_C&G_020",
+    "name": "Women's Elegant Quartz Watch",
+    "description": "Timeless elegance with a minimalist design. Perfect accessory for any outfit.",
+    "category": "Fashion",
+    "subCategory": "Accessories",
+    "brand": "Timeless",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=Timeless",
+    "price": 9500.00,
+    "originalPrice": 10500.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/F0D0D0/000000?text=Watch+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0E0B0/000000?text=Watch+T1",
+      "https://placehold.co/100x75/D0D0C0/000000?text=Watch+T2"
+    ],
+    "rating": 4.5,
+    "reviewsCount": 90,
+    "inStock": 55,
+    "sku": "TL-WOMEN-QRTZ",
+    "features": [
+      "Stainless Steel Case",
+      "Leather Strap",
+      "Water Resistant",
+      "Precision Quartz Movement"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Rose Gold",
+      "Silver",
+      "Gold"
+    ],
+    "color": "Rose Gold",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-04-10",
+    "specifications": {
+      "Case Diameter": "32mm",
+      "Band Material": "Genuine Leather",
+      "Water Resistance": "30m (3 ATM)"
+    }
+  },
+  {
+    "id": "prod_C&G_021",
+    "name": "Vintage Style Sunglasses (Unisex)",
+    "description": "Protect your eyes with these stylish UV400 protected sunglasses, offering a timeless look.",
+    "category": "Fashion",
+    "subCategory": "Accessories",
+    "brand": "ShadePro",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=ShadePro",
+    "price": 1800.00,
+    "originalPrice": 2200.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/B0E0D0/000000?text=Sunglasses+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/C0F0E0/000000?text=Sunglass+T1",
+      "https://placehold.co/100x75/D0E0F0/000000?text=Sunglass+T2"
+    ],
+    "rating": 4.1,
+    "reviewsCount": 130,
+    "inStock": 150,
+    "sku": "SP-VINTAGE-SUN",
+    "features": [
+      "UV400 Protection",
+      "Lightweight Frame",
+      "Classic Design",
+      "Durable Lenses"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 3,
+    "availableColors": [
+      "Black",
+      "Tortoise",
+      "Brown"
+    ],
+    "color": "Black",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-03-18",
+    "specifications": {
+      "Frame Material": "Acetate",
+      "Lens Material": "Polycarbonate",
+      "Lens Width": "55mm"
+    }
+  },
+  {
+    "id": "prod_C&G_022",
+    "name": "Portable Power Bank 20000mAh",
+    "description": "Keep your devices charged on the go with this high-capacity power bank. Features dual USB outputs.",
+    "category": "Electronics",
+    "subCategory": "Mobile Accessories",
+    "brand": "ChargePro",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=ChargePro",
+    "price": 4000.00,
+    "originalPrice": 4500.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/F0E0B0/000000?text=PowerBank+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0F0C0/000000?text=PB+T1",
+      "https://placehold.co/100x75/D0E0A0/000000?text=PB+T2"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 700,
+    "inStock": 200,
+    "sku": "CP-PB-20K",
+    "features": [
+      "20000mAh Capacity",
+      "Dual USB Output",
+      "LED Power Indicator",
+      "Fast Charging"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "1-3 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 5,
+    "availableColors": [
+      "Black",
+      "White"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-05-01",
+    "specifications": {
+      "Input": "5V/2A",
+      "Output": "5V/2.1A",
+      "Dimensions": "15cm x 7cm x 2cm",
+      "Weight": "350g"
+    }
+  },
+  {
+    "id": "prod_C&G_023",
+    "name": "Smart Home Security Camera",
+    "description": "Keep an eye on your home 24/7 with 1080p HD video, night vision, and motion detection alerts.",
+    "category": "Electronics",
+    "subCategory": "Smart Home",
+    "brand": "SecureEye",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=SecureEye",
+    "price": 11500.00,
+    "originalPrice": 12500.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/D0E0E0/000000?text=SecurityCam+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0F0F0/000000?text=SC+T1",
+      "https://placehold.co/100x75/F0E0E0/000000?text=SC+T2"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 380,
+    "inStock": 70,
+    "sku": "SE-HOME-CAM",
+    "features": [
+      "1080p HD Video",
+      "Infrared Night Vision",
+      "Two-Way Audio",
+      "Cloud & Local Storage Options"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 3,
+    "availableColors": [
+      "White"
+    ],
+    "color": "White",
+    "isFeatured": true,
+    "isDeals": false,
+    "isHotPick": true,
+    "isFreeShipping": false,
+    "dateAdded": "2025-04-15",
+    "specifications": {
+      "Resolution": "1920x1080p",
+      "Field of View": "130 degrees",
+      "Connectivity": "Wi-Fi 2.4GHz",
+      "Power": "AC Adapter"
+    }
+  },
+  {
+    "id": "prod_C&G_024",
+    "name": "Ergonomic Mesh Office Chair",
+    "description": "Stay comfortable during long work hours with this breathable mesh office chair featuring adjustable lumbar support.",
+    "category": "Home & Kitchen",
+    "subCategory": "Furniture",
+    "brand": "ComfortHome",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=ComfortHome",
+    "price": 18000.00,
+    "originalPrice": 20000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/B0E0D0/000000?text=OfficeChair+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/C0F0E0/000000?text=OC+T1",
+      "https://placehold.co/100x75/D0E0F0/000000?text=OC+T2"
+    ],
+    "rating": 4.5,
+    "reviewsCount": 210,
+    "inStock": 40,
+    "sku": "CH-OFFICE-CHAIR",
+    "features": [
+      "Adjustable Lumbar Support",
+      "Breathable Mesh Back",
+      "Height Adjustable",
+      "Swivel Base"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "5-7 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Black",
+      "Grey"
+    ],
+    "color": "Black",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-12-20",
+    "specifications": {
+      "Material": "Mesh, Nylon Base",
+      "Weight Capacity": "120kg",
+      "Seat Dimensions": "50cm x 50cm"
+    }
+  },
+  {
+    "id": "prod_C&G_025",
+    "name": "Digital Air Fryer 5.5L",
+    "description": "Cook healthier meals with less oil using this large capacity digital air fryer. Features pre-set cooking programs.",
+    "category": "Home & Kitchen",
+    "subCategory": "Kitchen Appliances",
+    "brand": "CrispyFry",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=CrispyFry",
+    "price": 13000.00,
+    "originalPrice": 15000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/E0F0C0/000000?text=AirFryer+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/F0E0D0/000000?text=AF+T1",
+      "https://placehold.co/100x75/D0C0A0/000000?text=AF+T2"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 750,
+    "inStock": 110,
+    "sku": "CF-AIRFRY-5L",
+    "features": [
+      "5.5L Capacity",
+      "Digital Touchscreen",
+      "8 Pre-set Programs",
+      "Dishwasher Safe Basket"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Black"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-01-12",
+    "specifications": {
+      "Power": "1700W",
+      "Temperature Range": "80-200°C",
+      "Timer": "Up to 60 minutes",
+      "Dimensions": "35cm x 30cm x 32cm"
+    }
+  },
+  {
+    "id": "prod_C&G_026",
+    "name": "Luxury Leather Handbag for Women",
+    "description": "Elegant and spacious genuine leather handbag, perfect for work or special occasions.",
+    "category": "Fashion",
+    "subCategory": "Women's Accessories",
+    "brand": "EleganceBags",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=EleganceBags",
+    "price": 18000.00,
+    "originalPrice": 20000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/D0A0A0/000000?text=Handbag+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0B0B0/000000?text=Handbag+T1",
+      "https://placehold.co/100x75/F0C0C0/000000?text=Handbag+T2"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 110,
+    "inStock": 45,
+    "sku": "EB-LUX-HANDBAG",
+    "features": [
+      "Genuine Leather",
+      "Multiple Compartments",
+      "Adjustable Shoulder Strap",
+      "Gold-tone Hardware"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black",
+      "Burgundy",
+      "Tan"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-05-10",
+    "specifications": {
+      "Material": "Cow Leather",
+      "Dimensions": "35cm x 25cm x 15cm",
+      "Closure": "Zipper"
+    }
+  },
+  {
+    "id": "prod_C&G_027",
+    "name": "Men's Classic Polo Shirt",
+    "description": "A timeless classic for a smart casual look. Made from breathable pique cotton for all-day comfort.",
+    "category": "Fashion",
+    "subCategory": "Men's Apparel",
+    "brand": "StyleStride",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=StyleStride",
+    "price": 2800.00,
+    "originalPrice": 3200.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/A0D0C0/000000?text=PoloShirt+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/B0E0D0/000000?text=Polo+T1",
+      "https://placehold.co/100x75/C0F0E0/000000?text=Polo+T2"
+    ],
+    "rating": 4.3,
+    "reviewsCount": 200,
+    "inStock": 130,
+    "sku": "SS-MENS-POLO",
+    "features": [
+      "100% Cotton Pique",
+      "Ribbed Collar & Cuffs",
+      "Two-Button Placket",
+      "Machine Washable"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 4,
+    "availableColors": [
+      "Navy",
+      "White",
+      "Grey",
+      "Burgundy"
+    ],
+    "color": "Navy",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-02-25",
+    "specifications": {
+      "Material": "100% Cotton",
+      "Fit": "Regular Fit",
+      "Sizes Available": "S, M, L, XL, XXL"
+    }
+  },
+  {
+    "id": "prod_C&G_028",
+    "name": "Women's Comfortable Cotton Joggers",
+    "description": "Soft and comfortable cotton joggers, perfect for lounging or casual outings. Features elastic waistband and cuffs.",
+    "category": "Fashion",
+    "subCategory": "Women's Apparel",
+    "brand": "CozyFit",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=CozyFit",
+    "price": 3800.00,
+    "originalPrice": 4200.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/E0D0D0/000000?text=Joggers+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/F0E0E0/000000?text=Joggers+T1",
+      "https://placehold.co/100x75/D0C0C0/000000?text=Joggers+T2"
+    ],
+    "rating": 4.4,
+    "reviewsCount": 160,
+    "inStock": 100,
+    "sku": "CF-WOMEN-JOGGER",
+    "features": [
+      "Soft Cotton Blend",
+      "Elastic Waistband",
+      "Side Pockets",
+      "Tapered Leg"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 3,
+    "availableColors": [
+      "Black",
+      "Grey Melange",
+      "Navy Blue"
+    ],
+    "color": "Grey Melange",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-04-05",
+    "specifications": {
+      "Material": "60% Cotton, 40% Polyester",
+      "Fit": "Relaxed Fit",
+      "Sizes Available": "S, M, L, XL"
+    }
+  },
+  {
+    "id": "prod_C&G_029",
+    "name": "Smart Wi-Fi LED Light Bulb",
+    "description": "Control your lighting from anywhere with your smartphone. Dimmable and color-changing options available.",
+    "category": "Electronics",
+    "subCategory": "Smart Home",
+    "brand": "BrightLink",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=BrightLink",
+    "price": 1800.00,
+    "originalPrice": 2000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/A0B0E0/000000?text=SmartBulb+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/B0C0F0/000000?text=Bulb+T1",
+      "https://placehold.co/100x75/C0D0A0/000000?text=Bulb+T2"
+    ],
+    "rating": 4.5,
+    "reviewsCount": 300,
+    "inStock": 250,
+    "sku": "BL-WIFI-BULB",
+    "features": [
+      "App Control",
+      "Voice Control (Alexa/Google)",
+      "Dimmable",
+      "RGB Color Options"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "1-3 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 10,
+    "availableColors": [
+      "RGB"
+    ],
+    "color": "RGB",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-05-15",
+    "specifications": {
+      "Wattage": "9W (equivalent 60W)",
+      "Brightness": "800 Lumens",
+      "Color Temperature": "2700K - 6500K + RGB",
+      "Lifespan": "25000 hours"
+    }
+  },
+  {
+    "id": "prod_C&G_030",
+    "name": "Portable Espresso Maker (Handheld)",
+    "description": "Enjoy freshly brewed espresso anywhere with this compact and easy-to-use handheld maker.",
+    "category": "Home & Kitchen",
+    "subCategory": "Coffee & Tea",
+    "brand": "BrewGo",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=BrewGo",
+    "price": 7500.00,
+    "originalPrice": 8500.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/F0C0A0/000000?text=EspressoMaker+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0D0B0/000000?text=EM+T1",
+      "https://placehold.co/100x75/D0B0C0/000000?text=EM+T2"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 180,
+    "inStock": 60,
+    "sku": "BG-PORT-ESPR",
+    "features": [
+      "Manual Operation",
+      "Compact Design",
+      "Easy to Clean",
+      "Makes Rich Crema"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Black"
+    ],
+    "color": "Black",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-12-05",
+    "specifications": {
+      "Pressure": "18 Bar",
+      "Capacity": "70ml Water, 8g Coffee",
+      "Dimensions": "17.5cm Height"
+    }
+  },
+  {
+    "id": "prod_C&G_031",
+    "name": "Gaming Headset with Surround Sound",
+    "description": "Immerse yourself in gaming with crystal-clear audio and a comfortable, durable design.",
+    "category": "Electronics",
+    "subCategory": "Gaming Peripherals",
+    "brand": "GamePro",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=GamePro",
+    "price": 10500.00,
+    "originalPrice": 12000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/D0A0E0/000000?text=GamingHeadset+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0B0F0/000000?text=GH+T1",
+      "https://placehold.co/100x75/F0C0D0/000000?text=GH+T2"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 420,
+    "inStock": 95,
+    "sku": "GP-GAM-HEADSET",
+    "features": [
+      "7.1 Surround Sound",
+      "Noise-Cancelling Mic",
+      "Memory Foam Earcups",
+      "RGB Lighting"
+    ],
+    "shipping": "express",
+    "waitingPeriod": "1-2 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 3,
+    "availableColors": [
+      "Black"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": true,
+    "isFreeShipping": true,
+    "dateAdded": "2025-06-01",
+    "specifications": {
+      "Connectivity": "USB, 3.5mm Jack",
+      "Driver Size": "50mm",
+      "Frequency Response": "20Hz - 20kHz",
+      "Compatibility": "PC, PS, Xbox, Switch"
+    }
+  },
+  {
+    "id": "prod_C&G_032",
+    "name": "Waterproof Action Camera 4K",
+    "description": "Capture all your adventures in stunning 4K detail. Compact, durable, and ready for extreme conditions.",
+    "category": "Electronics",
+    "subCategory": "Cameras",
+    "brand": "AdventureCam",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=AdventureCam",
+    "price": 32000.00,
+    "originalPrice": 35000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/E0F0A0/000000?text=ActionCam+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/F0E6D0/000000?text=AC+T1",
+      "https://placehold.co/100x75/D0E0F0/000000?text=AC+T2"
+    ],
+    "rating": 4.5,
+    "reviewsCount": 280,
+    "inStock": 65,
+    "sku": "ACAM-4K-WP",
+    "features": [
+      "4K UHD Video",
+      "12MP Photos",
+      "Waterproof to 30m",
+      "EIS (Electronic Image Stabilization)"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Black"
+    ],
+    "color": "Black",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-01-30",
+    "specifications": {
+      "Sensor": "CMOS",
+      "Lens Angle": "170 Degree Wide Angle",
+      "Battery Life": "Up to 90 minutes (4K)",
+      "Storage": "MicroSD up to 128GB"
+    }
+  },
+  {
+    "id": "prod_C&G_033",
+    "name": "Wireless Charging Pad (Fast Charge)",
+    "description": "Charge your compatible smartphone quickly and efficiently without cables. Sleek and compact design.",
+    "category": "Electronics",
+    "subCategory": "Mobile Accessories",
+    "brand": "PowerBeam",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=PowerBeam",
+    "price": 2500.00,
+    "originalPrice": 2800.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/B0D0C0/000000?text=ChargerPad+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/C0E0D0/000000?text=CP+T1",
+      "https://placehold.co/100x75/D0F0E0/000000?text=CP+T2"
+    ],
+    "rating": 4.4,
+    "reviewsCount": 500,
+    "inStock": 150,
+    "sku": "PB-WC-FAST",
+    "features": [
+      "15W Fast Wireless Charging",
+      "Universal Compatibility",
+      "LED Indicator",
+      "Slim Profile"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "1-3 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 5,
+    "availableColors": [
+      "Black",
+      "White"
+    ],
+    "color": "White",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-05-20",
+    "specifications": {
+      "Output Power": "5W/7.5W/10W/15W",
+      "Input": "QC3.0 Adapter Required",
+      "Dimensions": "9.5cm Diameter, 0.8cm Thick"
+    }
+  },
+  {
+    "id": "prod_C&G_034",
+    "name": "Smart Doorbell with Video & Two-Way Audio",
+    "description": "See and speak to visitors from anywhere. Get instant alerts and monitor your front door.",
+    "category": "Electronics",
+    "subCategory": "Smart Home",
+    "brand": "GuardianTech",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=GuardianTech",
+    "price": 18000.00,
+    "originalPrice": 20000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/E0F0F0/000000?text=SmartDoorbell+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/F0E0E0/000000?text=SD+T1",
+      "https://placehold.co/100x75/D0C0D0/000000?text=SD+T2"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 250,
+    "inStock": 55,
+    "sku": "GT-SMART-DB",
+    "features": [
+      "1080p HD Video",
+      "Motion Detection",
+      "Night Vision",
+      "Cloud Storage Optional"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Silver"
+    ],
+    "color": "Silver",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-06-10",
+    "specifications": {
+      "Field of View": "160 degrees",
+      "Power": "Battery or Wired",
+      "Connectivity": "Wi-Fi 2.4GHz",
+      "Operating Temperature": "-20°C to 50°C"
+    }
+  },
+  {
+    "id": "prod_C&G_035",
+    "name": "Compact Digital Projector (Portable)",
+    "description": "Enjoy movies and presentations anywhere with this mini portable projector. Supports up to 1080p.",
+    "category": "Electronics",
+    "subCategory": "Home Entertainment",
+    "brand": "ViewPro",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=ViewPro",
+    "price": 24000.00,
+    "originalPrice": 26000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/C0E0A0/000000?text=Projector+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/D0F0B0/000000?text=Proj+T1",
+      "https://placehold.co/100x75/E0C0D0/000000?text=Proj+T2"
+    ],
+    "rating": 4.3,
+    "reviewsCount": 150,
+    "inStock": 80,
+    "sku": "VP-MINI-PROJ",
+    "features": [
+      "Native 720p (1080p Support)",
+      "Built-in Speaker",
+      "HDMI & USB Input",
+      "Portable Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "White"
+    ],
+    "color": "White",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2024-11-25",
+    "specifications": {
+      "Brightness": "3000 Lumens",
+      "Contrast Ratio": "2000:1",
+      "Projection Size": "30-150 inches",
+      "Lamp Life": "30000 hours"
+    }
+  },
+  {
+    "id": "prod_C&G_036",
+    "name": "Stainless Steel Pressure Cooker 6L",
+    "description": "Cook delicious meals faster and retain nutrients with this safe and efficient pressure cooker.",
+    "category": "Home & Kitchen",
+    "subCategory": "Cookware",
+    "brand": "QuickPot",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=QuickPot",
+    "price": 7500.00,
+    "originalPrice": 8500.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/F0D0C0/000000?text=PressureCooker+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0F0D0/000000?text=PCook+T1",
+      "https://placehold.co/100x75/D0B0E0/000000?text=PCook+T2"
+    ],
+    "rating": 4.5,
+    "reviewsCount": 200,
+    "inStock": 70,
+    "sku": "QP-SS-PC6L",
+    "features": [
+      "6 Liter Capacity",
+      "Food-Grade Stainless Steel",
+      "Safety Valve",
+      "Induction Cooktop Compatible"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Silver"
+    ],
+    "color": "Silver",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-01-18",
+    "specifications": {
+      "Material": "Stainless Steel",
+      "Capacity": "6 Liters",
+      "Pressure Settings": "High/Low",
+      "Dishwasher Safe": "Pot only"
+    }
+  },
+  {
+    "id": "prod_C&G_037",
+    "name": "Women's High-Waisted Denim Jeans",
+    "description": "Comfortable and flattering high-waisted denim jeans with a classic skinny fit.",
+    "category": "Fashion",
+    "subCategory": "Women's Apparel",
+    "brand": "DenimChic",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=DenimChic",
+    "price": 5200.00,
+    "originalPrice": 5800.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/A0D0B0/000000?text=DenimJeans+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/B0E0C0/000000?text=Jeans+T1",
+      "https://placehold.co/100x75/C0F0D0/000000?text=Jeans+T2"
+    ],
+    "rating": 4.4,
+    "reviewsCount": 190,
+    "inStock": 80,
+    "sku": "DC-HW-SKINNY",
+    "features": [
+      "Stretch Denim",
+      "High Waist",
+      "Skinny Fit",
+      "Classic 5-pocket Style"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 3,
+    "availableColors": [
+      "Dark Wash",
+      "Mid Wash",
+      "Black"
+    ],
+    "color": "Dark Wash",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-03-08",
+    "specifications": {
+      "Material": "Cotton, Polyester, Elastane Blend",
+      "Closure Type": "Zipper & Button",
+      "Sizes Available": "26, 28, 30, 32, 34"
+    }
+  },
+  {
+    "id": "prod_C&G_038",
+    "name": "Men's Casual Sneakers",
+    "description": "Comfortable and stylish casual sneakers, perfect for everyday wear. Lightweight and breathable design.",
+    "category": "Fashion",
+    "subCategory": "Men's Footwear",
+    "brand": "StrideFoot",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=StrideFoot",
+    "price": 6000.00,
+    "originalPrice": 6500.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/E0B0B0/000000?text=Sneakers+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/F0C0C0/000000?text=Sneaker+T1",
+      "https://placehold.co/100x75/D0A0A0/000000?text=Sneaker+T2"
+    ],
+    "rating": 4.3,
+    "reviewsCount": 170,
+    "inStock": 95,
+    "sku": "SF-MENS-SNEAKERS",
+    "features": [
+      "Breathable Mesh Upper",
+      "Cushioned Insole",
+      "Durable Rubber Outsole",
+      "Lace-up Closure"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Black",
+      "White",
+      "Grey"
+    ],
+    "color": "Grey",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-04-20",
+    "specifications": {
+      "Upper Material": "Textile & Synthetic",
+      "Sole Material": "Rubber",
+      "Sizes Available": "UK 6-11"
+    }
+  },
+  {
+    "id": "prod_C&G_039",
+    "name": "Portable Juicer Blender (USB Rechargeable)",
+    "description": "Make fresh smoothies and juices on the go. Compact, powerful, and easy to clean.",
+    "category": "Home & Kitchen",
+    "subCategory": "Kitchen Appliances",
+    "brand": "BlendGo",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=BlendGo",
+    "price": 4500.00,
+    "originalPrice": 5000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/A0E0C0/000000?text=Blender+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/B0F0D0/000000?text=Blend+T1",
+      "https://placehold.co/100x75/C0D0E0/000000?text=Blend+T2"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 300,
+    "inStock": 100,
+    "sku": "BG-JUICER-PORT",
+    "features": [
+      "USB Rechargeable",
+      "6-Blade System",
+      "BPA-Free Materials",
+      "Easy to Clean"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 3,
+    "availableColors": [
+      "Pink",
+      "Blue",
+      "White"
+    ],
+    "color": "Blue",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-05-28",
+    "specifications": {
+      "Capacity": "380ml",
+      "Motor Speed": "22000 RPM",
+      "Battery": "2000mAh",
+      "Dimensions": "23.5cm x 8cm"
+    }
+  },
+  {
+    "id": "prod_C&G_040",
+    "name": "Digital Bathroom Scale (Smart)",
+    "description": "Track your weight, BMI, body fat, and more with this smart Bluetooth bathroom scale. Syncs with app.",
+    "category": "Home & Kitchen",
+    "subCategory": "Health & Wellness",
+    "brand": "BodySense",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=BodySense",
+    "price": 3800.00,
+    "originalPrice": 4200.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/E0F0E0/000000?text=SmartScale+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/F0E6D0/000000?text=Scale+T1",
+      "https://placehold.co/100x75/D0E0F0/000000?text=Scale+T2"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 180,
+    "inStock": 75,
+    "sku": "BS-DIGI-SCALE",
+    "features": [
+      "Bluetooth Connectivity",
+      "12 Body Metrics",
+      "Large LED Display",
+      "Tempered Glass Platform"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Black",
+      "White"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-01-01",
+    "specifications": {
+      "Weight Range": "0.2kg - 180kg",
+      "Accuracy": "0.1kg",
+      "Power": "AAA Batteries (Included)",
+      "App": "FitHealth App"
+    }
+  },
+  {
+    "id": "prod_C&G_041",
+    "name": "Portable Mini Drone with HD Camera",
+    "description": "Fun and easy-to-fly mini drone with a built-in HD camera for aerial photography and video.",
+    "category": "Electronics",
+    "subCategory": "Drones",
+    "brand": "SkyFly",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=SkyFly",
+    "price": 12000.00,
+    "originalPrice": 13500.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/A0C0E0/000000?text=Drone+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/B0D0F0/000000?text=Drone+T1",
+      "https://placehold.co/100x75/C0E0A0/000000?text=Drone+T2"
+    ],
+    "rating": 4.2,
+    "reviewsCount": 90,
+    "inStock": 40,
+    "sku": "SF-MINI-DRONE",
+    "features": [
+      "720p HD Camera",
+      "One-Key Takeoff/Landing",
+      "Altitude Hold",
+      "Foldable Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black",
+      "White"
+    ],
+    "color": "Black",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-06-05",
+    "specifications": {
+      "Flight Time": "10 minutes",
+      "Control Distance": "50 meters",
+      "Battery": "800mAh",
+      "Dimensions (folded)": "10cm x 10cm x 5cm"
+    }
+  },
+  {
+    "id": "prod_C&G_042",
+    "name": "Smart Tablet 10.1 Inch (128GB)",
+    "description": "Versatile tablet for entertainment, productivity, and learning. Comes with a vibrant display and long battery life.",
+    "category": "Electronics",
+    "subCategory": "Tablets",
+    "brand": "DigiPad",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=DigiPad",
+    "price": 28000.00,
+    "originalPrice": 30000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/F0D0E0/000000?text=Tablet+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0F0F0/000000?text=Tablet+T1",
+      "https://placehold.co/100x75/D0E0E0/000000?text=Tablet+T2"
+    ],
+    "rating": 4.5,
+    "reviewsCount": 350,
+    "inStock": 85,
+    "sku": "DP-TAB-10-128",
+    "features": [
+      "Full HD Display",
+      "8GB RAM",
+      "128GB Storage",
+      "Dual Cameras"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Space Grey",
+      "Silver"
+    ],
+    "color": "Space Grey",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-02-10",
+    "specifications": {
+      "OS": "Android 13",
+      "Processor": "Octa-core 2.0GHz",
+      "Battery": "7000mAh",
+      "Cameras": "13MP Rear, 8MP Front"
+    }
+  },
+  {
+    "id": "prod_C&G_043",
+    "name": "Gaming Console NextGen Pro",
+    "description": "Experience next-level gaming with stunning graphics, lightning-fast loading, and an expansive game library.",
+    "category": "Electronics",
+    "subCategory": "Gaming",
+    "brand": "GamePro",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=GamePro",
+    "price": 55000.00,
+    "originalPrice": 60000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/C0E0F0/000000?text=Console+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/D0F0A0/000000?text=Console+T1",
+      "https://placehold.co/100x75/E0C0F0/000000?text=Console+T2"
+    ],
+    "rating": 4.9,
+    "reviewsCount": 900,
+    "inStock": 50,
+    "sku": "GP-NEXTGEN-PRO",
+    "features": [
+      "4K Gaming at 120fps",
+      "825GB Custom SSD",
+      "Ray Tracing Support",
+      "Tempest 3D AudioTech"
+    ],
+    "shipping": "express",
+    "waitingPeriod": "1-2 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "White"
+    ],
+    "color": "White",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": true,
+    "isFreeShipping": true,
+    "dateAdded": "2024-10-01",
+    "specifications": {
+      "CPU": "8 Cores @ 3.5GHz",
+      "GPU": "10.28 TFLOPs, 36 CUs @ 2.23GHz",
+      "RAM": "16GB GDDR6",
+      "Storage": "Custom 825GB SSD"
+    }
+  },
+  {
+    "id": "prod_C&G_044",
+    "name": "Bluetooth Soundbar with Subwoofer",
+    "description": "Elevate your home audio with cinematic sound. Easy to set up and connect to your TV or devices.",
+    "category": "Electronics",
+    "subCategory": "Home Entertainment",
+    "brand": "Acousta",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=Acousta",
+    "price": 28000.00,
+    "originalPrice": 30000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/A0D0B0/000000?text=Soundbar+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/B0E0D0/000000?text=SB+T1",
+      "https://placehold.co/100x75/C0F0E0/000000?text=SB+T2"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 310,
+    "inStock": 60,
+    "sku": "AC-SOUNDBAR-SUB",
+    "features": [
+      "Wireless Subwoofer",
+      "Bluetooth Connectivity",
+      "HDMI ARC",
+      "Wall-mountable Design"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 1,
+    "availableColors": [
+      "Black"
+    ],
+    "color": "Black",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-03-12",
+    "specifications": {
+      "Output Power": "300W",
+      "Channels": "2.1 Channel",
+      "Connectivity": "Bluetooth 5.0, HDMI ARC, Optical, Aux"
+    }
+  },
+  {
+    "id": "prod_C&G_045",
+    "name": "Smart Air Purifier with HEPA Filter",
+    "description": "Improve your indoor air quality with this smart air purifier, featuring a multi-layer filtration system.",
+    "category": "Home & Kitchen",
+    "subCategory": "Home Appliances",
+    "brand": "BreathePure",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=BreathePure",
+    "price": 16000.00,
+    "originalPrice": 18000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/D0D0F0/000000?text=AirPurifier+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0E0F0/000000?text=AP+T1",
+      "https://placehold.co/100x75/F0F0D0/000000?text=AP+T2"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 400,
+    "inStock": 90,
+    "sku": "BP-AIR-PURIFIER",
+    "features": [
+      "HEPA Filter",
+      "Activated Carbon Filter",
+      "Quiet Operation",
+      "App Control"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "White"
+    ],
+    "color": "White",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-01-08",
+    "specifications": {
+      "CADR": "200m³/h",
+      "Coverage Area": "Up to 30m²",
+      "Noise Level": "25-50dB",
+      "Filter Lifespan": "6-8 months"
+    }
+  },
+  {
+    "id": "prod_C&G_046",
+    "name": "Smart Water Bottle with Hydration Tracking",
+    "description": "Stay hydrated with this smart water bottle that tracks your water intake and reminds you to drink.",
+    "category": "Gadgets",
+    "subCategory": "Health Gadgets",
+    "brand": "AquaSmart",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=AquaSmart",
+    "price": 6000.00,
+    "originalPrice": 6500.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/A0E0F0/000000?text=SmartBottle+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/B0F0E0/000000?text=Bottle+T1",
+      "https://placehold.co/100x75/C0E0F0/000000?text=Bottle+T2"
+    ],
+    "rating": 4.4,
+    "reviewsCount": 110,
+    "inStock": 100,
+    "sku": "AS-SMART-WB",
+    "features": [
+      "Hydration Tracking App",
+      "Reminder Alarms",
+      "BPA-Free",
+      "Long Battery Life"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 3,
+    "availableColors": [
+      "Blue",
+      "Pink",
+      "Grey"
+    ],
+    "color": "Blue",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-04-28",
+    "specifications": {
+      "Capacity": "750ml",
+      "Battery Life": "Up to 15 days",
+      "Connectivity": "Bluetooth",
+      "Material": "Tritan Plastic"
+    }
+  },
+  {
+    "id": "prod_C&G_047",
+    "name": "Gaming Keyboard with RGB Backlight",
+    "description": "Enhance your gaming setup with this mechanical gaming keyboard featuring customizable RGB lighting and tactile switches.",
+    "category": "Electronics",
+    "subCategory": "Gaming Peripherals",
+    "brand": "GamePro",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=GamePro",
+    "price": 9800.00,
+    "originalPrice": 11000.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/D0F0C0/000000?text=GamingKeyboard+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0C0B0/000000?text=GK+T1",
+      "https://placehold.co/100x75/F0A0D0/000000?text=GK+T2"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 450,
+    "inStock": 80,
+    "sku": "GP-RGB-KEYBOARD",
+    "features": [
+      "Mechanical Switches",
+      "Per-Key RGB Lighting",
+      "Anti-Ghosting",
+      "Durable Aluminum Frame"
+    ],
+    "shipping": "express",
+    "waitingPeriod": "1-2 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Black"
+    ],
+    "color": "Black",
+    "isFeatured": true,
+    "isDeals": true,
+    "isHotPick": true,
+    "isFreeShipping": true,
+    "dateAdded": "2025-06-15",
+    "specifications": {
+      "Switch Type": "Blue/Red/Brown Mechanical",
+      "Layout": "Full-size",
+      "Connectivity": "USB",
+      "Key Rollover": "N-Key"
+    }
+  },
+  {
+    "id": "prod_C&G_048",
+    "name": "Smart Scale with Body Composition Analysis",
+    "description": "Get detailed insights into your body health beyond just weight, including BMI, muscle mass, and bone density.",
+    "category": "Electronics",
+    "subCategory": "Health & Wellness Gadgets",
+    "brand": "HealthMetrics",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=HealthMetrics",
+    "price": 7500.00,
+    "originalPrice": 8500.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/B0E0D0/000000?text=BodyCompScale+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/C0F0E0/000000?text=BCS+T1",
+      "https://placehold.co/100x75/D0E0F0/000000?text=BCS+T2"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 220,
+    "inStock": 70,
+    "sku": "HM-BODYCOMP-SCALE",
+    "features": [
+      "13 Body Metrics",
+      "Bluetooth Sync",
+      "App Tracking",
+      "High Precision Sensors"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "2-4 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "White",
+      "Black"
+    ],
+    "color": "White",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-02-20",
+    "specifications": {
+      "Weight Range": "0.1kg - 180kg",
+      "Metrics": "Weight, BMI, Body Fat, Muscle Mass, Water %, Bone Mass, BMR, Visceral Fat, Protein, Body Age etc.",
+      "Connectivity": "Bluetooth 4.0"
+    }
+  },
+  {
+    "id": "prod_C&G_049",
+    "name": "Electric Rice Cooker 1.8L",
+    "description": "Cook perfect fluffy rice every time with this easy-to-use electric rice cooker. Features automatic warm-keeping function.",
+    "category": "Home & Kitchen",
+    "subCategory": "Kitchen Appliances",
+    "brand": "RiceMaster",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=RiceMaster",
+    "price": 5000.00,
+    "originalPrice": 5500.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/E0F0C0/000000?text=RiceCooker+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/F0E0D0/000000?text=RC+T1",
+      "https://placehold.co/100x75/D0C0A0/000000?text=RC+T2"
+    ],
+    "rating": 4.4,
+    "reviewsCount": 300,
+    "inStock": 100,
+    "sku": "RM-RC-18L",
+    "features": [
+      "1.8L Capacity (10 cups)",
+      "Automatic Keep Warm",
+      "Non-Stick Inner Pot",
+      "Steamer Tray Included"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "White"
+    ],
+    "color": "White",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-03-01",
+    "specifications": {
+      "Power": "700W",
+      "Capacity": "1.8 Liters (cooked rice)",
+      "Material": "Stainless Steel & Non-Stick Coating"
+    }
+  },
+  {
+    "id": "prod_C&G_050",
+    "name": "Smart LED Desk Lamp with Wireless Charger",
+    "description": "Modern desk lamp with adjustable brightness and color temperature, plus a built-in wireless charging pad for your smartphone.",
+    "category": "Home & Kitchen",
+    "subCategory": "Lighting",
+    "brand": "LightSmart",
+    "brandLogo": "https://placehold.co/100x50/FFFFFF/000000?text=LightSmart",
+    "price": 6800.00,
+    "originalPrice": 7500.00,
+    "isDiscounted": true,
+    "images": [
+      "https://placehold.co/600x400/D0A0A0/000000?text=DeskLamp+Main"
+    ],
+    "thumbnailImages": [
+      "https://placehold.co/100x75/E0B0B0/000000?text=DL+T1",
+      "https://placehold.co/100x75/F0C0C0/000000?text=DL+T2"
+    ],
+    "rating": 4.5,
+    "reviewsCount": 150,
+    "inStock": 80,
+    "sku": "LS-LED-DESK",
+    "features": [
+      "Dimmable & Color Temperature Control",
+      "Qi Wireless Charging Pad",
+      "Eye-caring LED",
+      "Flexible Gooseneck"
+    ],
+    "shipping": "local",
+    "waitingPeriod": "3-5 business days",
+    "minOrderQuantity": 1,
+    "maxOrderQuantity": 2,
+    "availableColors": [
+      "Black",
+      "White"
+    ],
+    "color": "Black",
+    "isFeatured": false,
+    "isDeals": true,
+    "isHotPick": false,
+    "isFreeShipping": false,
+    "dateAdded": "2025-04-10",
+    "specifications": {
+      "Power": "10W LED, 10W Wireless Charger",
+      "Brightness": "500 Lumens Max",
+      "Color Temperature": "3000K-6000K",
+      "Connectivity": "USB-C Power Input"
+    }
+  }
+]

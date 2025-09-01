@@ -1,0 +1,230 @@
+/*
+    File: css/preferences.css
+    Description: Styles for the user preferences selection module (partials/preferences.html).
+                 This CSS defines the layout and appearance of the category selection grid,
+                 checkboxes, and buttons within the personalization form.
+*/
+
+.preferences-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    background-color: var(--background-color-card);
+    text-align: center;
+}
+
+.preferences-section h2 {
+    color: var(--text-color-primary);
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.preferences-section p {
+    color: var(--text-color-secondary);
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.preferences-section h3 {
+    color: var(--primary-color);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    border-bottom: 2px solid var(--border-color-light);
+    padding-bottom: 10px;
+    display: inline-block; /* To make border-bottom fit content */
+}
+
+.categories-selection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.category-item {
+    display: flex;
+    flex-direction: column; /* Stack icon/text vertically */
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color-light-grey);
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    min-height: 120px; /* Ensure consistent height */
+    text-align: center;
+}
+
+.category-item:hover {
+    background-color: var(--background-color-body);
+    border-color: var(--primary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.category-item input[type="checkbox"] {
+    position: absolute; /* Hide the default checkbox */
+    opacity: 0;
+    pointer-events: none; /* Make it not clickable directly */
+}
+
+.category-item .category-name {
+    color: var(--text-color-secondary);
+    font-weight: 600;
+    font-size: 1.1em;
+    display: flex; /* For icon and text alignment */
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+}
+
+.category-item .category-name .fas {
+    font-size: 2.5em;
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+/* Style for checked state */
+.category-item input[type="checkbox"]:checked + .category-name {
+    color: var(--primary-color);
+}
+
+.category-item input[type="checkbox"]:checked + .category-name .fas {
+    color: var(--primary-color); /* Keep primary color for icon when checked */
+}
+
+.category-item input[type="checkbox"]:checked {
+    border-color: var(--primary-color);
+    background-color: var(--background-color-body); /* Or a primary light color */
+}
+
+/* Add a visual indicator for checked items */
+.category-item::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    border: 2px solid var(--border-color-light);
+    border-radius: 50%;
+    background-color: var(--background-color-card);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Font Awesome 6 Free"; /* Or whatever font-family you use for FAS */
+    font-weight: 900; /* For solid icons */
+    color: transparent;
+    transition: all 0.3s ease;
+}
+
+.category-item input[type="checkbox"]:checked::after {
+    content: "\f00c"; /* Checkmark icon */
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--text-color-light);
+}
+
+
+/* Form Buttons */
+#preferences-form button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.cta-button {
+    background-color: var(--button-cta-bg);
+    color: var(--button-cta-text);
+}
+
+.cta-button:hover {
+    background-color: var(--button-cta-bg-hover);
+}
+
+.button-outline {
+    background-color: var(--button-outline-bg);
+    color: var(--button-outline-text);
+    border: 2px solid var(--button-outline-border);
+}
+
+.button-outline:hover {
+    background-color: var(--button-outline-bg-hover);
+    color: var(--button-outline-text-hover);
+}
+
+/* --- Dark Mode Specific Styles --- */
+body[data-theme="dark"] .preferences-section {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+body[data-theme="dark"] .category-item {
+    background-color: var(--background-color-dark);
+    border: 2px solid var(--border-color-dark);
+}
+
+body[data-theme="dark"] .category-item:hover {
+    background-color: var(--background-color-card);
+    border-color: var(--primary-color);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+body[data-theme="dark"] .category-item .category-name {
+    color: var(--text-color-secondary);
+}
+
+body[data-theme="dark"] .category-item input[type="checkbox"]:checked + .category-name {
+    color: var(--primary-color);
+}
+
+body[data-theme="dark"] .category-item::after {
+    background-color: var(--background-color-dark);
+    border-color: var(--border-color-dark);
+}
+
+body[data-theme="dark"] .category-item input[type="checkbox"]:checked::after {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--text-color-light);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .preferences-section {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .categories-selection-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+
+    .category-item {
+        min-height: 100px;
+        padding: 15px;
+    }
+
+    .category-item .category-name .fas {
+        font-size: 2em;
+    }
+
+    #preferences-form button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .categories-selection-grid {
+        grid-template-columns: 1fr;
+    }
+}

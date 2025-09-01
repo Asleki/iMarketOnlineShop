@@ -1,0 +1,107 @@
+<header id="main-header" role="banner">
+    <div class="header-top-bar">
+        <div class="container header-top-content">
+            <div class="top-left">
+                <span><i class="fas fa-bullhorn" aria-hidden="true"></i> Welcome to iMarket!</span>
+                <span class="divider">|</span>
+                <span><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Nairobi, Kenya</span>
+                <span class="divider">|</span>
+                <div class="ad-ticker-container">
+                    <a href="#" class="top-link" id="top-ad-placeholder" title="Ad Space">Ad Space</a>
+                </div>
+            </div>
+            <div class="top-right">
+                <button id="theme-toggle" aria-label="Toggle light/dark mode" title="Toggle theme">
+                    <i class="fas fa-sun" id="light-icon" aria-hidden="true"></i>
+                    <i class="fas fa-moon hidden" id="dark-icon" aria-hidden="true"></i>
+                </button>
+                <a href="#" class="top-link" title="Sell on iMarket">Sell on iMarket</a>
+                <a href="contact.html" class="top-link" title="Customer Service">Customer Service</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-middle-bar">
+        <div class="container header-middle-content">
+            <div class="header-logo">
+                <a href="index.html" title="Go to iMarket homepage">
+                    <img src="images/logo/imarket-logo.webp" alt="iMarket Logo">
+                </a>
+            </div>
+
+            <div class="header-search-container">
+                <div class="header-search" role="search">
+                    <input type="text" id="main-search-input" placeholder="Search for products, shops, categories..." aria-label="Main search bar">
+                    <button id="search-submit-button" aria-label="Submit search" title="Search">
+                        <i class="fas fa-search" id="search-icon" aria-hidden="true"></i>
+                        <span id="search-text-label" class="hidden">Search</span>
+                    </button>
+                    <button id="clear-search-button" class="hidden" aria-label="Clear search input" title="Clear">
+                        <i class="fas fa-times" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div id="search-suggestions-container" class="search-suggestions-container"></div>
+            </div>
+
+            <div class="header-actions">
+                <div id="user-greeting" class="user-greeting">
+                    <span id="user-name-display">Hello, Guest!</span>
+                    <span id="user-membership-level" class="badge membership-level-badge hidden">Bronze</span>
+                </div>
+
+                <a class="action-icon" href="wishlist.html" title="My Wishlist" aria-label="My Wishlist">
+                    <i class="fas fa-heart" aria-hidden="true"></i>
+                    <span id="wishlist-count" class="badge count-badge hidden" data-count="0">0</span>
+                </a>
+
+                <a class="action-icon" href="notifications.html" title="Notifications" aria-label="Notifications">
+                    <i class="fas fa-bell" aria-hidden="true"></i>
+                    <span id="notification-count" class="badge count-badge hidden" data-count="0">0</span>
+                </a>
+
+                <a class="action-icon" href="account.html" title="My Account" aria-label="My Account">
+                    <i class="fas fa-user-circle" aria-hidden="true"></i>
+                </a>
+
+                <a class="action-icon" href="cart.html" title="Shopping Cart" aria-label="Shopping Cart">
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                    <span id="cart-count" class="badge count-badge hidden" data-count="0">0</span>
+                </a>
+            </div>
+
+            <button id="hamburger-menu" aria-label="Toggle main menu" aria-controls="primary-nav" title="Toggle menu">
+                <i class="fas fa-bars" id="hamburger-icon" aria-hidden="true"></i>
+                <i class="fas fa-times hidden" id="close-icon" aria-hidden="true"></i>
+            </button>
+        </div>
+    </div>
+
+    <nav id="primary-nav" class="header-nav" role="navigation" aria-label="Main Navigation">
+        <ul class="nav-links">
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" title="All Categories">All Categories <i class="fas fa-chevron-down dropdown-arrow" aria-hidden="true"></i></a>
+                <ul class="dropdown-menu scrollable-menu" id="categories-dropdown">
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="shops.html" class="dropdown-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" title="Shops">Shops <i class="fas fa-chevron-down dropdown-arrow" aria-hidden="true"></i></a>
+                <ul class="dropdown-menu scrollable-menu" id="shops-dropdown">
+                </ul>
+            </li>
+            <li><a href="deals.html" title="Today's Deals">Today's Deals</a></li>
+            <li><a href="new-arrivals.html" title="New Arrivals">New Arrivals</a></li>
+            <li><a href="spin-game.html" title="Spin & Win">Spin & Win</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false" title="About iMarket">About <i class="fas fa-chevron-down dropdown-arrow" aria-hidden="true"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="about.html" title="About Us">About Us</a></li>
+                    <li><a href="contact.html" title="Contact Us">Contact</a></li>
+                    <li><a href="terms.html" title="Terms & Conditions">Terms & Conditions</a></li>
+                    <li><a href="advertise.html" title="Advertise on iMarket">Advertise on iMarket</a></li>
+                    <li><a href="partnership.html" title="Partnership">Partnership</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>

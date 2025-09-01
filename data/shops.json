@@ -1,0 +1,112 @@
+[
+  {
+    "shop_id": "soko_properties",
+    "name": "Soko Properties",
+    "description": "Your trusted partner for residential, commercial, and land properties.",
+    "logo_url": "https://placehold.co/150x75/E0F0E0/000000?text=Soko+Logo",
+    "categories": [
+      "Real Estate",
+      "Land",
+      "Commercial Property"
+    ],
+    "contact_info": {
+      "email": "info@sokoproperties.com",
+      "phone": "+254722123456",
+      "address": "Nairobi, Kenya"
+    },
+    "product_data_file": "soko-properties-products.json",
+    "shopPageUrl": "soko-properties-index.html"
+  },
+  {
+    "shop_id": "click_n_get",
+    "name": "Click 'n Get",
+    "description": "Your one-stop shop for the latest electronics, gadgets, and home appliances.",
+    "logo_url": "https://placehold.co/150x75/D0E0F0/000000?text=CnG+Logo",
+    "categories": [
+      "Electronics",
+      "Home & Kitchen",
+      "Appliances"
+    ],
+    "contact_info": {
+      "email": "support@clicknget.com",
+      "phone": "+254700987654",
+      "address": "CBD, Nairobi"
+    },
+    "product_data_file": "click-n-get-products.json",
+    "shopPageUrl": "click-n-get-index.html"
+  },
+  {
+    "shop_id": "autogiant_motors",
+    "name": "AutoGiant Motors",
+    "description": "The premier dealership for new and pre-owned vehicles, from luxury sports cars to reliable utility vehicles.",
+    "logo_url": "https://placehold.co/150x75/F0E0D0/000000?text=AGM+Logo",
+    "categories": [
+      "Vehicles",
+      "Automotive Parts",
+      "Motorcycles"
+    ],
+    "contact_info": {
+      "email": "sales@autogiantmotors.com",
+      "phone": "+254733555888",
+      "address": "Industrial Area, Nairobi"
+    },
+    "product_data_file": "autogiant-motors-products.json",
+    "shopPageUrl": "autogiant-motors-index.html"
+  },
+  {
+    "shop_id": "officetech_solutions",
+    "name": "OfficeTech Solutions",
+    "description": "Providing comprehensive IT and office equipment, furniture, and stationery for businesses and individuals.",
+    "logo_url": "https://placehold.co/150x75/C0D0E0/000000?text=OTS+Logo",
+    "categories": [
+      "Computers",
+      "Printers",
+      "Office Furniture",
+      "Accessories"
+    ],
+    "contact_info": {
+      "email": "info@officetech.com",
+      "phone": "+254789012345",
+      "address": "Upper Hill, Nairobi"
+    },
+    "product_data_file": "officetech-solutions-products.json",
+    "shopPageUrl": "officetech-solutions-index.html"
+  },
+  {
+    "shop_id": "joy_totes",
+    "name": "Joy Totes",
+    "description": "Your go-to for stylish and versatile bags, perfect for every occasion.",
+    "logo_url": "https://placehold.co/150x75/E6D0F0/000000?text=Joy+Totes+Logo",
+    "categories": [
+      "Tote Bags",
+      "Crossbody Bags",
+      "Waist Bags"
+    ],
+    "contact_info": {
+      "email": "info@joytotes.com",
+      "phone": "+254711223344",
+      "address": "Westlands, Nairobi"
+    },
+    "product_data_file": "joy-totes.json",
+    "shopPageUrl": "joy-totes-index.html"
+  },
+  {
+    "shop_id": "nashaa_kicks",
+    "name": "Nashaa Kicks",
+    "description": "Step into style and comfort with our wide range of footwear for men and women.",
+    "logo_url": "https://placehold.co/150x75/D0F0E6/000000?text=Nashaa+Kicks+Logo",
+    "categories": [
+      "Men's Shoes",
+      "Women's Shoes",
+      "Sneakers",
+      "Flats"
+    ],
+    "contact_info": {
+      "email": "support@nashaakicks.com",
+      "phone": "+254766778899",
+      "address": "Kilimani, Nairobi"
+    },
+    "product_data_file": "nashaa-kicks.json",
+    "shopPageUrl": "nashaa-kicks-index.html"
+  }
+]
