@@ -1,0 +1,147 @@
+/*
+    File: soko-properties-product-details.css
+    -------------------------------------------------
+    This stylesheet contains all specific styles for the
+    Soko Properties product details page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* General Layout & Typography                                                */
+/* -------------------------------------------------------------------------- */
+
+.property-details-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--color-bg-card);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px var(--color-shadow);
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: var(--color-text-link);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.back-link:hover {
+    color: var(--color-primary);
+}
+
+.property-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.property-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-primary);
+}
+
+.property-price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-success);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Image Gallery                                                              */
+/* -------------------------------------------------------------------------- */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--color-shadow);
+    transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Info Cards & Sections                                                      */
+/* -------------------------------------------------------------------------- */
+.property-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.info-card {
+    background-color: var(--color-bg-page);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.info-card h3 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: var(--color-text-secondary);
+}
+
+.info-card i {
+    color: var(--color-primary);
+    margin-right: 0.5rem;
+}
+
+.description-section,
+.features-section,
+.contact-agent-section {
+    margin-bottom: 2rem;
+}
+
+.description-section h3,
+.features-section h3,
+.contact-agent-section h3 {
+    border-bottom: 2px solid var(--color-border);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+}
+
+.features-list li {
+    background-color: var(--color-bg-hover);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Agent Info                                                                 */
+/* -------------------------------------------------------------------------- */
+
+.agent-info p {
+    margin: 0.5rem 0;
+}
+
+.agent-info i {
+    color: var(--color-primary);
+    width: 20px;
+}
+
+.contact-agent-section .btn-primary {
+    margin-top: 1rem;
+}

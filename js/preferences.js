@@ -8,6 +8,11 @@
 */
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Import the localStorageUtils module
+    // The 'localStorageUtils' object must be available globally or imported here.
+    // If you are using ES6 modules, uncomment the line below.
+    // import { localStorageUtils } from './localStorageUtils.js';
+
     const preferenceScreenWrapper = document.getElementById('preference-screen-wrapper');
 
     // Function to load the preferences HTML partial
@@ -21,11 +26,26 @@ document.addEventListener('DOMContentLoaded', () => {
             preferenceScreenWrapper.innerHTML = html;
             preferenceScreenWrapper.style.display = 'block'; // Show the wrapper
 
-            // Attach event listeners after the content is loaded
+            // After loading, check for existing preferences and attach listeners
+            checkAndPopulatePreferences();
             attachPreferencesEventListeners();
         } catch (error) {
             console.error('Error loading preferences module:', error);
             preferenceScreenWrapper.style.display = 'none'; // Hide if loading fails
+        }
+    }
+
+    // Function to check for and populate user preferences
+    function checkAndPopulatePreferences() {
+        const userProfile = localStorageUtils.getUserProfile();
+        if (userProfile && userProfile.favoriteCategories) {
+            const savedCategories = userProfile.favoriteCategories;
+            const checkboxes = document.querySelectorAll('input[name="category"]');
+            checkboxes.forEach(checkbox => {
+                if (savedCategories.includes(checkbox.value)) {
+                    checkbox.checked = true;
+                }
+            });
         }
     }
 
@@ -45,11 +65,12 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add event listeners for the custom checkbox styling
         const categoryItems = document.querySelectorAll('.category-item');
         categoryItems.forEach(item => {
-            item.addEventListener('click', () => {
+            item.addEventListener('click', (e) => {
+                // Prevent bubbling to avoid double-toggling
+                if (e.target.tagName.toLowerCase() === 'input') return;
                 const checkbox = item.querySelector('input[type="checkbox"]');
                 if (checkbox) {
                     checkbox.checked = !checkbox.checked; // Toggle checkbox state
-                    // No need to manually toggle classes, CSS :checked handles it
                 }
             });
         });
@@ -60,26 +81,29 @@ document.addEventListener('DOMContentLoaded', () => {
         event.preventDefault(); // Prevent default form submission
 
         const selectedCategories = [];
-        const checkboxes = preferencesForm.querySelectorAll('input[name="category"]:checked');
+        const checkboxes = document.querySelectorAll('input[name="category"]:checked');
         checkboxes.forEach(checkbox => {
             selectedCategories.push(checkbox.value);
         });
 
-        // Save preferences and a flag indicating preferences have been set
-        localStorageUtils.saveData('userPreferences', selectedCategories);
-        localStorageUtils.saveData('hasSetPreferences', true);
+        // Update the user profile with the selected categories
+        const userProfile = localStorageUtils.getUserProfile() || {};
+        userProfile.favoriteCategories = selectedCategories;
+        userProfile.hasSetPreferences = true; // Set a flag that preferences have been set
+        localStorageUtils.saveUserProfile(userProfile);
 
         console.log('User preferences saved:', selectedCategories);
         dismissPreferencesModule();
-        // Optionally, trigger a refresh of the recommended section on the homepage
-        // For now, we'll just dismiss. The index.js might re-render on load.
     }
 
     // Function to handle skipping preferences
     function handleSkipPreferences() {
         // Set a flag that preferences were acknowledged (skipped)
-        localStorageUtils.saveData('hasSetPreferences', true);
-        localStorageUtils.saveData('userSkippedPreferences', true); // Optional: track if skipped
+        const userProfile = localStorageUtils.getUserProfile() || {};
+        userProfile.hasSetPreferences = true;
+        userProfile.hasSkippedPreferences = true; // Optional: track if skipped
+        localStorageUtils.saveUserProfile(userProfile);
+        
         console.log('User skipped preferences.');
         dismissPreferencesModule();
     }
@@ -88,14 +112,12 @@ document.addEventListener('DOMContentLoaded', () => {
     function dismissPreferencesModule() {
         preferenceScreenWrapper.innerHTML = ''; // Clear content
         preferenceScreenWrapper.style.display = 'none'; // Hide the wrapper
-        // If the main page relies on preferences to render, you might want to call
-        // a function from index.js here to re-render the recommended section.
-        // For example: if (typeof renderRecommendedProducts === 'function') renderRecommendedProducts();
+        // Note: index.js is responsible for rendering the homepage content based on these settings.
     }
 
     // --- Initial Check and Load ---
-    // Check if the user has already set preferences or skipped them
-    const hasSetPreferences = localStorageUtils.getData('hasSetPreferences');
+    const userProfile = localStorageUtils.getUserProfile();
+    const hasSetPreferences = userProfile && userProfile.hasSetPreferences;
 
     if (!hasSetPreferences) {
         // If preferences haven't been set or skipped, load the module

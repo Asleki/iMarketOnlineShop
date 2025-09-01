@@ -164,13 +164,8 @@ document.addEventListener('partialsLoaded', async () => {
             dealsLink.href = hasDeals ? 'deals.html' : '#';
         }
         
-        const hasNewArrivals = allProducts.some(p => {
-            const oneMonthAgo = new Date();
-            oneMonthAgo.setDate(oneMonthAgo.getDate() - 30);
-            return p.dateAdded > oneMonthAgo;
-        });
         if (newArrivalsLink) {
-            newArrivalsLink.href = hasNewArrivals ? 'new-arrivals.html' : '#';
+            newArrivalsLink.href = 'new-arrivals.html';
         }
     }
 

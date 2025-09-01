@@ -211,99 +211,82 @@ document.addEventListener('partialsLoaded', async () => {
         }
     }
 
-    // =========================================================
-    // 4. Populate Recommended for You Section (UNCHANGED)
-    // =========================================================
-    const recommendedGrid = document.getElementById('recommended-products-grid');
-    const exploreMoreBtn = document.getElementById('explore-more-btn');
+// =========================================================
+// 4. Populate Recommended for You Section (UPDATED)
+// =========================================================
+const recommendedGrid = document.getElementById('recommended-products-grid');
+const exploreMoreBtn = document.getElementById('explore-more-btn');
 
-    function renderRecommendedProducts() {
-        if (!recommendedGrid || !exploreMoreBtn) {
-            console.error('Error: "recommended-products-grid" or "explore-more-btn" element not found in the DOM.');
-            return;
-        }
+function renderRecommendedProducts() {
+    if (!recommendedGrid || !exploreMoreBtn) {
+        console.error('Error: "recommended-products-grid" or "explore-more-btn" element not found in the DOM.');
+        return;
+    }
 
-        if (allProducts.length === 0) {
-            recommendedGrid.innerHTML = '<p class="text-center">No recommendations available.</p>';
-            exploreMoreBtn.style.display = 'none';
-            return;
-        }
+    if (allProducts.length === 0) {
+        recommendedGrid.innerHTML = '<p class="text-center">No recommendations available.</p>';
+        exploreMoreBtn.style.display = 'none';
+        return;
+    }
 
-        const userPreferences = JSON.parse(localStorage.getItem('userPreferences')) || { lastVisitedShopId: null };
-        const productsToDisplay = [];
-        const numToDisplay = 12;
+    const userProfile = localStorageUtils.getUserProfile();
+    const numToDisplay = 12;
+    let productsToDisplay = [];
+    let title = "Recommended for You";
+    let exploreLink = "/shops";
 
-        if (userPreferences.lastVisitedShopId) {
-            const preferredShopProducts = allProducts.filter(p => p.shop_id === userPreferences.lastVisitedShopId);
-            if (preferredShopProducts.length > 0) {
-                productsToDisplay.push(...preferredShopProducts
-                    .sort(() => 0.5 - Math.random())
-                    .slice(0, numToDisplay));
-            }
-        } else {
-            const topProducts = allProducts.filter(product =>
-                product.isDiscounted || (new Date() - product.dateAdded < 30 * 24 * 60 * 60 * 1000)
-            ).sort(() => 0.5 - Math.random());
+    // First, check for user's favorite categories
+    if (userProfile && userProfile.favoriteCategories && userProfile.favoriteCategories.length > 0) {
+        const preferredCategories = userProfile.favoriteCategories;
+        const filteredProducts = allProducts.filter(product => {
+            const productShop = shopsData.find(shop => shop.shop_id === product.shop_id);
+            return productShop && productShop.categories.some(cat => preferredCategories.includes(cat));
+        });
 
-            const shopProductsCount = {};
-            for (const product of topProducts) {
-                if (!shopProductsCount[product.shop_id]) {
-                    shopProductsCount[product.shop_id] = 0;
-                }
-                if (shopProductsCount[product.shop_id] < 3 && productsToDisplay.length < numToDisplay) {
-                    productsToDisplay.push(product);
-                    shopProductsCount[product.shop_id]++;
-                }
-            }
-
-            if (productsToDisplay.length < numToDisplay) {
-                const remaining = allProducts.filter(p => !productsToDisplay.includes(p));
-                productsToDisplay.push(...remaining.sort(() => 0.5 - Math.random()).slice(0, numToDisplay - productsToDisplay.length));
-            }
-        }
-
-        recommendedGrid.innerHTML = '';
-
-        if (productsToDisplay.length > 0) {
-            const shopCounts = productsToDisplay.reduce((acc, product) => {
-                acc[product.shop_id] = (acc[product.shop_id] || 0) + 1;
-                return acc;
-            }, {});
-
-            let topShopId = null;
-            let maxCount = 0;
-            for (const shopId in shopCounts) {
-                if (shopCounts[shopId] > maxCount) {
-                    maxCount = shopCounts[shopId];
-                    topShopId = shopId;
-                }
-            }
-
-            if (topShopId) {
-                exploreMoreBtn.href = `/shops/${topShopId}-categories.html`;
-            } else {
-                exploreMoreBtn.href = '/shops';
-            }
-
-            productsToDisplay.forEach(product => {
-                const card = document.createElement('div');
-                card.classList.add('product-card-uniform');
-                const productUrl = `/shops/${product.shop_id}-products.html#${product.id}`;
-                card.innerHTML = `
-                    <img src="${product.image}" alt="${product.name}">
-                    <h3>${product.name}</h3>
-                    <p>From ${product.shop_name}</p>
-                    <p>${product.price}</p>
-                    <a href="${productUrl}" class="btn-secondary">View Details</a>
-                `;
-                recommendedGrid.appendChild(card);
-            });
-        } else {
-            recommendedGrid.innerHTML = '<p class="text-center">No recommendations available.</p>';
-            exploreMoreBtn.style.display = 'none';
+        if (filteredProducts.length > 0) {
+            productsToDisplay = filteredProducts.sort(() => 0.5 - Math.random()).slice(0, numToDisplay);
+            title = "Based on Your Preferences";
+            exploreLink = `/categories.html?favorites=true`; // A link to a page that displays all favorites
         }
     }
 
+    // Fallback: If no preferences or not enough matching products, use a general mix
+    if (productsToDisplay.length < numToDisplay) {
+        // Use a mix of discounted, new, and random products to fill the grid
+        const additionalProducts = allProducts.sort(() => 0.5 - Math.random())
+            .filter(p => !productsToDisplay.some(existing => existing.id === p.id))
+            .slice(0, numToDisplay - productsToDisplay.length);
+        
+        productsToDisplay.push(...additionalProducts);
+    }
+    
+    // Shuffle the final list to ensure variety
+    productsToDisplay.sort(() => 0.5 - Math.random());
+
+    // Update the section title and "Explore More" button link
+    const sectionTitle = document.querySelector('#recommended-products h2');
+    if (sectionTitle) {
+        sectionTitle.textContent = title;
+    }
+    exploreMoreBtn.href = exploreLink;
+
+    recommendedGrid.innerHTML = '';
+    
+    // Render the product cards
+    productsToDisplay.forEach(product => {
+        const card = document.createElement('div');
+        card.classList.add('product-card-uniform');
+        const productUrl = `/shops/${product.shop_id}-products.html#${product.id}`;
+        card.innerHTML = `
+            <img src="${product.image}" alt="${product.name}">
+            <h3>${product.name}</h3>
+            <p>From ${product.shop_name}</p>
+            <p>${product.price}</p>
+            <a href="${productUrl}" class="btn-secondary">View Details</a>
+        `;
+        recommendedGrid.appendChild(card);
+    });
+}
     // =========================================================
     // 5. Initializing Homepage Functionality
     // =========================================================

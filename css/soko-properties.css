@@ -1,0 +1,232 @@
+/*
+    File: soko-properties.css
+    -------------------------------------------------
+    This stylesheet contains all specific styles for the
+    Soko Properties shop page, including the sticky header
+    and the property cards grid.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Soko Properties Specific Header Styles                                     */
+/* -------------------------------------------------------------------------- */
+
+.soko-properties-header {
+    position: sticky;
+    top: 0;
+    z-index: 90;
+    background-color: var(--color-bg-header-footer);
+    border-bottom: 1px solid var(--color-border);
+    box-shadow: 0 2px 4px var(--color-shadow);
+    color: var(--color-text-primary);
+    padding: 1.5rem 0;
+    transition: all 0.3s ease;
+}
+
+.soko-properties-header-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.soko-properties-search-bar {
+    /* Added flex-shrink and min-width to ensure it shrinks properly */
+    flex: 1 1 300px;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.soko-properties-search-bar h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--color-text-muted);
+}
+
+.soko-properties-search-input-group {
+    position: relative;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.soko-properties-search-input-group i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-text-secondary);
+}
+
+#soko-properties-search {
+    width: 100%;
+    padding: 12px 12px 12px 40px;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+    background-color: var(--color-bg-input);
+    color: var(--color-text-primary);
+    box-sizing: border-box;
+}
+
+.soko-properties-filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    /* Added flex-shrink and min-width to prevent overflow */
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+.soko-properties-filter-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.soko-properties-filter-group label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--color-text-secondary);
+    margin-bottom: 0.25rem;
+}
+
+.soko-properties-filter-select {
+    padding: 8px;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+    background-color: var(--color-bg-card);
+    color: var(--color-text-primary);
+    min-width: 120px;
+}
+
+.soko-properties-filter-actions {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-end; /* Aligns buttons with the bottom of the selects */
+}
+
+.soko-properties-btn {
+    padding: 10px 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Property Card Styles                                                       */
+/* -------------------------------------------------------------------------- */
+.property-card {
+    background-color: var(--color-bg-card);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.property-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.property-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.property-info {
+    padding: 1rem;
+}
+
+.property-info h3 {
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.property-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--color-primary);
+    margin: 0.5rem 0;
+}
+
+.property-details {
+    display: flex;
+    gap: 1rem;
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+
+.property-details i {
+    color: var(--color-primary);
+    margin-right: 5px;
+}
+
+.property-location {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-bottom: 1rem;
+}
+
+.property-location i {
+    margin-right: 5px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Section & General Page Styles                                              */
+/* -------------------------------------------------------------------------- */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content p {
+    margin-bottom: 1rem;
+}
+
+.about-content a.btn-primary {
+    margin-top: 1rem;
+}
+
+@media (max-width: 992px) {
+    .soko-properties-header-content {
+        flex-direction: column;
+    }
+
+    .soko-properties-filters {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+    
+    .soko-properties-filter-group {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .soko-properties-filters {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .soko-properties-filter-group {
+        width: 100%;
+    }
+    
+    .soko-properties-filter-select {
+        width: 100%;
+    }
+}

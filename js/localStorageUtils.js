@@ -1,8 +1,18 @@
-const localStorageUtils = {
+// File: js/localStorageUtils.js
+// A utility module for safely interacting with Local Storage.
+// It centralizes data retrieval, storage, and removal for iMarket.
+//
+
+export const localStorageUtils = {
   // === Generic ===
   get(key) {
     try {
-      return JSON.parse(localStorage.getItem(key));
+      const item = localStorage.getItem(key);
+      // Check for null or undefined to ensure a meaningful default is returned.
+      if (item === null || item === 'undefined') {
+        return null;
+      }
+      return JSON.parse(item);
     } catch (e) {
       console.warn(`Failed to parse localStorage key: ${key}`, e);
       return null;
@@ -36,7 +46,7 @@ const localStorageUtils = {
 
   isGuestUser() {
     const profile = this.getUserProfile();
-    return !profile || profile.name === "Guest User";
+    return !profile || profile.name === "Guest User" || !profile.name;
   },
 
   // === Cart ===

@@ -1,0 +1,139 @@
+/*
+    File: css/deals.css
+    Description: Styles for the deals.html page, including sections for each shop's deals
+                 and consistent product card styling.
+*/
+
+.deals-section {
+    padding: 2rem 0;
+}
+
+.deals-section .section-title {
+    text-align: center;
+    color: var(--text-color-primary);
+    margin-bottom: 0.5rem;
+}
+
+.deals-section .section-subtitle {
+    text-align: center;
+    color: var(--text-color-secondary);
+    margin-bottom: 2rem;
+}
+
+.shop-deals-container {
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: var(--background-color-card);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.shop-deals-container h2 {
+    font-size: 1.8em;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color-light);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+
+.deals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* Product Card Styling */
+.product-card-uniform {
+    background-color: var(--background-color-body);
+    border: 1px solid var(--border-color-light);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-decoration: none; /* Remove underline for a tag */
+    color: inherit;
+}
+
+.product-card-uniform:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-card-uniform img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    border-bottom: 1px solid var(--border-color-light);
+    margin-bottom: 1rem;
+}
+
+.product-card-uniform h3 {
+    font-size: 1.1em;
+    color: var(--text-color-primary);
+    margin-bottom: 0.5rem;
+    height: 3.3em; /* Fix height to prevent layout shift */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.product-card-uniform p {
+    font-size: 0.9em;
+    color: var(--text-color-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.product-card-uniform .price-old {
+    text-decoration: line-through;
+    color: var(--text-color-secondary);
+    font-size: 0.8em;
+    margin-right: 0.5rem;
+}
+
+.product-card-uniform .price-new {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.product-card-uniform .deals-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff4d4d; /* A vibrant red color */
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.8em;
+    z-index: 10;
+}
+
+/* Dark Mode */
+body[data-theme="dark"] .shop-deals-container {
+    background-color: var(--background-color-dark);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+body[data-theme="dark"] .product-card-uniform {
+    background-color: var(--background-color-dark);
+    border-color: var(--border-color-dark);
+}
+
+body[data-theme="dark"] .product-card-uniform:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .deals-grid {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 15px;
+    }
+}

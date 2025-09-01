@@ -1,0 +1,109 @@
+/*
+    File: soko-properties-about.css
+    -------------------------------------------------
+    This stylesheet contains specific styles for the
+    Soko Properties About Us page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Main Sections Layout & Typography                                          */
+/* -------------------------------------------------------------------------- */
+
+.section-sub-title {
+    font-size: 1.8rem;
+    color: var(--color-primary);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.section-sub-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--color-cta);
+    margin: 0.5rem auto 0;
+}
+
+.about-intro-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Mission & Vision Cards                                                     */
+/* -------------------------------------------------------------------------- */
+
+.mission-vision-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.mission-vision-section > div {
+    flex: 1;
+    background-color: var(--color-bg-card);
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px var(--color-shadow);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.mission-vision-section > div:hover {
+    transform: translateY(-5px);
+}
+
+.mission-vision-section i {
+    font-size: 3rem;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.mission-vision-section h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    color: var(--color-text-primary);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Our Values Section (Reusing existing `benefits-container` from main.css)   */
+/* -------------------------------------------------------------------------- */
+
+.values-section .benefits-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Team Intro Section                                                         */
+/* -------------------------------------------------------------------------- */
+
+.team-intro-section {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.team-intro-section p {
+    color: var(--color-text-secondary);
+    font-style: italic;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* Responsive Design                                                          */
+/* -------------------------------------------------------------------------- */
+
+@media (min-width: 768px) {
+    .mission-vision-section {
+        flex-direction: row;
+    }
+}

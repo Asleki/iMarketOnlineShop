@@ -1,0 +1,78 @@
+<header id="soko-properties-header" class="soko-properties-header sticky-header">
+    <div class="container soko-properties-header-content">
+        <div class="soko-properties-search-bar">
+            <h3>Search properties by location, type...</h3>
+            <div class="soko-properties-search-input-group">
+                <i class="fas fa-search"></i>
+                <input type="text" id="soko-properties-search" placeholder="e.g. Kilimani, 3 Bedroom, Apartment" aria-label="Search properties">
+            </div>
+        </div>
+
+        <div class="soko-properties-filters">
+            <div class="soko-properties-filter-group">
+                <label for="property-type">Type:</label>
+                <select id="property-type" class="soko-properties-filter-select" aria-label="Property Type">
+                    <option value="all">All Types</option>
+                    <option value="House">House</option>
+                    <option value="Apartment">Apartment</option>
+                    <option value="Land">Land</option>
+                    <option value="Townhouse">Townhouse</option>
+                    <option value="Commercial">Commercial</option>
+                </select>
+            </div>
+
+            <div class="soko-properties-filter-group">
+                <label for="bedroom-count">Beds:</label>
+                <select id="bedroom-count" class="soko-properties-filter-select" aria-label="Number of Bedrooms">
+                    <option value="any">Any</option>
+                    <option value="0">Studio</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5+">5+</option>
+                </select>
+            </div>
+
+            <div class="soko-properties-filter-group">
+                <label for="bathroom-count">Baths:</label>
+                <select id="bathroom-count" class="soko-properties-filter-select" aria-label="Number of Bathrooms">
+                    <option value="any">Any</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4+">4+</option>
+                </select>
+            </div>
+
+            <div class="soko-properties-filter-group">
+                <label for="price-range">Price:</label>
+                <select id="price-range" class="soko-properties-filter-select" aria-label="Price Range">
+                    <option value="any">Any Price</option>
+                    <option value="0-5000000">Below KSh 5M</option>
+                    <option value="5000000-15000000">KSh 5M - KSh 15M</option>
+                    <option value="15000000-30000000">KSh 15M - KSh 30M</option>
+                    <option value="30000000-60000000">KSh 30M - KSh 60M</option>
+                    <option value="60000000-100000000">KSh 60M - KSh 100M</option>
+                    <option value="100000000+">Above KSh 100M</option>
+                </select>
+            </div>
+
+            <div class="soko-properties-filter-group">
+                <label for="sort-by">Sort:</label>
+                <select id="sort-by" class="soko-properties-filter-select" aria-label="Sort by">
+                    <option value="default">Default</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                    <option value="newest">Newest Listings</option>
+                    <option value="oldest">Oldest Listings</option>
+                </select>
+            </div>
+
+            <div class="soko-properties-filter-actions">
+                <button id="apply-filters-btn" class="soko-properties-btn btn-primary">Apply Filters</button>
+                <button id="clear-filters-btn" class="soko-properties-btn btn-secondary">Clear</button>
+            </div>
+        </div>
+    </div>
+</header>

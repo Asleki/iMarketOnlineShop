@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Prize Wheel</title>
+    <style>
+        /* Base styling and background */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+            background-image: url('https://source.unsplash.com/random/1920x1080/?abstract,geometric');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+        }
+
+        /* --- Main Layout --- */
+        .page-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            max-width: 1200px;
+            padding: 20px;
+            gap: 50px;
+        }
+        
+        @media (max-width: 768px) {
+            .page-container {
+                flex-direction: column;
+                gap: 30px;
+            }
+        }
+
+        .left-side, .right-side {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .left-side {
+            position: relative;
+        }
+
+        .right-side {
+            flex: 1;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            min-height: 450px;
+        }
+
+        /* --- Prize Wheel Styles --- */
+        .wheel-wrapper {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .prize-wheel {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            border: 5px solid #333;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 4s cubic-bezier(0.2, 0.8, 0.4, 1);
+        }
+        
+        .wheel-section {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 50%;
+            height: 50%;
+            transform-origin: 0% 100%;
+            overflow: hidden;
+        }
+
+        .wheel-section::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200%;
+            height: 200%;
+            border-radius: 50%;
+            transform: translate(-25%, -25%) rotate(45deg);
+        }
+
+        .wheel-section:nth-child(1) { transform: rotate(0deg); }
+        .wheel-section:nth-child(2) { transform: rotate(90deg); }
+        .wheel-section:nth-child(3) { transform: rotate(180deg); }
+        .wheel-section:nth-child(4) { transform: rotate(270deg); }
+        
+        .wheel-section:nth-child(1)::after { background-color: rgba(220, 53, 69, 0.85); }
+        .wheel-section:nth-child(2)::after { background-color: rgba(255, 193, 7, 0.85); }
+        .wheel-section:nth-child(3)::after { background-color: rgba(40, 167, 69, 0.85); }
+        .wheel-section:nth-child(4)::after { background-color: rgba(0, 123, 255, 0.85); }
+        
+        .prize-content {
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-45deg);
+            color: #fff;
+            text-align: center;
+            width: 100%;
+            z-index: 2;
+        }
+        
+        .prize-content img {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+            margin-bottom: 5px;
+        }
+        
+        .prize-content span {
+            display: block;
+            font-size: 1em;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+        }
+        
+        /* --- Pointer and Button Styles --- */
+        .pointer {
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-bottom: 40px solid #f00; 
+            z-index: 10;
+            margin-top: 15px; 
+        }
+        
+        .spin-button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+        
+        .spin-button:hover {
+            background-color: #0056b3;
+        }
+        
+        .spin-button:active {
+            transform: translateY(2px);
+            box-shadow: none;
+        }
+
+        .spin-button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        /* --- Right Side Results Display --- */
+        .result-message {
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .prize-display {
+            display: none;
+            width: 100%;
+            max-width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .prize-display.visible {
+            display: block;
+        }
+
+        .prize-display img {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <div class="left-side">
+            <div class="wheel-wrapper">
+                <div id="prize-wheel" class="prize-wheel">
+                    </div>
+                <div class="pointer"></div>
+            </div>
+            <button id="spin-button" class="spin-button">Spin</button>
+        </div>
+    
+        <div class="right-side">
+            <h2>Spin and Win!</h2>
+            <p id="result-message" class="result-message">You have 3 free spins remaining. Good luck!</p>
+            <div id="prize-display" class="prize-display">
+                <h3>Congratulations!</h3>
+                <img id="prize-image" src="" alt="Prize image">
+                <h4 id="prize-name"></h4>
+                <p id="prize-value"></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const wheel = document.getElementById('prize-wheel');
+        const spinBtn = document.getElementById('spin-button');
+        const resultMessage = document.getElementById('result-message');
+        const prizeDisplay = document.getElementById('prize-display');
+        const prizeImage = document.getElementById('prize-image');
+        const prizeName = document.getElementById('prize-name');
+        const prizeValue = document.getElementById('prize-value');
+
+        let isSpinning = false;
+        let spinsLeft = 3;
+
+        // Hardcoded product data
+        const clickNGetProducts = [
+            { id: "prod_C&G_044", name: "Bluetooth Soundbar", images: ["https://placehold.co/600x400/A0D0B0/000000?text=Soundbar+Main"], price: 28000.00 },
+            { id: "prod_C&G_045", name: "Smart Air Purifier", images: ["https://placehold.co/600x400/D0D0F0/000000?text=AirPurifier+Main"], price: 16000.00 },
+            { id: "prod_C&G_046", name: "Smart Water Bottle", images: ["https://placehold.co/600x400/A0E0F0/000000?text=SmartBottle+Main"], price: 6000.00 },
+            { id: "prod_C&G_047", name: "Gaming Keyboard", images: ["https://placehold.co/600x400/D0F0C0/000000?text=GamingKeyboard+Main"], price: 9800.00 },
+            { id: "prod_C&G_048", name: "Smart Scale", images: ["https://placehold.co/600x400/B0E0D0/000000?text=BodyCompScale+Main"], price: 7500.00 },
+            { id: "prod_C&G_049", name: "Electric Rice Cooker", images: ["https://placehold.co/600x400/E0F0C0/000000?text=RiceCooker+Main"], price: 5000.00 },
+            { id: "prod_C&G_050", name: "Smart LED Desk Lamp", images: ["https://placehold.co/600x400/D0A0A0/000000?text=DeskLamp+Main"], price: 6800.00 }
+        ];
+
+        const joyTotesProducts = [
+            { id: "jt_bag_002", name: "Compact Crossbody Bag", images: ["https://placehold.co/600x400/A0F0D0/000000?text=Crossbody+Bag"], price: 3200 },
+            { id: "jt_bag_003", name: "Everyday Backpack", images: ["https://placehold.co/600x400/E0D0F0/000000?text=Everyday+Backpack"], price: 4500 },
+            { id: "jt_bag_004", name: "Elegant Evening Clutch", images: ["https://placehold.co/600x400/F0E0C0/000000?text=Evening+Clutch"], price: 2800 },
+            { id: "jt_bag_005", name: "Spacious Travel Duffel", images: ["https://placehold.co/600x400/C0B0A0/000000?text=Travel+Duffel"], price: 6000 },
+            { id: "jt_bag_006", name: "Chic Shoulder Bag", images: ["https://placehold.co/600x400/A0C0E0/000000?text=Shoulder+Bag"], price: 4800 },
+            { id: "jt_bag_007", name: "Casual Canvas Sling", images: ["https://placehold.co/600x400/F0D0E0/000000?text=Canvas+Sling"], price: 2500 },
+            { id: "jt_bag_008", name: "Luxury Designer Handbag", images: ["https://placehold.co/600x400/C0A0F0/000000?text=Designer+Handbag"], price: 18000 }
+        ];
+        
+        const nashaaKicksProducts = [
+            { id: "nk_shoe_002", name: "Women's Ballet Flats", images: ["https://placehold.co/600x400/D0F0A0/000000?text=Ballet+Flats"], price: 4500 },
+            { id: "nk_shoe_003", name: "Canvas Sneakers", images: ["https://placehold.co/600x400/A0C0B0/000000?text=Canvas+Sneakers"], price: 3200 },
+            { id: "nk_shoe_004", name: "Kids' Velcro Play Shoes", images: ["https://placehold.co/600x400/E0B0A0/000000?text=Kids+Shoes"], price: 2500 },
+            { id: "nk_shoe_005", name: "Men's Formal Oxfords", images: ["https://placehold.co/600x400/B0A0C0/000000?text=Formal+Oxfords"], price: 12000 },
+            { id: "nk_shoe_006", name: "Women's High Heel Pumps", images: ["https://placehold.co/600x400/F0A0B0/000000?text=High+Heels"], price: 7800 },
+            { id: "nk_shoe_007", name: "Unisex Sports Sandals", images: ["https://placehold.co/600x400/C0F0B0/000000?text=Sports+Sandals"], price: 3000 }
+        ];
+
+        const starsPrize = {
+            name: "100 Stars",
+            image: "https://placehold.co/100x100/FFD700/000000?text=✨+100+Stars",
+            value: "100 Stars"
+        };
+        
+        function getSpinPrizes() {
+            const allProducts = [
+                clickNGetProducts,
+                joyTotesProducts,
+                nashaaKicksProducts
+            ];
+
+            const selectedPrizes = [];
+
+            // Randomly select one product from each "shop"
+            for (const shop of allProducts) {
+                const randomIndex = Math.floor(Math.random() * shop.length);
+                selectedPrizes.push(shop[randomIndex]);
+            }
+            
+            // Add the stars prize
+            selectedPrizes.push(starsPrize);
+
+            return selectedPrizes;
+        }
+
+        const prizes = getSpinPrizes();
+        
+        function generateWheelSections() {
+            wheel.innerHTML = ''; // Clear existing sections
+            prizes.forEach((prize, index) => {
+                const section = document.createElement('div');
+                section.className = 'wheel-section';
+                
+                let prizeImageSrc;
+                if (prize.name === "100 Stars") {
+                    prizeImageSrc = prize.image;
+                } else {
+                    prizeImageSrc = prize.images[0];
+                }
+
+                const sectionContent = `
+                    <div class="prize-content">
+                        <img src="${prizeImageSrc}" alt="${prize.name}">
+                    </div>
+                `;
+                
+                section.innerHTML = sectionContent;
+                wheel.appendChild(section);
+            });
+        }
+        
+        generateWheelSections();
+
+        function displayPrize(prize) {
+            prizeImage.src = prize.name === "100 Stars" ? prize.image : prize.images[0];
+            prizeImage.alt = prize.name;
+            prizeName.textContent = prize.name;
+            if (prize.name === "100 Stars") {
+                prizeValue.textContent = "You've won 100 Stars! Redeem them on your next purchase.";
+            } else {
+                prizeValue.textContent = `You've won a ${prize.name}!`;
+            }
+            prizeDisplay.classList.add('visible');
+        }
+
+        spinBtn.addEventListener('click', () => {
+            if (isSpinning || spinsLeft <= 0) {
+                resultMessage.textContent = "You've used all your free spins!";
+                spinBtn.disabled = true;
+                return;
+            }
+
+            isSpinning = true;
+            spinBtn.disabled = true;
+            prizeDisplay.classList.remove('visible');
+
+            const winningIndex = Math.floor(Math.random() * prizes.length);
+            const winningPrize = prizes[winningIndex];
+
+            // Calculate the rotation angle to land on the center of the winning prize at the BOTTOM of the wheel
+            const totalDegrees = 360 * 5; 
+            const sectionDegrees = 360 / prizes.length;
+            const landingRotation = totalDegrees + 180 - (winningIndex * sectionDegrees);
+            
+            wheel.style.transition = 'transform 4s cubic-bezier(0.2, 0.8, 0.4, 1)';
+            wheel.style.transform = `rotate(${landingRotation}deg)`;
+
+            wheel.addEventListener('transitionend', () => {
+                isSpinning = false;
+                spinsLeft--;
+                
+                displayPrize(winningPrize);
+                resultMessage.textContent = `You have ${spinsLeft} free spins remaining.`;
+                
+                if (spinsLeft > 0) {
+                    spinBtn.disabled = false;
+                } else {
+                    spinBtn.disabled = true;
+                }
+
+                // Reset the wheel's rotation without animation for the next spin
+                const finalRotation = 180 - (winningIndex * sectionDegrees);
+                wheel.style.transition = 'none';
+                wheel.style.transform = `rotate(${finalRotation}deg)`;
+            }, { once: true });
+        });
+    </script>
+</body>
+</html>

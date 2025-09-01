@@ -1,0 +1,200 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    color: #333;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 50px;
+}
+
+@media (max-width: 768px) {
+    .page-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+.left-side, .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side {
+    position: relative;
+}
+
+.right-side {
+    flex: 1;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    min-height: 450px;
+}
+
+.wheel-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prize-wheel {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 5px solid #333;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 4s cubic-bezier(0.2, 0.8, 0.4, 1);
+}
+
+.wheel-section {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    transform-origin: 0% 100%;
+    overflow: hidden;
+}
+
+.wheel-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+    transform: translate(-25%, -25%) rotate(45deg);
+}
+
+.wheel-section:nth-child(1) { transform: rotate(0deg); }
+.wheel-section:nth-child(2) { transform: rotate(90deg); }
+.wheel-section:nth-child(3) { transform: rotate(180deg); }
+.wheel-section:nth-child(4) { transform: rotate(270deg); }
+
+.wheel-section:nth-child(1)::after { background-color: rgba(220, 53, 69, 0.85); }
+.wheel-section:nth-child(2)::after { background-color: rgba(255, 193, 7, 0.85); }
+.wheel-section:nth-child(3)::after { background-color: rgba(40, 167, 69, 0.85); }
+.wheel-section:nth-child(4)::after { background-color: rgba(0, 123, 255, 0.85); }
+
+.prize-content {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+
+.prize-content img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.pointer {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #f00; 
+    z-index: 10;
+    margin-top: 15px; 
+}
+
+.spin-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.spin-button:hover {
+    background-color: #0056b3;
+}
+
+.spin-button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+}
+
+.spin-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.result-message {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.prize-display {
+    display: none;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prize-display.visible {
+    display: block;
+}
+
+.prize-display img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-to-top-btn:hover {
+    background-color: #0056b3;
+}
