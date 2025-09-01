@@ -145,9 +145,15 @@ document.addEventListener('partialsLoaded', async () => {
         const allCategories = shopsData.flatMap(shop => shop.categories);
         const uniqueCategories = [...new Set(allCategories)].sort();
         if (categoriesDropdown) {
-            categoriesDropdown.innerHTML = uniqueCategories.map(cat => 
-                `<li><a href="shops.html?category=${encodeURIComponent(cat)}" title="${cat}">${cat}</a></li>`
-            ).join('');
+            categoriesDropdown.innerHTML = uniqueCategories.map(cat => {
+                // Find the first shop that sells this category
+                const firstShop = shopsData.find(shop => shop.categories.includes(cat));
+                let link = `shops.html?category=${encodeURIComponent(cat)}`; // Fallback
+                if (firstShop) {
+                    link = `${firstShop.shopPageUrl.replace('index.html', '')}categories.html?category=${encodeURIComponent(cat)}`;
+                }
+                return `<li><a href="${link}" title="${cat}">${cat}</a></li>`;
+            }).join('');
         }
 
         if (shopsDropdown) {
@@ -179,7 +185,8 @@ document.addEventListener('partialsLoaded', async () => {
         shopsData.forEach(shop => suggestions.add({
             name: shop.name,
             link: shop.shopPageUrl,
-            type: 'Shop'
+            type: 'Shop',
+            shop_id: shop.shop_id
         }));
         
         // Add all categories from shopsData
@@ -196,7 +203,8 @@ document.addEventListener('partialsLoaded', async () => {
             if (product.name) {
                 suggestions.add({
                     name: product.name,
-                    link: `product.html?id=${product.id}`,
+                    id: product.id,
+                    shop_id: product.shop_id,
                     type: 'Product'
                 });
             }
@@ -239,9 +247,31 @@ document.addEventListener('partialsLoaded', async () => {
             );
             
             if (filteredSuggestions.length > 0) {
-                const suggestionsList = filteredSuggestions.slice(0, 5).map(s => `
-                    <li><a href="${s.link}">${s.name} <span class="suggestion-type">${s.type}</span></a></li>
-                `).join('');
+                const suggestionsList = filteredSuggestions.slice(0, 5).map(s => {
+                    let link;
+                    switch (s.type) {
+                        case 'Product':
+                            link = `${s.shop_id}-product-details.html?id=${encodeURIComponent(s.id)}`;
+                            break;
+                        case 'Shop':
+                            link = s.link;
+                            break;
+                        case 'Category':
+                            // Find the first shop that sells this category
+                            const firstShop = shopsData.find(shop => shop.categories.includes(s.name));
+                            if (firstShop) {
+                                link = `${firstShop.shopPageUrl.replace('index.html', '')}categories.html?category=${encodeURIComponent(s.name)}`;
+                            } else {
+                                link = `shops.html?category=${encodeURIComponent(s.name)}`;
+                            }
+                            break;
+                        default:
+                            link = s.link; // Fallback for 'Subcategory' and others
+                    }
+                    return `
+                        <li><a href="${link}">${s.name} <span class="suggestion-type">${s.type}</span></a></li>
+                    `;
+                }).join('');
                 
                 suggestionsContainer.innerHTML = `<ul>${suggestionsList}</ul>`;
                 suggestionsContainer.classList.add('show');

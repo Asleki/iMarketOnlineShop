@@ -1,0 +1,22 @@
+[
+    { "category": "Accessories", "icon": "fas fa-glasses" },
+    { "category": "Appliances", "icon": "fas fa-blender" },
+    { "category": "Automotive Parts", "icon": "fas fa-cogs" },
+    { "category": "Commercial Property", "icon": "fas fa-city" },
+    { "category": "Computers", "icon": "fas fa-desktop" },
+    { "category": "Crossbody Bags", "icon": "fas fa-shopping-bag" },
+    { "category": "Electronics", "icon": "fas fa-microchip" },
+    { "category": "Flats", "icon": "fas fa-shoe-prints" },
+    { "category": "Home & Kitchen", "icon": "fas fa-couch" },
+    { "category": "Land", "icon": "fas fa-seedling" },
+    { "category": "Men's Shoes", "icon": "fas fa-shoe-prints" },
+    { "category": "Motorcycles", "icon": "fas fa-motorcycle" },
+    { "category": "Office Furniture", "icon": "fas fa-chair" },
+    { "category": "Printers", "icon": "fas fa-print" },
+    { "category": "Real Estate", "icon": "fas fa-building" },
+    { "category": "Sneakers", "icon": "fas fa-running" },
+    { "category": "Tote Bags", "icon": "fas fa-shopping-bag" },
+    { "category": "Vehicles", "icon": "fas fa-car" },
+    { "category": "Waist Bags", "icon": "fas fa-shopping-bag" },
+    { "category": "Women's Shoes", "icon": "fas fa-shoe-prints" }
+]

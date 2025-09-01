@@ -3,7 +3,7 @@
 // It centralizes data retrieval, storage, and removal for iMarket.
 //
 
-export const localStorageUtils = {
+const localStorageUtils = {
   // === Generic ===
   get(key) {
     try {
