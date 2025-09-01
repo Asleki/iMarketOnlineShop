@@ -1,251 +1,193 @@
-/**
- * soko-properties.js
- * * This script handles the dynamic loading, filtering, and sorting of
- * properties for the Soko Properties shop page. It fetches property
- * data from a JSON file and renders it dynamically.
- */
+//
+// File: js/soko-properties.js
+// -------------------------------------------------
+// This script provides all dynamic functionality for the Soko Properties page.
+// It handles data fetching, dynamic product rendering, filtering, searching,
+// and view toggles (grid/list).
+//
 
-document.addEventListener('partialsLoaded', async () => {
+document.addEventListener('DOMContentLoaded', async () => {
+    // Listen for a custom event that signifies all HTML partials are loaded.
+    // This ensures our script runs after the main content is fully in the DOM.
+    // This pattern is consistent with other files in the iMarket project.
+    document.addEventListener('partialsLoaded', async () => {
+        let allProperties = [];
 
-    let allProperties = [];
-    let filteredProperties = [];
-    let displayedCount = 0;
-    const itemsPerLoad = 9;
-
-    // =========================================================
-    // 2. Data Fetching & Initialization
-    // =========================================================
-    async function fetchProperties() {
-        try {
-            const response = await fetch('data/soko-properties-products.json');
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            allProperties = await response.json();
-            // Assign a date_added for sorting purposes, using a simple index-based approach
-            // for demonstration, with a slight offset for each item.
-            allProperties.forEach((prop, index) => {
-                const date = new Date('2024-01-01');
-                date.setDate(date.getDate() + index);
-                prop.date_added = prop.listingDate || date.toISOString().split('T')[0];
-            });
-
-            // After fetching, inject the shop header partial and then initialize functionality
-            await injectShopHeader();
-            initializePage();
-        } catch (error) {
-            console.error('Failed to fetch properties:', error);
-            const propertiesGrid = document.getElementById('properties-grid');
-            if (propertiesGrid) {
-                propertiesGrid.innerHTML = '<p class="text-center">Error loading properties. Please try again later.</p>';
-            }
-        }
-    }
-
-    async function injectShopHeader() {
-        const shopHeaderPlaceholder = document.getElementById('shop-header-placeholder');
-        if (shopHeaderPlaceholder) {
+        /**
+         * Fetches property data from the JSON file.
+         */
+        async function fetchProperties() {
             try {
-                const response = await fetch('partials/soko-properties-header.html');
+                const response = await fetch('data/soko-properties-products.json');
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
-                const headerHtml = await response.text();
-                shopHeaderPlaceholder.innerHTML = headerHtml;
+                allProperties = await response.json();
+                console.log('Property data loaded successfully.');
             } catch (error) {
-                console.error('Failed to inject shop header:', error);
+                console.error('Failed to load property data:', error);
+                // Fallback or display an error message on the page
+                document.querySelectorAll('.product-grid').forEach(grid => {
+                    grid.innerHTML = '<p class="text-danger">Failed to load properties. Please try again later.</p>';
+                });
             }
         }
-    }
 
-    // Main initialization function to be called after data is fetched AND partials are loaded
-    function initializePage() {
-        // =========================================================
-        // 1. DOM Elements & State Variables (Moved here to ensure they exist)
-        // =========================================================
-        const propertiesGrid = document.getElementById('properties-grid');
-        const searchInput = document.getElementById('soko-properties-search');
-        const typeFilter = document.getElementById('property-type');
-        const bedCountFilter = document.getElementById('bedroom-count');
-        const bathCountFilter = document.getElementById('bathroom-count');
-        const priceRangeFilter = document.getElementById('price-range');
-        const sortBySelect = document.getElementById('sort-by');
-        const applyFiltersBtn = document.getElementById('apply-filters-btn');
-        const clearFiltersBtn = document.getElementById('clear-filters-btn');
-        const loadMoreBtn = document.getElementById('load-more-btn');
+        /**
+         * Renders properties into a specific section of the page.
+         * @param {Array} propertiesArray - The array of property objects to render.
+         * @param {string} containerId - The ID of the HTML element to render into.
+         * @param {string} badgeText - Optional text for a badge (e.g., "Discounted").
+         */
+        function renderProperties(propertiesArray, containerId, badgeText = null) {
+            const container = document.getElementById(containerId);
+            if (!container) return;
 
-        filteredProperties = [...allProperties]; // Start with all properties
-        applyFiltersAndSort();
-        setupEventListeners(searchInput, typeFilter, bedCountFilter, bathCountFilter, priceRangeFilter, sortBySelect, applyFiltersBtn, clearFiltersBtn, loadMoreBtn);
-    }
+            // Clear existing content
+            container.innerHTML = '';
 
-    // =========================================================
-    // 3. Rendering Functions
-    // =========================================================
-    function renderProperties(properties) {
-        const propertiesGrid = document.getElementById('properties-grid');
-        const loadMoreBtn = document.getElementById('load-more-btn');
-        if (!propertiesGrid) return;
+            propertiesArray.forEach(property => {
+                const card = document.createElement('a');
+                // CORRECTED: Link to the specific product details page with its ID
+                card.href = `soko_properties-product-details.html?id=${property.propertyId}`;
+                card.classList.add('product-card-uniform');
 
-        propertiesGrid.innerHTML = '';
-        if (properties.length === 0) {
-            propertiesGrid.innerHTML = '<p class="text-center">No properties found matching your criteria.</p>';
-            if (loadMoreBtn) loadMoreBtn.style.display = 'none';
-            return;
-        }
+                const price = property.price.amount.toLocaleString('en-KE', {
+                    style: 'currency',
+                    currency: 'KES',
+                    minimumFractionDigits: 0
+                });
 
-        const propertiesToDisplay = properties.slice(0, displayedCount);
-        propertiesToDisplay.forEach(property => {
-            const propertyCard = createPropertyCard(property);
-            propertiesGrid.appendChild(propertyCard);
-        });
+                let badgeHtml = '';
+                if (badgeText) {
+                    badgeHtml = `<span class="listing-badge">${badgeText}</span>`;
+                }
 
-        // Toggle load more button visibility
-        if (loadMoreBtn) {
-            if (displayedCount >= properties.length) {
-                loadMoreBtn.style.display = 'none';
-            } else {
-                loadMoreBtn.style.display = 'block';
-            }
-        }
-    }
-
-    function createPropertyCard(property) {
-        const card = document.createElement('div');
-        card.classList.add('property-card');
-        const price = new Intl.NumberFormat('en-KE', { style: 'currency', currency: 'KES' }).format(property.price.amount);
-        const area = property.area ? `${property.area.size} m²` : 'N/A';
-        const imageUrl = property.images && property.images.length > 0 ? property.images[0] : 'images/placeholder.webp';
-
-        // Construct the dynamic URL for the details page using the propertyId
-        const propertyUrl = `soko-properties-product-details.html?id=${property.propertyId}`;
-
-        // Conditionally create the beds and baths HTML
-        const bedsHtml = property.bedrooms ? `<span><i class="fas fa-bed"></i> ${property.bedrooms} Beds</span>` : '';
-        const bathsHtml = property.bathrooms ? `<span><i class="fas fa-bath"></i> ${property.bathrooms} Baths</span>` : '';
-
-        card.innerHTML = `
-            <img src="${imageUrl}" alt="${property.title}">
-            <div class="property-info">
-                <h3>${property.title}</h3>
-                <p class="property-price">${price}</p>
-                <div class="property-details">
-                    ${bedsHtml}
-                    ${bathsHtml}
-                    <span><i class="fas fa-ruler-combined"></i> ${area}</span>
-                </div>
-                <p class="property-location"><i class="fas fa-map-marker-alt"></i> ${property.location.city}</p>
-                <a href="${propertyUrl}" class="btn-primary">View Details</a>
-            </div>
-        `;
-        return card;
-    }
-
-    // =========================================================
-    // 4. Filtering, Sorting & Event Handling Logic
-    // =========================================================
-    function applyFiltersAndSort() {
-        const searchInput = document.getElementById('soko-properties-search');
-        const typeFilter = document.getElementById('property-type');
-        const bedCountFilter = document.getElementById('bedroom-count');
-        const bathCountFilter = document.getElementById('bathroom-count');
-        const priceRangeFilter = document.getElementById('price-range');
-        const sortBySelect = document.getElementById('sort-by');
-
-        // Check if all elements exist before proceeding
-        if (!searchInput || !typeFilter || !bedCountFilter || !bathCountFilter || !priceRangeFilter || !sortBySelect) {
-            console.error('One or more filter/sort elements are not available in the DOM.');
-            return;
-        }
-
-        // 4.1. Filtering Logic
-        let currentProperties = allProperties.filter(property => {
-            const searchTerm = searchInput.value.toLowerCase();
-            const matchesSearch = property.title.toLowerCase().includes(searchTerm) ||
-                property.location.city.toLowerCase().includes(searchTerm) ||
-                property.propertyType.toLowerCase().includes(searchTerm);
-
-            const selectedType = typeFilter.value;
-            const matchesType = selectedType === 'all' || property.propertyType === selectedType;
-
-            const selectedBeds = bedCountFilter.value;
-            const matchesBeds = selectedBeds === 'any' ||
-                (selectedBeds === '5+' ? property.bedrooms >= 5 : property.bedrooms === parseInt(selectedBeds));
-
-            const selectedBaths = bathCountFilter.value;
-            const matchesBaths = selectedBaths === 'any' ||
-                (selectedBaths === '4+' ? property.bathrooms >= 4 : property.bathrooms === parseInt(selectedBaths));
-
-            const selectedPriceRange = priceRangeFilter.value;
-            // Correctly access the price
-            const matchesPrice = selectedPriceRange === 'any' || checkPriceRange(property.price.amount, selectedPriceRange);
-
-            return matchesSearch && matchesType && matchesBeds && matchesBaths && matchesPrice;
-        });
-
-        // 4.2. Sorting Logic
-        const sortByValue = sortBySelect.value;
-        if (sortByValue === 'price-asc') {
-            currentProperties.sort((a, b) => a.price.amount - b.price.amount);
-        } else if (sortByValue === 'price-desc') {
-            currentProperties.sort((a, b) => b.price.amount - a.price.amount);
-        } else if (sortByValue === 'newest') {
-            currentProperties.sort((a, b) => new Date(b.date_added) - new Date(a.date_added));
-        } else if (sortByValue === 'oldest') {
-            currentProperties.sort((a, b) => new Date(a.date_added) - new Date(b.date_added));
-        }
-
-        filteredProperties = currentProperties;
-        displayedCount = itemsPerLoad; // Reset displayed count for new filter/sort
-        renderProperties(filteredProperties);
-    }
-
-    function checkPriceRange(price, range) {
-        const [min, max] = range.split('-').map(Number);
-        if (range.endsWith('+')) {
-            return price >= min;
-        }
-        return price >= min && price <= max;
-    }
-
-    function setupEventListeners(searchInput, typeFilter, bedCountFilter, bathCountFilter, priceRangeFilter, sortBySelect, applyFiltersBtn, clearFiltersBtn, loadMoreBtn) {
-        // Event listeners for filters and sort
-        [searchInput, typeFilter, bedCountFilter, bathCountFilter, priceRangeFilter, sortBySelect].forEach(element => {
-            if (element) {
-                element.addEventListener('change', applyFiltersAndSort);
-            }
-        });
-
-        // Specific event listener for search input to update on keyup
-        if (searchInput) searchInput.addEventListener('keyup', applyFiltersAndSort);
-
-        // Event listener for the Apply Filters button (redundant but good practice for clarity)
-        if (applyFiltersBtn) applyFiltersBtn.addEventListener('click', applyFiltersAndSort);
-
-        // Event listener for the Clear button
-        if (clearFiltersBtn) {
-            clearFiltersBtn.addEventListener('click', () => {
-                if (searchInput) searchInput.value = '';
-                if (typeFilter) typeFilter.value = 'all';
-                if (bedCountFilter) bedCountFilter.value = 'any';
-                if (bathCountFilter) bathCountFilter.value = 'any';
-                if (priceRangeFilter) priceRangeFilter.value = 'any';
-                if (sortBySelect) sortBySelect.value = 'default';
-                applyFiltersAndSort();
+                // Construct inner HTML for the product card
+                card.innerHTML = `
+                    <div class="product-image-container">
+                        <img src="${property.images[0]}" alt="${property.title}" class="product-image">
+                        ${badgeHtml}
+                    </div>
+                    <div class="product-info">
+                        <h3>${property.title}</h3>
+                        <p class="product-location">
+                            <i class="fas fa-map-marker-alt"></i> ${property.location.city}, ${property.location.county}
+                        </p>
+                        <p class="product-price">${price}</p>
+                    </div>
+                `;
+                container.appendChild(card);
             });
         }
 
-        // Event listener for the Load More button
-        if (loadMoreBtn) {
-            loadMoreBtn.addEventListener('click', () => {
-                displayedCount += itemsPerLoad;
-                renderProperties(filteredProperties);
-            });
-        }
-    }
+        /**
+         * Filters properties based on the current filter criteria.
+         * @returns {Array} - The filtered array of properties.
+         */
+        function filterProperties() {
+            const searchInput = document.getElementById('soko-search-input').value.toLowerCase();
+            const propertyType = document.getElementById('property-type-filter').value;
+            const minPrice = parseFloat(document.getElementById('min-price').value) || 0;
+            const maxPrice = parseFloat(document.getElementById('max-price').value) || Infinity;
+            const minBeds = parseInt(document.querySelector('input[name="bedrooms"]:checked').value) || 0;
+            const minBaths = parseInt(document.querySelector('input[name="bathrooms"]:checked').value) || 0;
 
-    // =========================================================
-    // 5. Initial Execution
-    // =========================================================
-    fetchProperties();
+            const filtered = allProperties.filter(property => {
+                const matchesSearch = property.title.toLowerCase().includes(searchInput) ||
+                                      property.description.toLowerCase().includes(searchInput) ||
+                                      property.location.city.toLowerCase().includes(searchInput);
+                const matchesType = propertyType === 'all' || property.propertyType.toLowerCase() === propertyType;
+                const matchesPrice = property.price.amount >= minPrice && property.price.amount <= maxPrice;
+                const matchesBeds = !property.bedrooms || property.bedrooms >= minBeds;
+                const matchesBaths = !property.bathrooms || property.bathrooms >= minBaths;
+                
+                return matchesSearch && matchesType && matchesPrice && matchesBeds && matchesBaths;
+            });
+
+            return filtered;
+        }
+
+        /**
+         * Initializes all event listeners for the page.
+         */
+        function initEventListeners() {
+            // View Toggles
+            const gridViewBtn = document.getElementById('grid-view-btn');
+            const listViewBtn = document.getElementById('list-view-btn');
+            const productGrids = document.querySelectorAll('.product-grid');
+
+            if (gridViewBtn && listViewBtn && productGrids.length > 0) {
+                gridViewBtn.addEventListener('click', () => {
+                    productGrids.forEach(grid => {
+                        grid.classList.remove('list-view');
+                        grid.classList.add('grid-view');
+                    });
+                    gridViewBtn.classList.add('active');
+                    listViewBtn.classList.remove('active');
+                });
+
+                listViewBtn.addEventListener('click', () => {
+                    productGrids.forEach(grid => {
+                        grid.classList.remove('grid-view');
+                        grid.classList.add('list-view');
+                    });
+                    listViewBtn.classList.add('active');
+                    gridViewBtn.classList.remove('active');
+                });
+            }
+
+            // Filter Toggles
+            const filterToggleBtn = document.getElementById('filter-toggle-btn');
+            const filterPanel = document.getElementById('filter-panel');
+            if (filterToggleBtn && filterPanel) {
+                filterToggleBtn.addEventListener('click', () => {
+                    filterPanel.classList.toggle('hidden');
+                });
+            }
+
+            // Apply Filters
+            const applyFiltersBtn = document.getElementById('apply-filters-btn');
+            if (applyFiltersBtn) {
+                applyFiltersBtn.addEventListener('click', () => {
+                    const filteredProperties = filterProperties();
+                    // Render the filtered list to the main products page.
+                    // This assumes the user is on the main products page for full filtering.
+                    // For the index page, we will just re-render the sections with filtered data.
+                    renderProperties(filteredProperties.filter(p => p.isDiscounted), 'discounts-grid', 'Discount');
+                    renderProperties(filteredProperties.filter(p => new Date(p.listingDate).getFullYear() === 2025), 'new-listings-grid', 'New');
+                    renderProperties(filteredProperties.slice(0, 6), 'featured-properties-grid', 'Featured'); // For demo, just show first 6 filtered
+                    // Hide the filter panel after applying filters
+                    filterPanel.classList.add('hidden');
+                });
+            }
+        }
+
+        /**
+         * Populates the page sections with initial data on load.
+         */
+        async function populatePage() {
+            await fetchProperties();
+
+            // Filter and render for the "Amazing Discounts" section
+            const discountedProperties = allProperties.filter(p => p.isDiscounted);
+            renderProperties(discountedProperties, 'discounts-grid', 'Discount');
+
+            // Filter and render for the "New Listings" section (listed in 2025)
+            const newProperties = allProperties.filter(p => {
+                const listingYear = new Date(p.listingDate).getFullYear();
+                return listingYear === 2025;
+            });
+            renderProperties(newProperties, 'new-listings-grid', 'New');
+
+            // Filter and render for the "Featured Properties" section
+            // As per instructions, this is a placeholder. We will show the first 6 properties.
+            const featuredProperties = allProperties.slice(0, 6);
+            renderProperties(featuredProperties, 'featured-properties-grid', 'Featured');
+        }
+
+        // Initialize everything
+        await populatePage();
+        initEventListeners();
+    });
 });

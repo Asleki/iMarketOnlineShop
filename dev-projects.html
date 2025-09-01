@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive list of all software development projects by Alex Malunda.">
+    <title>My Projects - Alex Malunda</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVK8WpS0P7Z7lT7G1P6fC6dE9X2A8w7a67W4xXQ9Q5d5lM2fP6R8u7g..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/developer.css">
+</head>
+<body>
+    <div id="main-header-placeholder"></div>
+
+    <main class="main-content">
+        <div class="developer-container">
+            <h1 class="page-title">My Projects</h1>
+            <p class="page-subtitle">A list of all my development projects. Click on a project for more details!</p>
+            <div class="project-grid" id="projects-container">
+                <div class="loading-state">Loading projects...</div>
+                <div class="error-state hidden">Failed to load projects. Please try again later.</div>
+            </div>
+        </div>
+    </main>
+
+    <div id="main-footer-placeholder"></div>
+
+    <script src="js/localStorageUtils.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/developer.js"></script>
+</body>
+</html>

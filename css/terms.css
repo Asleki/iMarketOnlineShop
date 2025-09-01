@@ -1,0 +1,124 @@
+/*
+    File: terms.css
+    Description: Styles for the Terms & Conditions page.
+                 Uses a unique layout to present legal information cleanly.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Terms & Conditions Hero Section                                            */
+/* -------------------------------------------------------------------------- */
+
+.terms-hero {
+    background-color: var(--color-bg-card);
+    color: var(--color-text-primary);
+    padding: 6rem 0 3rem;
+    text-align: center;
+    border-bottom: 2px solid var(--color-border);
+}
+
+.terms-hero h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.terms-hero .subtitle {
+    color: var(--color-text-secondary);
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Main Content Sections                                                      */
+/* -------------------------------------------------------------------------- */
+
+.terms-section {
+    padding: 4rem 0;
+}
+
+/* The main container for the terms content */
+.terms-card {
+    background-color: var(--color-bg-card);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-medium);
+    padding: 2.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Style for each individual terms section */
+.terms-item {
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--color-border-light);
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.terms-item:last-child {
+    border-bottom: none;
+}
+
+.terms-item h3 {
+    font-size: 1.6em;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.terms-item p {
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.terms-item ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.terms-item li {
+    background-color: var(--color-bg-page);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid var(--color-success);
+    border-radius: var(--border-radius-small);
+    line-height: 1.6;
+    color: var(--color-text-secondary);
+    transition: background-color 0.3s ease;
+}
+
+.terms-item li:hover {
+    background-color: var(--color-bg-hover);
+}
+
+.terms-item li strong {
+    color: var(--color-text-primary);
+}
+
+/* Icons for each section */
+.terms-icon {
+    font-size: 2.5rem;
+    color: var(--color-secondary);
+    margin-right: 15px;
+    float: left;
+    margin-top: 5px;
+}
+
+/* Clear float after icon */
+.terms-item::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.terms-intro h2 {
+    font-size: 2em;
+    color: var(--color-dark);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.terms-intro .terms-icon {
+    font-size: 3rem;
+    color: var(--color-primary);
+}

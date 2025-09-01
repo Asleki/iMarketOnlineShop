@@ -1,102 +1,254 @@
-// js/soko-properties-product-details.js
+//
+// File: js/soko-properties-product-details.js
+// -------------------------------------------------
+// This script handles the dynamic content for a single property details page.
+// It uses the product ID from the URL to fetch data and populate the page.
+// It also includes a currency converter widget and image gallery.
+//
 
-document.addEventListener('partialsLoaded', async () => {
-    // Helper function to format prices
-    function formatPrice(amount, currency) {
-        return new Intl.NumberFormat('en-KE', {
-            style: 'currency',
-            currency: currency,
-            minimumFractionDigits: 0
-        }).format(amount);
+document.addEventListener('DOMContentLoaded', async () => {
+
+    const loadingMessage = document.getElementById('loading-message');
+    const productDetailsContent = document.getElementById('product-details-content');
+
+    /**
+     * Fetches property data from the JSON file and returns a specific property.
+     * @param {string} propertyId - The ID of the property to find.
+     * @returns {Object|null} - The property object or null if not found.
+     */
+    async function fetchPropertyById(propertyId) {
+        try {
+            const response = await fetch('data/soko-properties-products.json');
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const allProperties = await response.json();
+            return allProperties.find(p => p.propertyId === propertyId) || null;
+        } catch (error) {
+            console.error('Failed to load property data:', error);
+            return null;
+        }
     }
 
-    // Function to populate the page with property data
-    function populatePage(property) {
-        // Update dynamic SEO and meta tags
-        document.getElementById('property-title-meta').textContent = property.title;
-        document.getElementById('property-description-meta').content = property.description;
-        document.getElementById('property-keywords-meta').content = `${property.title}, ${property.propertyType}, ${property.location.city}, ${property.location.county}, ${property.location.country}, property for sale, Soko Properties, real estate`;
+    /**
+     * Renders the details of a single property onto the page.
+     * @param {Object} property - The property object to render.
+     */
+    function renderPropertyDetails(property) {
+        // Hide loading message and show content container
+        if (loadingMessage) {
+            loadingMessage.style.display = 'none';
+        }
+        if (productDetailsContent) {
+            productDetailsContent.style.display = 'grid';
+        }
+        
+        // Populate the header and core information with defensive checks
+        const productTitle = document.getElementById('product-title');
+        if (productTitle) {
+            productTitle.textContent = property.title;
+        }
 
-        document.getElementById('og-title-meta').content = property.title;
-        document.getElementById('og-description-meta').content = property.description;
-        document.getElementById('og-image-meta').content = property.images[0] || 'https://www.imarket.co.ke/images/imarket-share-logo.jpg';
-        document.getElementById('og-url-meta').content = window.location.href;
-        document.getElementById('twitter-title-meta').content = property.title;
-        document.getElementById('twitter-description-meta').content = property.description;
-        document.getElementById('twitter-image-meta').content = property.images[0] || 'https://www.imarket.co.ke/images/imarket-share-logo.jpg';
-        document.getElementById('canonical-url').href = window.location.href;
+        const productPrice = document.getElementById('product-price');
+        if (productPrice) {
+            productPrice.textContent = property.price.amount.toLocaleString('en-KE', { style: 'currency', currency: 'KES', minimumFractionDigits: 0 });
+        }
+        
+        const productLocation = document.getElementById('product-location');
+        if (productLocation) {
+            productLocation.textContent = `${property.location.address}, ${property.location.city}, ${property.location.county}`;
+        }
 
-        // Populate main details
-        document.getElementById('property-title').textContent = property.title;
-        document.getElementById('property-price').textContent = formatPrice(property.price.amount, property.price.currency);
-        document.getElementById('property-location').textContent = `${property.location.address}, ${property.location.city}, ${property.location.county}`;
-        document.getElementById('property-type').textContent = property.propertyType;
-        document.getElementById('property-bedrooms').textContent = property.bedrooms || 'N/A';
-        document.getElementById('property-bathrooms').textContent = property.bathrooms || 'N/A';
-        document.getElementById('property-area').textContent = property.area ? `${property.area.size} ${property.area.unit}` : 'N/A';
-        document.getElementById('property-year-built').textContent = property.yearBuilt || 'N/A';
-        document.getElementById('property-description').textContent = property.description;
+        // Populate the meta information
+        const metaContainer = document.getElementById('product-meta');
+        if (metaContainer) {
+            metaContainer.innerHTML = `
+                <span>${property.propertyType}</span>
+                ${property.bedrooms !== undefined ? `<span>${property.bedrooms} Bed${property.bedrooms > 1 ? 's' : ''}</span>` : ''}
+                ${property.bathrooms !== undefined ? `<span>${property.bathrooms} Bath${property.bathrooms > 1 ? 's' : ''}</span>` : ''}
+                ${property.area ? `<span>${property.area.size} ${property.area.unit}</span>` : ''}
+                ${property.plotSize ? `<span>${property.plotSize.size} ${property.plotSize.unit} Plot</span>` : ''}
+                <span id="views-count">Views: ${property.views}</span>
+            `;
+        }
 
-        // Populate features list
-        const featuresList = document.getElementById('property-features');
-        featuresList.innerHTML = ''; // Clear existing content
-        if (property.features && property.features.length > 0) {
-            property.features.forEach(feature => {
-                const li = document.createElement('li');
-                li.textContent = feature;
-                featuresList.appendChild(li);
+        // Populate description
+        const descriptionText = document.getElementById('description-text');
+        if (descriptionText) {
+            descriptionText.textContent = property.description;
+        }
+
+        // Populate the features list
+        const featuresList = document.getElementById('features-list');
+        if (featuresList) {
+            featuresList.innerHTML = property.features.map(feature => `<li>${feature}</li>`).join('');
+        }
+
+        // Populate the agent information
+        const agentCompany = document.getElementById('agent-company');
+        if (agentCompany) {
+            agentCompany.textContent = property.agentInfo.name;
+        }
+
+        const agentContactPerson = document.getElementById('agent-contact-person');
+        if (agentContactPerson) {
+            agentContactPerson.textContent = property.agentInfo.contactPerson;
+        }
+
+        const agentPhone = document.getElementById('agent-phone');
+        if (agentPhone) {
+            agentPhone.textContent = property.agentInfo.phone;
+        }
+
+        const agentEmail = document.getElementById('agent-email');
+        if (agentEmail) {
+            agentEmail.textContent = property.agentInfo.email;
+        }
+        
+        const inquireBtn = document.getElementById('inquire-btn');
+        if (inquireBtn) {
+            inquireBtn.href = `mailto:${property.agentInfo.email}`;
+        }
+
+        // Populate the payment modes list
+        const paymentModesList = document.getElementById('payment-modes-list');
+        if (paymentModesList) {
+            paymentModesList.innerHTML = property.allowedPaymentModes.map(mode => `<li>${mode}</li>`).join('');
+        }
+
+        // Populate the reviews section
+        const reviewsList = document.getElementById('reviews-list');
+        const reviewsCount = document.getElementById('reviews-count');
+
+        if (reviewsList && reviewsCount) {
+            if (property.reviews && property.reviews.length > 0) {
+                reviewsCount.textContent = property.reviews.length;
+                reviewsList.innerHTML = ''; // Clear the initial message
+                
+                property.reviews.forEach(review => {
+                    const reviewElement = document.createElement('div');
+                    reviewElement.classList.add('review');
+                    const starsHtml = '⭐️'.repeat(review.rating);
+                    reviewElement.innerHTML = `
+                        <div class="review-header">
+                            <span class="reviewer-name">Reviewed by: <strong>${review.reviewerName}</strong></span>
+                            <span class="review-date">${new Date(review.date).toLocaleDateString()}</span>
+                        </div>
+                        <div class="review-rating">${starsHtml}</div>
+                        <p class="review-comment">${review.comment}</p>
+                    `;
+                    reviewsList.appendChild(reviewElement);
+                });
+            } else {
+                reviewsCount.textContent = '0';
+                reviewsList.innerHTML = '<p>No reviews yet. Be the first to leave a review!</p>';
+            }
+        }
+
+        // Set up image gallery and converter
+        setupImageGallery(property);
+        setupCurrencyConverter();
+    }
+
+    /**
+     * Sets up the image gallery functionality.
+     * @param {Object} property - The property object containing image URLs.
+     */
+    function setupImageGallery(property) {
+        const mainImage = document.getElementById('main-product-image');
+        const thumbnailGallery = document.getElementById('thumbnail-gallery');
+        const images = [...property.images, ...property.interiorImages];
+
+        if (mainImage && thumbnailGallery && images.length > 0) {
+            // Set the initial main image
+            mainImage.src = images[0];
+
+            // Populate and set up thumbnails
+            const thumbnailsHtml = images.map(image => `
+                <div class="thumbnail-image-container">
+                    <img src="${image}" alt="Thumbnail of property" class="thumbnail-image">
+                </div>
+            `).join('');
+            thumbnailGallery.innerHTML = thumbnailsHtml;
+            
+            const thumbnails = document.querySelectorAll('.thumbnail-image-container');
+            if (thumbnails.length > 0) {
+                thumbnails[0].classList.add('active'); // Set the first one as active
+
+                thumbnails.forEach(thumb => {
+                    thumb.addEventListener('click', () => {
+                        document.querySelector('.thumbnail-image-container.active')?.classList.remove('active');
+                        thumb.classList.add('active');
+                        mainImage.src = thumb.querySelector('.thumbnail-image').src;
+                    });
+                });
+            }
+        }
+    }
+
+    /**
+     * Sets up the currency converter functionality.
+     */
+    function setupCurrencyConverter() {
+        const amountInput = document.getElementById('converter-amount');
+        const currencySelect = document.getElementById('currency-select');
+        const convertBtn = document.getElementById('convert-btn');
+        const convertedAmountElement = document.getElementById('converted-amount');
+
+        if (convertBtn) {
+            // Placeholder exchange rates - these would be fetched from an API in a real application
+            const rates = {
+                'USD': 0.0075,
+                'EUR': 0.0068,
+                'GBP': 0.0060
+            };
+
+            convertBtn.addEventListener('click', () => {
+                const amount = parseFloat(amountInput.value);
+                const targetCurrency = currencySelect.value;
+                
+                if (isNaN(amount) || amount <= 0) {
+                    convertedAmountElement.textContent = 'Please enter a valid amount.';
+                    return;
+                }
+
+                const converted = amount * rates[targetCurrency];
+                convertedAmountElement.textContent = `Converted Amount: ${targetCurrency} ${converted.toFixed(2)}`;
             });
-        } else {
-            featuresList.innerHTML = '<li>No features listed.</li>';
-        }
-
-        // Populate agent info
-        document.getElementById('agent-contact-person').textContent = property.agentInfo.contactPerson;
-        document.getElementById('agent-phone').textContent = property.agentInfo.phone;
-        document.getElementById('agent-email').textContent = property.agentInfo.email;
-        document.getElementById('inquire-btn').href = `soko-properties-contact-agent.html?id=${property.propertyId}`;
-        // Populate image gallery
-        const imageGallery = document.getElementById('image-gallery');
-        imageGallery.innerHTML = ''; // Clear existing content
-        const allImages = [...property.images, ...property.interiorImages];
-        if (allImages.length > 0) {
-            allImages.forEach(imageUrl => {
-                const img = document.createElement('img');
-                img.src = imageUrl;
-                img.alt = property.title;
-                img.loading = 'lazy';
-                imageGallery.appendChild(img);
-            });
-        } else {
-            imageGallery.innerHTML = '<p class="text-center">No images available for this property.</p>';
         }
     }
 
-    // Main logic to fetch data and populate the page
-    const urlParams = new URLSearchParams(window.location.search);
-    const propertyId = urlParams.get('id');
+    /**
+     * Main function to initialize the page on load.
+     */
+    async function init() {
+        // Get the product ID from the URL query parameter
+        const params = new URLSearchParams(window.location.search);
+        const productId = params.get('id');
 
-    if (!propertyId) {
-        document.getElementById('property-details-container').innerHTML = '<p class="text-center">Property not found. Please go back to the list.</p>';
-        return;
-    }
-
-    try {
-        const response = await fetch('data/soko-properties-products.json');
-        if (!response.ok) {
-            throw new Error('Failed to fetch property data.');
+        if (!productId) {
+            if (loadingMessage) {
+                loadingMessage.textContent = 'Error: No property ID specified in the URL.';
+            }
+            if (productDetailsContent) {
+                productDetailsContent.style.display = 'none';
+            }
+            return;
         }
-        const properties = await response.json();
-        const property = properties.find(p => p.propertyId === propertyId);
 
+        const property = await fetchPropertyById(productId);
         if (property) {
-            populatePage(property);
+            renderPropertyDetails(property);
         } else {
-            document.getElementById('property-details-container').innerHTML = '<p class="text-center">Property not found. Please check the URL or go back to the list.</p>';
+            if (loadingMessage) {
+                loadingMessage.textContent = 'Property not found. Please check the URL.';
+            }
+            if (productDetailsContent) {
+                productDetailsContent.style.display = 'none';
+            }
         }
-
-    } catch (error) {
-        console.error('Error loading property data:', error);
-        document.getElementById('property-details-container').innerHTML = '<p class="text-center">An error occurred while loading the property details. Please try again later.</p>';
     }
+
+    // Run the main initialization function
+    init();
 });

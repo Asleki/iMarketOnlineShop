@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find answers to frequently asked questions about shopping, payments, and delivery on iMarket Kenya.">
+    <meta name="keywords" content="iMarket FAQ, customer service, support, help, Kenya online shopping, delivery questions, payment methods">
+    <meta name="author" content="Alex Malunda">
+    <title>Frequently Asked Questions - iMarket Kenya</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVK8WpS0P7Z7lT7G1P6fC6dE9X2A8w7a67W4xXQ9Q5d5lM2fP6R8u7g..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <style>
+        /* faqs.css */
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+
+        .faq-container h1, .faq-container h2 {
+            text-align: center;
+            color: var(--color-primary);
+        }
+        
+        .faq-container h1 {
+            margin-bottom: 0.5rem;
+            font-size: 2.8em;
+        }
+
+        .faq-container p.intro {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: var(--color-text-muted);
+        }
+
+        .faq-section {
+            margin-bottom: 2.5rem;
+        }
+
+        .faq-section h2 {
+            font-size: 2em;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--color-border);
+            padding-bottom: 0.5rem;
+        }
+
+        .faq-item {
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            background-color: var(--color-bg-card);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .faq-item:hover {
+            box-shadow: 0 4px 12px var(--color-shadow);
+        }
+
+        .faq-question {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 1.5rem;
+            background-color: var(--color-bg-card);
+            border: none;
+            text-align: left;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: var(--color-text-primary);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            position: relative;
+        }
+        
+        .faq-question .icon {
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+            margin-left: 1rem;
+            color: var(--color-text-muted);
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+            color: var(--color-text-secondary);
+        }
+
+        .faq-answer p {
+            margin: 0 0 1rem 0;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 500px; /* A large enough value to allow the content to expand */
+            padding-top: 0;
+            padding-bottom: 1.5rem;
+        }
+        
+        .faq-item.active .faq-question .icon {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="main-header-placeholder"></div>
+
+    <main class="main-content">
+        <section class="faq-container">
+            <h1 class="text-primary">Frequently Asked Questions</h1>
+            <p class="intro">Your questions, answered. If you can't find what you're looking for, please <a href="contact.html">contact us</a>.</p>
+
+            <div class="faq-section">
+                <h2>General Questions</h2>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is iMarket Kenya?</span>
+                        <i class="fas fa-chevron-down icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>iMarket is a leading e-commerce platform in Kenya that connects buyers with a wide variety of sellers. We offer a diverse range of products, including electronics, fashion, home goods, and more.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How do I create an account?</span>
+                        <i class="fas fa-chevron-down icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can create an account by clicking on the 'My Account' link in the header and following the registration steps. It's a quick and easy process that allows you to save your details, track orders, and more.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is my personal information safe?</span>
+                        <i class="fas fa-chevron-down icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we take your privacy and security very seriously. We use industry-standard security measures to protect your personal and payment information. For more details, please review our <a href="privacy.html">Privacy Policy</a>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-section">
+                <h2>Orders & Delivery</h2>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How can I track my order?</span>
+                        <i class="fas fa-chevron-down icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Once your order is shipped, we will send you an email with a tracking number and a link to the courier's website. You can also view the status of your order by logging into your account and visiting the 'My Orders' section.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What are the delivery times and costs?</span>
+                        <i class="fas fa-chevron-down icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Delivery times and costs vary depending on the seller, product, and your location. The estimated delivery time and shipping fee will be displayed on the product page and at checkout before you finalize your purchase.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I change my delivery address after placing an order?</span>
+                        <i class="fas fa-chevron-down icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>If your order has not yet been shipped, it may be possible to change the address. Please contact our customer support team as soon as possible with your order number and the new address.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-section">
+                <h2>Payments & Returns</h2>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What payment methods do you accept?</span>
+                        <i class="fas fa-chevron-down icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We accept a variety of secure payment methods, including M-Pesa, Visa, and MasterCard.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What is your return policy?</span>
+                        <i class="fas fa-chevron-down icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our return policy allows you to return most products within a certain number of days after delivery for a refund or exchange, provided the item is in its original condition. Please see our <a href="terms.html">Terms & Conditions</a> for a detailed policy.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How long does a refund take?</span>
+                        <i class="fas fa-chevron-down icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Refunds are typically processed within 5-10 business days after the returned item is received and inspected. The time it takes for the refund to appear in your account depends on your payment method.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="main-footer-placeholder"></div>
+
+    <script src="js/localStorageUtils.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const faqItems = document.querySelectorAll('.faq-item');
+
+            faqItems.forEach(item => {
+                const questionButton = item.querySelector('.faq-question');
+                questionButton.addEventListener('click', () => {
+                    // Close all other open FAQ items
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item && otherItem.classList.contains('active')) {
+                            otherItem.classList.remove('active');
+                        }
+                    });
+
+                    // Toggle the clicked FAQ item
+                    item.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

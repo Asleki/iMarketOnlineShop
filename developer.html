@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profile of Alex Malunda, a software developer specializing in frontend technologies, with information on projects and contact details.">
+    <title>Developer - Alex Malunda</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVK8WpS0P7Z7lT7G1P6fC6dE9X2A8w7a67W4xXQ9Q5d5lM2fP6R8u7g..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/developer.css">
+</head>
+<body>
+    <div id="main-header-placeholder"></div>
+
+    <main class="main-content">
+        <div class="developer-container">
+            <div class="profile-container">
+                <div class="profile-header">
+                    <img src="images/profile-placeholder.webp" alt="Photo of the Site Developer, Alex Malunda" class="profile-photo">
+                    <h1>Alex Malunda</h1>
+                    <p>Software Developer & Cinephile</p>
+                    <div class="social-links">
+                        <a href="https://github.com/Asleki" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/alexmalunda" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://x.com/yourhandle" target="_blank" rel="noopener noreferrer" aria-label="X (formerly Twitter) profile">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <h2 class="section-title">About Me</h2>
+                <div class="content-block">
+                    <p>Hello! I'm Alex Malunda, a passionate software developer with a keen interest in creating intuitive and engaging web experiences. My journey into programming began with a fascination for how digital products are built, evolving into a dedication to crafting robust and user-friendly applications.</p>
+                    <p>I specialize in front-end technologies like HTML, CSS, and JavaScript, with a strong foundation in responsive design and modern web standards. I have also expanded my skills to include back-end development with Node.js and have experience with C# and various database solutions. I'm committed to continuous learning to stay updated with the latest industry trends.</p>
+                </div>
+
+                <h2 class="section-title">My Recent Projects</h2>
+                <div class="content-block">
+                    <p>Here are some of the projects I've developed. Click on a project to learn more!</p>
+                    <div class="project-grid" id="projects-container">
+                        <div class="loading-state">Loading projects...</div>
+                        <div class="error-state hidden">Failed to load projects. Please try again later.</div>
+                    </div>
+                    <div class="text-center">
+                        <a href="dev-projects.html" class="view-all-btn">View All Projects</a>
+                    </div>
+                </div>
+
+                <section id="connect-with-me" class="dev-section">
+                    <h3>Connect with Me</h3>
+                    <p>I'd love to connect! Feel free to reach out through any of the channels below:</p>
+                    <ul class="contact-list">
+                        <li>
+                            <a href="mailto:alexmalunda@aol.com" aria-label="Email Alex Malunda">
+                                <i class="fa fa-envelope"></i> alexmalunda@aol.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+254707176595" aria-label="Call Alex Malunda on phone number +254 707 176595">
+                                <i class="fa fa-phone-alt"></i> +254 707 176595
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/alexmalunda" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile of Alex Malunda">
+                                <i class="fa-brands fa-linkedin"></i> linkedin.com/in/alexmalunda
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Asleki" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile of Alex Malunda (Asleki)">
+                                <i class="fa-brands fa-github"></i> github.com/Asleki
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/254110029069" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp message to Alex Malunda">
+                                <i class="fa-brands fa-whatsapp"></i> Send me a message
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <div id="main-footer-placeholder"></div>
+    
+    <script src="js/localStorageUtils.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/developer.js"></script>
+</body>
+</html>

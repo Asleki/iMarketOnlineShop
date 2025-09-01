@@ -1,0 +1,26 @@
+[
+  {
+    "review_text": "I found the perfect car part I've been looking for. The seller was very responsive and the delivery was fast!",
+    "author": "David K.",
+    "author_image": "images/reviews/david-k.jpg",
+    "date": "2025-08-28",
+    "star_rating": 5,
+    "likes": 12
+  },
+  {
+    "review_text": "iMarket has been a game-changer for my small business. I can easily reach a wider audience and manage my sales from one place.",
+    "author": "Susan A.",
+    "author_image": "images/reviews/susan-a.jpg",
+    "date": "2025-08-25",
+    "star_rating": 5,
+    "likes": 25
+  },
+  {
+    "review_text": "A great place to find electronics. I was able to compare prices and get a good deal on a new laptop. Highly recommend!",
+    "author": "John W.",
+    "author_image": "images/reviews/john-w.jpg",
+    "date": "2025-08-20",
+    "star_rating": 4,
+    "likes": 8
+  }
+]

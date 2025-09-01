@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A complete sitemap of iMarket Kenya, providing a comprehensive list of all our pages to help you navigate the website.">
+    <meta name="keywords" content="iMarket sitemap, website navigation, all pages, site index, directory">
+    <meta name="author" content="Alex Malunda">
+    <title>Sitemap - iMarket Kenya</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVK8WpS0P7Z7lT7G1P6fC6dE9X2A8w7a67W4xXQ9Q5d5lM2fP6R8u7g..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <style>
+        /* sitemap.css */
+        .sitemap-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+
+        .sitemap-container h1 {
+            text-align: center;
+            color: var(--color-primary);
+            margin-bottom: 2rem;
+            font-size: 3em;
+        }
+
+        .sitemap-section {
+            margin-bottom: 3rem;
+        }
+
+        .sitemap-section h2 {
+            font-size: 2em;
+            color: var(--color-text-primary);
+            border-bottom: 2px solid var(--color-border);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .sitemap-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .sitemap-list li {
+            margin-bottom: 0.75rem;
+        }
+
+        .sitemap-list a {
+            text-decoration: none;
+            font-size: 1.1em;
+            color: var(--color-text-primary);
+            transition: color 0.2s ease-in-out;
+        }
+
+        .sitemap-list a:hover {
+            color: var(--color-primary);
+            text-decoration: underline;
+        }
+        
+        .sitemap-list .sub-list {
+            list-style: none;
+            padding-left: 20px;
+            margin-top: 0.5rem;
+        }
+
+        .sitemap-list .sub-list a {
+            font-size: 1em;
+        }
+
+        @media (max-width: 768px) {
+            .sitemap-container h1 {
+                font-size: 2.5em;
+            }
+
+            .sitemap-section h2 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="main-header-placeholder"></div>
+    
+    <main class="main-content">
+        <section class="sitemap-container">
+            <h1>Site Map</h1>
+            <p class="text-center text-muted">A comprehensive overview of our website structure to help you find what you need.</p>
+
+            <div class="sitemap-section">
+                <h2>Main Pages</h2>
+                <ul class="sitemap-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shops.html">All Shops</a></li>
+                    <li><a href="deals.html">Today's Deals</a></li>
+                    <li><a href="new-arrivals.html">New Arrivals</a></li>
+                    <li><a href="spin-game.html">Spin & Win</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="faqs.html">Frequently Asked Questions (FAQs)</a></li>
+                </ul>
+            </div>
+
+            <div class="sitemap-section">
+                <h2>Browse by Shop</h2>
+                <p class="text-muted">This list is dynamically generated from our shop data.</p>
+                <ul class="sitemap-list" id="shops-list-placeholder">
+                    </ul>
+            </div>
+
+            <div class="sitemap-section">
+                <h2>Legal & Information</h2>
+                <ul class="sitemap-list">
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="partnership.html">Partnership</a></li>
+                    <li><a href="advertise.html">Advertise on iMarket</a></li>
+                    <li><a href="developer.html">Developer Info</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <div id="main-footer-placeholder"></div>
+    
+    <script src="js/localStorageUtils.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script>
+        document.addEventListener('partialsLoaded', async () => {
+            const shopsList = document.getElementById('shops-list-placeholder');
+
+            // Function to fetch and display shops
+            async function fetchShops() {
+                try {
+                    const response = await fetch('data/shops.json');
+                    if (!response.ok) {
+                        throw new Error('Failed to fetch shops data.');
+                    }
+                    const shopsData = await response.json();
+                    
+                    shopsData.forEach(shop => {
+                        const li = document.createElement('li');
+                        const a = document.createElement('a');
+                        a.href = shop.shopPageUrl;
+                        a.textContent = shop.name;
+                        li.appendChild(a);
+                        shopsList.appendChild(li);
+                    });
+                } catch (error) {
+                    console.error('Error loading shops for sitemap:', error);
+                    shopsList.innerHTML = `<li><p class="text-danger">Could not load shop list. Please try again later.</p></li>`;
+                }
+            }
+
+            fetchShops();
+        });
+    </script>
+</body>
+</html>

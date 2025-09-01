@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore partnership opportunities with iMarket Kenya. Partner with us to expand your reach and grow your business in the Kenyan market.">
+    <meta name="keywords" content="iMarket partnership, business partner, Kenya business, e-commerce partner, collaboration, supplier partnership">
+    <meta name="author" content="Alex Malunda">
+    <title>Partnership with iMarket</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVK8WpS0P7Z7lT7G1P6fC6dE9X2A8w7a67W4xXQ9Q5d5lM2fP6R8u7g..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <style>
+        /* partnership.css */
+        
+        /* -------------------------------------------------------------------------- */
+        /* Partnership Hero Section                                                   */
+        /* -------------------------------------------------------------------------- */
+        .partnership-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/general/partnership-banner.webp') no-repeat center center/cover;
+            color: var(--color-text-inverted);
+            padding: 6rem 0 3rem;
+            text-align: center;
+            border-bottom: 2px solid var(--color-border);
+        }
+
+        .partnership-hero h1 {
+            font-size: clamp(2.5em, 5vw, 4em);
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--color-text-inverted);
+        }
+
+        .partnership-hero .subtitle {
+            font-size: clamp(1em, 2vw, 1.2em);
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        /* -------------------------------------------------------------------------- */
+        /* Content Sections                                                           */
+        /* -------------------------------------------------------------------------- */
+        .content-section {
+            padding: 4rem 0;
+            background-color: var(--color-bg-page);
+        }
+
+        .content-section h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 2.5rem;
+            color: var(--color-primary);
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background-color: var(--color-bg-card);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px var(--color-shadow);
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid var(--color-border);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-card .icon-circle {
+            background-color: var(--color-primary);
+            color: var(--color-text-inverted);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8em;
+            margin-bottom: 1rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 0.5rem;
+            color: var(--color-text-primary);
+        }
+
+        .process-list {
+            counter-reset: process-step;
+            list-style: none;
+            padding: 0;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .process-list li {
+            position: relative;
+            padding: 1.5rem 0 1.5rem 4rem;
+            margin-bottom: 1rem;
+            border-left: 2px solid var(--color-border);
+        }
+
+        .process-list li:last-child {
+            border-left: none;
+        }
+
+        .process-list li::before {
+            counter-increment: process-step;
+            content: counter(process-step);
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: var(--color-primary);
+            color: var(--color-text-inverted);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .process-list li h3 {
+            margin-top: 0;
+            color: var(--color-text-primary);
+        }
+        
+        /* -------------------------------------------------------------------------- */
+        /* Call to Action Section                                                     */
+        /* -------------------------------------------------------------------------- */
+        .cta-section {
+            background-color: var(--color-bg-card);
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-header-placeholder"></div>
+    
+    <main class="main-content">
+        <section class="partnership-hero" role="banner">
+            <div class="container text-center">
+                <h1>Partner with iMarket Kenya</h1>
+                <p class="subtitle">Collaborate with a leading e-commerce platform to amplify your brand and reach new customers.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h2>Why Partner with Us?</h2>
+                <div class="content-grid">
+                    <div class="feature-card">
+                        <div class="icon-circle"><i class="fas fa-users"></i></div>
+                        <h3>Wider Audience Reach</h3>
+                        <p>Access our extensive network of buyers across Kenya, connecting your products with a diverse and engaged customer base.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-circle"><i class="fas fa-chart-line"></i></div>
+                        <h3>Grow Your Sales</h3>
+                        <p>Leverage our proven marketing channels and user trust to significantly increase your sales and market share.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-circle"><i class="fas fa-cogs"></i></div>
+                        <h3>Seamless Integration</h3>
+                        <p>Our platform offers an easy-to-use interface for managing your products, orders, and payments with minimal hassle.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section bg-page">
+            <div class="container">
+                <h2>Our Partnership Process</h2>
+                <ul class="process-list">
+                    <li>
+                        <h3>1. Submit Your Inquiry</h3>
+                        <p>Fill out our simple form with your business details and what you're looking to partner on.</p>
+                    </li>
+                    <li>
+                        <h3>2. Review & Discussion</h3>
+                        <p>Our team will review your application and a partnership manager will contact you to discuss the opportunities.</p>
+                    </li>
+                    <li>
+                        <h3>3. Agreement & Onboarding</h3>
+                        <p>We'll formalize our partnership and help you get your products listed and ready to sell on iMarket.</p>
+                    </li>
+                    <li>
+                        <h3>4. Launch & Grow</h3>
+                        <p>Your partnership is live! We'll work with you to track performance and optimize for continuous growth.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready to Start?</h2>
+                <p>Join our growing network of successful partners today. We look forward to building a mutually beneficial relationship with you.</p>
+                <a href="contact.html" class="btn-primary btn-lg mt-3">Contact Our Partnership Team</a>
+            </div>
+        </section>
+    </main>
+
+    <div id="main-footer-placeholder"></div>
+    
+    <script src="js/localStorageUtils.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>

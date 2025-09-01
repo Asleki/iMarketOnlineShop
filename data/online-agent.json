@@ -1,0 +1,15 @@
+{
+  "default_response": "I'm sorry, I don't understand. Could you rephrase that? Please try using words like 'shipping', 'payment', 'return', 'account', or 'support'.",
+  "responses": {
+    "hello": "Hello! How can I help you with your inquiry today?",
+    "hi": "Hi there! What can I assist you with?",
+    "shipping": "For shipping information, please visit our FAQ page or contact our logistics partner.",
+    "delivery": "For delivery inquiries, please check the tracking number provided in your order confirmation email.",
+    "payment": "We accept various payment methods, including M-Pesa, card payments, and bank transfers. You can find more details in our secure payment section.",
+    "return": "Our return policy allows for returns within 7 days of delivery. Please fill out the return request form on our website.",
+    "account": "If you have issues with your account, please use the 'Forgot Password' link or email our support team for assistance.",
+    "support": "For immediate human support, please email us at support@imarket.co.ke. We will get back to you within 24 hours.",
+    "thank you": "You're welcome! Is there anything else I can help you with?",
+    "bye": "Goodbye! Feel free to chat with me anytime."
+  }
+}

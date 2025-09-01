@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soko Properties - Categories</title>
+    <meta name="description" content="Browse residential, commercial, and land properties for sale and rent by category in Kenya with Soko Properties.">
+    <meta name="keywords" content="real estate, Kenya properties, property categories, land for sale, houses for sale, commercial property, apartments">
+    <meta name="author" content="Alex Malunda">
+
+    <meta property="og:title" content="Soko Properties - Explore by Category">
+    <meta property="og:description" content="Find your ideal property by category. Explore a wide range of houses, apartments, land, and commercial spaces in Kenya.">
+    <meta property="og:image" content="https://example.com/images/soko-categories-banner.jpg">
+    <meta property="og:url" content="https://imarket.co.ke/soko-properties-categories.html">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/soko-properties.css">
+    <link rel="stylesheet" href="css/soko-properties-categories.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="main-header-placeholder"></div>
+
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Explore Property Categories</h1>
+        </div>
+
+        <section class="content-section">
+            <div class="container">
+                <div id="category-cards-container" class="category-cards-grid">
+                    <a href="soko-properties-categories.html?category=House" class="category-card" data-category="House">
+                        <i class="fas fa-home category-icon"></i>
+                        <h3>Houses</h3>
+                    </a>
+                    <a href="soko-properties-categories.html?category=Apartment" class="category-card" data-category="Apartment">
+                        <i class="fas fa-building category-icon"></i>
+                        <h3>Apartments</h3>
+                    </a>
+                    <a href="soko-properties-categories.html?category=Land" class="category-card" data-category="Land">
+                        <i class="fas fa-map-marked-alt category-icon"></i>
+                        <h3>Land</h3>
+                    </a>
+                    <a href="soko-properties-categories.html?category=Commercial" class="category-card" data-category="Commercial">
+                        <i class="fas fa-store category-icon"></i>
+                        <h3>Commercial</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="category-listing-title">Properties</h2>
+                </div>
+                <div id="category-products-grid" class="product-grid grid-view">
+                    </div>
+                <div id="no-results-message" class="text-center" style="display:none;">
+                    <p>No properties found in this category at the moment. Please check back later.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button id="scroll-to-top-btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <div id="main-footer-placeholder"></div>
+
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/soko-properties-categories.js"></script>
+</body>
+</html>

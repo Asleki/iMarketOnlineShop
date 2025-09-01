@@ -1,0 +1,68 @@
+[
+    {
+        "id": "project-01",
+        "name": "CineWatch",
+        "image": "images/placeholder.webp",
+        "github_link": "https://github.com/Asleki/cinewatch",
+        "description": "CineWatch is a comprehensive movie and TV show streaming platform design, focusing on intuitive user experience and dynamic content display. Currently, I am actively implementing download and uploading features, and also developing a system for users to write reviews for shows.",
+        "start_date": "January 2025",
+        "finish_date": "In Progress",
+        "skills": ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
+        "features": [
+            "Dynamic Hero Slideshow",
+            "Categorized Show Listings with Carousels",
+            "Interactive Search Functionality",
+            "User Account Management (Login/Logout, Watchlist)",
+            "Dark Mode Toggle",
+            "Download and Upload Features (In Progress)",
+            "User Review System (In Progress)"
+        ]
+    },
+    {
+        "id": "project-02",
+        "name": "Generational Ventures Foundation Website",
+        "image": "images/placeholder.webp",
+        "github_link": "https://github.com/Asleki/generational-ventures-foundation",
+        "description": "A multi-page website for a non-profit organization focused on community development through sports and education. The site features dynamic content loading, responsive design, and an interactive team page.",
+        "start_date": "July 2025",
+        "finish_date": "In Progress",
+        "skills": ["HTML", "CSS", "JavaScript", "JSON", "Git"],
+        "features": [
+            "Dynamic page content via JSON data",
+            "Responsive navigation and layout",
+            "Contact form integration",
+            "Team member profiles with details page",
+            "Unified header and footer"
+        ]
+    },
+    {
+        "id": "project-03",
+        "name": "Whitewater Rafting Site",
+        "image": "images/placeholder.webp",
+        "github_link": "https://github.com/Asleki/wdd130",
+        "description": "A multi-page website designed for a whitewater rafting company, showcasing responsive design principles and an engaging user interface. This was one of my early projects.",
+        "start_date": "September 2024",
+        "finish_date": "October 2024",
+        "skills": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "id": "project-04",
+        "name": "Simulation Bank App and GUI",
+        "image": "images/placeholder.webp",
+        "github_link": "https://github.com/Asleki/cse111",
+        "description": "A command-line and graphical user interface application simulating basic banking operations.",
+        "start_date": "November 2024",
+        "finish_date": "December 2024",
+        "skills": ["Python", "Tkinter"]
+    },
+    {
+        "id": "project-05",
+        "name": "Simple C# Console App",
+        "image": "images/placeholder.webp",
+        "github_link": "https://github.com/Asleki/my-csharp-project",
+        "description": "A simple console application built with C# to explore object-oriented programming concepts and language syntax.",
+        "start_date": "June 2025",
+        "finish_date": "July 2025",
+        "skills": ["C#", ".NET"]
+    }
+]

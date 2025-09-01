@@ -3,91 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Soko Properties: Your trusted partner for residential, commercial, and land properties in Kenya. Browse available houses, apartments, and land for sale or rent in Nairobi, Kilimani, Lavington, and other prime locations.">
-    <meta name="keywords" content="Soko Properties, real estate Kenya, property for sale Nairobi, houses for sale, apartments for sale, land for sale, commercial property, real estate agents Kenya, residential property, Lavington, Kilimani, Westlands, Karen">
+    <title>Soko Properties - Your Trusted Real Estate Partner in Kenya</title>
+    <meta name="description" content="Explore the best residential, commercial, and land properties for sale and rent in Kenya with Soko Properties. Find your perfect home or investment today.">
+    <meta name="keywords" content="real estate, Kenya properties, houses for sale, land for sale, commercial property, Soko Properties, Nairobi, Mombasa, affordable homes, luxury real estate">
     <meta name="author" content="Alex Malunda">
-    <meta name="robots" content="index, follow">
 
-    <meta property="og:title" content="Soko Properties - Your Trusted Real Estate Partner in Kenya">
-    <meta property="og:description" content="Soko Properties: Your trusted partner for residential, commercial, and land properties in Kenya. Browse available houses, apartments, and land for sale or rent in Nairobi and other prime locations.">
+    <meta property="og:title" content="Soko Properties - Find Your Dream Property in Kenya">
+    <meta property="og:description" content="Browse a wide range of vetted properties including homes, land, and commercial spaces. Your trusted partner for real estate in Kenya.">
+    <meta property="og:image" content="https://example.com/images/soko-properties-banner.jpg">
+    <meta property="og:url" content="https://imarket.co.ke/soko-properties-index.html">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.imarket.co.ke/soko-properties-index.html">
-    <meta property="og:image" content="https://www.imarket.co.ke/images/imarket-share-logo.jpg">
-    <meta property="og:site_name" content="iMarket Kenya - Soko Properties">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@iMarketKE">
-    <meta name="twitter:creator" content="@iMarketKE">
-    <meta name="twitter:title" content="Soko Properties - Your Trusted Real Estate Partner in Kenya">
-    <meta name="twitter:description" content="Soko Properties: Your trusted partner for residential, commercial, and land properties in Kenya. Browse available houses, apartments, and land for sale or rent.">
-    <meta name="twitter:image" content="https://www.imarket.co.ke/images/imarket-share-logo.jpg">
-    <link rel="canonical" href="https://www.imarket.co.ke/soko-properties-index.html">
-
-    <title>Soko Properties - Your Trusted Real Estate Partner</title>
-
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVK8WpS0P7Z7lT7G1P6fC6dE9X2A8w7a67W4xXQ9Q5d5lM2fP6R8u7g..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/soko-properties.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
     <div id="main-header-placeholder"></div>
 
     <main class="main-content">
-        <div id="shop-header-placeholder"></div>
+        <div class="container">
+            <h1 class="page-title">Soko Properties</h1>
+            <p class="tagline">Your trusted partner for residential, commercial, and land properties in Kenya.</p>
+        </div>
 
-        <section id="properties-list">
-            <div class="container">
-                <h2 class="section-title">All Properties</h2>
-                <div id="properties-grid" class="grid-container">
+        <section class="soko-subheader">
+            <div class="container soko-subheader-content">
+                <div class="search-and-filter">
+                    <input type="text" id="soko-search-input" class="search-input" placeholder="Search properties..." aria-label="Search properties">
+                    <button id="filter-toggle-btn" class="filter-btn btn-secondary">Filters <i class="fas fa-filter"></i></button>
+                </div>
+                <div class="view-toggles">
+                    <button id="grid-view-btn" class="view-toggle-btn active" title="Grid View"><i class="fas fa-th-large"></i></button>
+                    <button id="list-view-btn" class="view-toggle-btn" title="List View"><i class="fas fa-list"></i></button>
+                </div>
+            </div>
+            
+            <div id="filter-panel" class="filter-panel container hidden">
+                <div class="filter-group">
+                    <label for="property-type-filter">Property Type</label>
+                    <select id="property-type-filter">
+                        <option value="all">All</option>
+                        <option value="house">House</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="land">Land</option>
+                        <option value="commercial">Commercial</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="location-filter">Location</label>
+                    <input type="text" id="location-filter" placeholder="e.g., Nairobi, Mombasa">
+                </div>
+
+                <div class="filter-group">
+                    <label for="price-range">Price Range (KES)</label>
+                    <div class="price-inputs">
+                        <input type="number" id="min-price" placeholder="Min" min="0">
+                        <span>-</span>
+                        <input type="number" id="max-price" placeholder="Max" min="0">
                     </div>
-                <div class="text-center mt-4">
-                    <button id="load-more-btn" class="btn-secondary">Load More Properties</button>
                 </div>
+
+                <div class="filter-group">
+                    <label>Bedrooms</label>
+                    <div class="bed-bath-options">
+                        <input type="radio" id="beds-any" name="bedrooms" value="any" checked><label for="beds-any">Any</label>
+                        <input type="radio" id="beds-1" name="bedrooms" value="1"><label for="beds-1">1+</label>
+                        <input type="radio" id="beds-2" name="bedrooms" value="2"><label for="beds-2">2+</label>
+                        <input type="radio" id="beds-3" name="bedrooms" value="3"><label for="beds-3">3+</label>
+                        <input type="radio" id="beds-4" name="bedrooms" value="4"><label for="beds-4">4+</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label>Bathrooms</label>
+                    <div class="bed-bath-options">
+                        <input type="radio" id="baths-any" name="bathrooms" value="any" checked><label for="baths-any">Any</label>
+                        <input type="radio" id="baths-1" name="bathrooms" value="1"><label for="baths-1">1+</label>
+                        <input type="radio" id="baths-2" name="bathrooms" value="2"><label for="baths-2">2+</label>
+                        <input type="radio" id="baths-3" name="bathrooms" value="3"><label for="baths-3">3+</label>
+                        <input type="radio" id="baths-4" name="bathrooms" value="4"><label for="baths-4">4+</label>
+                    </div>
+                </div>
+
+                <button id="apply-filters-btn" class="btn-primary">Apply Filters</button>
             </div>
         </section>
 
-        <section id="about-soko-properties" class="bg-light-gray py-5">
+        <section id="amazing-discounts" class="content-section">
             <div class="container">
-                <div class="about-content">
-                    <h2 class="section-title">About Soko Properties</h2>
-                    <p>Soko Properties is a leading real estate agency dedicated to connecting clients with their ideal homes, commercial spaces, and investment opportunities across Kenya. With a deep understanding of the local market and a commitment to client satisfaction, we offer personalized services to make your property journey seamless and successful.</p>
-                    <p>Our portfolio includes a diverse range of listings, from luxurious villas and modern apartments to prime commercial plots and agricultural land. We pride ourselves on transparency, professionalism, and integrity in every transaction.</p>
-                    <a href="#" class="btn-primary" title="Learn more about Soko Properties">Learn More About Us</a>
+                <div class="section-header">
+                    <h2>Amazing Discounts</h2>
+                </div>
+                <div id="discounts-grid" class="product-grid grid-view">
+                    </div>
+                <div class="section-footer">
+                    <a href="soko-properties-products.html" class="btn-secondary explore-more-btn" title="Explore all discounted properties">Explore More <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </section>
 
-        <section id="contact-agent" class="py-5">
-            <div class="container text-center">
-                <h2 class="section-title">Ready to Find Your Dream Property?</h2>
-                <p>Our expert agents are here to guide you every step of the way. Contact us today for personalized assistance.</p>
-                <a href="#" class="btn-secondary" title="Contact a Soko Properties agent">Contact an Agent</a>
+        <section id="new-listings" class="content-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>New Listings (2025)</h2>
+                </div>
+                <div id="new-listings-grid" class="product-grid grid-view">
+                    </div>
+                <div class="section-footer">
+                    <a href="soko-properties-products.html?filter=new" class="btn-secondary explore-more-btn" title="Explore all new listings">Explore More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured-properties" class="content-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Featured Properties</h2>
+                </div>
+                <div id="featured-properties-grid" class="product-grid grid-view">
+                    </div>
+                <div class="section-footer">
+                    <a href="soko-properties-products.html?filter=featured" class="btn-secondary explore-more-btn" title="Explore all featured properties">Explore More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-choose-us" class="content-section bg-page-alt">
+            <div class="container">
+                <h2>Why Choose Soko Properties?</h2>
+                <div class="reason-cards">
+                    <div class="reason-card">
+                        <i class="fas fa-check-circle icon-large text-success"></i>
+                        <h3>Vetted Listings</h3>
+                        <p>Every property is meticulously verified to ensure its authenticity and legal compliance, giving you peace of mind.</p>
+                    </div>
+                    <div class="reason-card">
+                        <i class="fas fa-shield-alt icon-large text-primary"></i>
+                        <h3>Secure Transactions</h3>
+                        <p>We provide a secure and transparent process from inquiry to completion, protecting your investment at every step.</p>
+                    </div>
+                    <div class="reason-card">
+                        <i class="fas fa-hands-helping icon-large text-secondary"></i>
+                        <h3>Dedicated Support</h3>
+                        <p>Our team of experts is with you every step of the way, offering professional advice and personalized service to meet your needs.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
+    <button id="scroll-to-top-btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
     <div id="main-footer-placeholder"></div>
-    <button id="scroll-to-top-btn" title="Go to top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
 
     <script src="js/header-footer-loader.js"></script>
     <script src="js/header.js"></script>
     <script src="js/footer.js"></script>
-    <script src="js/soko-properties.js"></script> </body>
+    <script src="js/soko-properties.js"></script>
+</body>
 </html>

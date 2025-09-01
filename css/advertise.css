@@ -1,0 +1,396 @@
+/*
+    File: advertise.css
+    Description: Styles for the advertising packages page and the ad submission form.
+                 Features card-based layouts and a modern, clean design.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Advertise Hero Section                                                     */
+/* -------------------------------------------------------------------------- */
+.advertise-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/general/advertise-banner.webp') no-repeat center center/cover;
+    color: var(--color-text-inverted);
+    padding: 6rem 0 3rem;
+    text-align: center;
+    border-bottom: 2px solid var(--color-border);
+}
+
+.advertise-hero h1 {
+    font-size: clamp(2.5em, 5vw, 4em);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--color-text-inverted);
+}
+
+.advertise-hero .subtitle {
+    font-size: clamp(1em, 2vw, 1.2em);
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Ad Packages Section                                                        */
+/* -------------------------------------------------------------------------- */
+.packages-section {
+    padding: 4rem 0;
+    background-color: var(--color-bg-page);
+}
+
+.packages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    align-items: stretch;
+}
+
+.package-card {
+    background-color: var(--color-bg-card);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px var(--color-shadow);
+    padding: 2.5rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid var(--color-border);
+}
+
+.package-card.hidden-card {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.package-card.fade-in-card {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.package-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.package-card h3 {
+    font-size: 2em;
+    margin: 1rem 0;
+}
+
+.package-price {
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.package-price span {
+    font-size: 0.5em;
+    font-weight: 400;
+    color: var(--color-text-secondary);
+}
+
+.package-icon {
+    font-size: 3em;
+    margin-bottom: 1rem;
+}
+
+.package-features {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 1.5rem 0;
+    flex-grow: 1;
+}
+
+.package-features li {
+    padding: 0.5rem 0;
+    font-size: 1.1em;
+    color: var(--color-text-secondary);
+    border-bottom: 1px solid var(--color-border-subtle);
+}
+
+.package-features li:last-child {
+    border-bottom: none;
+}
+
+.package-features li i {
+    margin-right: 10px;
+}
+
+.package-features li .fa-check-circle {
+    color: var(--color-success);
+}
+
+.package-features li.disabled {
+    color: var(--color-text-muted);
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+.package-features li.disabled .fa-times-circle {
+    color: var(--color-danger);
+}
+
+/* Specific package colors and styling */
+.package-card.bronze { border-top: 5px solid var(--color-secondary); }
+.package-card.silver { border-top: 5px solid var(--color-info); }
+.package-card.gold { border-top: 5px solid var(--color-warning); }
+
+.package-card.silver .package-icon,
+.package-card.silver h3 {
+    color: var(--color-info);
+}
+
+.package-card.gold .package-icon,
+.package-card.gold h3 {
+    color: var(--color-warning);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Ad Submission Form                                                         */
+/* -------------------------------------------------------------------------- */
+.form-section {
+    padding: 4rem 0;
+}
+
+.form-wrapper {
+    background-color: var(--color-bg-card);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px var(--color-shadow);
+    padding: 3rem;
+    max-width: 800px;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+}
+
+.form-wrapper h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5rem;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+.form-wrapper .subtitle {
+    font-size: 1.1em;
+    color: var(--color-text-secondary);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.ad-summary {
+    background-color: var(--color-bg-page);
+    border: 1px solid var(--color-border);
+    border-left: 5px solid var(--color-primary);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ad-summary p {
+    margin: 0.5rem 0;
+    font-size: 1.1em;
+    flex-basis: 48%; /* Adjust for spacing */
+}
+
+.ad-summary strong {
+    color: var(--color-text-primary);
+}
+
+/* Stepper Navigation */
+.stepper-progress {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    position: relative;
+    padding: 0 10%;
+}
+
+.stepper-progress::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: var(--color-border);
+    width: 80%;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.stepper-step {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.stepper-step .step-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-border);
+    color: var(--color-text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    margin: 0 auto 0.5rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.stepper-step .step-label {
+    font-size: 0.9em;
+    color: var(--color-text-muted);
+}
+
+.stepper-step.active .step-icon {
+    background-color: var(--color-primary);
+    color: var(--color-text-inverted);
+}
+
+.stepper-step.active .step-label {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.stepper-step.completed .step-icon {
+    background-color: var(--color-success);
+    color: var(--color-text-inverted);
+}
+.stepper-step.completed .step-label {
+    color: var(--color-success);
+}
+
+
+/* Form Groups and Inputs */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: var(--color-bg-input);
+    color: var(--color-text-primary);
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    border-color: var(--color-primary);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Stepper Navigation Buttons */
+.stepper-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.btn-prev {
+    background-color: var(--color-secondary);
+    color: var(--color-text-inverted);
+}
+
+.btn-prev:hover {
+    background-color: var(--color-hover);
+}
+
+.btn-success {
+    background-color: var(--color-success);
+    color: var(--color-text-inverted);
+}
+
+.btn-success:hover {
+    background-color: var(--color-hover);
+}
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-text-inverted);
+}
+.btn-primary:hover {
+    background-color: var(--color-hover);
+}
+
+.hidden {
+    display: none !important;
+}
+
+.step-content {
+    transition: opacity 0.5s ease;
+}
+
+/* Success Message */
+.success-message {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+.success-message h3 {
+    font-size: 2.5em;
+    color: var(--color-success);
+}
+.success-message p {
+    font-size: 1.2em;
+    color: var(--color-text-secondary);
+    margin-top: 1rem;
+}
+
+/* Mpesa Section */
+.mpesa-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 2rem;
+    background-color: var(--color-bg-page);
+    border: 1px dashed var(--color-success);
+    border-radius: 8px;
+}
+.mpesa-details img {
+    max-width: 150px;
+}
+.mpesa-details h4 {
+    font-size: 1.5em;
+    color: var(--color-success);
+    margin: 0;
+}
+.mpesa-details .qr-code {
+    max-width: 200px;
+    height: auto;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 5px;
+}

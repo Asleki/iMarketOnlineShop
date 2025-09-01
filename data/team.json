@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Alex Malunda",
+    "role": "Founder & CEO",
+    "quote": "Our vision is to empower every Kenyan with a platform to buy and sell with confidence.",
+    "image": "images/team/alex-malunda.jpg"
+  },
+  {
+    "name": "Jane Mwangi",
+    "role": "Head of Operations",
+    "quote": "I am proud to be part of a company that is dedicated to supporting local businesses.",
+    "image": "images/team/jane-mwangi.jpg"
+  },
+  {
+    "name": "Peter Otieno",
+    "role": "Lead Developer",
+    "quote": "Building a user-friendly and secure platform is my main priority at iMarket.",
+    "image": "images/team/peter-otieno.jpg"
+  }
+]

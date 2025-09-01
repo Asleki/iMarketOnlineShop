@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit your advertising details for the selected package on iMarket Kenya. Fill out the form to finalize your ad placement.">
+    <meta name="author" content="Alex Malunda">
+    <title>Ad Submission Form - iMarket Kenya</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVK8WpS0P7Z7lT7G1P6fC6dE9X2A8w7a67W4xXQ9Q5d5lM2fP6R8u7g..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/advertise.css">
+</head>
+<body>
+    <div id="main-header-placeholder"></div>
+    <main class="main-content">
+        <section class="form-section">
+            <div class="container form-wrapper">
+                <h2>Ad Submission Form</h2>
+                <p class="subtitle">Please fill out the details for your selected ad package. We will review and publish it within 24 hours.</p>
+
+                <div class="stepper-progress" id="stepper-progress">
+                    <div class="stepper-step active" data-step="1">
+                        <div class="step-icon"><i class="fas fa-edit"></i></div>
+                        <span class="step-label">Ad Details</span>
+                    </div>
+                    <div class="stepper-step" data-step="2">
+                        <div class="step-icon"><i class="fas fa-user-circle"></i></div>
+                        <span class="step-label">Contact Info</span>
+                    </div>
+                    <div class="stepper-step" data-step="3">
+                        <div class="step-icon"><i class="fas fa-eye"></i></div>
+                        <span class="step-label">Review</span>
+                    </div>
+                    <div class="stepper-step" data-step="4">
+                        <div class="step-icon"><i class="fas fa-money-check-alt"></i></div>
+                        <span class="step-label">Payment</span>
+                    </div>
+                </div>
+
+                <form id="ad-submission-form">
+                    <div id="step-1" class="step-content">
+                        <h3>1. Ad Details</h3>
+                        <div class="ad-summary">
+                            <p><strong>Selected Package:</strong> <span id="selected-package"></span></p>
+                            <p><strong>Total Price:</strong> <span id="total-price"></span> KES</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="ad-message">Ad Message / Content <i class="fas fa-info-circle text-muted" title="Max 100 characters"></i></label>
+                            <textarea id="ad-message" name="message" rows="4" placeholder="Enter the text for your ad. Max 100 characters." maxlength="100" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="ad-type">Ad Type</label>
+                            <select id="ad-type" name="type" required>
+                                <option value="" disabled selected>Select ad type...</option>
+                                <option value="news">News</option>
+                                <option value="partner">Partner</option>
+                                <option value="alert">Alert</option>
+                                <option value="promotional">Promotional</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="ad-priority">Ad Priority</label>
+                            <select id="ad-priority" name="priority" required>
+                                <option value="" disabled selected>Select priority...</option>
+                                <option value="low">Low</option>
+                                <option value="medium">Medium</option>
+                                <option value="high">High</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div id="step-2" class="step-content hidden">
+                        <h3>2. Your Contact Information</h3>
+                        <div class="form-group">
+                            <label for="contact-name">Your Full Name</label>
+                            <input type="text" id="contact-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email Address</label>
+                            <input type="email" id="contact-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-phone">Phone Number</label>
+                            <input type="text" id="contact-phone" name="phone">
+                        </div>
+                    </div>
+
+                    <div id="step-3" class="step-content hidden">
+                        <h3>3. Review & Confirm</h3>
+                        <p>Please review your details before proceeding to payment.</p>
+                        <div id="review-details" class="ad-summary">
+                            </div>
+                    </div>
+
+                    <div id="step-4" class="step-content hidden">
+                        <h3>4. Payment</h3>
+                        <div class="ad-summary">
+                            <p><strong>Total Amount Due:</strong> <span id="payment-amount"></span> KES</p>
+                        </div>
+                        <p class="text-secondary text-center">Please select a payment method to complete your ad submission.</p>
+                        <div class="form-group">
+                            <label>Payment Method</label>
+                            <select id="payment-method" name="paymentMethod">
+                                <option value="mpesa">M-Pesa</option>
+                                <option value="paypal">PayPal</option>
+                                <option value="card">Credit/Debit Card</option>
+                            </select>
+                        </div>
+
+                        <div id="mpesa-payment-details" class="mpesa-details">
+                            <img src="images/general/mpesa-logo.webp" alt="M-Pesa Logo" class="mpesa-logo">
+                            <h4>Pay via M-Pesa Till</h4>
+                            <p><strong>Till Number:</strong> 540540</p>
+                            <p><strong>Account Number:</strong> <span id="mpesa-account-number">IMARKETAD</span></p>
+                            <p>Scan the QR code to pay:</p>
+                            <img src="images/general/mpesa-qr.png" alt="M-Pesa Till QR Code" class="qr-code">
+                        </div>
+                    </div>
+
+                    <div id="success-message" class="step-content hidden">
+                        <div class="success-message">
+                            <i class="fas fa-check-circle fa-5x text-success"></i>
+                            <h3>Thank You!</h3>
+                            <p>Your ad submission has been received. We will review the content and publish it shortly. You will receive an email confirmation.</p>
+                        </div>
+                    </div>
+
+                    <div class="stepper-nav">
+                        <button type="button" id="prev-btn" class="btn-prev hidden">Previous</button>
+                        <button type="button" id="next-btn" class="btn-primary">Next</button>
+                        <button type="submit" id="submit-btn" class="btn-success hidden">Confirm & Pay</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <div id="main-footer-placeholder"></div>
+    <script src="js/localStorageUtils.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/advertise.js"></script>
+</body>
+</html>
