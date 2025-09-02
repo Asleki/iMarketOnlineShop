@@ -149,9 +149,17 @@ document.addEventListener('partialsLoaded', async () => {
                 // Find the first shop that sells this category
                 const firstShop = shopsData.find(shop => shop.categories.includes(cat));
                 let link = `shops.html?category=${encodeURIComponent(cat)}`; // Fallback
-                if (firstShop) {
+                
+                // --- MODIFICATION START ---
+                // Specific behavior for "Commercial Property"
+                if (cat === "Commercial Property") {
+                    link = `${firstShop.shopPageUrl.replace('index.html', '')}categories.html?category=Commercial`;
+                } else if (firstShop) {
+                // Original logic for all other categories
                     link = `${firstShop.shopPageUrl.replace('index.html', '')}categories.html?category=${encodeURIComponent(cat)}`;
                 }
+                // --- MODIFICATION END ---
+                
                 return `<li><a href="${link}" title="${cat}">${cat}</a></li>`;
             }).join('');
         }
@@ -260,7 +268,12 @@ document.addEventListener('partialsLoaded', async () => {
                             // Find the first shop that sells this category
                             const firstShop = shopsData.find(shop => shop.categories.includes(s.name));
                             if (firstShop) {
-                                link = `${firstShop.shopPageUrl.replace('index.html', '')}categories.html?category=${encodeURIComponent(s.name)}`;
+                                // Specific change to handle "Commercial Property"
+                                if (s.name === "Commercial Property") {
+                                    link = `${firstShop.shopPageUrl.replace('index.html', '')}categories.html?category=Commercial`;
+                                } else {
+                                    link = `${firstShop.shopPageUrl.replace('index.html', '')}categories.html?category=${encodeURIComponent(s.name)}`;
+                                }
                             } else {
                                 link = `shops.html?category=${encodeURIComponent(s.name)}`;
                             }

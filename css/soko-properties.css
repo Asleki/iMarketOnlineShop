@@ -382,7 +382,44 @@
 .reason-card p {
     color: var(--color-text-secondary);
 }
+/* -------------------------------------------------------------------------- */
+/* About & Contact Sections                                                   */
+/* -------------------------------------------------------------------------- */
 
+/* Styles for the "About Soko Properties" and "Ready to Find Your Dream Property?" sections. */
+#about-soko-properties p,
+#contact-soko-properties p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: var(--color-text-primary);
+    margin-bottom: 20px;
+}
+
+#contact-soko-properties {
+    text-align: center;
+}
+
+/* Call-to-action section styling */
+.cta-section {
+    background-color: var(--color-bg-alt); /* Use a different background to make it stand out */
+    padding: 40px 0;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.cta-section h2 {
+    font-size: 2em;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+
+.cta-section p {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1em;
+    color: var(--color-text-secondary);
+}
 /* -------------------------------------------------------------------------- */
 /* Responsive Design                                                          */
 /* -------------------------------------------------------------------------- */
