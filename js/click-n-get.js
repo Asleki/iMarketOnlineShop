@@ -53,57 +53,63 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         }
 
-        /**
-         * Renders a set of product cards into a specified grid.
-         * @param {Array<Object>} products - The array of product objects to render.
-         * @param {string} gridId - The ID of the HTML element to append the cards to.
-         */
-        function renderProducts(products, gridId) {
-            const grid = document.getElementById(gridId);
-            if (!grid) return;
+/**
+ * Renders a set of product cards into a specified grid.
+ * @param {Array<Object>} products - The array of product objects to render.
+ * @param {string} gridId - The ID of the HTML element to append the cards to.
+ */
+function renderProducts(products, gridId) {
+    const grid = document.getElementById(gridId);
+    if (!grid) return;
 
-            products.forEach(product => {
-                const priceHtml = product.isDiscounted ?
-                    `<p class="product-price">KES ${product.price.toLocaleString()}</p>
-                     <p class="original-price">KES ${product.originalPrice.toLocaleString()}</p>` :
-                    `<p class="product-price">KES ${product.price.toLocaleString()}</p>`;
-
-                const shippingHtml = product.isFreeShipping ?
-                    `<span class="product-badge shipping-badge"><i class="fas fa-shipping-fast"></i> Free Shipping</span>` : '';
-
-                const discountHtml = product.isDiscounted ?
-                    `<span class="product-badge discount-badge"><i class="fas fa-tags"></i> Deal</span>` : '';
-                
-                const hotPickHtml = product.isHotPick ?
-                    `<span class="product-badge hot-pick-badge"><i class="fas fa-fire"></i> Hot Pick</span>` : '';
-
-                const cardHtml = `
-                    <a href="click-n-get-product-details.html?id=${product.id}" class="product-card">
-                        <div class="product-badges">
-                            ${shippingHtml}
-                            ${hotPickHtml}
-                            ${discountHtml}
-                        </div>
-                        <img src="${product.images[0]}" alt="${product.name}" class="product-image" loading="lazy">
-                        <div class="product-info">
-                            <h4 class="product-title">${product.name}</h4>
-                            <p class="product-brand">${product.brand}</p>
-                            <div class="price-container">
-                                ${priceHtml}
-                            </div>
-                            <div class="product-rating">
-                                <span class="rating-stars">
-                                    ${getStarRating(product.rating)}
-                                </span>
-                                <span class="review-count">(${product.reviewsCount})</span>
-                            </div>
-                        </div>
-                    </a>
-                `;
-                grid.insertAdjacentHTML('beforeend', cardHtml);
-            });
+    products.forEach(product => {
+        // Essential check: make sure the product object has a valid ID
+        if (!product.id) {
+            console.error('Product object is missing an ID:', product);
+            return; // Skip this product if it has no ID
         }
 
+        const priceHtml = product.isDiscounted ?
+            `<p class="product-price">KES ${product.price.toLocaleString()}</p>
+             <p class="original-price">KES ${product.originalPrice.toLocaleString()}</p>` :
+            `<p class="product-price">KES ${product.price.toLocaleString()}</p>`;
+
+        const shippingHtml = product.isFreeShipping ?
+            `<span class="product-badge shipping-badge"><i class="fas fa-shipping-fast"></i> Free Shipping</span>` : '';
+
+        const discountHtml = product.isDiscounted ?
+            `<span class="product-badge discount-badge"><i class="fas fa-tags"></i> Deal</span>` : '';
+        
+        const hotPickHtml = product.isHotPick ?
+            `<span class="product-badge hot-pick-badge"><i class="fas fa-fire"></i> Hot Pick</span>` : '';
+
+        // The href attribute now uses the validated product.id
+        const cardHtml = `
+            <a href="click-n-get-product-details.html?id=${product.id}" class="product-card">
+                <div class="product-badges">
+                    ${shippingHtml}
+                    ${hotPickHtml}
+                    ${discountHtml}
+                </div>
+                <img src="${product.images[0]}" alt="${product.name}" class="product-image" loading="lazy">
+                <div class="product-info">
+                    <h4 class="product-title">${product.name}</h4>
+                    <p class="product-brand">${product.brand}</p>
+                    <div class="price-container">
+                        ${priceHtml}
+                    </div>
+                    <div class="product-rating">
+                        <span class="rating-stars">
+                            ${getStarRating(product.rating)}
+                        </span>
+                        <span class="review-count">(${product.reviewsCount})</span>
+                    </div>
+                </div>
+            </a>
+        `;
+        grid.insertAdjacentHTML('beforeend', cardHtml);
+    });
+}
         /**
          * Helper function to generate star rating HTML.
          * @param {number} rating - The product's rating.

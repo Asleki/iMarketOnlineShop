@@ -3,378 +3,513 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Functional Prize Wheel</title>
+    <title>Product Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        /* Base styling and background */
         body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            color: #333;
-            background-image: url('https://source.unsplash.com/random/1920x1080/?abstract,geometric');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: fixed;
-            position: relative;
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
         }
-
-        /* --- Main Layout --- */
-        .page-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 90%;
+        .container {
             max-width: 1200px;
-            padding: 20px;
-            gap: 50px;
         }
-        
-        @media (max-width: 768px) {
-            .page-container {
-                flex-direction: column;
-                gap: 30px;
-            }
-        }
-
-        .left-side, .right-side {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .left-side {
-            position: relative;
-        }
-
-        .right-side {
-            flex: 1;
-            text-align: center;
-            background-color: rgba(255, 255, 255, 0.85);
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-            min-height: 450px;
-        }
-
-        /* --- Prize Wheel Styles --- */
-        .wheel-wrapper {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .prize-wheel {
-            position: relative;
-            width: 400px;
-            height: 400px;
-            border: 5px solid #333;
-            border-radius: 50%;
-            overflow: hidden;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-            transition: transform 4s cubic-bezier(0.2, 0.8, 0.4, 1);
-        }
-        
-        .wheel-section {
-            position: absolute;
-            top: 0;
-            left: 50%;
-            width: 50%;
-            height: 50%;
-            transform-origin: 0% 100%;
-            overflow: hidden;
-        }
-
-        .wheel-section::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 200%;
-            height: 200%;
-            border-radius: 50%;
-            transform: translate(-25%, -25%) rotate(45deg);
-        }
-
-        .wheel-section:nth-child(1) { transform: rotate(0deg); }
-        .wheel-section:nth-child(2) { transform: rotate(90deg); }
-        .wheel-section:nth-child(3) { transform: rotate(180deg); }
-        .wheel-section:nth-child(4) { transform: rotate(270deg); }
-        
-        .wheel-section:nth-child(1)::after { background-color: rgba(220, 53, 69, 0.85); }
-        .wheel-section:nth-child(2)::after { background-color: rgba(255, 193, 7, 0.85); }
-        .wheel-section:nth-child(3)::after { background-color: rgba(40, 167, 69, 0.85); }
-        .wheel-section:nth-child(4)::after { background-color: rgba(0, 123, 255, 0.85); }
-        
-        .prize-content {
-            position: absolute;
-            top: 55%;
-            left: 50%;
-            transform: translate(-50%, -50%) rotate(-45deg);
-            color: #fff;
-            text-align: center;
-            width: 100%;
-            z-index: 2;
-        }
-        
-        .prize-content img {
-            width: 70px;
-            height: 70px;
-            object-fit: contain;
-            margin-bottom: 5px;
-        }
-        
-        .prize-content span {
-            display: block;
-            font-size: 1em;
-            font-weight: bold;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
-        }
-        
-        /* --- Pointer and Button Styles --- */
-        .pointer {
-            width: 0;
-            height: 0;
-            border-left: 20px solid transparent;
-            border-right: 20px solid transparent;
-            border-bottom: 40px solid #f00; 
-            z-index: 10;
-            margin-top: 15px; 
-        }
-        
-        .spin-button {
-            margin-top: 20px;
-            padding: 15px 30px;
-            font-size: 1.2em;
-            font-weight: bold;
-            color: white;
-            background-color: #007bff;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s ease;
-        }
-        
-        .spin-button:hover {
-            background-color: #0056b3;
-        }
-        
-        .spin-button:active {
-            transform: translateY(2px);
-            box-shadow: none;
-        }
-
-        .spin-button:disabled {
-            background-color: #ccc;
-            cursor: not-allowed;
-        }
-
-        /* --- Right Side Results Display --- */
-        .result-message {
-            margin-bottom: 20px;
-            font-size: 1.2em;
-            font-weight: bold;
-        }
-
-        .prize-display {
-            display: none;
-            width: 100%;
-            max-width: 300px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .prize-display.visible {
-            display: block;
-        }
-
-        .prize-display img {
-            width: 150px;
-            height: 150px;
-            object-fit: contain;
-            margin-bottom: 10px;
+        .product-card {
+            min-width: 280px;
+            max-width: 280px;
         }
     </style>
 </head>
-<body>
-    <div class="page-container">
-        <div class="left-side">
-            <div class="wheel-wrapper">
-                <div id="prize-wheel" class="prize-wheel">
-                    </div>
-                <div class="pointer"></div>
-            </div>
-            <button id="spin-button" class="spin-button">Spin</button>
-        </div>
-    
-        <div class="right-side">
-            <h2>Spin and Win!</h2>
-            <p id="result-message" class="result-message">You have 3 free spins remaining. Good luck!</p>
-            <div id="prize-display" class="prize-display">
-                <h3>Congratulations!</h3>
-                <img id="prize-image" src="" alt="Prize image">
-                <h4 id="prize-name"></h4>
-                <p id="prize-value"></p>
-            </div>
+<body class="bg-gray-100 flex flex-col items-center p-4 min-h-screen">
+
+    <!-- Main Product Container -->
+    <div id="product-details-container" class="container bg-white p-6 rounded-2xl shadow-lg mt-8">
+        <!-- Content will be rendered here by JavaScript -->
+    </div>
+
+    <!-- You May Also Like Section -->
+    <div class="container mt-12">
+        <h2 class="text-3xl font-bold mb-6 text-gray-800">You May Also Like</h2>
+        <div id="you-may-also-like" class="flex overflow-x-auto gap-6 pb-4 scroll-smooth">
+            <!-- Related products will be rendered here by JavaScript -->
         </div>
     </div>
 
     <script>
-        const wheel = document.getElementById('prize-wheel');
-        const spinBtn = document.getElementById('spin-button');
-        const resultMessage = document.getElementById('result-message');
-        const prizeDisplay = document.getElementById('prize-display');
-        const prizeImage = document.getElementById('prize-image');
-        const prizeName = document.getElementById('prize-name');
-        const prizeValue = document.getElementById('prize-value');
-
-        let isSpinning = false;
-        let spinsLeft = 3;
-
-        // Hardcoded product data
-        const clickNGetProducts = [
-            { id: "prod_C&G_044", name: "Bluetooth Soundbar", images: ["https://placehold.co/600x400/A0D0B0/000000?text=Soundbar+Main"], price: 28000.00 },
-            { id: "prod_C&G_045", name: "Smart Air Purifier", images: ["https://placehold.co/600x400/D0D0F0/000000?text=AirPurifier+Main"], price: 16000.00 },
-            { id: "prod_C&G_046", name: "Smart Water Bottle", images: ["https://placehold.co/600x400/A0E0F0/000000?text=SmartBottle+Main"], price: 6000.00 },
-            { id: "prod_C&G_047", name: "Gaming Keyboard", images: ["https://placehold.co/600x400/D0F0C0/000000?text=GamingKeyboard+Main"], price: 9800.00 },
-            { id: "prod_C&G_048", name: "Smart Scale", images: ["https://placehold.co/600x400/B0E0D0/000000?text=BodyCompScale+Main"], price: 7500.00 },
-            { id: "prod_C&G_049", name: "Electric Rice Cooker", images: ["https://placehold.co/600x400/E0F0C0/000000?text=RiceCooker+Main"], price: 5000.00 },
-            { id: "prod_C&G_050", name: "Smart LED Desk Lamp", images: ["https://placehold.co/600x400/D0A0A0/000000?text=DeskLamp+Main"], price: 6800.00 }
-        ];
-
-        const joyTotesProducts = [
-            { id: "jt_bag_002", name: "Compact Crossbody Bag", images: ["https://placehold.co/600x400/A0F0D0/000000?text=Crossbody+Bag"], price: 3200 },
-            { id: "jt_bag_003", name: "Everyday Backpack", images: ["https://placehold.co/600x400/E0D0F0/000000?text=Everyday+Backpack"], price: 4500 },
-            { id: "jt_bag_004", name: "Elegant Evening Clutch", images: ["https://placehold.co/600x400/F0E0C0/000000?text=Evening+Clutch"], price: 2800 },
-            { id: "jt_bag_005", name: "Spacious Travel Duffel", images: ["https://placehold.co/600x400/C0B0A0/000000?text=Travel+Duffel"], price: 6000 },
-            { id: "jt_bag_006", name: "Chic Shoulder Bag", images: ["https://placehold.co/600x400/A0C0E0/000000?text=Shoulder+Bag"], price: 4800 },
-            { id: "jt_bag_007", name: "Casual Canvas Sling", images: ["https://placehold.co/600x400/F0D0E0/000000?text=Canvas+Sling"], price: 2500 },
-            { id: "jt_bag_008", name: "Luxury Designer Handbag", images: ["https://placehold.co/600x400/C0A0F0/000000?text=Designer+Handbag"], price: 18000 }
-        ];
-        
-        const nashaaKicksProducts = [
-            { id: "nk_shoe_002", name: "Women's Ballet Flats", images: ["https://placehold.co/600x400/D0F0A0/000000?text=Ballet+Flats"], price: 4500 },
-            { id: "nk_shoe_003", name: "Canvas Sneakers", images: ["https://placehold.co/600x400/A0C0B0/000000?text=Canvas+Sneakers"], price: 3200 },
-            { id: "nk_shoe_004", name: "Kids' Velcro Play Shoes", images: ["https://placehold.co/600x400/E0B0A0/000000?text=Kids+Shoes"], price: 2500 },
-            { id: "nk_shoe_005", name: "Men's Formal Oxfords", images: ["https://placehold.co/600x400/B0A0C0/000000?text=Formal+Oxfords"], price: 12000 },
-            { id: "nk_shoe_006", name: "Women's High Heel Pumps", images: ["https://placehold.co/600x400/F0A0B0/000000?text=High+Heels"], price: 7800 },
-            { id: "nk_shoe_007", name: "Unisex Sports Sandals", images: ["https://placehold.co/600x400/C0F0B0/000000?text=Sports+Sandals"], price: 3000 }
-        ];
-
-        const starsPrize = {
-            name: "100 Stars",
-            image: "https://placehold.co/100x100/FFD700/000000?text=✨+100+Stars",
-            value: "100 Stars"
+        // Data for different product types
+        const allProductsData = {
+            "vehicles": [
+                {
+                    "id": "bugatti-tourbillon",
+                    "type": "vehicle",
+                    "make": "Bugatti",
+                    "model": "Tourbillon",
+                    "year": 2024,
+                    "color": "Grey & Blue",
+                    "price": 400000000,
+                    "engine_type": "8.3L V16 Hybrid Petrol",
+                    "features": [
+                        "Naturally Aspirated V16 Engine",
+                        "Hybrid Powertrain",
+                        "Open-faced Instrument Cluster",
+                        "Advanced Aerodynamics",
+                        "Carbon Fiber Monocoque",
+                        "Exclusive Interior Materials"
+                    ],
+                    "number_of_doors": 2,
+                    "seating_capacity": 2,
+                    "fuel_efficiency": {
+                        "city_km_per_liter": 3.0,
+                        "highway_km_per_liter": 5.5
+                    },
+                    "shipping_fee": 7000000,
+                    "imported": true,
+                    "vat_included": true,
+                    "waiting_period_days": 730,
+                    "car_display_image": "https://placehold.co/800x600/1e293b/fff?text=Bugatti+Tourbillon",
+                    "images": [
+                        "https://placehold.co/800x600/1e293b/fff?text=Bugatti+Tourbillon",
+                        "https://placehold.co/600x400/334155/fff?text=Tourbillon+1",
+                        "https://placehold.co/600x400/475569/fff?text=Tourbillon+2",
+                        "https://placehold.co/600x400/64748b/fff?text=Tourbillon+3",
+                        "https://placehold.co/600x400/94a3b8/fff?text=Tourbillon+4"
+                    ],
+                    "interior_images": [
+                        "https://placehold.co/600x400/94a3b8/fff?text=Interior+1",
+                        "https://placehold.co/600x400/475569/fff?text=Interior+2",
+                        "https://placehold.co/600x400/334155/fff?text=Interior+3"
+                    ],
+                    "electric": false,
+                    "contact_agent": {
+                        "name": "John Kamau",
+                        "tel": "0700990007",
+                        "location": "Muthaiga, Nairobi"
+                    },
+                    "car_type": "Sports Car"
+                },
+                {
+                    "id": "mercedes-benz-amg-gt",
+                    "type": "vehicle",
+                    "make": "Mercedes-Benz",
+                    "model": "AMG GT",
+                    "year": 2024,
+                    "color": "Obsidian Black",
+                    "price": 35000000,
+                    "engine_type": "4.0L V8 Bi-turbo",
+                    "features": [
+                        "AMG Ride Control",
+                        "Burmester Surround Sound",
+                        "Nappa Leather Interior",
+                        "Active Aerodynamics"
+                    ],
+                    "number_of_doors": 2,
+                    "seating_capacity": 4,
+                    "fuel_efficiency": {
+                        "city_km_per_liter": 6.5,
+                        "highway_km_per_liter": 9.2
+                    },
+                    "shipping_fee": 500000,
+                    "imported": true,
+                    "vat_included": true,
+                    "waiting_period_days": 180,
+                    "car_display_image": "https://placehold.co/800x600/334155/fff?text=Mercedes+AMG+GT",
+                    "images": [
+                        "https://placehold.co/800x600/334155/fff?text=Mercedes+AMG+GT"
+                    ],
+                    "interior_images": [
+                        "https://placehold.co/600x400/334155/fff?text=AMG+GT+Interior"
+                    ],
+                    "electric": false,
+                    "contact_agent": {
+                        "name": "Jane Wanjiru",
+                        "tel": "0701234567",
+                        "location": "Westlands, Nairobi"
+                    },
+                    "car_type": "Grand Tourer"
+                },
+            ],
+            "motorcycles": [
+                {
+                    "id": "ducati-panigale-v4",
+                    "type": "motorcycle",
+                    "make": "Ducati",
+                    "model": "Panigale V4",
+                    "year": 2024,
+                    "color": "Ducati Red",
+                    "price": 4500000,
+                    "engine_type": "998cc V4 Desmosedici Stradale",
+                    "features": [
+                        "Cornering ABS EVO",
+                        "Ducati Traction Control EVO",
+                        "Ducati Wheelie Control EVO",
+                        "Ducati Slide Control"
+                    ],
+                    "shipping_fee": 150000,
+                    "imported": true,
+                    "vat_included": true,
+                    "waiting_period_days": 90,
+                    "display_image": "https://placehold.co/800x600/b91c1c/fff?text=Ducati+Panigale+V4",
+                    "images": [
+                        "https://placehold.co/800x600/b91c1c/fff?text=Ducati+Panigale+V4",
+                        "https://placehold.co/600x400/ef4444/fff?text=Panigale+2"
+                    ],
+                    "contact_agent": {
+                        "name": "Peter Mwangi",
+                        "tel": "0702345678",
+                        "location": "Kilimani, Nairobi"
+                    },
+                    "bike_type": "Superbike"
+                },
+                {
+                    "id": "kawasaki-ninja-zx-10r",
+                    "type": "motorcycle",
+                    "make": "Kawasaki",
+                    "model": "Ninja ZX-10R",
+                    "year": 2023,
+                    "color": "Lime Green",
+                    "price": 3800000,
+                    "engine_type": "998cc In-Line Four",
+                    "features": [
+                        "Integrated Riding Modes",
+                        "Öhlins Electronic Steering Damper",
+                        "Kawasaki Quick Shifter"
+                    ],
+                    "shipping_fee": 120000,
+                    "imported": true,
+                    "vat_included": true,
+                    "waiting_period_days": 60,
+                    "display_image": "https://placehold.co/800x600/16a34a/fff?text=Kawasaki+Ninja+ZX-10R",
+                    "images": [
+                        "https://placehold.co/800x600/16a34a/fff?text=Kawasaki+Ninja+ZX-10R"
+                    ],
+                    "contact_agent": {
+                        "name": "Peter Mwangi",
+                        "tel": "0702345678",
+                        "location": "Kilimani, Nairobi"
+                    },
+                    "bike_type": "Sport"
+                }
+            ],
+            "automotive-parts": [
+                {
+                    "id": "brembo-brake-kit",
+                    "type": "automotive-part",
+                    "name": "Brembo Big Brake Kit",
+                    "part_for": "Various Vehicles",
+                    "price": 500000,
+                    "shipping_fee": 10000,
+                    "description": "High-performance brake kit for superior stopping power. Includes calipers, rotors, and pads.",
+                    "imported": true,
+                    "vat_included": true,
+                    "display_image": "https://placehold.co/800x600/374151/fff?text=Brembo+Brake+Kit",
+                    "images": [
+                        "https://placehold.co/800x600/374151/fff?text=Brembo+Brake+Kit",
+                        "https://placehold.co/600x400/4b5563/fff?text=Brembo+2"
+                    ],
+                    "contact_agent": {
+                        "name": "Sarah Omondi",
+                        "tel": "0703456789",
+                        "location": "Industrial Area, Nairobi"
+                    }
+                },
+                {
+                    "id": "michelin-pilot-sport-4s",
+                    "type": "automotive-part",
+                    "name": "Michelin Pilot Sport 4S Tire",
+                    "part_for": "Various Vehicles",
+                    "price": 80000,
+                    "shipping_fee": 5000,
+                    "description": "Ultra-high performance tire for exceptional grip and handling in all conditions.",
+                    "imported": false,
+                    "vat_included": true,
+                    "display_image": "https://placehold.co/800x600/6b7280/fff?text=Michelin+Pilot",
+                    "images": [
+                        "https://placehold.co/800x600/6b7280/fff?text=Michelin+Pilot"
+                    ],
+                    "contact_agent": {
+                        "name": "Sarah Omondi",
+                        "tel": "0703456789",
+                        "location": "Industrial Area, Nairobi"
+                    }
+                }
+            ]
         };
-        
-        function getSpinPrizes() {
-            const allProducts = [
-                clickNGetProducts,
-                joyTotesProducts,
-                nashaaKicksProducts
-            ];
 
-            const selectedPrizes = [];
+        const kshFormatter = new Intl.NumberFormat('en-KE', {
+            style: 'currency',
+            currency: 'KES',
+            minimumFractionDigits: 0,
+            maximumFractionDigits: 0
+        });
 
-            // Randomly select one product from each "shop"
-            for (const shop of allProducts) {
-                const randomIndex = Math.floor(Math.random() * shop.length);
-                selectedPrizes.push(shop[randomIndex]);
+        // Function to render a single product based on its type
+        function renderProduct(product) {
+            const container = document.getElementById('product-details-container');
+            if (!container) return;
+            
+            let htmlContent = '';
+            
+            // Render specific template based on product type
+            switch (product.type) {
+                case 'vehicle':
+                    htmlContent = renderVehicle(product);
+                    break;
+                case 'motorcycle':
+                    htmlContent = renderMotorcycle(product);
+                    break;
+                case 'automotive-part':
+                    htmlContent = renderAutomotivePart(product);
+                    break;
+                default:
+                    htmlContent = `<p class="text-gray-600">Product not found or invalid type.</p>`;
             }
             
-            // Add the stars prize
-            selectedPrizes.push(starsPrize);
-
-            return selectedPrizes;
+            container.innerHTML = htmlContent;
         }
 
-        const prizes = getSpinPrizes();
-        
-        function generateWheelSections() {
-            wheel.innerHTML = ''; // Clear existing sections
-            prizes.forEach((prize, index) => {
-                const section = document.createElement('div');
-                section.className = 'wheel-section';
-                
-                let prizeImageSrc;
-                if (prize.name === "100 Stars") {
-                    prizeImageSrc = prize.image;
-                } else {
-                    prizeImageSrc = prize.images[0];
-                }
+        // Helper function to create an icon span with a tooltip
+        function createIconSpan(iconClass, text) {
+            return `
+                <span class="flex items-center text-gray-600 text-sm font-semibold whitespace-nowrap">
+                    <i class="${iconClass} text-green-600 mr-2"></i>
+                    ${text}
+                </span>
+            `;
+        }
 
-                const sectionContent = `
-                    <div class="prize-content">
-                        <img src="${prizeImageSrc}" alt="${prize.name}">
+        function renderVehicle(product) {
+            return `
+                <a href="#" class="inline-flex items-center mb-6 text-blue-600 hover:underline">
+                    <i class="fas fa-arrow-left mr-2"></i>
+                    Back to Vehicles
+                </a>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Images Section -->
+                    <div class="space-y-4">
+                        <div class="relative w-full h-96">
+                            <img src="${product.car_display_image}" alt="${product.make} ${product.model}" class="w-full h-full object-cover rounded-xl border-4 border-gray-200 shadow-md">
+                        </div>
+                        <div class="flex overflow-x-auto gap-4 scroll-smooth pb-2">
+                            ${product.images.map(image => `
+                                <img src="${image}" alt="Thumbnail" class="w-24 h-24 object-cover rounded-xl border-2 border-gray-300 hover:border-blue-500 cursor-pointer transition-colors duration-200">
+                            `).join('')}
+                            ${product.interior_images.map(image => `
+                                <img src="${image}" alt="Interior Thumbnail" class="w-24 h-24 object-cover rounded-xl border-2 border-gray-300 hover:border-blue-500 cursor-pointer transition-colors duration-200">
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <!-- Details Section -->
+                    <div>
+                        <h1 class="text-4xl font-extrabold text-gray-900 leading-tight">${product.make} ${product.model} (${product.year})</h1>
+                        <p class="text-4xl font-bold text-green-600 mt-2">${kshFormatter.format(product.price)}</p>
+
+                        <div class="mt-6 space-y-3">
+                            ${createIconSpan('fas fa-fill-drip', product.color)}
+                            ${createIconSpan('fas fa-cogs', product.engine_type)}
+                            ${createIconSpan('fas fa-door-closed', `${product.number_of_doors} Doors`)}
+                            ${createIconSpan('fas fa-chair', `${product.seating_capacity} Seats`)}
+                            ${product.imported ? createIconSpan('fas fa-globe', 'Imported') : ''}
+                            ${product.vat_included ? createIconSpan('fas fa-percent', 'VAT Included') : ''}
+                            ${createIconSpan('fas fa-shipping-fast', `Shipping Fee: ${kshFormatter.format(product.shipping_fee)}`)}
+                            ${createIconSpan('fas fa-calendar-alt', `Waiting Period: ${product.waiting_period_days} days`)}
+                        </div>
+
+                        <!-- Fuel Efficiency -->
+                        <div class="mt-8 border-t pt-6 border-gray-200">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Fuel Efficiency</h3>
+                            <div class="grid grid-cols-2 gap-4">
+                                ${createIconSpan('fas fa-city', `City: ${product.fuel_efficiency.city_km_per_liter} km/L`)}
+                                ${createIconSpan('fas fa-road', `Highway: ${product.fuel_efficiency.highway_km_per_liter} km/L`)}
+                            </div>
+                        </div>
+
+                        <!-- Key Features -->
+                        <div class="mt-8 border-t pt-6 border-gray-200">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Key Features</h3>
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                ${product.features.map(feature => `
+                                    <div class="flex items-center text-gray-700">
+                                        <div class="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center mr-3">
+                                            <i class="fas fa-check text-white text-xs"></i>
+                                        </div>
+                                        <span>${feature}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+
+                        <!-- Contact Agent -->
+                        <div class="mt-8 border-t pt-6 border-gray-200">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Contact Agent</h3>
+                            <div class="space-y-2">
+                                ${createIconSpan('fas fa-user-circle', product.contact_agent.name)}
+                                ${createIconSpan('fas fa-map-marker-alt', product.contact_agent.location)}
+                                ${createIconSpan('fas fa-phone-alt', product.contact_agent.tel)}
+                            </div>
+                            <button class="mt-6 w-full py-3 px-6 bg-green-600 text-white font-bold rounded-lg shadow-md hover:bg-green-700 transition duration-300">
+                                Inquire Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderMotorcycle(product) {
+            return `
+                <a href="#" class="inline-flex items-center mb-6 text-blue-600 hover:underline">
+                    <i class="fas fa-arrow-left mr-2"></i>
+                    Back to Motorcycles
+                </a>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="space-y-4">
+                        <div class="relative w-full h-96">
+                            <img src="${product.display_image}" alt="${product.make} ${product.model}" class="w-full h-full object-cover rounded-xl border-4 border-gray-200 shadow-md">
+                        </div>
+                        <div class="flex overflow-x-auto gap-4 scroll-smooth pb-2">
+                            ${product.images.map(image => `
+                                <img src="${image}" alt="Thumbnail" class="w-24 h-24 object-cover rounded-xl border-2 border-gray-300 hover:border-blue-500 cursor-pointer transition-colors duration-200">
+                            `).join('')}
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="text-4xl font-extrabold text-gray-900 leading-tight">${product.make} ${product.model} (${product.year})</h1>
+                        <p class="text-4xl font-bold text-green-600 mt-2">${kshFormatter.format(product.price)}</p>
+
+                        <div class="mt-6 space-y-3">
+                            ${createIconSpan('fas fa-fill-drip', product.color)}
+                            ${createIconSpan('fas fa-cogs', product.engine_type)}
+                            ${product.imported ? createIconSpan('fas fa-globe', 'Imported') : ''}
+                            ${product.vat_included ? createIconSpan('fas fa-percent', 'VAT Included') : ''}
+                            ${createIconSpan('fas fa-shipping-fast', `Shipping Fee: ${kshFormatter.format(product.shipping_fee)}`)}
+                            ${createIconSpan('fas fa-calendar-alt', `Waiting Period: ${product.waiting_period_days} days`)}
+                        </div>
+
+                        <div class="mt-8 border-t pt-6 border-gray-200">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Key Features</h3>
+                            <div class="grid sm:grid-cols-2 gap-4">
+                                ${product.features.map(feature => `
+                                    <div class="flex items-center text-gray-700">
+                                        <div class="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center mr-3">
+                                            <i class="fas fa-check text-white text-xs"></i>
+                                        </div>
+                                        <span>${feature}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+
+                        <div class="mt-8 border-t pt-6 border-gray-200">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Contact Agent</h3>
+                            <div class="space-y-2">
+                                ${createIconSpan('fas fa-user-circle', product.contact_agent.name)}
+                                ${createIconSpan('fas fa-map-marker-alt', product.contact_agent.location)}
+                                ${createIconSpan('fas fa-phone-alt', product.contact_agent.tel)}
+                            </div>
+                            <button class="mt-6 w-full py-3 px-6 bg-green-600 text-white font-bold rounded-lg shadow-md hover:bg-green-700 transition duration-300">
+                                Inquire Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+        
+        function renderAutomotivePart(product) {
+            return `
+                <a href="#" class="inline-flex items-center mb-6 text-blue-600 hover:underline">
+                    <i class="fas fa-arrow-left mr-2"></i>
+                    Back to Parts
+                </a>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="space-y-4">
+                        <div class="relative w-full h-96">
+                            <img src="${product.display_image}" alt="${product.name}" class="w-full h-full object-cover rounded-xl border-4 border-gray-200 shadow-md">
+                        </div>
+                        <div class="flex overflow-x-auto gap-4 scroll-smooth pb-2">
+                            ${product.images.map(image => `
+                                <img src="${image}" alt="Thumbnail" class="w-24 h-24 object-cover rounded-xl border-2 border-gray-300 hover:border-blue-500 cursor-pointer transition-colors duration-200">
+                            `).join('')}
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="text-4xl font-extrabold text-gray-900 leading-tight">${product.name}</h1>
+                        <p class="text-4xl font-bold text-green-600 mt-2">${kshFormatter.format(product.price)}</p>
+
+                        <div class="mt-6 space-y-3">
+                            <p class="text-gray-700 text-lg">${product.description}</p>
+                            ${createIconSpan('fas fa-car-side', `For: ${product.part_for}`)}
+                            ${product.imported ? createIconSpan('fas fa-globe', 'Imported') : ''}
+                            ${product.vat_included ? createIconSpan('fas fa-percent', 'VAT Included') : ''}
+                            ${createIconSpan('fas fa-shipping-fast', `Shipping Fee: ${kshFormatter.format(product.shipping_fee)}`)}
+                        </div>
+                        
+                        <div class="mt-8 border-t pt-6 border-gray-200">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Contact Agent</h3>
+                            <div class="space-y-2">
+                                ${createIconSpan('fas fa-user-circle', product.contact_agent.name)}
+                                ${createIconSpan('fas fa-map-marker-alt', product.contact_agent.location)}
+                                ${createIconSpan('fas fa-phone-alt', product.contact_agent.tel)}
+                            </div>
+                            <button class="mt-6 w-full py-3 px-6 bg-green-600 text-white font-bold rounded-lg shadow-md hover:bg-green-700 transition duration-300">
+                                Inquire Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Function to render the "You may also like" section
+        function renderYouMayAlsoLike(currentProduct) {
+            const youMayAlsoLikeContainer = document.getElementById('you-may-also-like');
+            if (!youMayAlsoLikeContainer) return;
+
+            const allOtherProducts = Object.values(allProductsData).flat().filter(p => p.id !== currentProduct.id);
+            const shuffled = allOtherProducts.sort(() => 0.5 - Math.random());
+            const selectedProducts = shuffled.slice(0, 4);
+
+            youMayAlsoLikeContainer.innerHTML = selectedProducts.map(product => {
+                const isVehicle = product.type === 'vehicle';
+                const imageSrc = isVehicle ? product.car_display_image : product.display_image;
+                const title = isVehicle ? `${product.make} ${product.model}` : product.name;
+                const price = kshFormatter.format(product.price);
+                
+                return `
+                    <div class="product-card bg-white p-4 rounded-xl shadow-md border-2 border-gray-200 flex-shrink-0">
+                        <img src="${imageSrc}" alt="${title}" class="w-full h-40 object-cover rounded-xl border-2 border-gray-300">
+                        <div class="mt-4">
+                            <h3 class="font-bold text-lg truncate">${title}</h3>
+                            <p class="text-green-600 font-semibold">${price}</p>
+                        </div>
+                        <button onclick="renderSelectedProduct('${product.id}')" class="mt-4 w-full py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">
+                            View Details
+                        </button>
                     </div>
                 `;
-                
-                section.innerHTML = sectionContent;
-                wheel.appendChild(section);
-            });
+            }).join('');
         }
-        
-        generateWheelSections();
 
-        function displayPrize(prize) {
-            prizeImage.src = prize.name === "100 Stars" ? prize.image : prize.images[0];
-            prizeImage.alt = prize.name;
-            prizeName.textContent = prize.name;
-            if (prize.name === "100 Stars") {
-                prizeValue.textContent = "You've won 100 Stars! Redeem them on your next purchase.";
+        // Main function to handle product rendering on click
+        function renderSelectedProduct(productId) {
+            const allProducts = Object.values(allProductsData).flat();
+            const product = allProducts.find(p => p.id === productId);
+
+            if (product) {
+                renderProduct(product);
+                renderYouMayAlsoLike(product);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             } else {
-                prizeValue.textContent = `You've won a ${prize.name}!`;
+                document.getElementById('product-details-container').innerHTML = `<p class="text-gray-600 text-center">Sorry, the selected product was not found.</p>`;
+                document.getElementById('you-may-also-like').innerHTML = '';
             }
-            prizeDisplay.classList.add('visible');
         }
 
-        spinBtn.addEventListener('click', () => {
-            if (isSpinning || spinsLeft <= 0) {
-                resultMessage.textContent = "You've used all your free spins!";
-                spinBtn.disabled = true;
-                return;
-            }
-
-            isSpinning = true;
-            spinBtn.disabled = true;
-            prizeDisplay.classList.remove('visible');
-
-            const winningIndex = Math.floor(Math.random() * prizes.length);
-            const winningPrize = prizes[winningIndex];
-
-            // Calculate the rotation angle to land on the center of the winning prize at the BOTTOM of the wheel
-            const totalDegrees = 360 * 5; 
-            const sectionDegrees = 360 / prizes.length;
-            const landingRotation = totalDegrees + 180 - (winningIndex * sectionDegrees);
-            
-            wheel.style.transition = 'transform 4s cubic-bezier(0.2, 0.8, 0.4, 1)';
-            wheel.style.transform = `rotate(${landingRotation}deg)`;
-
-            wheel.addEventListener('transitionend', () => {
-                isSpinning = false;
-                spinsLeft--;
-                
-                displayPrize(winningPrize);
-                resultMessage.textContent = `You have ${spinsLeft} free spins remaining.`;
-                
-                if (spinsLeft > 0) {
-                    spinBtn.disabled = false;
-                } else {
-                    spinBtn.disabled = true;
-                }
-
-                // Reset the wheel's rotation without animation for the next spin
-                const finalRotation = 180 - (winningIndex * sectionDegrees);
-                wheel.style.transition = 'none';
-                wheel.style.transform = `rotate(${finalRotation}deg)`;
-            }, { once: true });
+        // Initial rendering on page load. Simulates loading the Bugatti page.
+        document.addEventListener('DOMContentLoaded', () => {
+            renderSelectedProduct('bugatti-tourbillon');
         });
     </script>
 </body>

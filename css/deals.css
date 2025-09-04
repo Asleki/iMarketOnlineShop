@@ -1,139 +1,150 @@
 /*
-    File: css/deals.css
-    Description: Styles for the deals.html page, including sections for each shop's deals
-                 and consistent product card styling.
+    File: deals.css
+    -------------------------------------------------
+    This stylesheet contains page-specific styles for the
+    iMarket "Deals" page.
 */
 
-.deals-section {
-    padding: 2rem 0;
+/* -------------------------------------------------------------------------- */
+/* Main Layout & Typography                                                   */
+/* -------------------------------------------------------------------------- */
+.deals-page {
+    padding-bottom: 50px;
 }
 
-.deals-section .section-title {
-    text-align: center;
-    color: var(--text-color-primary);
-    margin-bottom: 0.5rem;
+.deals-page h1,
+.deals-page h2 {
+    color: var(--color-primary);
+    font-weight: 700;
 }
 
-.deals-section .section-subtitle {
+.deals-page h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.deals-page p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: var(--color-text-secondary);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text-center {
     text-align: center;
-    color: var(--text-color-secondary);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Hero Section                                                               */
+/* -------------------------------------------------------------------------- */
+.deals-hero {
+    padding: 3rem 0;
+    background-color: var(--color-bg-light);
     margin-bottom: 2rem;
+    border-radius: 12px;
 }
 
-.shop-deals-container {
-    margin-bottom: 3rem;
-    padding: 1.5rem;
-    border-radius: 8px;
-    background-color: var(--background-color-card);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-}
-
-.shop-deals-container h2 {
-    font-size: 1.8em;
-    color: var(--primary-color);
-    border-bottom: 2px solid var(--border-color-light);
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
-    display: inline-block;
+/* -------------------------------------------------------------------------- */
+/* Deals Grid                                                                 */
+/* -------------------------------------------------------------------------- */
+.deals-grid-container {
+    margin-bottom: 2rem;
 }
 
 .deals-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
 }
 
-/* Product Card Styling */
-.product-card-uniform {
-    background-color: var(--background-color-body);
-    border: 1px solid var(--border-color-light);
-    border-radius: 8px;
+.product-card {
+    background-color: var(--color-bg-card);
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
     overflow: hidden;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    text-align: center;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    text-decoration: none; /* Remove underline for a tag */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
     color: inherit;
+    position: relative;
+    cursor: pointer;
 }
 
-.product-card-uniform:hover {
+.product-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow-md);
 }
 
-.product-card-uniform img {
-    width: 100%;
-    height: 150px;
-    object-fit: contain;
-    border-bottom: 1px solid var(--border-color-light);
-    margin-bottom: 1rem;
-}
-
-.product-card-uniform h3 {
-    font-size: 1.1em;
-    color: var(--text-color-primary);
-    margin-bottom: 0.5rem;
-    height: 3.3em; /* Fix height to prevent layout shift */
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-}
-
-.product-card-uniform p {
-    font-size: 0.9em;
-    color: var(--text-color-secondary);
-    margin-bottom: 0.5rem;
-}
-
-.product-card-uniform .price-old {
-    text-decoration: line-through;
-    color: var(--text-color-secondary);
-    font-size: 0.8em;
-    margin-right: 0.5rem;
-}
-
-.product-card-uniform .price-new {
-    color: var(--primary-color);
-    font-weight: bold;
-    font-size: 1.1em;
-}
-
-.product-card-uniform .deals-badge {
+.product-card .deal-badge {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #ff4d4d; /* A vibrant red color */
+    top: 15px;
+    right: 15px;
+    background-color: var(--color-accent);
     color: white;
-    padding: 0.3rem 0.6rem;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 0.8em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.9em;
     z-index: 10;
 }
 
-/* Dark Mode */
-body[data-theme="dark"] .shop-deals-container {
-    background-color: var(--background-color-dark);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+.product-card .product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: var(--color-bg-light);
 }
 
-body[data-theme="dark"] .product-card-uniform {
-    background-color: var(--background-color-dark);
-    border-color: var(--border-color-dark);
+.product-card .product-info {
+    padding: 20px;
 }
 
-body[data-theme="dark"] .product-card-uniform:hover {
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+.product-card .shop-name {
+    font-size: 0.9em;
+    color: var(--color-text-secondary);
+    margin-bottom: 5px;
 }
 
-/* Responsive adjustments */
+.product-card h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    color: var(--color-primary);
+}
+
+.product-card .deal-price {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--color-accent);
+    margin-bottom: 5px;
+}
+
+.product-card .original-price {
+    font-size: 1em;
+    color: var(--color-text-secondary);
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.product-card .deal-details {
+    font-size: 0.9em;
+    color: var(--color-text-tertiary);
+    margin-top: 10px;
+}
+
+.product-card .load-more-btn {
+    margin-top: 2rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Responsive Design                                                          */
+/* -------------------------------------------------------------------------- */
 @media (max-width: 768px) {
     .deals-grid {
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-        gap: 15px;
+        grid-template-columns: 1fr;
     }
 }

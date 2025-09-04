@@ -1,0 +1,93 @@
+{
+  "menu": [
+    {
+      "id": "main",
+      "prompt": "Hello! Welcome to AutoGiant Motors. How can I assist you today? Please type a number to select an option:",
+      "options": [
+        {
+          "number": 1,
+          "text": "General Inquiries (e.g., opening hours, location)",
+          "nextId": "general"
+        },
+        {
+          "number": 2,
+          "text": "Vehicle Details (e.g., price, specs, VAT)",
+          "nextId": "vehicle"
+        },
+        {
+          "number": 3,
+          "text": "Deals & Promotions",
+          "nextId": "deals"
+        },
+        {
+          "number": 4,
+          "text": "Financing & Importation",
+          "nextId": "financing"
+        },
+        {
+          "number": 5,
+          "text": "Talk to a representative"
+        }
+      ]
+    }
+  ],
+  "responses": {
+    "general": {
+      "prompt": "I can help with general questions. You can ask about our location, working hours, or contact information. Or, type 'back' to go to the main menu.",
+      "queries": [
+        {
+          "keywords": ["location", "directions", "find us", "where are you"],
+          "reply": "Our main dealership is located at [Your Dealership Address]. You can also find us on Google Maps. We are open Monday to Saturday from 8:00 AM to 5:00 PM."
+        },
+        {
+          "keywords": ["hours", "opening", "closing", "working hours", "when are you open"],
+          "reply": "Our working hours are Monday to Saturday, 8:00 AM to 5:00 PM. We are closed on Sundays and public holidays."
+        },
+        {
+          "keywords": ["contact", "phone", "email", "call us"],
+          "reply": "You can reach us at +254 7XX XXX XXX or email us at info@autogiantmotors.co.ke. We look forward to hearing from you!"
+        }
+      ]
+    },
+    "vehicle": {
+      "prompt": "I can provide details on our vehicles. You can ask about a specific model, price, or VAT. What would you like to know? Type 'back' to return to the main menu.",
+      "queries": [
+        {
+          "keywords": ["price", "cost", "how much", "pay"],
+          "reply": "Vehicle prices vary by model and year. Could you please specify the model you are interested in? Our prices are listed on the product pages."
+        },
+        {
+          "keywords": ["specs", "specifications", "features", "details"],
+          "reply": "For detailed specifications, please visit the specific vehicle's product page. All details are available there."
+        },
+        {
+          "keywords": ["vat", "tax", "vat inclusive"],
+          "reply": "Our listed prices are generally inclusive of VAT unless stated otherwise. Please check the product description for confirmation on a specific vehicle."
+        }
+      ]
+    },
+    "deals": {
+      "prompt": "We have new deals and promotions weekly! You can browse our active deals on the 'Today's Deals' page. Is there a specific type of deal you are looking for? Type 'back' to return to the main menu.",
+      "queries": [
+        {
+          "keywords": ["deal", "discount", "promotion"],
+          "reply": "All of our current deals are available on the 'Today's Deals' page. We offer various promotions, including discounts and special financing options."
+        }
+      ]
+    },
+    "financing": {
+      "prompt": "I can provide general information on financing and importation. What would you like to know? Type 'back' to return to the main menu.",
+      "queries": [
+        {
+          "keywords": ["financing", "loan", "payment plan"],
+          "reply": "We offer flexible financing options through our partners. Please visit our 'Financing' page or contact a sales representative for more details."
+        },
+        {
+          "keywords": ["importation", "import", "shipping", "logistics"],
+          "reply": "All of our vehicles are imported through trusted partners. The importation process takes approximately 4-6 weeks. For specific timelines and documentation, please speak with our team."
+        }
+      ]
+    }
+  },
+  "fallback": "I'm sorry, I didn't understand that. Please try rephrasing your question or type 'main' to return to the main menu."
+}

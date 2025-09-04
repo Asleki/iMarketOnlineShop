@@ -1,0 +1,189 @@
+/*
+    File: click-n-get-contact.css
+    -------------------------------------------------
+    This stylesheet contains page-specific styles for the
+    Click 'n Get "Contact Us" page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Main Layout & Typography                                                   */
+/* -------------------------------------------------------------------------- */
+.contact-page {
+    padding-bottom: 50px;
+}
+
+.contact-page h1,
+.contact-page h2 {
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.contact-page h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.contact-page h2.section-title {
+    text-align: left;
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+.contact-page p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: var(--color-text-secondary);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card {
+    background-color: var(--color-bg-card);
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    padding: 30px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Hero Section                                                               */
+/* -------------------------------------------------------------------------- */
+.contact-hero {
+    padding: 3rem 0;
+    background-color: var(--color-bg-light);
+    margin-bottom: 2rem;
+    border-radius: 12px;
+}
+
+.contact-hero .hero-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Grid Container for Form & Info                                             */
+/* -------------------------------------------------------------------------- */
+.contact-grid-container {
+    margin-bottom: 2rem;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.contact-form-card,
+.contact-info-card {
+    display: flex;
+    flex-direction: column;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Contact Form                                                               */
+/* -------------------------------------------------------------------------- */
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--color-text-primary);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: var(--color-bg-light);
+    color: var(--color-text-primary);
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form .btn-primary {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Contact Information                                                        */
+/* -------------------------------------------------------------------------- */
+.contact-info-card .info-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.contact-info-card .info-item i {
+    font-size: 1.5em;
+    color: var(--color-accent);
+}
+
+.contact-info-card .info-item p {
+    margin: 0;
+}
+
+.contact-info-card .info-item a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-info-card .info-item a:hover {
+    text-decoration: underline;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Map Section                                                                */
+/* -------------------------------------------------------------------------- */
+.map-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid var(--color-border);
+}
+
+.map-placeholder {
+    width: 100%;
+    height: 450px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.map-placeholder iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Responsive Design                                                          */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 992px) {
+    .grid-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,167 +1,239 @@
-//
-// File: js/deals.js
-// Description: This script fetches product data from all shops, filters for deals,
-//              and dynamically renders them on the deals.html page, grouped by shop.
-//
+// File: deals.js
+// This script fetches and displays deals from multiple shops.
 
-document.addEventListener('partialsLoaded', async () => {
-    console.log('Partials loaded. Initializing Deals page logic.');
-
-    // =========================================================
-    // 1. Data Fetching, Standardization & Caching
-    // =========================================================
-    let shopsData = [];
-    let allProducts = [];
-    const dealsContainer = document.getElementById('deals-container');
-
-    /**
-     * Standardizes a product object from any shop's data structure
-     * into a single, uniform format.
-     * @param {object} product The original product object.
-     * @param {object} shop The shop object associated with the product.
-     * @returns {object} The standardized product object.
-     */
-    function standardizeProduct(product, shop) {
-        // Fallback values
-        const image = product.car_display_image || product.product_image_url || (product.images && product.images[0]) || 'https://placehold.co/150x150';
-        const name = product.name || product.title || `${product.make} ${product.model}` || 'Unnamed Product';
-        
-        // Handle price, old price, and deals status from various formats
-        let priceAmount = (product.price && product.price.amount) || product.price || product.price_ksh;
-        let originalPrice = product.originalPrice || priceAmount;
-        let isDeal = product.isDiscounted || product.isDeals || (product.discount_percent && product.discount_percent > 0) || false;
-
-        // Apply discount_percent if it exists
-        if (product.discount_percent && product.discount_percent > 0) {
-            originalPrice = priceAmount;
-            priceAmount = priceAmount * (1 - product.discount_percent / 100);
-            isDeal = true;
+document.addEventListener('DOMContentLoaded', () => {
+    const dealsList = document.getElementById('deals-list');
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    const shops = {
+        'autogiant-motors': {
+            url: 'data/autogiant-motors-products.json',
+            dealCheck: (item) => item.vat_included === true,
+            cardRenderer: (item) => createAutoGiantCard(item)
+        },
+        'click-n-get': {
+            url: 'data/click-n-get-products.json',
+            dealCheck: (item) => item.isDeals === true,
+            cardRenderer: (item) => createClickNGetCard(item)
+        },
+        'joy-totes': {
+            url: 'data/joy-totes.json',
+            dealCheck: (item) => item.isDeals === true,
+            cardRenderer: (item) => createJoyTotesCard(item)
+        },
+        'nashaa-kicks': {
+            url: 'data/nashaa-kicks.json',
+            dealCheck: (item) => item.isDeals === true,
+            cardRenderer: (item) => createNashaaKicksCard(item)
+        },
+        'officetech-solutions': {
+            url: 'data/officetech-solutions-products.json',
+            dealCheck: (item) => item.discount_percent > 9,
+            cardRenderer: (item) => createOfficeTechCard(item)
+        },
+        'soko-properties': {
+            url: 'data/soko-properties-products.json',
+            dealCheck: (item) => item.isDiscounted === true,
+            cardRenderer: (item) => createSokoPropertiesCard(item)
         }
+    };
 
-        const price = priceAmount > 0 ? `KES ${priceAmount.toLocaleString()}` : 'Price not available';
-        const oldPrice = originalPrice && originalPrice !== priceAmount ? `KES ${originalPrice.toLocaleString()}` : null;
-        
-        const id = product.item_id || product.id || product.propertyId;
-
-        return {
-            id: id,
-            name: name,
-            price: price,
-            oldPrice: oldPrice,
-            image: image,
-            shop_id: shop.shop_id,
-            shop_name: shop.name,
-            isDeal: isDeal,
-        };
-    }
+    let allDeals = [];
+    let dealsPerPage = 9; // Number of deals to show initially and on "Load More" click
+    let currentPage = 0;
 
     /**
-     * Fetches shop data and then all product data files,
-     * standardizing and caching all products into a single array.
+     * Fetches all products from all shops, filters for deals, and initializes the display.
      */
-    async function fetchAndStandardizeAllData() {
-        try {
-            const shopsResponse = await fetch('data/shops.json');
-            if (!shopsResponse.ok) throw new Error(`HTTP error! Status: ${shopsResponse.status}`);
-            shopsData = await shopsResponse.json();
-
-            const productFetchPromises = shopsData.map(shop =>
-                fetch(`data/${shop.product_data_file}`)
+    async function loadAllDeals() {
+        showLoadingIndicator();
+        const fetchPromises = Object.entries(shops).map(([shopName, shopData]) =>
+            fetch(shopData.url)
                 .then(response => {
                     if (!response.ok) {
-                        console.warn(`Could not fetch data for ${shop.name}. Status: ${response.status}`);
-                        return [];
+                        throw new Error(`Failed to fetch ${shopData.url}`);
                     }
                     return response.json();
                 })
-                .then(products => products.map(product => standardizeProduct(product, shop)))
-                .catch(error => {
-                    console.error(`Error fetching products for ${shop.name}:`, error);
-                    return [];
+                .then(products => {
+                    return products.filter(shopData.dealCheck).map(product => ({
+                        ...product,
+                        shopName: shopName,
+                        shopRenderer: shopData.cardRenderer
+                    }));
                 })
-            );
+                .catch(error => {
+                    console.error(`Error loading deals for ${shopName}:`, error);
+                    return []; // Return an empty array to prevent breaking the whole app
+                })
+        );
 
-            const productsByShop = await Promise.all(productFetchPromises);
-            allProducts = productsByShop.flat();
-            console.log('All product data loaded and standardized:', allProducts.length, 'products found.');
+        const results = await Promise.all(fetchPromises);
+        allDeals = results.flat();
+        
+        // Shuffle the deals for a randomized display
+        allDeals.sort(() => Math.random() - 0.5);
 
-        } catch (error) {
-            console.error('Error fetching initial data:', error);
+        hideLoadingIndicator();
+        renderDeals();
+    }
+
+    /**
+     * Renders a batch of deals to the page.
+     */
+    function renderDeals() {
+        const start = currentPage * dealsPerPage;
+        const end = start + dealsPerPage;
+        const dealsToRender = allDeals.slice(start, end);
+
+        if (dealsToRender.length === 0) {
+            dealsList.innerHTML = '<p class="text-center">No deals available at the moment. Check back later!</p>';
+            loadMoreBtn.style.display = 'none';
+            return;
+        }
+
+        dealsToRender.forEach(deal => {
+            const card = deal.shopRenderer(deal);
+            dealsList.appendChild(card);
+        });
+
+        currentPage++;
+
+        if (currentPage * dealsPerPage >= allDeals.length) {
+            loadMoreBtn.style.display = 'none';
+        } else {
+            loadMoreBtn.style.display = 'block';
         }
     }
 
-    // =========================================================
-    // 2. Dynamic Content Rendering
-    // =========================================================
-
-    function renderDealsPage() {
-        if (!dealsContainer) {
-            console.error('Error: "deals-container" element not found in the DOM.');
-            return;
-        }
-        
-        // Filter for products that are deals
-        const deals = allProducts.filter(product => product.isDeal);
-        
-        if (deals.length === 0) {
-            dealsContainer.innerHTML = '<p class="text-center">No deals available at the moment. Check back later!</p>';
-            return;
-        }
-
-        // Group deals by shop
-        const dealsByShop = deals.reduce((acc, product) => {
-            if (!acc[product.shop_id]) {
-                acc[product.shop_id] = {
-                    shopName: product.shop_name,
-                    products: []
-                };
-            }
-            acc[product.shop_id].products.push(product);
-            return acc;
-        }, {});
-
-        dealsContainer.innerHTML = ''; // Clear previous content
-
-        // Render each shop's deals section
-        for (const shopId in dealsByShop) {
-            const shopData = dealsByShop[shopId];
-            const shopSection = document.createElement('div');
-            shopSection.classList.add('shop-deals-container');
-            
-            let shopTitleHTML = `<h2>${shopData.shopName}</h2>`;
-            shopSection.innerHTML = shopTitleHTML;
-            
-            const dealsGrid = document.createElement('div');
-            dealsGrid.classList.add('deals-grid');
-            
-            shopData.products.forEach(product => {
-                const productUrl = `/shops/${product.shop_id}-products.html#${product.id}`;
-                
-                const card = document.createElement('a');
-                card.href = productUrl;
-                card.classList.add('product-card-uniform');
-                
-                let priceHtml = `<p class="price-new">${product.price}</p>`;
-                if (product.oldPrice) {
-                    priceHtml = `<p><span class="price-old">${product.oldPrice}</span><span class="price-new">${product.price}</span></p>`;
-                }
-                
-                card.innerHTML = `
-                    <span class="deals-badge">DEAL</span>
-                    <img src="${product.image}" alt="${product.name}">
-                    <h3>${product.name}</h3>
-                    ${priceHtml}
-                `;
-                
-                dealsGrid.appendChild(card);
-            });
-            
-            shopSection.appendChild(dealsGrid);
-            dealsContainer.appendChild(shopSection);
-        }
+    // --- Card Creation Functions (Page Specific) ---
+    function createAutoGiantCard(deal) {
+        const card = document.createElement('a');
+        card.href = `autogiant-motors-product-details.html?id=${encodeURIComponent(deal.model)}`;
+        card.className = 'product-card';
+        card.innerHTML = `
+            <div class="deal-badge">VAT Inclusive</div>
+            <img src="${deal.car_display_image}" alt="${deal.make} ${deal.model}" class="product-image">
+            <div class="product-info">
+                <span class="shop-name">AutoGiant Motors</span>
+                <h3>${deal.make} ${deal.model}</h3>
+                <p class="deal-price">Ksh ${deal.price.toLocaleString()}</p>
+                <div class="deal-details">
+                    <p><strong>Status:</strong> VAT Included</p>
+                </div>
+            </div>
+        `;
+        return card;
     }
 
-    // Wait for data to be fetched and then render the page
-    await fetchAndStandardizeAllData();
-    renderDealsPage();
+    function createClickNGetCard(deal) {
+        const card = document.createElement('a');
+        card.href = `click-n-get-product-details.html?id=${encodeURIComponent(deal.id)}`;
+        card.className = 'product-card';
+        const discountBadge = deal.isDiscounted ? `<div class="deal-badge">On Sale</div>` : '';
+        const originalPriceHtml = deal.originalPrice ? `<span class="original-price">Ksh ${deal.originalPrice.toLocaleString()}</span>` : '';
+        card.innerHTML = `
+            ${discountBadge}
+            <img src="${deal.images[0]}" alt="${deal.name}" class="product-image">
+            <div class="product-info">
+                <span class="shop-name">Click 'n Get</span>
+                <h3>${deal.name}</h3>
+                <p class="deal-price">Ksh ${deal.price.toLocaleString()}${originalPriceHtml}</p>
+                <div class="deal-details">
+                    <p><strong>Shipping:</strong> ${deal.shipping}</p>
+                </div>
+            </div>
+        `;
+        return card;
+    }
+
+    function createJoyTotesCard(deal) {
+        const card = document.createElement('a');
+        card.href = `joy-totes-product-details.html?id=${encodeURIComponent(deal.id)}`;
+        card.className = 'product-card';
+        card.innerHTML = `
+            <div class="deal-badge">Deal</div>
+            <img src="${deal.images[0]}" alt="${deal.name}" class="product-image">
+            <div class="product-info">
+                <span class="shop-name">Joy Totes</span>
+                <h3>${deal.name}</h3>
+                <p class="deal-price">KES ${deal.price.toLocaleString()}</p>
+                <div class="deal-details">
+                    <p><strong>Shipping:</strong> ${deal.shipping}</p>
+                </div>
+            </div>
+        `;
+        return card;
+    }
+
+    function createNashaaKicksCard(deal) {
+        const card = document.createElement('a');
+        card.href = `nashaa-kicks-product-details.html?id=${encodeURIComponent(deal.id)}`;
+        card.className = 'product-card';
+        card.innerHTML = `
+            <div class="deal-badge">Deal</div>
+            <img src="${deal.images[0]}" alt="${deal.name}" class="product-image">
+            <div class="product-info">
+                <span class="shop-name">Nashaa Kicks</span>
+                <h3>${deal.name}</h3>
+                <p class="deal-price">KES ${deal.price.toLocaleString()}</p>
+                <div class="deal-details">
+                    <p><strong>Shipping:</strong> ${deal.shipping}</p>
+                </div>
+            </div>
+        `;
+        return card;
+    }
+
+    function createOfficeTechCard(deal) {
+        const card = document.createElement('a');
+        card.href = `officetech-solutions-product-details.html?id=${encodeURIComponent(deal.item_id)}`;
+        card.className = 'product-card';
+        const discountAmount = deal.price_ksh * (deal.discount_percent / 100);
+        const newPrice = deal.price_ksh - discountAmount;
+        card.innerHTML = `
+            <div class="deal-badge">${deal.discount_percent}% Off</div>
+            <img src="${deal.product_image_url}" alt="${deal.name}" class="product-image">
+            <div class="product-info">
+                <span class="shop-name">OfficeTech Solutions</span>
+                <h3>${deal.name}</h3>
+                <p class="deal-price">Ksh ${newPrice.toLocaleString()}<span class="original-price">Ksh ${deal.price_ksh.toLocaleString()}</span></p>
+            </div>
+        `;
+        return card;
+    }
+
+    function createSokoPropertiesCard(deal) {
+        const card = document.createElement('a');
+        card.href = `soko-properties-product-details.html?id=${encodeURIComponent(deal.propertyId)}`;
+        card.className = 'product-card';
+        card.innerHTML = `
+            <div class="deal-badge">Discounted</div>
+            <img src="${deal.images[0]}" alt="${deal.title}" class="product-image">
+            <div class="product-info">
+                <span class="shop-name">Soko Properties</span>
+                <h3>${deal.title}</h3>
+                <p class="deal-price">KES ${deal.price.amount.toLocaleString()}</p>
+                <div class="deal-details">
+                    <p><strong>Bedrooms:</strong> ${deal.bedrooms}</p>
+                    <p><strong>Location:</strong> ${deal.location.city}</p>
+                </div>
+            </div>
+        `;
+        return card;
+    }
+
+    // Simple loading indicator functions
+    function showLoadingIndicator() {
+        dealsList.innerHTML = '<p class="text-center">Loading deals...</p>';
+    }
+
+    function hideLoadingIndicator() {
+        dealsList.innerHTML = '';
+    }
+
+    // Event listeners
+    loadMoreBtn.addEventListener('click', renderDeals);
+
+    // Initial load of deals
+    loadAllDeals();
 });

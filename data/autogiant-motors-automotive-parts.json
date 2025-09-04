@@ -1,0 +1,740 @@
+[
+  {
+    "id": "part-001",
+    "name": "High-Performance Air Filter",
+    "part_number": "HP-AF-001",
+    "description": "Improve engine performance and fuel efficiency with this reusable, high-flow air filter. Designed for a range of vehicle models.",
+    "category": "Engine Parts",
+    "subCategory": "Filtration",
+    "brand": "SpeedFlow",
+    "price": 3500,
+    "originalPrice": 4000,
+    "isDiscounted": true,
+    "discountPercentage": 12.5,
+    "inStock": 50,
+    "vehicleCompatibility": [
+      "Toyota",
+      "Nissan",
+      "Honda"
+    ],
+    "images": [
+      "https://example.com/autogiant/parts/air-filter-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/air-filter-thumb-1.webp",
+      "https://example.com/autogiant/parts/air-filter-thumb-2.webp"
+    ],
+    "isFeatured": true,
+    "isDeals": true,
+    "dateAdded": "2025-08-01",
+    "freeShipping": true,
+    "shippingFee": 0
+  },
+  {
+    "id": "part-002",
+    "name": "Ceramic Brake Pads (Front)",
+    "part_number": "CB-FP-002",
+    "description": "Enhance stopping power with these quiet, low-dust ceramic brake pads. Excellent for daily driving and performance.",
+    "category": "Braking System",
+    "brand": "ProStop",
+    "price": 8500,
+    "originalPrice": 9000,
+    "isDiscounted": true,
+    "discountPercentage": 5.5,
+    "inStock": 30,
+    "vehicleCompatibility": [
+      "Ford",
+      "Chevrolet"
+    ],
+    "images": [
+      "https://example.com/autogiant/parts/brake-pads-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/brake-pads-thumb-1.webp",
+      "https://example.com/autogiant/parts/brake-pads-thumb-2.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": true,
+    "dateAdded": "2025-07-28",
+    "freeShipping": false,
+    "shippingFee": 500
+  },
+  {
+    "id": "part-003",
+    "name": "LED Headlight Conversion Kit",
+    "part_number": "LED-HK-003",
+    "description": "Upgrade your visibility with this easy-to-install LED headlight kit. Brighter and more energy-efficient than traditional bulbs.",
+    "category": "Lighting",
+    "brand": "Luminex",
+    "price": 6000,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 15,
+    "vehicleCompatibility": [
+      "Universal"
+    ],
+    "images": [
+      "https://example.com/autogiant/parts/led-headlights-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/led-headlights-thumb-1.webp",
+      "https://example.com/autogiant/parts/led-headlights-thumb-2.webp"
+    ],
+    "isFeatured": true,
+    "isDeals": false,
+    "dateAdded": "2025-08-05",
+    "freeShipping": false,
+    "shippingFee": 400
+  },
+  {
+    "id": "part-004",
+    "name": "Synthetic Motor Oil (5L)",
+    "part_number": "SMO-5L-004",
+    "description": "High-grade full synthetic motor oil for maximum engine protection and performance in all climates.",
+    "category": "Fluids & Chemicals",
+    "brand": "EngineGuard",
+    "price": 3800,
+    "originalPrice": 3800,
+    "isDiscounted": false,
+    "inStock": 100,
+    "images": [
+      "https://example.com/autogiant/parts/motor-oil-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/motor-oil-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": false,
+    "dateAdded": "2025-08-03",
+    "freeShipping": true,
+    "shippingFee": 0
+  },
+  {
+    "id": "part-005",
+    "name": "Car Cover (Waterproof)",
+    "part_number": "CC-WP-005",
+    "description": "Protect your vehicle from sun, rain, and dust with this durable and breathable waterproof car cover.",
+    "category": "Exterior Accessories",
+    "brand": "ShieldPro",
+    "price": 6500,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 20,
+    "vehicleCompatibility": [
+      "Sedan",
+      "SUV"
+    ],
+    "images": [
+      "https://example.com/autogiant/parts/car-cover-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/car-cover-thumb-1.webp"
+    ],
+    "isFeatured": true,
+    "isDeals": false,
+    "dateAdded": "2025-07-25",
+    "freeShipping": false,
+    "shippingFee": 800
+  },
+  {
+    "id": "part-006",
+    "name": "Digital Tire Pressure Gauge",
+    "part_number": "DTPG-006",
+    "description": "A compact and accurate digital gauge to help you maintain optimal tire pressure for safety and fuel economy.",
+    "category": "Tools & Equipment",
+    "brand": "AutoGadget",
+    "price": 1200,
+    "originalPrice": 1500,
+    "isDiscounted": true,
+    "discountPercentage": 20,
+    "inStock": 80,
+    "images": [
+      "https://example.com/autogiant/parts/tire-gauge-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/tire-gauge-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": true,
+    "dateAdded": "2025-08-02",
+    "freeShipping": true,
+    "shippingFee": 0
+  },
+  {
+    "id": "part-007",
+    "name": "Steering Wheel Cover (Leather)",
+    "part_number": "SWC-L-007",
+    "description": "Add comfort and style to your driving experience with this genuine leather steering wheel cover.",
+    "category": "Interior Accessories",
+    "brand": "LuxuryTouch",
+    "price": 2500,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 45,
+    "images": [
+      "https://example.com/autogiant/parts/steering-cover-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/steering-cover-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": false,
+    "dateAdded": "2025-08-04",
+    "freeShipping": false,
+    "shippingFee": 350
+  },
+  {
+    "id": "part-008",
+    "name": "Replacement Spark Plugs (4-pack)",
+    "part_number": "SP-RP-008",
+    "description": "Ensure a smooth-running engine with these high-quality replacement spark plugs, compatible with various petrol engines.",
+    "category": "Engine Parts",
+    "brand": "PowerSpark",
+    "price": 1800,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 70,
+    "images": [
+      "https://example.com/autogiant/parts/spark-plugs-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/spark-plugs-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": false,
+    "dateAdded": "2025-07-31",
+    "freeShipping": false,
+    "shippingFee": 400
+  },
+  {
+    "id": "part-009",
+    "name": "Car Wash and Wax Concentrate (1L)",
+    "part_number": "CWC-1L-009",
+    "description": "A powerful two-in-one formula that cleans your car and leaves a protective wax layer, giving it a brilliant shine.",
+    "category": "Cleaning Supplies",
+    "brand": "ShineAuto",
+    "price": 1200,
+    "originalPrice": 1400,
+    "isDiscounted": true,
+    "discountPercentage": 14.3,
+    "inStock": 90,
+    "images": [
+      "https://example.com/autogiant/parts/car-wash-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/car-wash-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": true,
+    "dateAdded": "2025-08-06",
+    "freeShipping": false,
+    "shippingFee": 300
+  },
+  {
+    "id": "part-010",
+    "name": "Dashboard Phone Holder",
+    "part_number": "DPH-010",
+    "description": "Securely mount your smartphone on your car's dashboard for easy navigation and hands-free calls.",
+    "category": "Interior Accessories",
+    "brand": "TechMount",
+    "price": 1800,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 60,
+    "images": [
+      "https://example.com/autogiant/parts/phone-holder-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/phone-holder-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": false,
+    "dateAdded": "2025-07-29",
+    "freeShipping": true,
+    "shippingFee": 0
+  },
+  {
+    "id": "part-011",
+    "name": "Headlight Restoration Kit",
+    "part_number": "HRK-011",
+    "description": "Restore cloudy, yellowed headlights to their original clarity, improving both aesthetics and night visibility.",
+    "category": "Exterior Accessories",
+    "brand": "ClearView",
+    "price": 2800,
+    "originalPrice": 3200,
+    "isDiscounted": true,
+    "discountPercentage": 12.5,
+    "inStock": 25,
+    "images": [
+      "https://example.com/autogiant/parts/headlight-restoration-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/headlight-restoration-thumb-1.webp"
+    ],
+    "isFeatured": true,
+    "isDeals": true,
+    "dateAdded": "2025-08-08",
+    "freeShipping": false,
+    "shippingFee": 350
+  },
+  {
+    "id": "part-012",
+    "name": "Heavy-Duty Jump Starter Kit",
+    "part_number": "JSK-012",
+    "description": "A powerful, portable jump starter to get you back on the road. Includes built-in flashlight and USB ports.",
+    "category": "Tools & Equipment",
+    "brand": "PowerUp",
+    "price": 9500,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 10,
+    "images": [
+      "https://example.com/autogiant/parts/jump-starter-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/jump-starter-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": false,
+    "dateAdded": "2025-08-01",
+    "freeShipping": false,
+    "shippingFee": 700
+  },
+  {
+    "id": "part-013",
+    "name": "Cabin Air Filter (Activated Carbon)",
+    "part_number": "CAF-AC-013",
+    "description": "Removes allergens, dust, and odors from the air entering your car's cabin. Activated carbon for superior filtration.",
+    "category": "Air Filtration",
+    "brand": "PureFlow",
+    "price": 2000,
+    "originalPrice": 2200,
+    "isDiscounted": true,
+    "discountPercentage": 9.1,
+    "inStock": 60,
+    "vehicleCompatibility": [
+      "Universal"
+    ],
+    "images": [
+      "https://example.com/autogiant/parts/cabin-filter-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/cabin-filter-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": true,
+    "dateAdded": "2025-08-03",
+    "freeShipping": false,
+    "shippingFee": 300
+  },
+  {
+    "id": "part-014",
+    "name": "Emergency Roadside Kit",
+    "part_number": "ERK-014",
+    "description": "A must-have for every vehicle, this kit includes jumper cables, a first-aid kit, a flashlight, and basic tools.",
+    "category": "Safety Equipment",
+    "brand": "RoadSafe",
+    "price": 4500,
+    "originalPrice": 5000,
+    "isDiscounted": true,
+    "discountPercentage": 10,
+    "inStock": 40,
+    "images": [
+      "https://example.com/autogiant/parts/emergency-kit-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/emergency-kit-thumb-1.webp"
+    ],
+    "isFeatured": true,
+    "isDeals": true,
+    "dateAdded": "2025-08-07",
+    "freeShipping": false,
+    "shippingFee": 500
+  },
+  {
+    "id": "part-015",
+    "name": "All-Weather Floor Mats (Set)",
+    "part_number": "AWFM-015",
+    "description": "Protect your car's interior from mud, snow, and spills with these durable, easy-to-clean rubber floor mats.",
+    "category": "Interior Accessories",
+    "brand": "TreadGuard",
+    "price": 5500,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 25,
+    "vehicleCompatibility": [
+      "Universal"
+    ],
+    "images": [
+      "https://example.com/autogiant/parts/floor-mats-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/floor-mats-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": false,
+    "dateAdded": "2025-08-05",
+    "freeShipping": false,
+    "shippingFee": 600
+  },
+  {
+    "id": "part-016",
+    "name": "OBD-II Diagnostic Scanner",
+    "part_number": "OBD-016",
+    "description": "Read and clear engine trouble codes yourself with this easy-to-use OBD-II diagnostic scanner. Save on mechanic fees.",
+    "category": "Electronics & Tools",
+    "brand": "CodeCheck",
+    "price": 7000,
+    "originalPrice": 7500,
+    "isDiscounted": true,
+    "discountPercentage": 6.7,
+    "inStock": 15,
+    "images": [
+      "https://example.com/autogiant/parts/obd-scanner-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/obd-scanner-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": true,
+    "dateAdded": "2025-08-09",
+    "freeShipping": false,
+    "shippingFee": 500
+  },
+  {
+    "id": "part-017",
+    "name": "Performance Strut Bar",
+    "part_number": "PSB-017",
+    "description": "Increase chassis rigidity and improve handling with this lightweight aluminum strut bar.",
+    "category": "Suspension & Handling",
+    "brand": "ApexRacing",
+    "price": 12000,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 5,
+    "vehicleCompatibility": [
+      "Subaru",
+      "Mitsubishi"
+    ],
+    "images": [
+      "https://example.com/autogiant/parts/strut-bar-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/strut-bar-thumb-1.webp"
+    ],
+    "isFeatured": true,
+    "isDeals": false,
+    "dateAdded": "2025-08-10",
+    "freeShipping": false,
+    "shippingFee": 1000
+  },
+  {
+    "id": "part-018",
+    "name": "Wireless Car Charger Mount",
+    "part_number": "WCC-018",
+    "description": "Combines a secure phone mount with a fast Qi wireless charger, simplifying your in-car setup.",
+    "category": "Electronics",
+    "brand": "ChargeFast",
+    "price": 3200,
+    "originalPrice": 3500,
+    "isDiscounted": true,
+    "discountPercentage": 8.6,
+    "inStock": 30,
+    "images": [
+      "https://example.com/autogiant/parts/wireless-charger-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/wireless-charger-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": false,
+    "dateAdded": "2025-08-11",
+    "freeShipping": false,
+    "shippingFee": 400
+  },
+  {
+    "id": "part-019",
+    "name": "Engine Air Filter",
+    "part_number": "EAF-019",
+    "description": "Standard replacement engine air filter for optimal airflow and filtration, helping extend engine life.",
+    "category": "Engine Parts",
+    "brand": "FilterPro",
+    "price": 1500,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 95,
+    "vehicleCompatibility": [
+      "Universal"
+    ],
+    "images": [
+      "https://example.com/autogiant/parts/engine-air-filter-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/engine-air-filter-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": false,
+    "dateAdded": "2025-08-12",
+    "freeShipping": true,
+    "shippingFee": 0
+  },
+  {
+    "id": "part-020",
+    "name": "Car Jack & Wrench Set",
+    "part_number": "CJW-020",
+    "description": "A compact and essential tool set for changing tires on the road. Includes a scissor jack and lug wrench.",
+    "category": "Tools & Equipment",
+    "brand": "RoadSide",
+    "price": 4000,
+    "originalPrice": 4500,
+    "isDiscounted": true,
+    "discountPercentage": 11.1,
+    "inStock": 20,
+    "images": [
+      "https://example.com/autogiant/parts/jack-wrench-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/jack-wrench-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": true,
+    "dateAdded": "2025-08-13",
+    "freeShipping": false,
+    "shippingFee": 500
+  },
+  {
+    "id": "part-021",
+    "name": "Custom Seat Covers (Front Set)",
+    "part_number": "CSC-021",
+    "description": "High-quality, durable seat covers tailored for a perfect fit, protecting your seats from wear and tear.",
+    "category": "Interior Accessories",
+    "brand": "CustomFit",
+    "price": 15000,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 10,
+    "vehicleCompatibility": [
+      "Various"
+    ],
+    "images": [
+      "https://example.com/autogiant/parts/seat-covers-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/seat-covers-thumb-1.webp"
+    ],
+    "isFeatured": true,
+    "isDeals": false,
+    "dateAdded": "2025-08-14",
+    "freeShipping": false,
+    "shippingFee": 800
+  },
+  {
+    "id": "part-022",
+    "name": "Wheel Locks (Set of 4)",
+    "part_number": "WL-022",
+    "description": "Deter wheel theft with this set of four heavy-duty wheel locks and a unique key.",
+    "category": "Security",
+    "brand": "WheelSafe",
+    "price": 3800,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 55,
+    "images": [
+      "https://example.com/autogiant/parts/wheel-locks-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/wheel-locks-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": false,
+    "dateAdded": "2025-08-15",
+    "freeShipping": false,
+    "shippingFee": 450
+  },
+  {
+    "id": "part-023",
+    "name": "Portable Air Compressor",
+    "part_number": "PAC-023",
+    "description": "A compact and powerful air compressor for inflating tires, sports equipment, and more. Plugs into your car's 12V outlet.",
+    "category": "Tools & Equipment",
+    "brand": "AirFlow",
+    "price": 4500,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 30,
+    "images": [
+      "https://example.com/autogiant/parts/air-compressor-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/air-compressor-thumb-1.webp"
+    ],
+    "isFeatured": true,
+    "isDeals": false,
+    "dateAdded": "2025-08-16",
+    "freeShipping": false,
+    "shippingFee": 600
+  },
+  {
+    "id": "part-024",
+    "name": "Fuel Injector Cleaner Additive",
+    "part_number": "FIC-024",
+    "description": "Keep your fuel system clean and restore lost power and acceleration with this concentrated additive.",
+    "category": "Fluids & Chemicals",
+    "brand": "FuelMax",
+    "price": 900,
+    "originalPrice": 1000,
+    "isDiscounted": true,
+    "discountPercentage": 10,
+    "inStock": 110,
+    "images": [
+      "https://example.com/autogiant/parts/fuel-cleaner-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/fuel-cleaner-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": true,
+    "dateAdded": "2025-08-17",
+    "freeShipping": true,
+    "shippingFee": 0
+  },
+  {
+    "id": "part-025",
+    "name": "Interior Car Cleaning Wipes",
+    "part_number": "ICW-025",
+    "description": "Convenient wipes for quick cleaning of dashboards, consoles, and other interior surfaces.",
+    "category": "Cleaning Supplies",
+    "brand": "CleanDash",
+    "price": 750,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 200,
+    "images": [
+      "https://example.com/autogiant/parts/cleaning-wipes-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/cleaning-wipes-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": false,
+    "dateAdded": "2025-08-18",
+    "freeShipping": true,
+    "shippingFee": 0
+  },
+  {
+    "id": "part-026",
+    "name": "Brake Fluid",
+    "part_number": "BF-026",
+    "description": "High-performance brake fluid designed for modern braking systems, ensuring optimal stopping power.",
+    "category": "Fluids & Chemicals",
+    "brand": "BrakeSafe",
+    "price": 1800,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 40,
+    "images": [
+      "https://example.com/autogiant/parts/brake-fluid-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/brake-fluid-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": false,
+    "dateAdded": "2025-08-19",
+    "freeShipping": false,
+    "shippingFee": 300
+  },
+  {
+    "id": "part-027",
+    "name": "Exhaust Tip (Chrome)",
+    "part_number": "ET-C-027",
+    "description": "Add a stylish finishing touch to your vehicle's exhaust system with this easy-to-install chrome tip.",
+    "category": "Exterior Accessories",
+    "brand": "AutoStyle",
+    "price": 2500,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 35,
+    "images": [
+      "https://example.com/autogiant/parts/exhaust-tip-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/exhaust-tip-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": false,
+    "dateAdded": "2025-08-20",
+    "freeShipping": false,
+    "shippingFee": 400
+  },
+  {
+    "id": "part-028",
+    "name": "Subwoofer & Amplifier Combo",
+    "part_number": "SAC-028",
+    "description": "A powerful combo pack to upgrade your car's audio system with deep, rich bass.",
+    "category": "Electronics",
+    "brand": "AudioBoom",
+    "price": 18000,
+    "originalPrice": 20000,
+    "isDiscounted": true,
+    "discountPercentage": 10,
+    "inStock": 8,
+    "images": [
+      "https://example.com/autogiant/parts/subwoofer-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/subwoofer-thumb-1.webp"
+    ],
+    "isFeatured": true,
+    "isDeals": true,
+    "dateAdded": "2025-08-21",
+    "freeShipping": false,
+    "shippingFee": 1200
+  },
+  {
+    "id": "part-029",
+    "name": "Headliner Fabric",
+    "part_number": "HF-029",
+    "description": "High-quality headliner fabric for restoring the interior of your car's roof.",
+    "category": "Interior Accessories",
+    "brand": "InteriorPro",
+    "price": 3000,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 20,
+    "images": [
+      "https://example.com/autogiant/parts/headliner-fabric-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/headliner-fabric-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": false,
+    "dateAdded": "2025-08-22",
+    "freeShipping": false,
+    "shippingFee": 600
+  },
+  {
+    "id": "part-030",
+    "name": "Car Battery",
+    "part_number": "BATT-030",
+    "description": "A long-lasting car battery with a high cold cranking amperage for reliable starts in all weather conditions.",
+    "category": "Electrical",
+    "brand": "PowerCell",
+    "price": 9500,
+    "originalPrice": null,
+    "isDiscounted": false,
+    "inStock": 15,
+    "images": [
+      "https://example.com/autogiant/parts/car-battery-1.webp"
+    ],
+    "thumbnails": [
+      "https://example.com/autogiant/parts/car-battery-thumb-1.webp"
+    ],
+    "isFeatured": false,
+    "isDeals": false,
+    "dateAdded": "2025-08-23",
+    "freeShipping": false,
+    "shippingFee": 800
+  }
+]

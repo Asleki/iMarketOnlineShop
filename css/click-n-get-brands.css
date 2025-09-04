@@ -1,0 +1,92 @@
+/*
+    File: click-n-get-brands.css
+    -------------------------------------------------
+    This stylesheet contains all page-specific styles for the
+    Click 'n Get brands page (click-n-get-brands.html).
+    It is designed to be used in conjunction with main.css, header.css,
+    footer.css, and colors.css to provide a consistent look and feel.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Main Brands Page Styling                                                   */
+/* -------------------------------------------------------------------------- */
+.brands-page-container {
+    padding: 20px 0 50px;
+}
+
+.brands-page-container .page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 5px;
+}
+
+.brands-page-container .tagline {
+    text-align: center;
+    color: var(--color-text-secondary);
+    font-size: 1.1em;
+    margin-bottom: 40px;
+}
+
+.loading-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--color-text-secondary);
+    padding: 50px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Brands Grid Layout                                                         */
+/* -------------------------------------------------------------------------- */
+.brands-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 25px;
+    padding: 0 15px;
+    justify-content: center;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Brand Card Styling                                                         */
+/* -------------------------------------------------------------------------- */
+.brand-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.brand-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.brand-card .brand-logo {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 15px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.brand-card:hover .brand-logo {
+    filter: grayscale(0%);
+}
+
+.brand-card .brand-name {
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin: 0;
+}

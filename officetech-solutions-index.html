@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary SEO Meta Tags -->
+    <title>OfficeTech Solutions | Your Partner in Office Technology</title>
+    <meta name="description" content="Your trusted source for cutting-edge office technology. Find everything from laptops and networking gear to printers and accessories for your business or home office.">
+    <meta name="keywords" content="office technology, tech solutions, laptops, computers, networking equipment, printers, office supplies, Kenya, Nairobi">
+    <meta name="author" content="Alex Malunda">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="OfficeTech Solutions | Your Partner in Office Technology">
+    <meta property="og:description" content="Your trusted source for cutting-edge office technology. Find everything from laptops and networking gear to printers and accessories for your business or home office.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.imarket.co.ke/officetech-solutions-index.html">
+    <meta property="og:image" content="https://www.imarket.co.ke/images/officetech-solutions-share.webp">
+    <meta property="og:site_name" content="iMarket Kenya - OfficeTech Solutions">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@OfficeTechKE">
+    <meta name="twitter:creator" content="@OfficeTechKE">
+    <meta name="twitter:title" content="OfficeTech Solutions | Your Partner in Office Technology">
+    <meta name="twitter:description" content="Your trusted source for cutting-edge office technology. Find everything from laptops and networking gear to printers and accessories for your business or home office.">
+    <meta name="twitter:image" content="https://www.imarket.co.ke/images/officetech-solutions-share.webp">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        .hero-slider-item {
+            transition: opacity 0.5s ease-in-out;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .hero-slider-item.active {
+            opacity: 1;
+        }
+        .scrollable-carousel::-webkit-scrollbar {
+            height: 8px;
+        }
+        .scrollable-carousel::-webkit-scrollbar-thumb {
+            background-color: #cbd5e1;
+            border-radius: 4px;
+        }
+        .scrollable-carousel::-webkit-scrollbar-track {
+            background-color: #f1f5f9;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+    <div id="main-header-placeholder"></div>
+
+    <main class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+        <!-- Dynamic Hero Slider Section -->
+        <section class="relative bg-gradient-to-r from-blue-600 to-indigo-700 text-white rounded-2xl shadow-xl overflow-hidden mb-12 h-[30rem] md:h-[36rem]">
+            <div id="hero-slider-container" class="relative w-full h-full">
+                <!-- Slider items will be dynamically inserted here by JavaScript -->
+            </div>
+            <!-- Slider Controls -->
+            <button id="hero-prev" class="absolute left-4 top-1/2 -translate-y-1/2 bg-white/30 text-white p-3 rounded-full hover:bg-white/50 transition-colors z-20">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button id="hero-next" class="absolute right-4 top-1/2 -translate-y-1/2 bg-white/30 text-white p-3 rounded-full hover:bg-white/50 transition-colors z-20">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <!-- Slider Indicators -->
+            <div id="hero-dots" class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
+                <!-- Dots will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section class="py-8">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center text-slate-900 mb-8">Our Bestsellers</h2>
+            <div id="featured-products" class="scrollable-carousel flex overflow-x-auto snap-x snap-mandatory space-x-4 pb-4">
+                <!-- Featured product cards will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="py-8">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center text-slate-900 mb-8">Explore Our Catalog</h2>
+            <div id="categories-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+                <!-- Category cards will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <!-- Today's Deals Section -->
+        <section class="py-8">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center text-slate-900 mb-8">Today's Top Deals</h2>
+            <div id="deals-products" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Deal product cards will be dynamically inserted here -->
+            </div>
+        </section>
+
+    </main>
+
+    <div id="main-footer-placeholder"></div>
+
+    <!-- JavaScript for Dynamic Content -->
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const DATA_URL = 'https://s3.amazonaws.com/imarket.co.ke/officetech-solutions-products.json';
+            const heroSliderContainer = document.getElementById('hero-slider-container');
+            const heroDotsContainer = document.getElementById('hero-dots');
+            const featuredProductsContainer = document.getElementById('featured-products');
+            const categoriesGridContainer = document.getElementById('categories-grid');
+            const dealsProductsContainer = document.getElementById('deals-products');
+
+            let allProducts = [];
+            let sliderInterval;
+            let currentSlide = 0;
+
+            const categoryIcons = {
+                "Networking Equipment": `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-12 h-12 text-blue-500" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/><path d="M16 11h-3V8h-2v3H8v2h3v3h2v-3h3z"/></svg>`,
+                "Laptops & Desktops": `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-12 h-12 text-blue-500" viewBox="0 0 24 24"><path d="M20 18v1a1 1 0 01-1 1H5a1 1 0 01-1-1v-1H2v2h20v-2h-2zm-1-1a1 1 0 001-1V6a1 1 0 00-1-1H5a1 1 0 00-1 1v10a1 1 0 001 1h14zM18 7a1 1 0 011 1v8a1 1 0 01-1 1H6a1 1 0 01-1-1V8a1 1 0 011-1h12z"/></svg>`,
+                "Printers & Scanners": `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-12 h-12 text-blue-500" viewBox="0 0 24 24"><path d="M19 8H5a3 3 0 00-3 3v6h4v4h12v-4h4v-6a3 3 0 00-3-3zM8 19v-4h8v4h-8zM20 11h-4V9h4v2zM4 11h4V9H4v2z"/><path d="M18 5h-4V3h4a2 2 0 012 2v2h-2zM6 3h4v2H6v2H4V5a2 2 0 012-2z"/></svg>`,
+                "Projectors & Displays": `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-12 h-12 text-blue-500" viewBox="0 0 24 24"><path d="M10 8h2v2h-2zm4 0h2v2h-2zm-8 4h2v2H6zm4 0h2v2h-2zm4 0h2v2h-2z"/><path d="M21 3H3a2 2 0 00-2 2v14a2 2 0 002 2h18a2 2 0 002-2V5a2 2 0 00-2-2zm0 16H3V5h18z"/></svg>`,
+                "Office Furniture": `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-12 h-12 text-blue-500" viewBox="0 0 24 24"><path d="M18 10h-2V6h-4v4h-2V6H4v4H2a1 1 0 00-1 1v9a2 2 0 002 2h18a2 2 0 002-2v-9a1 1 0 00-1-1zM4 18v-6h4v6zm6 0v-6h4v6zm6 0v-6h4v6z"/></svg>`,
+                "Accessories & Peripherals": `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-12 h-12 text-blue-500" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/><path d="M13 7h-2v3H8v2h3v3h2v-3h3v-2h-3z"/></svg>`
+            };
+            
+            async function fetchData() {
+                try {
+                    const response = await fetch(DATA_URL);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    allProducts = await response.json();
+                } catch (error) {
+                    console.error("Could not fetch products:", error);
+                    // Display a user-friendly error message
+                    heroSliderContainer.innerHTML = `<div class="p-8 text-center text-red-500">Failed to load content. Please try again later.</div>`;
+                }
+            }
+
+            function renderHeroSlider() {
+                if (allProducts.length === 0) return;
+
+                const featuredProducts = allProducts.filter(p => p.review_star_rate > 4.5 || p.discount_percent > 0);
+                const sliderItems = featuredProducts.length > 3 ? featuredProducts.slice(0, 3) : featuredProducts;
+
+                sliderItems.forEach((product, index) => {
+                    const slide = document.createElement('div');
+                    slide.className = `hero-slider-item flex flex-col md:flex-row items-center justify-between p-8 sm:p-12 lg:p-16`;
+                    if (index === 0) {
+                        slide.classList.add('active');
+                    }
+
+                    const isProduct = product.item_id ? true : false;
+                    const ctaLink = isProduct ? `officetech-solutions-product-details.html?item_id=${product.item_id}` : `officetech-solutions-categories.html?category=${encodeURIComponent(product.category)}`;
+                    const ctaText = isProduct ? 'View Product' : 'Shop Category';
+                    const iconSvg = categoryIcons[product.category] || '';
+
+                    slide.innerHTML = `
+                        <div class="flex-1 text-center md:text-left z-10 p-4">
+                            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">Elevate Your Workspace</h1>
+                            <div class="flex items-center justify-center md:justify-start space-x-2 mb-4">
+                                ${iconSvg}
+                                <h2 class="text-2xl md:text-3xl font-semibold">${product.name}</h2>
+                            </div>
+                            <p class="text-lg mb-6 max-w-lg mx-auto md:mx-0">Find the technology you need to boost productivity and efficiency. From the latest laptops to essential networking gear, we have you covered.</p>
+                            <a href="${ctaLink}" class="inline-block bg-white text-blue-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-slate-100 transition-transform transform hover:scale-105">
+                                ${ctaText}
+                            </a>
+                        </div>
+                        <div class="flex-shrink-0 mt-8 md:mt-0 z-10">
+                            <img src="${product.product_image_url}" alt="${product.name}" class="rounded-2xl shadow-2xl h-64 md:h-80 lg:h-96 w-auto object-cover transition-transform transform hover:scale-105">
+                        </div>
+                    `;
+                    heroSliderContainer.appendChild(slide);
+
+                    // Create navigation dots
+                    const dot = document.createElement('button');
+                    dot.className = `w-3 h-3 rounded-full bg-white/50 hover:bg-white/75 transition-colors`;
+                    if (index === 0) {
+                        dot.classList.add('bg-white');
+                    }
+                    dot.addEventListener('click', () => {
+                        goToSlide(index);
+                    });
+                    heroDotsContainer.appendChild(dot);
+                });
+
+                document.getElementById('hero-prev').addEventListener('click', () => changeSlide(-1));
+                document.getElementById('hero-next').addEventListener('click', () => changeSlide(1));
+                
+                startSliderInterval();
+            }
+
+            function changeSlide(direction) {
+                const slides = document.querySelectorAll('.hero-slider-item');
+                let newSlide = currentSlide + direction;
+                if (newSlide >= slides.length) {
+                    newSlide = 0;
+                } else if (newSlide < 0) {
+                    newSlide = slides.length - 1;
+                }
+                goToSlide(newSlide);
+            }
+
+            function goToSlide(index) {
+                const slides = document.querySelectorAll('.hero-slider-item');
+                const dots = document.querySelectorAll('#hero-dots button');
+                
+                slides[currentSlide].classList.remove('active');
+                dots[currentSlide].classList.remove('bg-white');
+                dots[currentSlide].classList.add('bg-white/50');
+                
+                currentSlide = index;
+                slides[currentSlide].classList.add('active');
+                dots[currentSlide].classList.add('bg-white');
+                dots[currentSlide].classList.remove('bg-white/50');
+                
+                resetSliderInterval();
+            }
+            
+            function startSliderInterval() {
+                sliderInterval = setInterval(() => {
+                    changeSlide(1);
+                }, 5000); // Change slide every 5 seconds
+            }
+
+            function resetSliderInterval() {
+                clearInterval(sliderInterval);
+                startSliderInterval();
+            }
+
+            function renderProductCard(product) {
+                const card = document.createElement('div');
+                card.className = `flex-none w-64 md:w-80 snap-center bg-white rounded-xl shadow-lg overflow-hidden transition-transform transform hover:scale-105`;
+                card.innerHTML = `
+                    <a href="officetech-solutions-product-details.html?item_id=${product.item_id}" class="block">
+                        <img src="${product.product_image_url}" alt="${product.name}" class="w-full h-48 object-cover object-center">
+                        <div class="p-4">
+                            <h3 class="font-semibold text-lg truncate">${product.name}</h3>
+                            <p class="text-sm text-slate-500">${product.category}</p>
+                            <div class="flex items-center mt-2">
+                                <span class="text-yellow-400">
+                                    ${'<i class="fas fa-star"></i>'.repeat(Math.floor(product.review_star_rate))}
+                                    ${(product.review_star_rate % 1) !== 0 ? '<i class="fas fa-star-half-alt"></i>' : ''}
+                                </span>
+                                <span class="text-sm text-slate-500 ml-2">(${product.review_star_rate})</span>
+                            </div>
+                            <div class="mt-4 flex items-center justify-between">
+                                <span class="font-bold text-xl text-blue-600">Ksh ${product.price_ksh.toLocaleString()}</span>
+                                ${product.discount_percent > 0 ? `<span class="text-red-500 font-semibold">- ${product.discount_percent}%</span>` : ''}
+                            </div>
+                        </div>
+                    </a>
+                `;
+                return card;
+            }
+
+            function renderFeaturedProducts() {
+                const featured = allProducts.filter(p => p.review_star_rate > 4.5);
+                featured.forEach(product => {
+                    featuredProductsContainer.appendChild(renderProductCard(product));
+                });
+            }
+
+            function renderCategories() {
+                const categories = [...new Set(allProducts.map(p => p.category))];
+                categories.forEach(category => {
+                    const iconSvg = categoryIcons[category] || '';
+                    const card = document.createElement('a');
+                    card.href = `officetech-solutions-categories.html?category=${encodeURIComponent(category)}`;
+                    card.className = `flex flex-col items-center justify-center p-6 bg-white rounded-2xl shadow-lg text-center transition-transform transform hover:scale-105`;
+                    card.innerHTML = `
+                        ${iconSvg}
+                        <span class="mt-4 font-semibold text-lg text-slate-800">${category}</span>
+                    `;
+                    categoriesGridContainer.appendChild(card);
+                });
+            }
+
+            function renderDeals() {
+                const deals = allProducts.filter(p => p.discount_percent > 0);
+                deals.forEach(product => {
+                    const card = renderProductCard(product);
+                    dealsProductsContainer.appendChild(card);
+                });
+            }
+            
+            await fetchData();
+            if (allProducts.length > 0) {
+                renderHeroSlider();
+                renderFeaturedProducts();
+                renderCategories();
+                renderDeals();
+            }
+        });
+    </script>
+</body>
+</html>
