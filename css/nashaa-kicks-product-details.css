@@ -1,12 +1,337 @@
-/* This file is for styling specific to Nashaa Kicks product pages. */
-
-/* For example, if you wanted a unique layout for a product feature list: */
 /*
-.nashaa-kicks-features {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-}
+    File: nashaa-kicks-product-details.css
+    -------------------------------------------------
+    This stylesheet contains all styles specific to the
+    Nashaa Kicks product details page.
 */
 
-/* Add any custom styles for Nashaa Kicks products here. */
+/* -------------------------------------------------------------------------- */
+/* Main Product Details Container                                             */
+/* -------------------------------------------------------------------------- */
+
+.product-details-container {
+    padding: 50px 0;
+}
+
+.product-grid-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* Image Gallery Section */
+.product-image-gallery {
+    flex: 1 1 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-image-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9; /* Maintain aspect ratio */
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.image-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.thumbnail-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.thumbnail-image:hover,
+.thumbnail-image.active {
+    border-color: var(--color-primary);
+}
+
+/* Product Info & Interaction Section */
+.product-info-panel {
+    flex: 1 1 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info-panel .brand {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.product-info-panel .product-name {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 10px;
+    line-height: 1.2;
+}
+
+.product-info-panel .product-price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-cta);
+    margin-bottom: 15px;
+}
+
+.product-info-panel .rating-reviews {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.product-info-panel .rating-reviews .stars i {
+    color: var(--color-warning);
+}
+
+.product-info-panel .description {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Swatches & Selectors                                                       */
+/* -------------------------------------------------------------------------- */
+
+.options-group {
+    margin-bottom: 25px;
+}
+
+.options-group label {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Color Swatches */
+.color-swatches {
+    display: flex;
+    gap: 10px;
+}
+
+.color-swatch {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid var(--color-border);
+    cursor: pointer;
+    transition: transform 0.2s ease, border-color 0.3s ease;
+}
+
+.color-swatch:hover {
+    transform: scale(1.1);
+}
+
+.color-swatch.active {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+/* Size Buttons */
+.size-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.size-button {
+    padding: 10px 15px;
+    border: 2px solid var(--color-border);
+    background-color: var(--color-bg-page);
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    color: var(--color-text-primary);
+}
+
+/* Fix for hover color to ensure text is visible */
+.size-button:hover {
+    background-color: var(--color-bg-card);
+    color: var(--color-text-primary); /* Ensures text stays visible */
+}
+
+.size-button.active {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-text-inverted);
+}
+
+.size-button.active:hover {
+    background-color: var(--color-primary-dark);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Quantity & Add to Cart                                                     */
+/* -------------------------------------------------------------------------- */
+
+.quantity-add-cart {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+}
+
+.quantity-btn {
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    color: var(--color-cta);
+}
+
+.quantity-btn:disabled {
+    cursor: not-allowed;
+    color: var(--color-text-secondary);
+    background-color: transparent;
+}
+
+.quantity-btn:hover:not(:disabled) {
+    background-color: var(--color-bg-card);
+}
+
+.quantity-input {
+    width: 50px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: var(--color-bg-input);
+    color: var(--color-text-primary);
+    font-size: 1rem;
+
+}
+
+/* Hide number input arrows for Webkit browsers */
+.quantity-input::-webkit-outer-spin-button,
+.quantity-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.add-to-cart-btn {
+    padding: 15px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Other Details (Features, Shipping, Related Products)                       */
+/* -------------------------------------------------------------------------- */
+
+.other-details {
+    margin-top: 40px;
+    border-top: 1px solid var(--color-border);
+    padding-top: 40px;
+}
+
+.other-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.features-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.features-list li {
+    background-color: var(--color-bg-card);
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.features-list li i {
+    color: var(--color-success);
+}
+
+.shipping-info {
+    margin-top: 20px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Custom Alert Message                                                       */
+/* -------------------------------------------------------------------------- */
+.custom-alert {
+    position: fixed;
+    top: -100px; /* Start off-screen */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color-success);
+    color: var(--color-text-inverted);
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    opacity: 0;
+    transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.custom-alert.show {
+    top: 20px;
+    opacity: 1;
+}
+
+.custom-alert i {
+    font-size: 1.2rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Responsive Design                                                          */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 992px) {
+    .product-grid-details {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    .product-info-panel .product-name {
+        font-size: 2rem;
+    }
+    
+    .product-info-panel .product-price {
+        font-size: 1.5rem;
+    }
+    
+    .quantity-add-cart {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}

@@ -1,0 +1,103 @@
+/*
+    File: autogiant-motors-contact-agent.css
+    -------------------------------------------------
+    This stylesheet contains all styles specific to the
+    AutoGiant Motors Contact Agent form page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Main Form Container                                                        */
+/* -------------------------------------------------------------------------- */
+.contact-agent-form-container {
+    padding: 50px 0;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.form-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--color-heading);
+    margin-bottom: 10px;
+}
+
+.form-description {
+    text-align: center;
+    color: var(--color-text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.inquiry-form {
+    background-color: var(--color-bg-card);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--color-border);
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--color-heading);
+}
+
+.required-star {
+    color: var(--color-error);
+    margin-left: 2px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: var(--color-bg-input);
+    color: var(--color-text-primary);
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.inquire-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Form Submission Message                                                    */
+/* -------------------------------------------------------------------------- */
+.form-message {
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.form-message.success {
+    background-color: var(--color-success-light);
+    color: var(--color-success-dark);
+    border: 1px solid var(--color-success);
+}

@@ -3,57 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Details - Nashaa Kicks</title>
     
-    <meta name="description" content="View product details for a specific item from Nashaa Kicks on iMarket Kenya. Get information on pricing, features, and availability.">
-    <meta name="keywords" content="product details, Nashaa Kicks, shoes, iMarket Kenya, online shopping">
+    <title id="page-title">Product Details | Nashaa Kicks</title>
+    <meta name="description" content="Detailed information about a specific shoe from Nashaa Kicks.">
+    <meta name="keywords" content="Nashaa Kicks, shoes, sneakers, product details, footwear">
     <meta name="author" content="Alex Malunda">
-    <meta name="robots" content="index, follow">
-
-    <meta property="og:title" content="Product Details - Nashaa Kicks">
-    <meta property="og:description" content="View a specific product from Nashaa Kicks.">
-    <meta property="og:type" content="product">
-    <meta property="og:url" content="https://www.imarket.co.ke/nashaa-kicks-product-details.html">
-    <meta property="og:image" content="https://placehold.co/1200x630/D0F0E6/000000?text=Nashaa+Kicks+Product">
-    <meta property="og:site_name" content="iMarket Kenya">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@iMarketKE">
-    <meta name="twitter:creator" content="@iMarketKE">
-
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <meta name="robots" content="noindex, nofollow">
 
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVK8WpS0P7Z7lT7G1P6fC6dE9X2A8w7a67W4xXQ9Q5d5lM2fP6R8u7g..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/product-details.css">
+    <link rel="stylesheet" href="css/nashaa-kicks.css">
+    <link rel="stylesheet" href="css/nashaa-kicks-product-details.css">
+
 </head>
 <body>
-    <div id="wrapper">
-        <div id="main-header-placeholder"></div>
 
-        <main id="main-content" class="main-content">
-            <div id="product-details-container" class="container">
+    <div id="main-header-placeholder"></div>
+
+    <main class="main-content">
+        <section class="product-details-container container">
+            <div id="product-details-content" class="product-grid-details">
+                <div class="loading-spinner-container">
+                    <div class="loading-spinner"></div>
                 </div>
-        </main>
+            </div>
+        </section>
+        
+        <section class="related-products-section container">
+            <h2 class="section-title text-center">Related Products</h2>
+            <div id="related-products-container" class="grid-container product-grid">
+                <p class="text-center">Related products coming soon...</p>
+            </div>
+        </section>
 
-        <footer id="main-footer-placeholder" class="main-footer"></footer>
-        <button id="scroll-to-top-btn" title="Go to top">
-            <i class="fas fa-arrow-up"></i>
-        </button>
-    </div>
+    </main>
+
+    <div id="main-footer-placeholder"></div>
+    <button id="scroll-to-top-btn" title="Go to top">
+    <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="js/header-footer-loader.js"></script>
     <script src="js/header.js"></script>
     <script src="js/footer.js"></script>
     <script src="js/nashaa-kicks-product-details.js"></script>
+
 </body>
 </html>

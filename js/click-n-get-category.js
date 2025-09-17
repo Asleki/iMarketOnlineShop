@@ -101,35 +101,35 @@ document.addEventListener('DOMContentLoaded', async () => {
          * Main function to initialize the page.
          */
         async function init() {
-            // Get the brand name from the URL query parameter
+            // Get the category name from the URL query parameter
             const params = new URLSearchParams(window.location.search);
-            const brandName = params.get('brand');
+            const categoryName = params.get('category');
 
-            if (!brandName) {
+            if (!categoryName) {
                 if (loadingMessage) {
-                    loadingMessage.textContent = 'Error: No brand specified in the URL.';
+                    loadingMessage.textContent = 'Error: No category specified in the URL.';
                 }
                 if (brandTitle) {
-                    brandTitle.textContent = 'Brand Not Found';
+                    brandTitle.textContent = 'Category Not Found';
                 }
                 if (brandTagline) {
-                    brandTagline.textContent = 'Please select a brand from the brands page.';
+                    brandTagline.textContent = 'Please select a category from the navigation.';
                 }
                 return;
             }
 
-            // Decode the URL-encoded brand name
-            const decodedBrandName = decodeURIComponent(brandName);
+            // Decode the URL-encoded category name
+            const decodedCategoryName = decodeURIComponent(categoryName);
             
             // Update the page's title, heading, and tagline dynamically
             if (pageTitle) {
-                pageTitle.textContent = `${decodedBrandName} Products | Click 'n Get Kenya`;
+                pageTitle.textContent = `${decodedCategoryName} Products | Click 'n Get Kenya`;
             }
             if (brandTitle) {
-                brandTitle.textContent = decodedBrandName;
+                brandTitle.textContent = decodedCategoryName;
             }
             if (brandTagline) {
-                brandTagline.textContent = `Browse all products from the ${decodedBrandName} brand.`;
+                brandTagline.textContent = `Browse all products in the ${decodedCategoryName} category.`;
             }
 
             const allProducts = await fetchProducts();
@@ -137,18 +137,17 @@ document.addEventListener('DOMContentLoaded', async () => {
                 return;
             }
 
-            // Filter products by the brand name
-            const filteredProducts = allProducts.filter(p => p.brand === decodedBrandName);
+            // Filter products by the category name
+            const filteredProducts = allProducts.filter(p => p.category === decodedCategoryName);
 
             if (filteredProducts.length > 0) {
                 renderProducts(filteredProducts);
             } else {
                 if (loadingMessage) {
-                    loadingMessage.textContent = `No products found for "${decodedBrandName}".`;
+                    loadingMessage.textContent = `No products found in "${decodedCategoryName}".`;
                 }
             }
         }
-
         // Run the main initialization function
         init();
     });

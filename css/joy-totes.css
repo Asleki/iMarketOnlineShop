@@ -1,0 +1,122 @@
+/*
+    File: joy-totes.css
+    -------------------------------------------------
+    This stylesheet contains all styles specific to the
+    Joy Totes shop, overriding base styles where needed,
+    and now uses the central iMarket color variables.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Hero Section                                                               */
+/* -------------------------------------------------------------------------- */
+
+.hero-joy-totes {
+    /* Use the primary color from the central stylesheet for the overlay */
+    background: linear-gradient(rgba(0, 123, 255, 0.7), rgba(0, 123, 255, 0.7)),
+                url('images/joy-totes/hero.webp') no-repeat center center/cover;
+    color: var(--color-text-inverted);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-joy-totes h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: var(--color-text-inverted);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-joy-totes p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.5;
+}
+
+/* Use the btn-primary utility class for the button */
+.hero-joy-totes .btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-text-inverted);
+    border-color: var(--color-primary);
+}
+
+.hero-joy-totes .btn-primary:hover {
+    background-color: var(--color-hover);
+    border-color: var(--color-hover);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Category Grid                                                              */
+/* -------------------------------------------------------------------------- */
+
+.category-grid .category-card {
+    height: 300px;
+}
+
+.category-grid .category-card .category-name {
+    /* Use the primary color from the central stylesheet */
+    background: rgba(0, 123, 255, 0.7);
+}
+
+.category-grid .category-card:hover .category-name {
+    /* Use the hover color for a subtle effect */
+    background: rgba(0, 123, 255, 0.9);
+}
+
+.category-card.active {
+    /* Add a solid background to highlight the active card */
+    background-color: var(--color-primary);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.category-card.active .category-name {
+    /* Make the category name background fully opaque */
+    background: rgba(0, 123, 255, 1);
+}
+
+/* -------------------------------------------------------------------------- */
+/* "Add to Cart" Success Message                                              */
+/* -------------------------------------------------------------------------- */
+
+.cart-success-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: var(--color-success);
+    color: var(--color-text-inverted);
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.cart-success-message.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.cart-success-message .product-name {
+    font-weight: bold;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Media Queries for Responsiveness                                           */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+    .hero-joy-totes h1 {
+        font-size: 2rem;
+    }
+
+    .hero-joy-totes p {
+        font-size: 1rem;
+    }
+
+    .category-grid .category-card {
+        height: 200px;
+    }
+}

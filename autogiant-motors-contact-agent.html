@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Agent | AutoGiant Motors</title>
+    <meta name="description" content="Contact a sales agent at AutoGiant Motors to inquire about a specific vehicle.">
+    <meta name="keywords" content="contact agent, vehicle inquiry, auto sales, AutoGiant Motors, Nairobi">
+    <meta name="author" content="Alex Malunda">
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVK8WpS0P7Z7lT7G1P6fC6dE9X2A8w7a67W4xXQ9Q5d5lM2fP6R8u7g..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/autogiant-motors.css">
+    <link rel="stylesheet" href="css/autogiant-motors-contact-agent.css">
+
+</head>
+<body>
+
+    <div id="main-header-placeholder"></div>
+
+    <main class="main-content autogiant-motors-page">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="autogiant-motors-index.html">Home</a></li>
+                <li class="breadcrumb-item"><a id="back-to-details-link">Vehicle Details</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contact Agent</li>
+            </ol>
+        </nav>
+
+        <section class="contact-agent-form-container container">
+            <h1 class="form-title">Contact Agent for Vehicle</h1>
+            <p class="form-description" id="form-description">Please fill out the form below to inquire about the vehicle.</p>
+            <form id="contact-form" class="inquiry-form" novalidate>
+                <div class="form-group">
+                    <label for="fullName">Your Full Name <span class="required-star">*</span></label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email <span class="required-star">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber">Your Phone Number</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message <span class="required-star">*</span></label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary inquire-btn">Send Inquiry</button>
+            </form>
+        </section>
+
+    </main>
+
+    <div id="main-footer-placeholder"></div>
+    <div id="custom-alert-container"></div>
+    
+    <div id="success-modal" class="modal-overlay">
+        <div class="modal-content">
+            <p id="success-message" class="form-message success">Your inquiry has been sent successfully! The agent will contact you shortly.</p>
+            <button id="close-modal-btn" class="close-btn">OK</button>
+        </div>
+    </div>
+
+    <script src="js/localStorageUtils.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/autogiant-motors-contact-agent.js"></script>
+
+</body>
+</html>

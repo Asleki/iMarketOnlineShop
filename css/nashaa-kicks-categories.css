@@ -1,0 +1,78 @@
+/*
+    File: nashaa-kicks-categories.css
+    -------------------------------------------------
+    This stylesheet contains all styles specific to the
+    Nashaa Kicks Categories page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Category Filter Section                                                    */
+/* -------------------------------------------------------------------------- */
+
+.category-filters {
+    padding: 30px 0;
+}
+
+.category-cards-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 15px;
+    padding-bottom: 20px;
+    -webkit-overflow-scrolling: touch; /* For smoother scrolling on iOS */
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+/* Hide scrollbar for WebKit browsers */
+.category-cards-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.category-card {
+    flex: 0 0 auto;
+    text-align: center;
+    padding: 15px 25px;
+    border: 2px solid var(--color-border);
+    border-radius: 50px;
+    text-decoration: none;
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-page);
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.category-card:hover {
+    background-color: var(--color-bg-card);
+    border-color: var(--color-primary);
+}
+
+.category-card.active {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-text-inverted);
+}
+
+.category-card.active:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.category-card .category-title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Products List Section                                                      */
+/* -------------------------------------------------------------------------- */
+
+.products-list-section {
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+#products-section-title {
+    margin-bottom: 30px;
+}

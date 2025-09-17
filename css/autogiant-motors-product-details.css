@@ -1,331 +1,430 @@
-/* autogiant-motors-product-details.css */
+/*
+    File: autogiant-motors-product-details.css
+    -------------------------------------------------
+    This stylesheet contains all styles specific to the
+    AutoGiant Motors Product Details page.
+*/
 
-/* Product Details Page Styles */
+/* -------------------------------------------------------------------------- */
+/* Main Product Details Container                                             */
+/* -------------------------------------------------------------------------- */
+
 .product-details-container {
-    padding: 2rem;
-    max-width: 1400px;
-    margin: auto;
-}
-
-.loading-message {
-    text-align: center;
-    font-size: 1.25rem;
-    color: #555;
-    padding: 4rem 0;
-}
-
-.product-details-back-link-wrapper {
-    margin-bottom: 2rem;
-}
-
-.back-link {
-    text-decoration: none;
-    color: var(--primary-color);
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-.back-link:hover {
-    color: var(--secondary-color);
+    padding: 50px 0;
 }
 
 #product-details-content {
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: grid;
-    grid-template-columns: 1fr 1.2fr;
-    gap: 2rem;
-}
-
-.product-details-left {
     display: flex;
     flex-direction: column;
+    gap: 40px;
 }
 
-.product-details-right {
-    display: flex;
-    flex-direction: column;
+@media (min-width: 992px) {
+    #product-details-content {
+        flex-direction: row;
+        gap: 60px;
+    }
 }
+
+/* -------------------------------------------------------------------------- */
+/* Image Gallery Section                                                      */
+/* -------------------------------------------------------------------------- */
 
 .product-image-gallery {
-    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .main-image-container {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border);
     border-radius: 8px;
-    margin-bottom: 1rem;
-    text-align: center;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
-.main-image-container img {
+#main-product-image {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.thumbnail-images {
-    display: flex;
-    gap: 0.5rem;
-    overflow-x: auto;
-    padding-bottom: 1rem;
-    scrollbar-width: thin;
-    scrollbar-color: #ccc #f0f0f0;
-}
-
-.thumbnail-images::-webkit-scrollbar {
-    height: 8px;
-}
-
-.thumbnail-images::-webkit-scrollbar-thumb {
-    background-color: #ccc;
-    border-radius: 4px;
-}
-
-.thumbnail-images::-webkit-scrollbar-track {
-    background-color: #f0f0f0;
-}
-
-.thumbnail {
-    width: 80px;
-    height: 80px;
-    border: 2px solid transparent;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: border-color 0.3s ease;
+    height: auto;
+    display: block;
+    aspect-ratio: 4/3;
     object-fit: cover;
 }
 
-.thumbnail.active {
-    border-color: var(--primary-color);
+.image-thumbnails {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.product-name {
-    font-size: 2.2rem;
-    color: #333;
-    margin-bottom: 0.5rem;
-}
-
-.product-year {
-    font-size: 1.2rem;
-    color: #777;
-    margin-bottom: 1rem;
-}
-
-.product-price {
-    font-size: 2rem;
-    color: var(--price-color);
-    font-weight: 700;
-    margin-bottom: 1rem;
-}
-
-.product-specs li,
-.specs-list li {
-    font-size: 1rem;
-    color: #555;
-    padding: 0.25rem 0;
-    list-style-type: none;
-}
-
-.product-specs li i,
-.specs-list li i {
-    color: var(--primary-color);
-    margin-right: 0.5rem;
-}
-
-.product-badge {
-    display: inline-block;
-    background-color: var(--light-gray);
-    color: #555;
-    padding: 0.25rem 0.5rem;
+.thumbnail-image {
+    width: 80px;
+    height: 60px;
+    border: 2px solid transparent;
     border-radius: 4px;
-    font-size: 0.85rem;
-    margin-right: 0.5rem;
-    margin-top: 0.5rem;
+    object-fit: cover;
+    cursor: pointer;
+    transition: border-color 0.3s ease, transform 0.2s ease;
 }
 
-.product-badge i {
-    color: var(--primary-color);
-    margin-right: 0.25rem;
+.thumbnail-image:hover,
+.thumbnail-image.active {
+    border-color: var(--color-primary);
+    transform: scale(1.05);
 }
 
-.product-description {
-    margin: 1.5rem 0;
-    font-size: 1rem;
-    color: #444;
+/* -------------------------------------------------------------------------- */
+/* Product Info Panel                                                         */
+/* -------------------------------------------------------------------------- */
+
+.product-info-panel {
+    width: 100%;
+}
+
+.product-info-panel .product-name {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.product-info-panel .product-price {
+    font-size: 1.8rem;
+    color: var(--color-primary);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.product-info-panel .original-price {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.product-info-panel .description-full {
+    margin-top: 20px;
     line-height: 1.6;
 }
 
-/* Sub-sections */
-.details-subsection {
-    margin-top: 2rem;
-    border-top: 1px solid #eee;
-    padding-top: 2rem;
+/* -------------------------------------------------------------------------- */
+/* Features Table and Badges                                                  */
+/* -------------------------------------------------------------------------- */
+
+.badges-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
-.subsection-title {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 1rem;
+.product-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border);
 }
 
-.specs-list {
-    list-style-type: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
+.product-badge i {
+    color: var(--color-primary);
 }
 
-.specs-list li {
-    background-color: var(--light-gray);
-    padding: 1rem;
-    border-radius: 6px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+.product-features-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
 }
 
-.specs-list li strong {
-    display: block;
+.product-features-table th,
+.product-features-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.product-features-table th {
+    background-color: var(--color-bg-subtle);
+    font-weight: 600;
+}
+
+.product-features-table td {
+    color: var(--color-text-secondary);
+}
+
+.product-features-table td .feature-icon {
+    margin-right: 10px;
+    color: var(--color-primary);
     font-size: 1.1rem;
-    margin-bottom: 0.25rem;
 }
 
-/* Agent and Converter Sections */
-.agent-contact-card,
-.currency-converter-card {
-    background-color: var(--light-gray);
-    border: 1px solid var(--border-color);
+/* -------------------------------------------------------------------------- */
+/* Contact Agent Section                                                      */
+/* -------------------------------------------------------------------------- */
+.contact-agent-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: var(--color-bg-subtle);
     border-radius: 8px;
-    padding: 1.5rem;
-    margin-top: 1.5rem;
+    border: 1px solid var(--color-border);
 }
 
-.contact-info-list {
-    list-style-type: none;
-    padding: 0;
+.contact-agent-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-heading);
+    margin-bottom: 15px;
 }
 
-.contact-info-list li {
-    padding: 0.25rem 0;
+.agent-details p {
+    margin: 5px 0;
     font-size: 1rem;
-    color: #555;
 }
 
-.contact-info-list li i {
-    color: var(--primary-color);
-    margin-right: 0.5rem;
+.agent-details i {
+    color: var(--color-primary);
+    margin-right: 8px;
 }
 
 .inquire-btn {
-    display: inline-block;
-    width: 100%;
-    padding: 0.75rem;
-    text-align: center;
-    background-color: var(--cta-color);
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    margin-top: 1rem;
-    cursor: pointer;
-}
-
-.inquire-btn:hover {
-    background-color: var(--cta-hover-color);
-}
-
-.currency-converter-card label,
-.currency-converter-card input,
-.currency-converter-card select {
-    display: block;
-    width: 100%;
-    margin-top: 0.5rem;
-}
-
-.currency-converter-card input,
-.currency-converter-card select {
-    padding: 0.5rem;
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-.converter-result {
-    margin-top: 1rem;
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: var(--price-color);
-    text-align: center;
-}
-
-/* You May Also Like Section */
-#related-products-section {
-    margin-top: 4rem;
-}
-
-.related-products-controls {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 1rem;
-    margin-top: 2rem;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
-.related-products-carousel {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    flex-grow: 1;
-    overflow: hidden;
-    position: relative;
-    padding-bottom: 1rem;
+/* -------------------------------------------------------------------------- */
+/* Related Products Section                                                   */
+/* -------------------------------------------------------------------------- */
+
+.related-products-section {
+    padding: 50px 0;
+    background-color: var(--color-bg-subtle);
+    border-top: 1px solid var(--color-border);
+}
+/*
+    File: autogiant-motors-product-details.css
+    -------------------------------------------------
+    This stylesheet contains all styles specific to the
+    AutoGiant Motors Product Details page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Main Product Details Container                                             */
+/* -------------------------------------------------------------------------- */
+
+.product-details-container {
+    padding: 50px 0;
 }
 
-.nav-button {
-    background-color: var(--primary-color);
-    color: #fff;
-    border: none;
-    padding: 0.75rem 1rem;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s ease, opacity 0.3s ease;
+#product-details-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
-.nav-button:hover {
-    background-color: var(--secondary-color);
-}
-
-.nav-button:disabled {
-    background-color: var(--border-color);
-    cursor: not-allowed;
-    opacity: 0.7;
-}
-
-.related-products-carousel .product-card {
-    min-width: 250px;
-}
-
-
-/* Media Queries for Responsiveness */
-@media (max-width: 992px) {
+@media (min-width: 992px) {
     #product-details-content {
-        grid-template-columns: 1fr;
-    }
-    .related-products-carousel {
-        grid-template-columns: repeat(2, 1fr);
+        flex-direction: row;
+        gap: 60px;
     }
 }
 
-@media (max-width: 768px) {
-    .product-details-container {
-        padding: 1rem;
-    }
-    .related-products-carousel {
-        grid-template-columns: 1fr;
-    }
+/* -------------------------------------------------------------------------- */
+/* Image Gallery Section                                                      */
+/* -------------------------------------------------------------------------- */
+
+.product-image-gallery {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.main-image-container {
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#main-product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.image-thumbnails {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.thumbnail-image {
+    width: 80px;
+    height: 60px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: border-color 0.3s ease, transform 0.2s ease;
+}
+
+.thumbnail-image:hover,
+.thumbnail-image.active {
+    border-color: var(--color-primary);
+    transform: scale(1.05);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Product Info Panel                                                         */
+/* -------------------------------------------------------------------------- */
+
+.product-info-panel {
+    width: 100%;
+}
+
+.product-info-panel .product-name {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.product-info-panel .product-price {
+    font-size: 1.8rem;
+    color: var(--color-primary);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.product-info-panel .original-price {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.product-info-panel .description-full {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Features Table and Badges                                                  */
+/* -------------------------------------------------------------------------- */
+
+.badges-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.product-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+}
+
+.product-badge i {
+    color: var(--color-primary);
+}
+
+.product-features-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.product-features-table th,
+.product-features-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.product-features-table th {
+    background-color: var(--color-bg-subtle);
+    font-weight: 600;
+}
+
+.product-features-table td {
+    color: var(--color-text-secondary);
+}
+
+.product-features-table td .feature-icon {
+    margin-right: 10px;
+    color: var(--color-primary);
+    font-size: 1.1rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Contact Agent Section                                                      */
+/* -------------------------------------------------------------------------- */
+.contact-agent-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: var(--color-bg-subtle);
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+}
+
+.contact-agent-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-heading);
+    margin-bottom: 15px;
+}
+
+.agent-details p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.agent-details i {
+    color: var(--color-primary);
+    margin-right: 8px;
+}
+
+.inquire-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Related Products Section                                                   */
+/* -------------------------------------------------------------------------- */
+
+.related-products-section {
+    padding: 50px 0;
+    background-color: var(--color-bg-subtle);
+    border-top: 1px solid var(--color-border);
 }

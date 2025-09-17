@@ -4,32 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Loading... | AutoGiant Motors</title>
-    <meta name="description" content="Detailed specifications and pricing for vehicles, parts, and motorcycles at AutoGiant Motors.">
-    <meta name="keywords" content="car specs, motorcycle specs, automotive parts, vehicle details, luxury cars, Mlolongo, Kenya">
+    <title id="page-title">Product Details | AutoGiant Motors</title>
+    <meta name="description" content="View detailed specifications, features, and images of a vehicle, motorcycle, or automotive part at AutoGiant Motors.">
+    <meta name="keywords" content="car details, motorcycle details, automotive parts, specifications, AutoGiant Motors, Nairobi">
     <meta name="author" content="Alex Malunda">
     <meta name="robots" content="index, follow">
-
-    <meta property="og:title" content="AutoGiant Motors - Product Details">
-    <meta property="og:description" content="View detailed specifications and features of our products.">
-    <meta property="og:type" content="product">
-    <meta property="og:url" content="https://www.imarket.co.ke/autogiant-motors-product-details.html">
-    <meta property="og:image" content="https://www.imarket.co.ke/images/autogiant-motors-share.jpg">
-    <meta property="og:site_name" content="iMarket Kenya - AutoGiant Motors">
-
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@AutoGiantKE">
-    <meta name="twitter:creator" content="@AutoGiantKE">
-    <meta name="twitter:title" content="AutoGiant Motors - Product Details">
-    <meta name="twitter:description" content="Find detailed information about our products at AutoGiant Motors.">
-    <meta name="twitter:image" content="https://www.imarket.co.ke/images/autogiant-motors-share.jpg">
-
-    <link rel="canonical" href="https://www.imarket.co.ke/autogiant-motors-product-details.html">
-
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,60 +21,45 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/autogiant-motors.css">
     <link rel="stylesheet" href="css/autogiant-motors-product-details.css">
+
 </head>
 <body>
+
     <div id="main-header-placeholder"></div>
 
     <main class="main-content autogiant-motors-page">
-        <section class="autogiant-motors-page product-details-container">
-            <div class="product-details-back-link-wrapper">
-                <a id="back-to-category-link" href="#" class="back-link">
-                    <i class="fas fa-arrow-left"></i> <span id="back-link-text">Back</span>
-                </a>
-            </div>
-            
-            <div id="product-details-content">
-                <div class="loading-message">
-                    <i class="fas fa-spinner fa-spin"></i> Loading product details...
-                </div>
-            </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="autogiant-motors-index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="autogiant-motors-categories.html">Products</a></li>
+                <li class="breadcrumb-item active" id="breadcrumb-product-name" aria-current="page">Details</li>
+            </ol>
+        </nav>
 
-            <div id="related-products-section">
-                <h2 class="section-heading">You may also like</h2>
-                <div class="related-products-controls">
-                    <button id="related-prev-btn" class="nav-button" aria-label="Previous Products">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <div id="related-products-carousel" class="product-grid">
-                        </div>
-                    <button id="related-next-btn" class="nav-button" aria-label="Next Products">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
-                </div>
+        <section class="product-details-container container">
+            <div id="product-details-content">
+                <p class="text-center">Loading product details...</p>
             </div>
         </section>
+
+        <section class="related-products-section">
+            <div class="container">
+                <h2 class="section-heading text-center">Related Products</h2>
+                <div id="related-products-container" class="product-grid">
+                    </div>
+            </div>
+        </section>
+
     </main>
 
     <div id="main-footer-placeholder"></div>
-    
-    <button id="chat-toggle-btn"><i class="fas fa-comment-dots"></i></button>
-    <div id="chat-widget">
-        <div class="chat-header">AutoGiant Motors Chat Agent</div>
-        <div class="chat-messages" id="chat-messages-container"></div>
-        <div class="chat-input">
-            <input type="text" id="chat-input" placeholder="Type your message...">
-            <button id="chat-send-btn"><i class="fas fa-paper-plane"></i></button>
-        </div>
-    </div>
-    
-    <button id="scroll-to-top-btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+    <div id="custom-alert-container"></div>
 
     <script src="js/localStorageUtils.js"></script>
     <script src="js/header-footer-loader.js"></script>
     <script src="js/header.js"></script>
     <script src="js/footer.js"></script>
-    <script src="js/autogiant-motors.js"></script>
     <script src="js/autogiant-motors-product-details.js"></script>
-    <script src="js/autogiant-motors-chat-agent.js"></script>
+
 </body>
 </html>

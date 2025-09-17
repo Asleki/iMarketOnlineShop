@@ -1,0 +1,137 @@
+/*
+    File: nashaa-kicks-contact.css
+    -------------------------------------------------
+    This stylesheet contains all styles specific to the
+    Nashaa Kicks Contact page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Main Contact Section                                                       */
+/* -------------------------------------------------------------------------- */
+
+.contact-section {
+    padding: 50px 0;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+@media (min-width: 992px) {
+    .contact-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info .section-title {
+    margin-bottom: 20px;
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.contact-list, .hours-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li, .hours-list li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+}
+
+.contact-list li i {
+    color: var(--color-primary);
+    font-size: 1.2rem;
+}
+
+.contact-list li a {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-list li a:hover {
+    color: var(--color-primary);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Contact Form                                                               */
+/* -------------------------------------------------------------------------- */
+
+.contact-form-container {
+    background-color: var(--color-bg-card);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: var(--color-bg-input);
+    color: var(--color-text-primary);
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: var(--color-primary);
+    outline: none;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form .btn-primary {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Map Section                                                                */
+/* -------------------------------------------------------------------------- */
+
+.map-section {
+    padding: 50px 0;
+}
+
+.map-container {
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}

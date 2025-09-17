@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Categories | Nashaa Kicks</title>
+    <meta name="description" content="Browse all shoe categories from running shoes to casual sneakers for men, women, and kids at Nashaa Kicks.">
+    <meta name="keywords" content="Nashaa Kicks, shoes, sneakers, running shoes, categories, men, women, kids">
+    <meta name="author" content="Alex Malunda">
+    <meta name="robots" content="index, follow">
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVK8WpS0P7Z7lT7G1P6fC6dE9X2A8w7a67W4xXQ9Q5d5lM2fP6R8u7g..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nashaa-kicks.css">
+    <link rel="stylesheet" href="css/nashaa-kicks-categories.css">
+
+</head>
+<body>
+
+    <div id="main-header-placeholder"></div>
+
+    <main class="main-content">
+        <section class="hero-section hero-nashaa-kicks">
+            <div class="hero-content container">
+                <h1>Our Collections</h1>
+                <p>Browse the perfect pair from our wide range of categories.</p>
+            </div>
+        </section>
+
+        <section class="category-filters container">
+            <div class="category-cards-wrapper" id="category-cards-container">
+                <a href="?category=All Products" class="category-card" data-category="All Products">
+                    <p class="category-title">All Products</p>
+                </a>
+                <a href="?category=Men's Running Shoes" class="category-card" data-category="Men's Running Shoes">
+                    <p class="category-title">Men's Shoes</p>
+                </a>
+                <a href="?category=Women's Flats" class="category-card" data-category="Women's Flats">
+                    <p class="category-title">Women's Shoes</p>
+                </a>
+                <a href="?category=Unisex Casual Shoes" class="category-card" data-category="Unisex Casual Shoes">
+                    <p class="category-title">Unisex Shoes</p>
+                </a>
+                <a href="?category=Kids' Shoes" class="category-card" data-category="Kids' Shoes">
+                    <p class="category-title">Kids' Shoes</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="products-list-section container">
+            <h2 class="section-title text-center" id="products-section-title">All Products</h2>
+            <div id="products-grid-container" class="grid-container product-grid">
+                <div class="loading-spinner"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="main-footer-placeholder"></div>
+    <button id="scroll-to-top-btn" title="Go to top">
+    <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/nashaa-kicks-categories.js"></script>
+
+</body>
+</html>

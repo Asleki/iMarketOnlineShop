@@ -1,0 +1,285 @@
+/*
+    File: officetech-solutions.css
+    -------------------------------------------------
+    This stylesheet contains all styles specific to the
+    OfficeTech Solutions shop page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Shop Hero Section                                                          */
+/* -------------------------------------------------------------------------- */
+
+.shop-hero-section {
+    position: relative;
+    padding: 60px 0;
+    text-align: center;
+    background-color: var(--color-bg-page);
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 40px;
+}
+
+.shop-hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.shop-logo {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid var(--color-primary);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.shop-hero-section h1 {
+    font-size: 2.5rem;
+    color: var(--color-text-primary);
+    margin: 0;
+}
+
+.shop-hero-section .tagline {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    margin: 0;
+}
+
+.shop-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.shop-buttons .btn-primary,
+.shop-buttons .btn-secondary {
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.shop-buttons .btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-text-inverted);
+}
+
+.shop-buttons .btn-secondary {
+    background-color: transparent;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+.shop-buttons .btn-primary:hover,
+.shop-buttons .btn-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px var(--color-shadow);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Category Sections & Product Grids                                          */
+/* -------------------------------------------------------------------------- */
+
+.category-section {
+    margin-bottom: 50px;
+}
+
+.category-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-primary);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.category-section h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: var(--color-primary);
+    margin: 10px auto 0;
+}
+
+/* Reusing .grid-container from index.css for consistency */
+.category-section .grid-container {
+    padding-bottom: 0;
+}
+
+/* NEW: Styles for a 4-column grid on larger screens */
+@media (min-width: 1024px) {
+    .category-section .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.category-section hr {
+    border: none;
+    height: 1px;
+    background-color: var(--color-border);
+    margin: 40px 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/* About Us CTA Section                                                       */
+/* -------------------------------------------------------------------------- */
+.about-us-cta {
+    background-color: var(--color-bg-card);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px var(--color-shadow);
+    margin-bottom: 40px;
+}
+
+.about-us-cta h3 {
+    font-size: 1.8rem;
+    color: var(--color-text-primary);
+    margin-bottom: 15px;
+}
+
+.about-us-cta p {
+    color: var(--color-text-secondary);
+    max-width: 700px;
+    margin: 0 auto 20px;
+}
+
+.about-us-cta .btn-primary {
+    padding: 10px 25px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* New Styles for Product Cards & Buttons                                     */
+/* -------------------------------------------------------------------------- */
+
+.product-card-uniform {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-card-uniform .product-badges {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 5px;
+    z-index: 5;
+}
+
+.product-card-uniform .badge {
+    padding: 5px 8px;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 4px;
+    color: var(--color-text-inverted);
+}
+
+.product-card-uniform .badge.discount {
+    background-color: var(--color-danger);
+}
+
+.product-card-uniform .badge.stock {
+    background-color: var(--color-success);
+}
+
+.product-card-uniform .product-rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--color-warning); /* Star color */
+}
+
+.product-card-uniform .add-to-cart-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.product-card-uniform .add-to-cart-btn i {
+    font-size: 1.2rem;
+}
+
+/* New styling for the Explore More button */
+.btn-explore {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 25px;
+    background-color: var(--color-info); /* A nice blue/teal color from colors.css */
+    color: var(--color-text-inverted);
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-explore:hover {
+    background-color: var(--color-info);
+    filter: brightness(1.1);
+    transform: translateY(-2px);
+}
+
+.btn-explore i {
+    font-size: 1.2em;
+}
+/* New style for the "Added to Cart" notification */
+.cart-success-message {
+    position: fixed;
+    top: 130px; /* Below the fixed header */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color-success);
+    color: var(--color-text-inverted);
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 101;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.cart-success-message.show {
+    opacity: 1;
+}
+
+.cart-success-message .product-name {
+    font-style: italic;
+    margin-right: 5px;
+}
+/* -------------------------------------------------------------------------- */
+/* Responsive Design                                                          */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+    .shop-hero-section {
+        padding: 40px 0;
+    }
+    .shop-hero-section h1 {
+        font-size: 2rem;
+    }
+    .shop-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .shop-buttons .btn-primary,
+    .shop-buttons .btn-secondary {
+        width: 100%;
+        max-width: 250px;
+    }
+    .category-section h2 {
+        font-size: 1.5rem;
+    }
+    .about-us-cta {
+        padding: 20px;
+    }
+    .btn-explore {
+        width: 100%;
+        justify-content: center;
+    }
+}

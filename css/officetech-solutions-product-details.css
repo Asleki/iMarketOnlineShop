@@ -1,0 +1,273 @@
+/*
+    File: officetech-solutions-product-details.css
+    -------------------------------------------------
+    This stylesheet contains all styles specific to the
+    OfficeTech Solutions product details page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Main Product Details Layout                                                */
+/* -------------------------------------------------------------------------- */
+
+.product-details-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+/* Two-column layout for desktop */
+@media (min-width: 992px) {
+    .product-details-content {
+        flex-wrap: nowrap;
+    }
+    .product-image-gallery {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .product-info-column {
+        flex: 1;
+        max-width: 50%;
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/* Product Image Gallery                                                      */
+/* -------------------------------------------------------------------------- */
+
+.product-image-gallery .main-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px var(--color-shadow);
+    transition: transform 0.3s ease;
+}
+
+.product-image-gallery .main-image img:hover {
+    transform: scale(1.02);
+}
+
+.thumbnail-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.thumbnail-container img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.thumbnail-container img:hover,
+.thumbnail-container img.active {
+    border-color: var(--color-primary);
+    transform: scale(1.05);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Product Information Section                                                */
+/* -------------------------------------------------------------------------- */
+
+.product-info-column .product-badges {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.product-info-column .badge {
+    padding: 5px 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 4px;
+    color: var(--color-text-inverted);
+}
+
+.product-info-column .badge.discount {
+    background-color: var(--color-danger);
+}
+
+.product-info-column .badge.stock {
+    background-color: var(--color-success);
+}
+
+.product-info-column h1 {
+    font-size: 2.2rem;
+    color: var(--color-text-primary);
+    margin: 0 0 10px;
+}
+
+.product-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.product-rating .stars i {
+    color: var(--color-warning);
+}
+
+.product-rating span {
+    color: var(--color-text-secondary);
+}
+
+.product-price-section .current-price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--color-primary);
+    margin-right: 15px;
+}
+
+.product-price-section .original-price {
+    font-size: 1.2rem;
+    color: var(--color-text-muted);
+    text-decoration: line-through;
+}
+
+.product-description {
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.product-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.product-actions .btn-add-to-cart {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--color-cta);
+    color: var(--color-text-inverted);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.product-actions .btn-add-to-cart:hover {
+    background-color: var(--color-cta-hover);
+    transform: translateY(-2px);
+}
+
+.product-actions .btn-add-to-cart i {
+    font-size: 1.4rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Details, Features & Reviews Sections                                       */
+/* -------------------------------------------------------------------------- */
+
+.product-section {
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: var(--color-bg-card);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px var(--color-shadow);
+}
+
+.product-section h2 {
+    font-size: 1.8rem;
+    color: var(--color-text-primary);
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--color-border);
+    padding-bottom: 10px;
+}
+
+.product-features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-features-list li {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.product-features-list li i {
+    color: var(--color-success);
+    font-size: 1.2em;
+    margin-top: 3px;
+}
+
+.customer-reviews .review {
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.customer-reviews .review h4 {
+    font-size: 1.2rem;
+    color: var(--color-text-primary);
+    margin: 0 0 5px;
+}
+
+.customer-reviews .review-rating i {
+    color: var(--color-warning);
+    margin-right: 3px;
+}
+
+.customer-reviews .review p {
+    color: var(--color-text-secondary);
+    margin: 5px 0 0;
+}
+
+/* Fallback for when content is not found */
+.error-message {
+    text-align: center;
+    color: var(--color-danger);
+    font-size: 1.2rem;
+    padding: 50px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Responsive Design                                                          */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+    .product-details-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .product-info-column {
+        width: 100%;
+    }
+    
+    .product-image-gallery {
+        width: 100%;
+    }
+    
+    .product-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .product-actions .btn-add-to-cart {
+        width: 100%;
+        text-align: center;
+    }
+
+    .product-section {
+        padding: 20px;
+    }
+}

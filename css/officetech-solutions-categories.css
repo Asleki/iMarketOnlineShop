@@ -1,0 +1,61 @@
+/*
+    File: officetech-solutions-categories.css
+    -------------------------------------------------
+    This stylesheet contains all styles specific to the
+    OfficeTech Solutions category listing page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Category Hero Section                                                      */
+/* -------------------------------------------------------------------------- */
+
+.category-hero-section {
+    padding: 60px 0;
+    text-align: center;
+    background-color: var(--color-bg-page);
+}
+
+.category-hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+    text-transform: capitalize; /* Ensures category names look good */
+}
+
+.category-hero-section .category-intro {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Category Products Section                                                  */
+/* -------------------------------------------------------------------------- */
+
+.category-products-section {
+    padding-bottom: 50px;
+}
+
+/* Updated Grid Container for Categories Page */
+.grid-container {
+    display: grid;
+    gap: 20px;
+    /* FIX: Use a fixed-width grid instead of a flexible one */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-content: center; /* Center the grid on the page */
+    padding-bottom: 20px;
+}
+
+.no-products-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--color-text-muted);
+    padding: 50px 0;
+}
+
+/* A hidden class to easily toggle visibility with JavaScript */
+.hidden {
+    display: none;
+}

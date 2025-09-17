@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | OfficeTech Solutions</title>
+    <meta name="description" content="Get in touch with OfficeTech Solutions. Contact us via our form, phone, or email. Find our location in Nairobi and our operating hours.">
+    <meta name="keywords" content="OfficeTech Solutions, contact us, contact form, phone number, email, address, Nairobi, Kenya">
+    <meta name="author" content="Alex Malunda">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Contact Us | OfficeTech Solutions">
+    <meta property="og:description" content="Get in touch with OfficeTech Solutions. Contact us via our form, phone, or email. Find our location in Nairobi and our operating hours.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.imarket.co.ke/officetech-solutions-contact.html">
+    <meta property="og:site_name" content="iMarket Kenya">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@iMarketKE">
+    <meta name="twitter:creator" content="@iMarketKE">
+    <meta name="twitter:title" content="Contact Us | OfficeTech Solutions">
+    <meta name="twitter:description" content="Get in touch with OfficeTech Solutions. Contact us via our form, phone, or email. Find our location in Nairobi and our operating hours.">
+    
+    <link rel="canonical" href="https://www.imarket.co.ke/officetech-solutions-contact.html">
+
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVK8WpS0P7Z7lT7G1P6fC6dE9X2A8w7a67W4xXQ9Q5d5lM2fP6R8u7g..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/preferences.css">
+    <link rel="stylesheet" href="css/officetech-solutions.css">
+
+    <style>
+        .contact-content {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            padding: 40px 0;
+        }
+
+        .contact-info-map-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .contact-info,
+        .contact-form,
+        .map-section {
+            flex: 1;
+            background-color: var(--color-bg-card);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .contact-info h2,
+        .contact-form h2,
+        .map-section h2 {
+            margin-top: 0;
+            font-size: 1.8rem;
+            color: var(--color-primary);
+            border-bottom: 2px solid var(--color-border);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .contact-info-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .contact-info-item i {
+            color: var(--color-primary);
+            margin-right: 15px;
+            min-width: 25px;
+            text-align: center;
+        }
+
+        .contact-info-item a {
+            color: var(--color-text-primary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info-item a:hover {
+            color: var(--color-text-link);
+        }
+
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            font-weight: bold;
+            color: var(--color-text-secondary);
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid var(--color-border);
+            border-radius: 6px;
+            background-color: var(--color-bg-input);
+            color: var(--color-text-primary);
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+        
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+
+        .contact-form button {
+            align-self: flex-start;
+        }
+
+        .map-section {
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .map-section iframe {
+            width: 100%;
+            height: 400px;
+            border: 0;
+            border-radius: 8px;
+        }
+
+        .operating-hours {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: var(--color-bg-page);
+            border-radius: 8px;
+            border: 1px solid var(--color-border);
+        }
+
+        .operating-hours h3 {
+            margin-top: 0;
+            color: var(--color-text-primary);
+            border-bottom: 1px solid var(--color-border);
+            padding-bottom: 10px;
+        }
+
+        .operating-hours p {
+            margin: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            .contact-content {
+                padding: 20px 0;
+            }
+
+            .contact-info-map-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="main-header-placeholder"></div>
+
+    <main class="main-content container">
+        <section class="contact-hero text-center">
+            <h1>Get in Touch</h1>
+            <p>We're here to help! Whether you have a question about our products, need technical support, or want to place a custom order, our team is ready to assist you.</p>
+        </section>
+
+        <section class="contact-content">
+            <div class="contact-info-map-container">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <div class="contact-info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Upper Hill, Nairobi</span>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@officetech.com">info@officetech.com</a>
+                    </div>
+                    <div class="contact-info-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+254789012345">+254789012345</a>
+                    </div>
+                    <div class="operating-hours">
+                        <h3>Operating Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        <p>Saturday: 9:00 AM - 1:00 PM</p>
+                        <p>Sunday & Public Holidays: Closed</p>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form action="#" method="POST">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="youremail@example.com" required>
+                        
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What is this regarding?" required>
+
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Please type your message here..." required></textarea>
+
+                        <button type="submit" class="btn-primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="map-section">
+                <h2>Our Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.23933932204!2d36.8041352!3d-1.2965859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1128362d22d3%3A0x6b5d929b9f5d17a!2sUpper%20Hill%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1700000000000!5m2!1sen!2ske"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </section>
+
+    </main>
+
+    <div id="main-footer-placeholder"></div>
+    <button id="scroll-to-top-btn" title="Go to top">
+    <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,82 @@
+/*
+    File: nashaa-kicks-about.css
+    -------------------------------------------------
+    This stylesheet contains all styles specific to the
+    Nashaa Kicks About page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Main Sections                                                              */
+/* -------------------------------------------------------------------------- */
+
+.why-choose-us-section {
+    padding: 50px 0;
+}
+
+.why-choose-us-section .section-title {
+    margin-bottom: 10px;
+}
+
+.why-choose-us-section .section-subtitle {
+    margin-bottom: 40px;
+}
+
+.get-in-touch-section {
+    background-color: var(--color-bg-card);
+    padding: 60px 0;
+    text-align: center;
+    border-top: 1px solid var(--color-border);
+}
+
+.get-in-touch-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.get-in-touch-content p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Cards Grid                                                                 */
+/* -------------------------------------------------------------------------- */
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.choose-us-card {
+    background-color: var(--color-bg-page);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.choose-us-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.choose-us-card i {
+    font-size: 3rem;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+}
+
+.choose-us-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.choose-us-card p {
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}

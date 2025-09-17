@@ -1,0 +1,151 @@
+/*
+    File: joy-totes-about.css
+    -------------------------------------------------
+    This stylesheet contains all styles specific to the
+    Joy Totes About Us page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Hero Section                                                               */
+/* -------------------------------------------------------------------------- */
+
+.hero-joy-totes {
+    /* Uses the primary color from the central stylesheet for the overlay */
+    background: linear-gradient(rgba(0, 123, 255, 0.7), rgba(0, 123, 255, 0.7)),
+                url('../images/joy-totes/hero.webp') no-repeat center center/cover;
+    color: var(--color-text-inverted);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-joy-totes h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: var(--color-text-inverted);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-joy-totes p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.5;
+}
+
+/* -------------------------------------------------------------------------- */
+/* About Content Section                                                      */
+/* -------------------------------------------------------------------------- */
+
+.about-content-section {
+    padding: 50px 0;
+}
+
+.about-content-section article {
+    margin-bottom: 40px;
+}
+
+.about-content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-image-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.about-image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Why Choose Us Section                                                      */
+/* -------------------------------------------------------------------------- */
+
+.why-choose-us-section {
+    background-color: var(--color-bg-card);
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.feature-card {
+    background-color: var(--color-bg-page);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card .icon-large {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: var(--color-text-secondary);
+    font-size: 0.95rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Contact Us Section                                                         */
+/* -------------------------------------------------------------------------- */
+
+.contact-us-section {
+    padding: 50px 0;
+}
+
+.contact-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-us-content .section-title {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.contact-us-content p {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 30px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.contact-list li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: var(--color-text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-list li i {
+    margin-right: 10px;
+}

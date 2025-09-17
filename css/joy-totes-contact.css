@@ -1,0 +1,207 @@
+/*
+    File: joy-totes-contact.css
+    -------------------------------------------------
+    This stylesheet contains all styles specific to the
+    Joy Totes Contact Us page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Hero Section (Reused from joy-totes.css)                                   */
+/* -------------------------------------------------------------------------- */
+
+.hero-joy-totes {
+    /* Uses the primary color from the central stylesheet for the overlay */
+    background: linear-gradient(rgba(0, 123, 255, 0.7), rgba(0, 123, 255, 0.7)),
+                url('../images/joy-totes/hero.webp') no-repeat center center/cover;
+    color: var(--color-text-inverted);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-joy-totes h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: var(--color-text-inverted);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-joy-totes p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.5;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Contact Section                                                            */
+/* -------------------------------------------------------------------------- */
+
+.contact-section {
+    padding: 50px 0;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.contact-form-container,
+.contact-info-container {
+    flex: 1 1 450px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.contact-form-container {
+    background-color: var(--color-bg-card);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.contact-info-container {
+    background-color: var(--color-bg-page);
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Form Styles                                                                */
+/* -------------------------------------------------------------------------- */
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+    background-color: var(--color-bg-input);
+    color: var(--color-text-primary);
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form .btn-primary {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Contact Details & Map Styles                                               */
+/* -------------------------------------------------------------------------- */
+
+.contact-details-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.contact-details-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.contact-details-list li i {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    margin-right: 20px;
+}
+
+.contact-details-list .info-content strong {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.contact-details-list .info-content p {
+    margin: 0;
+    color: var(--color-text-secondary);
+}
+
+.operating-hours {
+    margin-bottom: 30px;
+}
+
+.operating-hours h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.operating-hours h3 i {
+    margin-right: 10px;
+    color: var(--color-info);
+}
+
+.operating-hours ul {
+    list-style: none;
+    padding: 0;
+}
+
+.operating-hours li {
+    margin-bottom: 5px;
+}
+
+.map-container {
+    margin-top: 30px;
+}
+
+.map-container h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.map-container h3 i {
+    margin-right: 10px;
+    color: var(--color-cta);
+}
+
+.map-container iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Responsive Design                                                          */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 992px) {
+    .contact-wrapper {
+        flex-direction: column;
+    }
+
+    .contact-form-container,
+    .contact-info-container {
+        padding: 20px;
+    }
+}

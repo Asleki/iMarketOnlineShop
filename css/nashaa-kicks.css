@@ -1,0 +1,131 @@
+/*
+    File: nashaa-kicks.css
+    -------------------------------------------------
+    This stylesheet contains all styles specific to the
+    Nashaa Kicks shop pages, including the index page.
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Hero Section                                                               */
+/* -------------------------------------------------------------------------- */
+
+.hero-nashaa-kicks {
+    /* Uses a linear gradient overlay to make text readable */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('../images/nashaa-kicks/hero-background.webp') no-repeat center center/cover;
+    color: var(--color-text-inverted);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-nashaa-kicks h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+    color: var(--color-text-inverted);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.hero-nashaa-kicks p {
+    font-size: 1.5rem;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.5;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Product Badges (Specific to Nashaa Kicks)                                  */
+/* -------------------------------------------------------------------------- */
+
+/* This new rule ensures badges are always visible, even on hover,
+   by targeting both states with a high specificity selector. */
+.product-card-uniform .product-badges,
+.product-card-uniform:hover .product-badges {
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 10;
+}
+
+.badge {
+    padding: 5px 10px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: var(--color-text-inverted);
+    white-space: nowrap;
+}
+
+.badge.featured {
+    background-color: var(--color-primary);
+}
+
+.badge.deal {
+    background-color: var(--color-danger);
+}
+
+.badge.hot-pick {
+    background-color: var(--color-warning);
+}
+
+.badge.free-shipping {
+    background-color: var(--color-success);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Product Card Revisions                                                     */
+/* -------------------------------------------------------------------------- */
+
+.product-card-uniform .product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.product-card-uniform .product-name {
+    order: 3; /* Places name at the bottom */
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.product-card-uniform .product-rating {
+    order: 1; /* Places rating at the top of the details block */
+    color: var(--color-warning); /* Gold color for ratings */
+    font-size: 1.1rem;
+}
+
+.product-card-uniform .product-price {
+    order: 2; /* Places price after rating */
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--color-cta);
+    margin: 5px 0;
+}
+
+.product-card-uniform .add-to-cart-btn {
+    order: 4; /* Places button at the very bottom */
+    margin-top: auto; /* Pushes the button to the bottom */
+    width: 100%;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Responsive Design                                                          */
+/* -------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+    .hero-nashaa-kicks h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-nashaa-kicks p {
+        font-size: 1.1rem;
+    }
+}
