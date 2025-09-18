@@ -38,13 +38,13 @@
         "images/ac_schnitzer4.webp"
     ],
     "interior_images": [
-        "images/interior/download (36).jpg",
-        "images/interior/DRIVERS_ Nick Sisombath and His 1997 BMW M3 E36.jpg",
-        "images/interior/ac_schnitzer_interior4.jpg",
-        "images/interior/ac_schnitzer_interior3.jpg",
-        "images/interior/ac_schnitzer_interior1.jpg",
-        "images/interior/This 1995 BMW M3 GT can be purchased for $118,000.jpg",
-        "images/interior/ac_schnitzer_interior2.jpg"
+        "images/ac_schnitzer/interior/download (36).jpg",
+        "images/ac_schnitzer/interior/DRIVERS_ Nick Sisombath and His 1997 BMW M3 E36.jpg",
+        "images/ac_schnitzer/interior/ac_schnitzer_interior4.jpg",
+        "images/ac_schnitzer/interior/ac_schnitzer_interior3.jpg",
+        "images/ac_schnitzer/interior/ac_schnitzer_interior1.jpg",
+        "images/ac_schnitzer/interior/This 1995 BMW M3 GT can be purchased for $118,000.jpg",
+        "images/ac_schnitzer/interior/ac_schnitzer_interior2.jpg"
     ],
     "electric": false,
     "contact_agent": {
@@ -79,29 +79,30 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 180,
-    "car_display_image": "images/Bentley-Mulsanne-Grand-Limousine-4_result22.jpg",
+    "car_display_image": "images/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-1_result22 (1).webp",
     "images": [
-        "images/Bentley-Mulsanne-Grand-Limousine-4_result22.jpg",
-        "images/Bentley-Mulsanne-Grand-Limousine-2_result22.webp",
-        "images/Bentley-Mulsanne-Grand-Limousine-9_result22.webp",
-        "images/Bentley-Mulsanne-Grand-Limousine-7_result22.webp",
-        "images/Bentley-Mulsanne-Grand-Limousine-12_result22.webp",
-        "images/Bentley-Mulsanne-Grand-Limousine-1_result22 (1).webp",
-        "images/Bentley-Mulsanne-Grand-Limousine-13_result22.jpg",
-        "images/Bentley-Mulsanne-Grand-Limousine-1_result22.webp",
-        "images/Bentley-Mulsanne-Grand-Limousine-8_result22.jpg"
+        "images/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-1_result22 (1).webp",
+        "images/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-2_result22.webp",
+        "images/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-9_result22.webp",
+        "images/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-7_result22.webp",
+        "images/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-12_result22.webp",
+        "images/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-1_result22 (1).webp",
+        
+        "images/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-1_result22.webp"
+        
+    
     ],
     "interior_images": [
-        "images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-18_result22.webp",
-        "images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-15_result22.webp",
-        "images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-21_result22.webp",
-        "images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-16_result22.webp",
-        "images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-14_result22.webp",
-        "images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-24_result22.webp",
-        "images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-20_result22.webp",
-        "images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-17_result22.webp",
-        "images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-22_result22.jpg",
-        "images/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-23_result22.webp"
+        "images/Bentley-Mulsanne-Grand-Limousine/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-18_result22.webp",
+        "images/Bentley-Mulsanne-Grand-Limousine/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-15_result22.webp",
+        "images/Bentley-Mulsanne-Grand-Limousine/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-21_result22.webp",
+        "images/Bentley-Mulsanne-Grand-Limousine/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-16_result22.webp",
+        "images/Bentley-Mulsanne-Grand-Limousine/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-14_result22.webp",
+        "images/Bentley-Mulsanne-Grand-Limousine/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-24_result22.webp",
+        "images/Bentley-Mulsanne-Grand-Limousine/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-20_result22.webp",
+        "images/Bentley-Mulsanne-Grand-Limousine/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-17_result22.webp",
+        "images/Bentley-Mulsanne-Grand-Limousine/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-22_result22.jpg",
+        "images/Bentley-Mulsanne-Grand-Limousine/interior/Bentley-Mulsanne-Grand-Limousine/Bentley-Mulsanne-Grand-Limousine-23_result22.webp"
     ],
     "electric": false,
     "contact_agent": {
@@ -190,18 +191,18 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 730,
-    "car_display_image": "images/Bugatti Tourbillon.jpg",
+    "car_display_image": "images/Bugatti-Tourbillon/Bugatti Tourbillon.jpg",
     "images": [
-        "images/Bugatti Tourbillon.jpg",
-        "images/Bugatti-Tourbillon-Asia-2.jpg",
-        "images/Bugatti-Tourbillon-Asia-3.webp",
-        "images/Bugatti-Tourbillon-Asia-1.webp",
-        "images/Bugatti-Tourbillon-Asia-1 (1).webp",
-        "images/Bugatti-Tourbillon-Asia-5.jpg",
-        "images/Bugatti-Tourbillon-Asia-6.webp",
-        "images/Bugatti-Tourbillon-5.jpg",
-        "images/Bugatti-Tourbillon-Asia-4.jpg",
-        "images/Bugatti-Tourbillon-Asia-10.jpg"
+        "images/Bugatti-Tourbillon/Bugatti Tourbillon.jpg",
+        "images/Bugatti-Tourbillon/Bugatti-Tourbillon-Asia-2.webp",
+        "images/Bugatti-Tourbillon/Bugatti-Tourbillon-Asia-3.webp",
+        "images/Bugatti-Tourbillon/Bugatti-Tourbillon-Asia-1.webp",
+        "images/Bugatti-Tourbillon/Bugatti-Tourbillon-Asia-1 (1).webp",
+        "images/Bugatti-Tourbillon/Bugatti-Tourbillon-Asia-5.webp",
+        "images/Bugatti-Tourbillon/Bugatti-Tourbillon-Asia-6.webp",
+        "images/Bugatti-Tourbillon/Bugatti-Tourbillon-5.webp",
+        "images/Bugatti-Tourbillon/Bugatti-Tourbillon-Asia-4.webp",
+        "images/Bugatti-Tourbillon/Bugatti-Tourbillon-Asia-10.webp"
     ],
     "interior_images": [
         "images/interior/Bugatti-Tourbillon/Bugatti-Tourbillon-00035-2048x1152.webp",
@@ -244,30 +245,30 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 730,
-    "car_display_image": "images/Bugatti-Tourbillon-EPS-320-1-2048x1152.webp",
+    "car_display_image": "images/Bugatti-Tourbillon-EPS-320/Bugatti-Tourbillon-EPS-320-1-2048x1152.webp",
     "images": [
-        "images/Bugatti-Tourbillon-EPS-320-1-2048x1152.webp",
-        "images/Bugatti-Tourbillon-EPS-320-1-2048x1152 (1).webp",
-        "images/Bugatti-Tourbillon-EPS-320-3-2048x1152.webp",
-        "images/Bugatti-Tourbillon-EPS-320-5-2048x1152.webp",
-        "images/download (34).jpg",
-        "images/download (35).jpg",
-        "images/BUGATTI TOURBILLON.jpg",
-        "images/BUGATTI TOURBILLON (1).jpg",
-        "images/AI - Bugatti Chiron Super Sport 300.jpg",
-        "images/Bugatti Divo - Dream Cars 2024.jpg"
+        "images/Bugatti-Tourbillon-EPS-320/Bugatti-Tourbillon-EPS-320-1-2048x1152.webp",
+        "images/Bugatti-Tourbillon-EPS-320/Bugatti-Tourbillon-EPS-320-1-2048x1152 (1).webp",
+        "images/Bugatti-Tourbillon-EPS-320/Bugatti-Tourbillon-EPS-320-3-2048x1152.webp",
+        "images/Bugatti-Tourbillon-EPS-320/Bugatti-Tourbillon-EPS-320-5-2048x1152.webp",
+        "images/Bugatti-Tourbillon-EPS-320/download (34).jpg",
+        "images/Bugatti-Tourbillon-EPS-320/download (35).jpg",
+        "images/Bugatti-Tourbillon-EPS-320/BUGATTI TOURBILLON.jpg",
+        "images/Bugatti-Tourbillon-EPS-320/BUGATTI TOURBILLON (1).jpg",
+        "images/Bugatti-Tourbillon-EPS-320/AI - Bugatti Chiron Super Sport 300.jpg",
+        "images/Bugatti-Tourbillon-EPS-320/Bugatti Divo - Dream Cars 2024.jpg"
     ],
     "interior_images": [
-        "images/interior/Bugatti-Tourbillon-EPS-320/Bugatti-Tourbillon-EPS-320-2-2048x1152.webp",
-        "images/interior/Bugatti-Tourbillon-EPS-320/download (37).jpg",
-        "images/interior/Bugatti-Tourbillon-EPS-320/Bugatti-Tourbillon-EPS-320-4-2048x1152.webp",
-        "images/interior/Bugatti-Tourbillon-EPS-320/Interior Details.jpg",
-        "images/interior/Bugatti-Tourbillon-EPS-320/download (34).jpg",
-        "images/interior/Bugatti-Tourbillon-EPS-320/Bugatti (1).jpg",
-        "images/interior/Bugatti-Tourbillon-EPS-320/download (35).jpg",
-        "images/interior/Bugatti-Tourbillon-EPS-320/BUGATTI.jpg",
-        "images/interior/Bugatti-Tourbillon-EPS-320/2018 Bugatti Chiron Interior.jpg",
-        "images/interior/Bugatti-Tourbillon-EPS-320/download (36).jpg"
+        "images/Bugatti-Tourbillon-EPS-320/interior/Bugatti-Tourbillon-EPS-320/Bugatti-Tourbillon-EPS-320-2-2048x1152.webp",
+        "images/Bugatti-Tourbillon-EPS-320/interior/Bugatti-Tourbillon-EPS-320/download (37).jpg",
+        "images/Bugatti-Tourbillon-EPS-320/interior/Bugatti-Tourbillon-EPS-320/Bugatti-Tourbillon-EPS-320-4-2048x1152.webp",
+        "images/Bugatti-Tourbillon-EPS-320/interior/Bugatti-Tourbillon-EPS-320/Interior Details.jpg",
+        "images/Bugatti-Tourbillon-EPS-320/interior/Bugatti-Tourbillon-EPS-320/download (34).jpg",
+        "images/Bugatti-Tourbillon-EPS-320/interior/Bugatti-Tourbillon-EPS-320/Bugatti (1).jpg",
+        "images/Bugatti-Tourbillon-EPS-320/interior/Bugatti-Tourbillon-EPS-320/download (35).jpg",
+        "images/Bugatti-Tourbillon-EPS-320/interior/Bugatti-Tourbillon-EPS-320/BUGATTI.jpg",
+        "images/Bugatti-Tourbillon-EPS-320/interior/Bugatti-Tourbillon-EPS-320/2018 Bugatti Chiron Interior.jpg",
+        "images/Bugatti-Tourbillon-EPS-320/interior/Bugatti-Tourbillon-EPS-320/download (36).jpg"
     ],
     "electric": false,
     "contact_agent": {
@@ -302,26 +303,26 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 90,
-    "car_display_image": "images/Chevrolet-2026-Corvette-ZR1X-Pack-Shot-2048x1366.jpg",
+    "car_display_image": "images/Chevrolet-2026-Corvette-ZR1X/Chevrolet-2026-Corvette-ZR1X-Blade-Silver-Front-scaled-e1750183881733-2048x1153.webp",
     "images": [
-        "images/Chevrolet-2026-Corvette-ZR1X-Pack-Shot-2048x1366.jpg",
-        "images/Chevrolet-2026-Corvette-ZR1X-Top-View-1-2048x1366.webp",
-        "images/Chevrolet-2026-Corvette-ZR1X-Overhead-2048x1534.webp",
-        "images/Chevrolet-2026-Corvette-ZR1X-Pack-Shot-copy.webp",
-        "images/Chevrolet-2026-Corvette-ZR1X-Badge-1-2048x1366.webp",
-        "images/Chevrolet-2026-Corvette-ZR1X-Blade-Silver-Front-scaled-e1750183881733-2048x1153.webp",
-        "images/Chevrolet-2026-Corvette-ZR1X-Blade-Silver-Front-scaled-e1750183881733-2048x1153 (1).webp",
-        "images/Black&Yellow Vette.jpg",
-        "images/Cars & more.jpg",
-        "images/Chevrolet Corvette.jpg"
+        "images/Chevrolet-2026-Corvette-ZR1X/Chevrolet-2026-Corvette-ZR1X-Blade-Silver-Front-scaled-e1750183881733-2048x1153.webp",
+        "images/Chevrolet-2026-Corvette-ZR1X/Chevrolet-2026-Corvette-ZR1X-Top-View-1-2048x1366.webp",
+        "images/Chevrolet-2026-Corvette-ZR1X/Chevrolet-2026-Corvette-ZR1X-Overhead-2048x1534.webp",
+        "images/Chevrolet-2026-Corvette-ZR1X/Chevrolet-2026-Corvette-ZR1X-Pack-Shot-copy.webp",
+        "images/Chevrolet-2026-Corvette-ZR1X/Chevrolet-2026-Corvette-ZR1X-Badge-1-2048x1366.webp",
+        "images/Chevrolet-2026-Corvette-ZR1X/Chevrolet-2026-Corvette-ZR1X-Blade-Silver-Front-scaled-e1750183881733-2048x1153.webp",
+        "images/Chevrolet-2026-Corvette-ZR1X/Chevrolet-2026-Corvette-ZR1X-Blade-Silver-Front-scaled-e1750183881733-2048x1153 (1).webp",
+        "images/Chevrolet-2026-Corvette-ZR1X/Black&Yellow Vette.jpg",
+        "images/Chevrolet-2026-Corvette-ZR1X/Cars & more.jpg",
+        "images/Chevrolet-2026-Corvette-ZR1X/Chevrolet Corvette.jpg"
     ],
     "interior_images": [
-        "images/interior/Chevrolet-2026-Corvette-ZR1X/Chevrolet-2026-Corvette-ZR1X-Interior-Santorini-Blue-1-2048x1366.webp",
-        "images/interior/Chevrolet-2026-Corvette-ZR1X/Chevrolet Corvette E-Ray.jpg",
-        "images/interior/Chevrolet-2026-Corvette-ZR1X/2025 Chevrolet Corvette ZR1 Convertible - Stunning HD Photos, Videos, Specs, Features & Price - DailyRevs.jpg",
-        "images/interior/Chevrolet-2026-Corvette-ZR1X/download (34).jpg",
-        "images/interior/Chevrolet-2026-Corvette-ZR1X/download (35).jpg",
-        "images/interior/Chevrolet-2026-Corvette-ZR1X/download (36).jpg"
+        "images/Chevrolet-2026-Corvette-ZR1X/interior/Chevrolet-2026-Corvette-ZR1X/Chevrolet-2026-Corvette-ZR1X-Interior-Santorini-Blue-1-2048x1366.webp",
+        "images/Chevrolet-2026-Corvette-ZR1X/interior/Chevrolet-2026-Corvette-ZR1X/Chevrolet Corvette E-Ray.jpg",
+        "images/Chevrolet-2026-Corvette-ZR1X/interior/Chevrolet-2026-Corvette-ZR1X/2025 Chevrolet Corvette ZR1 Convertible - Stunning HD Photos, Videos, Specs, Features & Price - DailyRevs.jpg",
+        "images/Chevrolet-2026-Corvette-ZR1X/interior/Chevrolet-2026-Corvette-ZR1X/download (34).jpg",
+        "images/Chevrolet-2026-Corvette-ZR1X/interior/Chevrolet-2026-Corvette-ZR1X/download (35).jpg",
+        "images/Chevrolet-2026-Corvette-ZR1X/interior/Chevrolet-2026-Corvette-ZR1X/download (36).jpg"
     ],
     "electric": false,
     "contact_agent": {
@@ -355,26 +356,26 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 180,
-    "car_display_image": "images/2026-Ferrari-Amalfi-701-16-2048x1152.webp",
+    "car_display_image": "images/Ferrari-Amalfi-701/2026-Ferrari-Amalfi-701-16-2048x1152.webp",
     "images": [
-        "images/2026-Ferrari-Amalfi-701-16-2048x1152.webp",
-        "images/2026-Ferrari-Amalfi-701-12-2048x1152.webp",
-        "images/2026-Ferrari-Amalfi-701-13-2048x1152.webp",
-        "images/2026-Ferrari-Amalfi-701-14-2048x1152.webp",
-        "images/2026-Ferrari-Amalfi-701-15-2048x1152.webp",
-        "images/2026-Ferrari-Amalfi-701-16-2048x1152 (1).webp",
-        "images/2026-Ferrari-Amalfi-701-17-2048x1152.webp",
-        "images/2026-Ferrari-Amalfi-701-19-2048x1152.webp",
-        "images/2026-Ferrari-Amalfi-701-21-2048x1152.webp",
-        "images/2026-Ferrari-Amalfi-701-22-2048x1152.webp"
+        "images/Ferrari-Amalfi-701/2026-Ferrari-Amalfi-701-16-2048x1152.webp",
+        "images/Ferrari-Amalfi-701/2026-Ferrari-Amalfi-701-12-2048x1152.webp",
+        "images/Ferrari-Amalfi-701/2026-Ferrari-Amalfi-701-13-2048x1152.webp",
+        "images/Ferrari-Amalfi-701/2026-Ferrari-Amalfi-701-14-2048x1152.webp",
+        "images/Ferrari-Amalfi-701/2026-Ferrari-Amalfi-701-15-2048x1152.webp",
+        "images/Ferrari-Amalfi-701/2026-Ferrari-Amalfi-701-16-2048x1152 (1).webp",
+        "images/Ferrari-Amalfi-701/2026-Ferrari-Amalfi-701-17-2048x1152.webp",
+        "images/Ferrari-Amalfi-701/2026-Ferrari-Amalfi-701-19-2048x1152.webp",
+        "images/Ferrari-Amalfi-701/2026-Ferrari-Amalfi-701-21-2048x1152.webp",
+        "images/Ferrari-Amalfi-701/2026-Ferrari-Amalfi-701-22-2048x1152.webp"
     ],
     "interior_images": [
-        "images/interior/Ferrari-Amalfi-701/www.jpg",
-        "images/interior/Ferrari-Amalfi-701/www (2).jpg",
-        "images/interior/Ferrari-Amalfi-701/812.jpg",
-        "images/interior/Ferrari-Amalfi-701/812 SF.jpg",
-        "images/interior/Ferrari-Amalfi-701/download (34).jpg",
-        "images/interior/Ferrari-Amalfi-701/download (35).jpg"
+        "images/Ferrari-Amalfi-701/interior/Ferrari-Amalfi-701/www.jpg",
+        "images/Ferrari-Amalfi-701/interior/Ferrari-Amalfi-701/www (2).jpg",
+        "images/Ferrari-Amalfi-701/interior/Ferrari-Amalfi-701/812.jpg",
+        "images/Ferrari-Amalfi-701/interior/Ferrari-Amalfi-701/812 SF.jpg",
+        "images/Ferrari-Amalfi-701/interior/Ferrari-Amalfi-701/download (34).jpg",
+        "images/Ferrari-Amalfi-701/interior/Ferrari-Amalfi-701/download (35).jpg"
     ],
     "electric": false,
     "contact_agent": {
@@ -408,24 +409,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 1,
-    "car_display_image": "images/1992-Ferrari-F40-Blue-Chip-Auction-1-2048x1362.webp",
+    "car_display_image": "images/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-1-2048x1362.webp",
     "images": [
-        "images/1992-Ferrari-F40-Blue-Chip-Auction-1-2048x1362.webp",
-        "images/1992-Ferrari-F40-Blue-Chip-Auction-2-2048x1317.webp",
-        "images/1992-Ferrari-F40-Blue-Chip-Auction-3-2048x1367.webp",
-        "images/1992-Ferrari-F40-Blue-Chip-Auction-5-2048x1536.webp",
-        "images/1992-Ferrari-F40-Blue-Chip-Auction-6-2048x1536.webp",
-        "images/1992-Ferrari-F40-Blue-Chip-Auction-7-2048x1338.webp",
-        "images/1992-Ferrari-F40-Blue-Chip-Auction-19-2048x1366.webp",
-        "images/1992-Ferrari-F40-Blue-Chip-Auction-20-2048x1366.webp",
-        "images/1992-Ferrari-F40-Blue-Chip-Auction-21-2048x1366.webp",
-        "images/1992-Ferrari-F40-Blue-Chip-Auction-22-2048x1366.webp"
+        "images/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-1-2048x1362.webp",
+        "images/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-2-2048x1317.webp",
+        "images/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-3-2048x1367.webp",
+        "images/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-5-2048x1536.webp",
+        "images/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-6-2048x1536.webp",
+        "images/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-7-2048x1338.webp",
+        "images/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-19-2048x1366.webp",
+        "images/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-20-2048x1366.webp",
+        "images/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-21-2048x1366.webp",
+        "images/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-22-2048x1366.webp"
     ],
     "interior_images": [
-        "images/interior/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-10-2048x1366.webp",
-        "images/interior/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-11-2048x1366.webp",
-        "images/interior/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-13-2048x1366.webp",
-        "images/interior/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-14-2048x1366.webp"
+        "images/Ferrari-F40/interior/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-10-2048x1366.webp",
+        "images/Ferrari-F40/interior/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-11-2048x1366.webp",
+        "images/Ferrari-F40/interior/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-13-2048x1366.webp",
+        "images/Ferrari-F40/interior/Ferrari-F40/1992-Ferrari-F40-Blue-Chip-Auction-14-2048x1366.webp"
     ],
     "electric": false,
     "contact_agent": {
@@ -459,20 +460,20 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 100,
-    "car_display_image": "images/Frank-Stephenson-P1-Tavarish-00001-2048x1218.webp",
+    "car_display_image": "images/Frank-Stephenson-P1-Tavarish/Frank-Stephenson-P1-Tavarish-00001-2048x1218.webp",
     "images": [
-        "images/Frank-Stephenson-P1-Tavarish-00001-2048x1218.webp",
-        "images/Frank-Stephenson-P1-Tavarish-00002-2048x1152.webp",
-        "images/Frank-Stephenson-P1-Tavarish-00003-2048x1535.jpg",
-        "images/Frank-Stephenson-P1-Tavarish-00004-2048x1535.webp",
-        "images/Frank-Stephenson-P1-Tavarish-00005-2048x1280.webp",
-        "images/Frank-Stephenson-P1-Tavarish-00006-2048x1152.webp"
+        "images/Frank-Stephenson-P1-Tavarish/Frank-Stephenson-P1-Tavarish-00001-2048x1218.webp",
+        "images/Frank-Stephenson-P1-Tavarish/Frank-Stephenson-P1-Tavarish-00002-2048x1152.webp",
+        "images/Frank-Stephenson-P1-Tavarish/Frank-Stephenson-P1-Tavarish-00003-2048x1535.webp",
+        "images/Frank-Stephenson-P1-Tavarish/Frank-Stephenson-P1-Tavarish-00004-2048x1535.webp",
+        "images/Frank-Stephenson-P1-Tavarish/Frank-Stephenson-P1-Tavarish-00005-2048x1280.webp",
+        "images/Frank-Stephenson-P1-Tavarish/Frank-Stephenson-P1-Tavarish-00006-2048x1152.webp"
     ],
     "interior_images": [
-        "images/interior/Frank-Stephenson-P1-Tavarish/download (34).jpg",
-        "images/interior/Frank-Stephenson-P1-Tavarish/download (35).jpg",
-        "images/interior/Frank-Stephenson-P1-Tavarish/download (36).jpg",
-        "images/interior/Frank-Stephenson-P1-Tavarish/Phaeton.jpg"
+        "images/Frank-Stephenson-P1-Tavarish/interior/Frank-Stephenson-P1-Tavarish/download (34).jpg",
+        "images/Frank-Stephenson-P1-Tavarish/interior/Frank-Stephenson-P1-Tavarish/download (35).jpg",
+        "images/Frank-Stephenson-P1-Tavarish/interior/Frank-Stephenson-P1-Tavarish/download (36).jpg",
+        "images/Frank-Stephenson-P1-Tavarish/interior/Frank-Stephenson-P1-Tavarish/Phaeton.jpg"
     ],
     "electric": false,
     "contact_agent": {
@@ -506,23 +507,23 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 10,
-    "car_display_image": "images/Lamborghini-Murcielago-Six-Speed-8.jpg",
+    "car_display_image": "images/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-8.webp",
     "images": [
-        "images/Lamborghini-Murcielago-Six-Speed-8.jpg",
-        "images/Lamborghini-Murcielago-Six-Speed-9.jpg",
-        "images/Lamborghini-Murcielago-Six-Speed-10.jpg",
-        "images/Lamborghini-Murcielago-Six-Speed-11.jpg",
-        "images/Lamborghini-Murcielago-Six-Speed-12.jpg",
-        "images/Lamborghini-Murcielago-Six-Speed-14.webp"
+        "images/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-8.webp",
+        "images/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-9.webp",
+        "images/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-10.webp",
+        "images/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-11.webp",
+        "images/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-12.webp",
+        "images/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-14.webp"
     ],
     "interior_images": [
-        "images/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-15.webp",
-        "images/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-16.webp",
-        "images/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-20.webp",
-        "images/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-21.webp",
-        "images/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-22.webp",
-        "images/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-23.webp",
-        "images/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-25.jpg"
+        "images/Lamborghini-Murcielago/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-15.webp",
+        "images/Lamborghini-Murcielago/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-16.webp",
+        "images/Lamborghini-Murcielago/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-20.webp",
+        "images/Lamborghini-Murcielago/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-21.webp",
+        "images/Lamborghini-Murcielago/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-22.webp",
+        "images/Lamborghini-Murcielago/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-23.webp",
+        "images/Lamborghini-Murcielago/interior/Lamborghini-Murcielago/Lamborghini-Murcielago-Six-Speed-25.jpg"
     ],
     "electric": false,
     "contact_agent": {
@@ -557,23 +558,23 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 15,
-    "car_display_image": "images/Lamborghini-Revuelto-Creative-Bespoke-1.webp",
+    "car_display_image": "images/Lamborghini-Revuelto/Lamborghini-Revuelto-Creative-Bespoke-1.webp",
     "images": [
-        "images/Lamborghini-Revuelto-Creative-Bespoke-1.webp",
-        "images/Lamborghini-Revuelto-Creative-Bespoke-2.webp",
-        "images/Lamborghini-Revuelto-Creative-Bespoke-3.webp",
-        "images/Lamborghini-Revuelto-Creative-Bespoke-4.webp",
-        "images/Lamborghini-Revuelto-Creative-Bespoke-5.webp",
-        "images/Lamborghini-Revuelto-Creative-Bespoke-13.webp",
-        "images/Lamborghini-Revuelto-Creative-Bespoke-14.webp",
-        "images/Lamborghini-Revuelto-Creative-Bespoke-16.webp",
-        "images/Lamborghini-Revuelto-Creative-Bespoke-17.webp",
-        "images/Lamborghini-Revuelto-Creative-Bespoke-18.webp"
+        "images/Lamborghini-Revuelto/Lamborghini-Revuelto-Creative-Bespoke-1.webp",
+        "images/Lamborghini-Revuelto/Lamborghini-Revuelto-Creative-Bespoke-2.webp",
+        "images/Lamborghini-Revuelto/Lamborghini-Revuelto-Creative-Bespoke-3.webp",
+        "images/Lamborghini-Revuelto/Lamborghini-Revuelto-Creative-Bespoke-4.webp",
+        "images/Lamborghini-Revuelto/Lamborghini-Revuelto-Creative-Bespoke-5.webp",
+        "images/Lamborghini-Revuelto/Lamborghini-Revuelto-Creative-Bespoke-13.webp",
+        "images/Lamborghini-Revuelto/Lamborghini-Revuelto-Creative-Bespoke-14.webp",
+        "images/Lamborghini-Revuelto/Lamborghini-Revuelto-Creative-Bespoke-16.webp",
+        "images/Lamborghini-Revuelto/Lamborghini-Revuelto-Creative-Bespoke-17.webp",
+        "images/Lamborghini-Revuelto/Lamborghini-Revuelto-Creative-Bespoke-18.webp"
     ],
     "interior_images": [
-        "images/interior/Lamborghini-Revuelto/placeholder-26.webp",
-        "images/interior/Lamborghini-Revuelto/placeholder-27.webp",
-        "images/interior/Lamborghini-Revuelto/placeholder-28.webp"
+        "images/Lamborghini-Revuelto/interior/Lamborghini-Revuelto/placeholder-26.webp",
+        "images/Lamborghini-Revuelto/interior/Lamborghini-Revuelto/placeholder-27.webp",
+        "images/Lamborghini-Revuelto/interior/Lamborghini-Revuelto/placeholder-28.webp"
     ],
     "electric": true,
     "contact_agent": {
@@ -607,23 +608,23 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 60,
-    "car_display_image": "images/2026-Mercedes-CLA-313-22-2048x1365.webp",
+    "car_display_image": "images/Mercedes-CLA-313/2026-Mercedes-CLA-313-22-2048x1365.webp",
     "images": [
-      "images/2026-Mercedes-CLA-313-18-2048x1365.webp",
-      "images/2026-Mercedes-CLA-313-16-2048x1366.webp",
-      "images/2026-Mercedes-CLA-313-12-2048x1365.webp",
-      "images/2026-Mercedes-CLA-313-2-2048x1366.webp",
-      "images/2026-Mercedes-CLA-313-9-2048x1365.webp",
-      "images/2026-Mercedes-CLA-313-21-2048x1365.webp",
-      "images/2026-Mercedes-CLA-313-17-2048x1365.webp",
-      "images/2026-Mercedes-CLA.webp",
-      "images/2026-Mercedes-CLA-313-1-2048x1366.webp"
+      "images/Mercedes-CLA-313/2026-Mercedes-CLA-313-18-2048x1365.webp",
+      "images/Mercedes-CLA-313/2026-Mercedes-CLA-313-16-2048x1366.webp",
+      "images/Mercedes-CLA-313/2026-Mercedes-CLA-313-12-2048x1365.webp",
+      "images/Mercedes-CLA-313/2026-Mercedes-CLA-313-2-2048x1366.webp",
+      "images/Mercedes-CLA-313/2026-Mercedes-CLA-313-9-2048x1365.webp",
+      "images/Mercedes-CLA-313/2026-Mercedes-CLA-313-21-2048x1365.webp",
+      "images/Mercedes-CLA-313/2026-Mercedes-CLA-313-17-2048x1365.webp",
+      "images/Mercedes-CLA-313/2026-Mercedes-CLA.webp",
+      "images/Mercedes-CLA-313/2026-Mercedes-CLA-313-1-2048x1366.webp"
     ],
     "interior_images": [
-      "images/interior/Mercedes-Benz-CLA-200--05.webp",
-      "images/interior/OIP (1).webp",
-      "images/interior/eKmU9g.jpg",
-      "images/interior/OIP.webp"
+      "images/Mercedes-CLA-313/interior/Mercedes-Benz-CLA-200--05.webp",
+      "images/Mercedes-CLA-313/interior/OIP (1).webp",
+      "images/Mercedes-CLA-313/interior/eKmU9g.jpg",
+      "images/Mercedes-CLA-313/interior/OIP.webp"
     ],
     "electric": false,
     "contact_agent": {
@@ -657,19 +658,19 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 120,
-    "car_display_image": "images/Mansory-Bentley-Continental-GT-1.jpg",
+    "car_display_image": "images/Mansory-Bentley-Continental-GT/Mansory-Bentley-Continental-GT-1.webp",
     "images": [
-      "images/Mansory-Bentley-Continental-GT-3.jpg",
-      "images/Mansory-Bentley-Continental-GT-4.jpg",
-      "images/Mansory-Bentley-Continental-GT-5.webp",
-      "images/Mansory-Bentley-Continental-GT-7.jpg",
-      "images/Mansory-Bentley-Continental-GT-8.webp"
+      "images/Mansory-Bentley-Continental-GT/Mansory-Bentley-Continental-GT-3.webp",
+      "images/Mansory-Bentley-Continental-GT/Mansory-Bentley-Continental-GT-4.webp",
+      "images/Mansory-Bentley-Continental-GT/Mansory-Bentley-Continental-GT-5.webp",
+      "images/Mansory-Bentley-Continental-GT/Mansory-Bentley-Continental-GT-7.webp",
+      "images/Mansory-Bentley-Continental-GT/Mansory-Bentley-Continental-GT-8.webp"
     ],
     "interior_images": [
-      "images/interior/Mansory-Bentley-Continental-GT-6.jpg",
-      "images/interior/Mansory-Bentley-Continental-GT-16.jpg",
-      "images/interior/Mansory-Bentley-Continental-GT-13.jpg",
-      "images/interior/Mansory-Bentley-Continental-GT-12.jpg"
+      "images/Mansory-Bentley-Continental-GT/interior/Mansory-Bentley-Continental-GT-6.webp",
+      "images/Mansory-Bentley-Continental-GT/interior/Mansory-Bentley-Continental-GT-16.webp",
+      "images/Mansory-Bentley-Continental-GT/interior/Mansory-Bentley-Continental-GT-13.webp",
+      "images/Mansory-Bentley-Continental-GT/interior/Mansory-Bentley-Continental-GT-12.webp"
     ],
     "electric": false,
     "contact_agent": {
@@ -703,24 +704,26 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 150,
-    "car_display_image": "images/Mansory-Rolls-Royce-Cullinan-Linea-7.jpg",
+    "car_display_image": "images/Mansory-Rolls-Royce-Cullinan-Linea/Mansory-Rolls-Royce-Cullinan-Linea-15.webp",
     "images": [
-      "images/Mansory-Rolls-Royce-Cullinan-Linea-13.webp",
-      "images/Mansory-Rolls-Royce-Cullinan-Linea-3.webp",
-      "images/Mansory-Rolls-Royce-Cullinan-Linea-4.webp",
-      "images/Mansory-Rolls-Royce-Cullinan-Linea-15.webp",
-      "images/Mansory-Rolls-Royce-Cullinan-Linea-1.webp",
-      "images/Mansory-Rolls-Royce-Cullinan-Linea-11.webp",
-      "images/Mansory-Rolls-Royce-Cullinan-Linea-8.jpg",
-      "images/Mansory-Rolls-Royce-Cullinan-Linea-16.webp"
+      
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/Mansory-Rolls-Royce-Cullinan-Linea-15.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/Mansory-Rolls-Royce-Cullinan-Linea-3.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/Mansory-Rolls-Royce-Cullinan-Linea-4.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/Mansory-Rolls-Royce-Cullinan-Linea-15.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/Mansory-Rolls-Royce-Cullinan-Linea-1.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/Mansory-Rolls-Royce-Cullinan-Linea-11.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/Mansory-Rolls-Royce-Cullinan-Linea-8.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/Mansory-Rolls-Royce-Cullinan-Linea-16.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/Mansory-Rolls-Royce-Cullinan-Linea-7.webp"
     ],
     "interior_images": [
-      "images/interior/Mansory-Rolls-Royce-Cullinan-Linea-5.jpg",
-      "images/interior/Mansory-Rolls-Royce-Cullinan-Linea-18.jpg",
-      "images/interior/Mansory004-RRR.jpg",
-      "images/interior/Mansory001-RRR.jpg",
-      "images/interior/Mansory005-RRR.webp",
-      "images/interior/Mansory003-RRR.webp"
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/interior/Mansory-Rolls-Royce-Cullinan-Linea-5.jpg",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/interior/Mansory-Rolls-Royce-Cullinan-Linea-18.jpg",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/interior/Mansory004-RRR.jpg",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/interior/Mansory001-RRR.jpg",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/interior/Mansory005-RRR.webp",
+      "images/Mansory-Rolls-Royce-Cullinan-Linea/interior/Mansory003-RRR.webp"
     ],
     "electric": false,
     "contact_agent": {
@@ -754,7 +757,7 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 90,
-    "car_display_image": "images/Nissan Skyline.jpg",
+    "car_display_image": "images/Nissan-GT-R-R34/Nissan Skyline.jpg",
     "images": [
       "images/download (38).jpg",
       "images/download (34).jpg",
@@ -802,29 +805,29 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 100,
-    "car_display_image": "images/1994-Rolls-Royce-Corniche_1321136.webp",
+    "car_display_image": "images/Rolls-Royce-Corniche/1994-Rolls-Royce-Corniche_1321136.webp",
     "images": [
-      "images/1994-Rolls-Royce-Corniche_1321137.webp",
-      "images/1994-Rolls-Royce-Corniche_1321144.webp",
-      "images/1994-Rolls-Royce-Corniche_1321145.webp",
-      "images/1994-Rolls-Royce-Corniche_1321147.webp",
-      "images/1994-Rolls-Royce-Corniche_1321148.webp",
-      "images/1994-Rolls-Royce-Corniche_1321149.webp",
-      "images/1994-Rolls-Royce-Corniche_1321182.webp",
-      "images/1994-Rolls-Royce-Corniche_1321183.webp",
-      "images/1994-Rolls-Royce-Corniche_1321189.webp"
+      "images/Rolls-Royce-Corniche/1994-Rolls-Royce-Corniche_1321137.webp",
+      "images/Rolls-Royce-Corniche/1994-Rolls-Royce-Corniche_1321144.webp",
+      "images/Rolls-Royce-Corniche/1994-Rolls-Royce-Corniche_1321145.webp",
+      "images/Rolls-Royce-Corniche/1994-Rolls-Royce-Corniche_1321147.webp",
+      "images/Rolls-Royce-Corniche/1994-Rolls-Royce-Corniche_1321148.webp",
+      "images/Rolls-Royce-Corniche/1994-Rolls-Royce-Corniche_1321149.webp",
+      "images/Rolls-Royce-Corniche/1994-Rolls-Royce-Corniche_1321182.webp",
+      "images/Rolls-Royce-Corniche/1994-Rolls-Royce-Corniche_1321183.webp",
+      "images/Rolls-Royce-Corniche/1994-Rolls-Royce-Corniche_1321189.webp"
     ],
     "interior_images": [
-      "images/interior/1994-Rolls-Royce-Corniche_1321150.webp",
-      "images/interior/1994-Rolls-Royce-Corniche_1321159.webp",
-      "images/interior/1994-Rolls-Royce-Corniche_1321164.webp",
-      "images/interior/1994-Rolls-Royce-Corniche_1321165.webp",
-      "images/interior/1994-Rolls-Royce-Corniche_1321166.webp",
-      "images/interior/1994-Rolls-Royce-Corniche_1321167.webp",
-      "images/interior/1994-Rolls-Royce-Corniche_1321176.webp",
-      "images/interior/1994-Rolls-Royce-Corniche_1321178.webp",
-      "images/interior/1994-Rolls-Royce-Corniche_1321179 (1).webp",
-      "images/interior/1994-Rolls-Royce-Corniche_1321179.webp"
+      "images/Rolls-Royce-Corniche/interior/1994-Rolls-Royce-Corniche_1321150.webp",
+      "images/Rolls-Royce-Corniche/interior/1994-Rolls-Royce-Corniche_1321159.webp",
+      "images/Rolls-Royce-Corniche/interior/1994-Rolls-Royce-Corniche_1321164.webp",
+      "images/Rolls-Royce-Corniche/interior/1994-Rolls-Royce-Corniche_1321165.webp",
+      "images/Rolls-Royce-Corniche/interior/1994-Rolls-Royce-Corniche_1321166.webp",
+      "images/Rolls-Royce-Corniche/interior/1994-Rolls-Royce-Corniche_1321167.webp",
+      "images/Rolls-Royce-Corniche/interior/1994-Rolls-Royce-Corniche_1321176.webp",
+      "images/Rolls-Royce-Corniche/interior/1994-Rolls-Royce-Corniche_1321178.webp",
+      "images/Rolls-Royce-Corniche/interior/1994-Rolls-Royce-Corniche_1321179 (1).webp",
+      "images/Rolls-Royce-Corniche/interior/1994-Rolls-Royce-Corniche_1321179.webp"
     ],
     "electric": false,
     "contact_agent": {
@@ -858,20 +861,20 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 140,
-    "car_display_image": "images/1016-Industries-Rolls-Royce-Cullinan-1-scaled.webp",
+    "car_display_image": "images/Rolls-Royce-Cullinan/1016-Industries-Rolls-Royce-Cullinan-1-scaled.webp",
     "images": [
-      "images/1016-Industries-Rolls-Royce-Cullinan-2-scaled.webp",
-      "images/1016-Industries-Rolls-Royce-Cullinan-3-scaled.webp",
-      "images/1016-Industries-Rolls-Royce-Cullinan-4-scaled.webp",
-      "images/1016-Industries-Rolls-Royce-Cullinan-5-scaled.webp",
-      "images/1016-Industries-Rolls-Royce-Cullinan-6-scaled.webp",
-      "images/1016-Industries-Rolls-Royce-Cullinan-9-scaled.jpg",
-      "images/1016-Industries-Rolls-Royce-Cullinan-10-scaled.jpg"
+      "images/Rolls-Royce-Cullinan/1016-Industries-Rolls-Royce-Cullinan-2-scaled.webp",
+      "images/Rolls-Royce-Cullinan/1016-Industries-Rolls-Royce-Cullinan-3-scaled.webp",
+      "images/Rolls-Royce-Cullinan/1016-Industries-Rolls-Royce-Cullinan-4-scaled.webp",
+      "images/Rolls-Royce-Cullinan/1016-Industries-Rolls-Royce-Cullinan-5-scaled.webp",
+      "images/Rolls-Royce-Cullinan/1016-Industries-Rolls-Royce-Cullinan-6-scaled.webp",
+      "images/Rolls-Royce-Cullinan/1016-Industries-Rolls-Royce-Cullinan-9-scaled.jpg",
+      "images/Rolls-Royce-Cullinan/1016-Industries-Rolls-Royce-Cullinan-10-scaled.jpg"
     ],
     "interior_images": [
-      "images/interior/cullinan-mr-interior-2.jpg",
-      "images/interior/R.jpg",
-      "images/interior/OIP.webp"
+      "images/Rolls-Royce-Cullinan/interior/cullinan-mr-interior-2.jpg",
+      "images/Rolls-Royce-Cullinan/interior/R.jpg",
+      "images/Rolls-Royce-Cullinan/interior/OIP.webp"
     ],
     "electric": false,
     "contact_agent": {
@@ -881,6 +884,415 @@
     },
     "car_type": "SUV"
   },
+
+  {
+    "make": "Rolls-Royce",
+    "model": "Wraith",
+    "year": 2024,
+    "color": "Black and Gold",
+    "price": 38000000,
+    "engine_type": "6.6L Twin-Turbo V12",
+    "features": [
+      "Mansory Gold Package",
+      "Starlight Headliner",
+      "Bespoke Interior",
+      "Linea d'Oro Seating",
+      "Forged Gold Wheels"
+    ],
+    "number_of_doors": 2,
+    "seating_capacity": 4,
+    "fuel_efficiency": {
+      "city_km_per_liter": 4.0,
+      "highway_km_per_liter": 6.5
+    },
+    "shipping_fee": 500000,
+    "imported": true,
+    "vat_included": true,
+    "waiting_period_days": 120,
+    "car_display_image": "images/Rolls-Royce-Wraith-Mansory-Gold/Rolls-Royce-Wraith-Mansory-Gold-1.webp",
+    "images": [
+      "images/Rolls-Royce-Wraith-Mansory-Gold/Rolls-Royce-Wraith-Mansory-Gold-1.webp",
+      "images/Rolls-Royce-Wraith-Mansory-Gold/Rolls-Royce-Wraith-Mansory-Gold-2.webp",
+      "images/Rolls-Royce-Wraith-Mansory-Gold/Rolls-Royce-Wraith-Mansory-Gold-7.webp",
+      "images/Rolls-Royce-Wraith-Mansory-Gold/Rolls-Royce-Wraith-Mansory-Gold-8.webp",
+      "images/Rolls-Royce-Wraith-Mansory-Gold/Rolls-Royce-Wraith-Mansory-Gold-3.webp",
+      "images/Rolls-Royce-Wraith-Mansory-Gold/Rolls-Royce-Wraith-Mansory-Gold-9.webp"
+    ],
+    "interior_images": [
+      "images/Rolls-Royce-Wraith-Mansory-Gold/Interior/Rolls-Royce-Wraith-Mansory-Gold-12.webp",
+      "images/Rolls-Royce-Wraith-Mansory-Gold/Interior/Rolls-Royce-Wraith-Mansory-Gold-15.jpg",
+      "images/Rolls-Royce-Wraith-Mansory-Gold/Interior/Rolls-Royce-Wraith-Mansory-Gold-14.webp",
+      "images/Rolls-Royce-Wraith-Mansory-Gold/Interior/Rolls-Royce-Wraith-Mansory-Gold-6.webp"
+    ],
+    "electric": false,
+    "contact_agent": {
+      "name": "Excel Motors",
+      "tel": "0767890123",
+      "location": "Gigiri, Nairobi"
+    },
+    "car_type": "Coupe"
+        
+  },
+  {
+  "make": "Subaru",
+  "model": "Solterra",
+  "year": 2026,
+  "color": "White",
+  "price": 4500000,
+  "engine_type": "Electric Motor",
+  "features": [
+    "Symmetrical All-Wheel Drive",
+    "StarDrive® Technology",
+    "Subaru Safety and Security",
+    "Panoramic View Monitor",
+    "12.3-inch Multimedia Display"
+  ],
+  "number_of_doors": 4,
+  "seating_capacity": 5,
+  "fuel_efficiency": {
+    "city_km_per_liter": 0,
+    "highway_km_per_liter": 0
+  },
+  "shipping_fee": 250000,
+  "imported": true,
+  "vat_included": true,
+  "waiting_period_days": 90,
+  "car_display_image": "images/Subaru_Solterra/2026-Subaru-Solterra-1-2048x1152.webp",
+  "images": [
+    "images/Subaru_Solterra/2026-Subaru-Solterra-1-2048x1152.webp",
+    "images/Subaru_Solterra/2026-Subaru-Solterra-3-2048x1152.webp",
+    "images/Subaru_Solterra/2026_Subaru_Solterra__6_44444-2048x1152.webp",
+    "images/Subaru_Solterra/2026-Subaru-Solterra-9-2048x1366.webp",
+    "images/Subaru_Solterra/2026-Subaru-Solterra-10-2048x1366.webp"
+  ],
+  "interior_images": [
+    "images/Subaru_Solterra/Interior/2026-Subaru-Solterra-17-2048x1366.webp",
+    "images/Subaru_Solterra/Interior/2026-Subaru-Solterra-18-2048x1366.webp",
+    "images/Subaru_Solterra/Interior/2026-Subaru-Solterra-19-2048x1366.webp",
+    "images/Subaru_Solterra/Interior/2026-Subaru-Solterra-20-2048x1366.webp",
+    "images/Subaru_Solterra/Interior/2026-Subaru-Solterra-23-2048x1366.webp",
+    "images/Subaru_Solterra/Interior/2026-Subaru-Solterra-24-2048x1366.webp"
+  ],
+  "electric": true,
+  "contact_agent": {
+    "name": "Excel Motors",
+    "tel": "0767890123",
+    "location": "Gigiri, Nairobi"
+  },
+  "car_type": "SUV"
+  },
+  {
+  "make": "Subaru",
+  "model": "Forester",
+  "year": 2024,
+  "color": "Gray",
+  "price": 3500000,
+  "engine_type": "2.5L SUBARU BOXER®",
+  "features": [
+    "Symmetrical All-Wheel Drive",
+    "EyeSight® Driver Assist Technology",
+    "Starlink® Multimedia",
+    "X-MODE with Hill Descent Control",
+    "Subaru Intelligent Drive (SI-DRIVE)"
+  ],
+  "number_of_doors": 4,
+  "seating_capacity": 5,
+  "fuel_efficiency": {
+    "city_km_per_liter": 9.5,
+    "highway_km_per_liter": 12.0
+  },
+  "shipping_fee": 200000,
+  "imported": true,
+  "vat_included": true,
+  "waiting_period_days": 60,
+  "car_display_image": "images/Subaru-Forester/Subaru-Forester-Japan-Accessories-3-2048x1153.webp",
+  "images": [
+    "images/Subaru-Forester/Subaru-Forester-Japan-Accessories-3-2048x1153.webp",
+    "images/Subaru-Forester/Subaru-Forester-Japan-Accessories-9-2048x1153.webp",
+    "images/Subaru-Forester/Subaru-Forester-Japan-Accessories-5-2048x1153.webp",
+    "images/Subaru-Forester/Subaru-Forester-Japan-Accessories-1-1-2048x1151.webp",
+    "images/Subaru-Forester/Subaru-Forester-Japan-Accessories-4-2048x1153.webp",
+    "images/Subaru-Forester/Subaru-Forester-Japan-Accessories-1-2-2048x1151.webp",
+    "images/Subaru-Forester/Subaru-Forester-Japan-Accessories-8-2048x1153.webp",
+    "images/Subaru-Forester/Subaru-Forester-Japan-Accessories-3s-2048x618.webp",
+    "images/Subaru-Forester/Subaru-Forester-Japan-Accessories-6-2048x1153.webp"
+  ],
+  "interior_images": [
+    "https://dummyimage.com/600x400/964B00/ffffff.png&text=Interior+Image+1",
+    "https://dummyimage.com/600x400/964B00/ffffff.png&text=Interior+Image+2",
+    "https://dummyimage.com/600x400/964B00/ffffff.png&text=Interior+Image+3",
+    "https://dummyimage.com/600x400/964B00/ffffff.png&text=Interior+Image+4",
+    "https://dummyimage.com/600x400/964B00/ffffff.png&text=Interior+Image+5"
+  ],
+  "electric": false,
+  "contact_agent": {
+    "name": "Excel Motors",
+    "tel": "0767890123",
+    "location": "Gigiri, Nairobi"
+  },
+  "car_type": "SUV"
+  },
+  {
+  "make": "Toyota",
+  "model": "GR Yaris",
+  "year": 2025,
+  "color": "Gray",
+  "price": 6000000,
+  "engine_type": "1.6L Turbocharged I3",
+  "features": [
+    "GR-FOUR All-Wheel Drive",
+    "Limited-Slip Differential",
+    "Sport-Tuned Suspension",
+    "Manual Transmission",
+    "Head-Up Display"
+  ],
+  "number_of_doors": 3,
+  "seating_capacity": 4,
+  "fuel_efficiency": {
+    "city_km_per_liter": 8.5,
+    "highway_km_per_liter": 11.0
+  },
+  "shipping_fee": 300000,
+  "imported": true,
+  "vat_included": true,
+  "waiting_period_days": 180,
+  "car_display_image": "images/Toyota-GR-Yaris/2025-Toyota-GR-Yaris-Review-63-2048x1366.webp",
+  "images": [
+    "images/Toyota-GR-Yaris/2025-Toyota-GR-Yaris-Review-63-2048x1366.webp",
+    "images/Toyota-GR-Yaris/2025-Toyota-GR-Yaris-Review-70-2048x1366.webp",
+    "images/Toyota-GR-Yaris/2025-Toyota-GR-Yaris-Review-67-2048x1366.webp",
+    "images/Toyota-GR-Yaris/2025-Toyota-GR-Yaris-Review-61-2048x1366.webp",
+    "images/Toyota-GR-Yaris/2025-Toyota-GR-Yaris-Review-65-2048x1366.webp",
+    "images/Toyota-GR-Yaris/2025-Toyota-GR-Yaris-Review-59-2048x1366.webp",
+    "images/Toyota-GR-Yaris/2025-Toyota-GR-Yaris-Review-69-2048x1366.webp",
+    "images/Toyota-GR-Yaris/2025-Toyota-GR-Yaris-Review-66-2048x1366.webp",
+    "images/Toyota-GR-Yaris/2025-Toyota-GR-Yaris-Review-68-2048x1366 (1).webp",
+    "images/Toyota-GR-Yaris/2025-Toyota-GR-Yaris-Review-68-2048x1366.webp"
+  ],
+  "interior_images": [
+    "images/Toyota-GR-Yaris/Interior/2025-Toyota-GR-Yaris-Review-81-2048x1366 (1).webp",
+    "images/Toyota-GR-Yaris/Interior/2025-Toyota-GR-Yaris-Review-76-2048x1366.webp",
+    "images/Toyota-GR-Yaris/Interior/2025-Toyota-GR-Yaris-Review-80-2048x1366.webp",
+    "images/Toyota-GR-Yaris/Interior/2025-Toyota-GR-Yaris-Review-89-2048x1366.webp",
+    "images/Toyota-GR-Yaris/Interior/2025-Toyota-GR-Yaris-Review-73-2048x1366.webp",
+    "images/Toyota-GR-Yaris/Interior/2025-Toyota-GR-Yaris-Review-81-2048x1366.webp",
+    "images/Toyota-GR-Yaris/Interior/2025-Toyota-GR-Yaris-Review-84-2048x1366.webp",
+    "images/Toyota-GR-Yaris/Interior/2025-Toyota-GR-Yaris-Review-79-2048x1366.webp",
+    "images/Toyota-GR-Yaris/Interior/2025-Toyota-GR-Yaris-Review-77-2048x1366.webp"
+  ],
+  "electric": false,
+  "contact_agent": {
+    "name": "Excel Motors",
+    "tel": "0767890123",
+    "location": "Gigiri, Nairobi"
+  },
+  "car_type": "Hatchback"
+  },
+  {
+  "make": "Toyota",
+  "model": "RAV4 Adventure",
+  "year": 2026,
+  "color": "Gray",
+  "price": 4500000,
+  "engine_type": "2.5L 4-Cylinder",
+  "features": [
+    "Dynamic Torque Vectoring AWD",
+    "Multi-Terrain Select",
+    "All-Season Mud-and-Snow-Rated Tires",
+    "Toyota Safety Sense™",
+    "LED Projector-Beam Headlights"
+  ],
+  "number_of_doors": 4,
+  "seating_capacity": 5,
+  "fuel_efficiency": {
+    "city_km_per_liter": 10.2,
+    "highway_km_per_liter": 13.5
+  },
+  "shipping_fee": 250000,
+  "imported": true,
+  "vat_included": true,
+  "waiting_period_days": 90,
+  "car_display_image": "images/Toyota-RAV4-Adventure/2026-Toyota-RAV4-Adventure-Global-spec-7-2048x1152.webp",
+  "images": [
+    "images/Toyota-RAV4-Adventure/2026-Toyota-RAV4-Adventure-Global-spec-7-2048x1152.webp",
+    "images/Toyota-RAV4-Adventure/2026-Toyota-RAV4-Adventure-Global-spec-5-2048x1152.webp",
+    "images/Toyota-RAV4-Adventure/2026-Toyota-RAV4-Adventure-Global-spec-6-2048x1152.webp",
+    "images/Toyota-RAV4-Adventure/2026-Toyota-RAV4-Adventure-Global-spec-4-2048x1152.webp",
+    "images/Toyota-RAV4-Adventure/2026-Toyota-RAV4-Adventure-Global-spec-8-2048x1152.webp",
+    "images/Toyota-RAV4-Adventure/2026-Toyota-RAV4-Adventure-Global-spec-9-2048x1152.webp",
+    "images/Toyota-RAV4-Adventure/2026-Toyota-RAV4-Adventure-Global-spec-10-2048x1152.webp",
+    "images/Toyota-RAV4-Adventure/2026-Toyota-RAV4-Adventure-Global-spec-11-2048x1152.webp",
+    "images/Toyota-RAV4-Adventure/2026-Toyota-RAV4-Adventure-Global-spec-12-2048x1152.webp",
+    "images/Toyota-RAV4-Adventure/2026-Toyota-RAV4-Adventure-Global-spec-13-2048x1152.webp"
+  ],
+  "interior_images": [
+    "images/Toyota-RAV4-Adventure/Interior/2026-Toyota-RAV4-Adventure-Global-spec-16-2048x1152.webp",
+    "images/Toyota-RAV4-Adventure/Interior/2026-Toyota-RAV4-Adventure-Global-spec-17-2048x1152.webp"
+  ],
+  "electric": false,
+  "contact_agent": {
+    "name": "Excel Motors",
+    "tel": "0767890123",
+    "location": "Gigiri, Nairobi"
+  },
+  "car_type": "SUV"
+  },
+  {
+  "make": "Toyota",
+  "model": "RAV4 Pickup",
+  "year": 2026,
+  "color": "Gray",
+  "price": 4800000,
+  "engine_type": "2.5L 4-Cylinder",
+  "features": [
+    "Short Bed",
+    "All-Wheel Drive",
+    "Multi-Terrain Select",
+    "Digital Cockpit",
+    "Off-Road Suspension"
+  ],
+  "number_of_doors": 4,
+  "seating_capacity": 5,
+  "fuel_efficiency": {
+    "city_km_per_liter": 9.0,
+    "highway_km_per_liter": 11.5
+  },
+  "shipping_fee": 280000,
+  "imported": true,
+  "vat_included": true,
+  "waiting_period_days": 120,
+  "car_display_image": "images/Toyota-RAV4-Pickup/Toyota-RAV4-Pickup-Render-Digimods-5-2048x1152.webp",
+  "images": [
+    "images/Toyota-RAV4-Pickup/Toyota-RAV4-Pickup-Render-Digimods-2-2048x1152.webp",
+    "images/Toyota-RAV4-Pickup/Toyota-RAV4-Pickup-Render-Digimods-3-2048x1152 (1).webp",
+    "images/Toyota-RAV4-Pickup/Toyota-RAV4-Pickup-Render-Digimods-3-2048x1152.webp",
+    "images/Toyota-RAV4-Pickup/Toyota-RAV4-Pickup-Render-Digimods-4-2048x1152.webp",
+    "images/Toyota-RAV4-Pickup/Toyota-RAV4-Pickup-Render-Digimods-5-2048x1152 (1).webp",
+    "images/Toyota-RAV4-Pickup/Toyota-RAV4-Pickup-Render-Digimods-5-2048x1152.webp",
+    "images/Toyota-RAV4-Pickup/Toyota-RAV4-Pickup-Render-Digimods-6-2048x1152.webp"
+  ],
+  "interior_images": [
+    "images/Toyota-RAV4-Pickup/Interior/2012-toyota-rav4-sport intérieur.jpg",
+    "images/Toyota-RAV4-Pickup/Interior/2026 Toyota RAV4_ All the Details.jpg",
+    "images/Toyota-RAV4-Pickup/Interior/Toyota RAV4 2011.jpg",
+    "images/Toyota-RAV4-Pickup/Interior/Toyota RAV4 III за миллион рублей - КОЛЕСА_ру – автомобильный журнал.jpg",
+    "images/Toyota-RAV4-Pickup/Interior/Toyota RAV4 Photos and Specs_ Photo_ RAV4 Toyota how mach and 24 perfect photos of Toyota RAV4.jpg"
+  ],
+  "electric": false,
+  "contact_agent": {
+    "name": "Excel Motors",
+    "tel": "0767890123",
+    "location": "Gigiri, Nairobi"
+  },
+  "car_type": "Pickup"
+  },
+  {
+  "make": "Volvo",
+  "model": "V60 Polestar",
+  "year": 2024,
+  "color": "Black",
+  "price": 7500000,
+  "engine_type": "Turbocharged and Supercharged with Electric Motor",
+  "features": [
+    "Öhlins adjustable shock absorbers",
+    "Brembo brakes",
+    "Sport seats with Nappa leather",
+    "Google built-in",
+    "Harman Kardon premium sound system"
+  ],
+  "number_of_doors": 4,
+  "seating_capacity": 5,
+  "fuel_efficiency": {
+    "city_km_per_liter": 16.5,
+    "highway_km_per_liter": 18.0
+  },
+  "shipping_fee": 300000,
+  "imported": true,
+  "vat_included": true,
+  "waiting_period_days": 90,
+  "car_display_image": "images/Volvo-V60-Polestar/Volvo-V60-Polestar-3-2048x1365.webp",
+  "images": [
+    "images/Volvo-V60-Polestar/Volvo-V60-Polestar-1-2048x1365 (1).webp",
+    "images/Volvo-V60-Polestar/Volvo-V60-Polestar-1-2048x1365.webp",
+    "images/Volvo-V60-Polestar/Volvo-V60-Polestar-2-2048x1365 (1).webp",
+    "images/Volvo-V60-Polestar/Volvo-V60-Polestar-2-2048x1365.webp",
+    "images/Volvo-V60-Polestar/Volvo-V60-Polestar-3-2048x1365.webp",
+    "images/Volvo-V60-Polestar/Volvo-V60-Polestar-4-2048x1365.webp",
+    "images/Volvo-V60-Polestar/Volvo-V60-Polestar-5-2048x1365.webp",
+    "images/Volvo-V60-Polestar/Volvo-V60-Polestar-6-2048x1365.webp",
+    "images/Volvo-V60-Polestar/Volvo-V60-Polestar-7-2048x1365.webp"
+  ],
+  "interior_images": [
+    "images/Volvo-V60-Polestar/Interior/Volvo-V60-Polestar-13-2048x1365 (1).webp",
+    "images/Volvo-V60-Polestar/Interior/Volvo-V60-Polestar-13-2048x1365.webp",
+    "images/Volvo-V60-Polestar/Interior/Volvo-V60-Polestar-14-2048x1365.webp",
+    "images/Volvo-V60-Polestar/Interior/Volvo-V60-Polestar-15-2048x1365.webp",
+    "images/Volvo-V60-Polestar/Interior/Volvo-V60-Polestar-17-2048x1365.webp",
+    "images/Volvo-V60-Polestar/Interior/Volvo-V60-Polestar-18-2048x1365.webp",
+    "images/Volvo-V60-Polestar/Interior/Volvo-V60-Polestar-20-2048x1365.webp",
+    "images/Volvo-V60-Polestar/Interior/Volvo-V60-Polestar-21-2048x1365.webp",
+    "images/Volvo-V60-Polestar/Interior/Volvo-V60-Polestar-22-2048x1365.webp",
+    "images/Volvo-V60-Polestar/Interior/Volvo-V60-Polestar-23-2048x1365.webp"
+  ],
+  "electric": true,
+  "contact_agent": {
+    "name": "Excel Motors",
+    "tel": "0767890123",
+    "location": "Gigiri, Nairobi"
+  },
+  "car_type": "Wagon"
+  },
+  {
+  "make": "Volvo",
+  "model": "XC70",
+  "year": 2026,
+  "color": "Gray",
+  "price": 6800000,
+  "engine_type": "2.0L 4-Cylinder Turbocharged",
+  "features": [
+    "All-Wheel Drive",
+    "Hill Descent Control",
+    "Raised Suspension",
+    "IntelliSafe System",
+    "Sensus Connect Infotainment"
+  ],
+  "number_of_doors": 4,
+  "seating_capacity": 5,
+  "fuel_efficiency": {
+    "city_km_per_liter": 9.8,
+    "highway_km_per_liter": 12.5
+  },
+  "shipping_fee": 250000,
+  "imported": true,
+  "vat_included": true,
+  "waiting_period_days": 100,
+  "car_display_image": "images/Volvo-XC70/2026-Volvo-XC70-523-1-2048x1369.webp",
+  "images": [
+    "images/Volvo-XC70/2026-Volvo-XC70-523-1-2048x1369.webp",
+    "images/Volvo-XC70/2026-Volvo-XC70-523-2-2048x1369.webp",
+    "images/Volvo-XC70/2026-Volvo-XC70-523-4-2048x1369.webp",
+    "images/Volvo-XC70/2026-Volvo-XC70-Teaser-523-1-2048x1537.webp",
+    "images/Volvo-XC70/2026-Volvo-XC70-Teaser-523-2-2048x1537.webp",
+    "images/Volvo-XC70/2026-Volvo-XC70-Teaser-523-3-2048x1536.webp",
+    "images/Volvo-XC70/2026-Volvo-XC70-Teaser-523-4-2048x1537.webp"
+  ],
+  "interior_images": [
+    "images/Volvo-XC70/Interior/21_volvo_xc70_interior.webp",
+    "images/Volvo-XC70/Interior/7908a92a4f84c2006e6d52a59606fd3b.jpg",
+    "images/Volvo-XC70/Interior/pic-volvo-xc70-interior.jpg",
+    "images/Volvo-XC70/Interior/R.jpg",
+    "images/Volvo-XC70/Interior/volvo-xc70-13.jpg",
+    "images/Volvo-XC70/Interior/volvo-xc70-interior-car-review-good-housekeeping.jpg"
+  ],
+  "electric": false,
+  "contact_agent": {
+    "name": "Excel Motors",
+    "tel": "0767890123",
+    "location": "Gigiri, Nairobi"
+  },
+  "car_type": "Wagon"
+  },
+
   {
     "make": "Porsche",
     "model": "911 Carrera",
@@ -905,24 +1317,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 180,
-    "car_display_image": "images/porsche_911_carrera_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/porsche_911_carrera_exterior_1.jpg",
-      "images/porsche_911_carrera_exterior_2.jpg",
-      "images/porsche_911_carrera_exterior_3.jpg",
-      "images/porsche_911_carrera_exterior_4.jpg",
-      "images/porsche_911_carrera_exterior_5.jpg",
-      "images/porsche_911_carrera_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/porsche_911_carrera_interior_1.jpg",
-      "images/porsche_911_carrera_interior_2.jpg",
-      "images/porsche_911_carrera_interior_3.jpg",
-      "images/porsche_911_carrera_interior_4.jpg",
-      "images/porsche_911_carrera_interior_5.jpg",
-      "images/porsche_911_carrera_interior_6.jpg",
-      "images/porsche_911_carrera_interior_7.jpg",
-      "images/porsche_911_carrera_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -956,24 +1368,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 400,
-    "car_display_image": "images/ferrari_sf90_stradale_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/ferrari_sf90_stradale_exterior_1.jpg",
-      "images/ferrari_sf90_stradale_exterior_2.jpg",
-      "images/ferrari_sf90_stradale_exterior_3.jpg",
-      "images/ferrari_sf90_stradale_exterior_4.jpg",
-      "images/ferrari_sf90_stradale_exterior_5.jpg",
-      "images/ferrari_sf90_stradale_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/ferrari_sf90_stradale_interior_1.jpg",
-      "images/ferrari_sf90_stradale_interior_2.jpg",
-      "images/ferrari_sf90_stradale_interior_3.jpg",
-      "images/ferrari_sf90_stradale_interior_4.jpg",
-      "images/ferrari_sf90_stradale_interior_5.jpg",
-      "images/ferrari_sf90_stradale_interior_6.jpg",
-      "images/ferrari_sf90_stradale_interior_7.jpg",
-      "images/ferrari_sf90_stradale_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": true,
     "contact_agent": {
@@ -1007,24 +1419,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 250,
-    "car_display_image": "images/lamborghini_huracan_evo_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/lamborghini_huracan_evo_exterior_1.jpg",
-      "images/lamborghini_huracan_evo_exterior_2.jpg",
-      "images/lamborghini_huracan_evo_exterior_3.jpg",
-      "images/lamborghini_huracan_evo_exterior_4.jpg",
-      "images/lamborghini_huracan_evo_exterior_5.jpg",
-      "images/lamborghini_huracan_evo_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/lamborghini_huracan_evo_interior_1.jpg",
-      "images/lamborghini_huracan_evo_interior_2.jpg",
-      "images/lamborghini_huracan_evo_interior_3.jpg",
-      "images/lamborghini_huracan_evo_interior_4.jpg",
-      "images/lamborghini_huracan_evo_interior_5.jpg",
-      "images/lamborghini_huracan_evo_interior_6.jpg",
-      "images/lamborghini_huracan_evo_interior_7.jpg",
-      "images/lamborghini_huracan_evo_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1058,24 +1470,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 200,
-    "car_display_image": "images/bentley_continental_gt_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/bentley_continental_gt_exterior_1.jpg",
-      "images/bentley_continental_gt_exterior_2.jpg",
-      "images/bentley_continental_gt_exterior_3.jpg",
-      "images/bentley_continental_gt_exterior_4.jpg",
-      "images/bentley_continental_gt_exterior_5.jpg",
-      "images/bentley_continental_gt_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/bentley_continental_gt_interior_1.jpg",
-      "images/bentley_continental_gt_interior_2.jpg",
-      "images/bentley_continental_gt_interior_3.jpg",
-      "images/bentley_continental_gt_interior_4.jpg",
-      "images/bentley_continental_gt_interior_5.jpg",
-      "images/bentley_continental_gt_interior_6.jpg",
-      "images/bentley_continental_gt_interior_7.jpg",
-      "images/bentley_continental_gt_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1109,24 +1521,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 300,
-    "car_display_image": "images/rollsroyce_cullinan_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/rollsroyce_cullinan_exterior_1.jpg",
-      "images/rollsroyce_cullinan_exterior_2.jpg",
-      "images/rollsroyce_cullinan_exterior_3.jpg",
-      "images/rollsroyce_cullinan_exterior_4.jpg",
-      "images/rollsroyce_cullinan_exterior_5.jpg",
-      "images/rollsroyce_cullinan_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/rollsroyce_cullinan_interior_1.jpg",
-      "images/rollsroyce_cullinan_interior_2.jpg",
-      "images/rollsroyce_cullinan_interior_3.jpg",
-      "images/rollsroyce_cullinan_interior_4.jpg",
-      "images/rollsroyce_cullinan_interior_5.jpg",
-      "images/rollsroyce_cullinan_interior_6.jpg",
-      "images/rollsroyce_cullinan_interior_7.jpg",
-      "images/rollsroyce_cullinan_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1160,24 +1572,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 180,
-    "car_display_image": "images/aston_martin_dbx707_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/aston_martin_dbx707_exterior_1.jpg",
-      "images/aston_martin_dbx707_exterior_2.jpg",
-      "images/aston_martin_dbx707_exterior_3.jpg",
-      "images/aston_martin_dbx707_exterior_4.jpg",
-      "images/aston_martin_dbx707_exterior_5.jpg",
-      "images/aston_martin_dbx707_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/aston_martin_dbx707_interior_1.jpg",
-      "images/aston_martin_dbx707_interior_2.jpg",
-      "images/aston_martin_dbx707_interior_3.jpg",
-      "images/aston_martin_dbx707_interior_4.jpg",
-      "images/aston_martin_dbx707_interior_5.jpg",
-      "images/aston_martin_dbx707_interior_6.jpg",
-      "images/aston_martin_dbx707_interior_7.jpg",
-      "images/aston_martin_dbx707_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1211,24 +1623,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 280,
-    "car_display_image": "images/mclaren_750s_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/mclaren_750s_exterior_1.jpg",
-      "images/mclaren_750s_exterior_2.jpg",
-      "images/mclaren_750s_exterior_3.jpg",
-      "images/mclaren_750s_exterior_4.jpg",
-      "images/mclaren_750s_exterior_5.jpg",
-      "images/mclaren_750s_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/mclaren_750s_interior_1.jpg",
-      "images/mclaren_750s_interior_2.jpg",
-      "images/mclaren_750s_interior_3.jpg",
-      "images/mclaren_750s_interior_4.jpg",
-      "images/mclaren_750s_interior_5.jpg",
-      "images/mclaren_750s_interior_6.jpg",
-      "images/mclaren_750s_interior_7.jpg",
-      "images/mclaren_750s_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1262,24 +1674,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 150,
-    "car_display_image": "images/amg_gt63s_e_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/amg_gt63s_e_exterior_1.jpg",
-      "images/amg_gt63s_e_exterior_2.jpg",
-      "images/amg_gt63s_e_exterior_3.jpg",
-      "images/amg_gt63s_e_exterior_4.jpg",
-      "images/amg_gt63s_e_exterior_5.jpg",
-      "images/amg_gt63s_e_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/amg_gt63s_e_interior_1.jpg",
-      "images/amg_gt63s_e_interior_2.jpg",
-      "images/amg_gt63s_e_interior_3.jpg",
-      "images/amg_gt63s_e_interior_4.jpg",
-      "images/amg_gt63s_e_interior_5.jpg",
-      "images/amg_gt63s_e_interior_6.jpg",
-      "images/amg_gt63s_e_interior_7.jpg",
-      "images/amg_gt63s_e_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1289,7 +1701,7 @@
     },
     "car_type": "Sedan"
   },
-  {
+{
     "make": "BMW",
     "model": "M3 Competition",
     "year": 2023,
@@ -1313,24 +1725,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 100,
-    "car_display_image": "images/bmw_m3_competition_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/bmw_m3_competition_exterior_1.jpg",
-      "images/bmw_m3_competition_exterior_2.jpg",
-      "images/bmw_m3_competition_exterior_3.jpg",
-      "images/bmw_m3_competition_exterior_4.jpg",
-      "images/bmw_m3_competition_exterior_5.jpg",
-      "images/bmw_m3_competition_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/bmw_m3_competition_interior_1.jpg",
-      "images/bmw_m3_competition_interior_2.jpg",
-      "images/bmw_m3_competition_interior_3.jpg",
-      "images/bmw_m3_competition_interior_4.jpg",
-      "images/bmw_m3_competition_interior_5.jpg",
-      "images/bmw_m3_competition_interior_6.jpg",
-      "images/bmw_m3_competition_interior_7.jpg",
-      "images/bmw_m3_competition_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1364,24 +1776,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 130,
-    "car_display_image": "images/audi_rs7_sportback_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/audi_rs7_sportback_exterior_1.jpg",
-      "images/audi_rs7_sportback_exterior_2.jpg",
-      "images/audi_rs7_sportback_exterior_3.jpg",
-      "images/audi_rs7_sportback_exterior_4.jpg",
-      "images/audi_rs7_sportback_exterior_5.jpg",
-      "images/audi_rs7_sportback_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/audi_rs7_sportback_interior_1.jpg",
-      "images/audi_rs7_sportback_interior_2.jpg",
-      "images/audi_rs7_sportback_interior_3.jpg",
-      "images/audi_rs7_sportback_interior_4.jpg",
-      "images/audi_rs7_sportback_interior_5.jpg",
-      "images/audi_rs7_sportback_interior_6.jpg",
-      "images/audi_rs7_sportback_interior_7.jpg",
-      "images/audi_rs7_sportback_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1415,24 +1827,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 160,
-    "car_display_image": "images/porsche_cayenne_turbo_gt_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/porsche_cayenne_turbo_gt_exterior_1.jpg",
-      "images/porsche_cayenne_turbo_gt_exterior_2.jpg",
-      "images/porsche_cayenne_turbo_gt_exterior_3.jpg",
-      "images/porsche_cayenne_turbo_gt_exterior_4.jpg",
-      "images/porsche_cayenne_turbo_gt_exterior_5.jpg",
-      "images/porsche_cayenne_turbo_gt_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/porsche_cayenne_turbo_gt_interior_1.jpg",
-      "images/porsche_cayenne_turbo_gt_interior_2.jpg",
-      "images/porsche_cayenne_turbo_gt_interior_3.jpg",
-      "images/porsche_cayenne_turbo_gt_interior_4.jpg",
-      "images/porsche_cayenne_turbo_gt_interior_5.jpg",
-      "images/porsche_cayenne_turbo_gt_interior_6.jpg",
-      "images/porsche_cayenne_turbo_gt_interior_7.jpg",
-      "images/porsche_cayenne_turbo_gt_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1466,24 +1878,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 380,
-    "car_display_image": "images/ferrari_purosangue_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/ferrari_purosangue_exterior_1.jpg",
-      "images/ferrari_purosangue_exterior_2.jpg",
-      "images/ferrari_purosangue_exterior_3.jpg",
-      "images/ferrari_purosangue_exterior_4.jpg",
-      "images/ferrari_purosangue_exterior_5.jpg",
-      "images/ferrari_purosangue_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/ferrari_purosangue_interior_1.jpg",
-      "images/ferrari_purosangue_interior_2.jpg",
-      "images/ferrari_purosangue_interior_3.jpg",
-      "images/ferrari_purosangue_interior_4.jpg",
-      "images/ferrari_purosangue_interior_5.jpg",
-      "images/ferrari_purosangue_interior_6.jpg",
-      "images/ferrari_purosangue_interior_7.jpg",
-      "images/ferrari_purosangue_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1517,24 +1929,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 260,
-    "car_display_image": "images/lamborghini_urus_performante_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/lamborghini_urus_performante_exterior_1.jpg",
-      "images/lamborghini_urus_performante_exterior_2.jpg",
-      "images/lamborghini_urus_performante_exterior_3.jpg",
-      "images/lamborghini_urus_performante_exterior_4.jpg",
-      "images/lamborghini_urus_performante_exterior_5.jpg",
-      "images/lamborghini_urus_performante_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/lamborghini_urus_performante_interior_1.jpg",
-      "images/lamborghini_urus_performante_interior_2.jpg",
-      "images/lamborghini_urus_performante_interior_3.jpg",
-      "images/lamborghini_urus_performante_interior_4.jpg",
-      "images/lamborghini_urus_performante_interior_5.jpg",
-      "images/lamborghini_urus_performante_interior_6.jpg",
-      "images/lamborghini_urus_performante_interior_7.jpg",
-      "images/lamborghini_urus_performante_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1595,7 +2007,7 @@
     },
     "car_type": "Truck"
   },
-  {
+{
     "make": "Mercedes-Benz",
     "model": "G-Class",
     "year": 2024,
@@ -1619,24 +2031,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 200,
-    "car_display_image": "images/mercedes_g_class_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/mercedes_g_class_exterior_1.jpg",
-      "images/mercedes_g_class_exterior_2.jpg",
-      "images/mercedes_g_class_exterior_3.jpg",
-      "images/mercedes_g_class_exterior_4.jpg",
-      "images/mercedes_g_class_exterior_5.jpg",
-      "images/mercedes_g_class_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/mercedes_g_class_interior_1.jpg",
-      "images/mercedes_g_class_interior_2.jpg",
-      "images/mercedes_g_class_interior_3.jpg",
-      "images/mercedes_g_class_interior_4.jpg",
-      "images/mercedes_g_class_interior_5.jpg",
-      "images/mercedes_g_class_interior_6.jpg",
-      "images/mercedes_g_class_interior_7.jpg",
-      "images/mercedes_g_class_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1670,24 +2082,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 100,
-    "car_display_image": "images/bmw_ix_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/bmw_ix_exterior_1.jpg",
-      "images/bmw_ix_exterior_2.jpg",
-      "images/bmw_ix_exterior_3.jpg",
-      "images/bmw_ix_exterior_4.jpg",
-      "images/bmw_ix_exterior_5.jpg",
-      "images/bmw_ix_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/bmw_ix_interior_1.jpg",
-      "images/bmw_ix_interior_2.jpg",
-      "images/bmw_ix_interior_3.jpg",
-      "images/bmw_ix_interior_4.jpg",
-      "images/bmw_ix_interior_5.jpg",
-      "images/bmw_ix_interior_6.jpg",
-      "images/bmw_ix_interior_7.jpg",
-      "images/bmw_ix_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": true,
     "contact_agent": {
@@ -1721,24 +2133,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 150,
-    "car_display_image": "images/tesla_modelx_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/tesla_modelx_exterior_1.jpg",
-      "images/tesla_modelx_exterior_2.jpg",
-      "images/tesla_modelx_exterior_3.jpg",
-      "images/tesla_modelx_exterior_4.jpg",
-      "images/tesla_modelx_exterior_5.jpg",
-      "images/tesla_modelx_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/tesla_modelx_interior_1.jpg",
-      "images/tesla_modelx_interior_2.jpg",
-      "images/tesla_modelx_interior_3.jpg",
-      "images/tesla_modelx_interior_4.jpg",
-      "images/tesla_modelx_interior_5.jpg",
-      "images/tesla_modelx_interior_6.jpg",
-      "images/tesla_modelx_interior_7.jpg",
-      "images/tesla_modelx_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": true,
     "contact_agent": {
@@ -1772,24 +2184,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 180,
-    "car_display_image": "images/toyota_landcruiser_300_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/toyota_landcruiser_300_exterior_1.jpg",
-      "images/toyota_landcruiser_300_exterior_2.jpg",
-      "images/toyota_landcruiser_300_exterior_3.jpg",
-      "images/toyota_landcruiser_300_exterior_4.jpg",
-      "images/toyota_landcruiser_300_exterior_5.jpg",
-      "images/toyota_landcruiser_300_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/toyota_landcruiser_300_interior_1.jpg",
-      "images/toyota_landcruiser_300_interior_2.jpg",
-      "images/toyota_landcruiser_300_interior_3.jpg",
-      "images/toyota_landcruiser_300_interior_4.jpg",
-      "images/toyota_landcruiser_300_interior_5.jpg",
-      "images/toyota_landcruiser_300_interior_6.jpg",
-      "images/toyota_landcruiser_300_interior_7.jpg",
-      "images/toyota_landcruiser_300_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1823,24 +2235,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 90,
-    "car_display_image": "images/ford_f150_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/ford_f150_exterior_1.jpg",
-      "images/ford_f150_exterior_2.jpg",
-      "images/ford_f150_exterior_3.jpg",
-      "images/ford_f150_exterior_4.jpg",
-      "images/ford_f150_exterior_5.jpg",
-      "images/ford_f150_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/ford_f150_interior_1.jpg",
-      "images/ford_f150_interior_2.jpg",
-      "images/ford_f150_interior_3.jpg",
-      "images/ford_f150_interior_4.jpg",
-      "images/ford_f150_interior_5.jpg",
-      "images/ford_f150_interior_6.jpg",
-      "images/ford_f150_interior_7.jpg",
-      "images/ford_f150_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1874,24 +2286,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 80,
-    "car_display_image": "images/vw_touareg_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/vw_touareg_exterior_1.jpg",
-      "images/vw_touareg_exterior_2.jpg",
-      "images/vw_touareg_exterior_3.jpg",
-      "images/vw_touareg_exterior_4.jpg",
-      "images/vw_touareg_exterior_5.jpg",
-      "images/vw_touareg_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/vw_touareg_interior_1.jpg",
-      "images/vw_touareg_interior_2.jpg",
-      "images/vw_touareg_interior_3.jpg",
-      "images/vw_touareg_interior_4.jpg",
-      "images/vw_touareg_interior_5.jpg",
-      "images/vw_touareg_interior_6.jpg",
-      "images/vw_touareg_interior_7.jpg",
-      "images/vw_touareg_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1925,24 +2337,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 95,
-    "car_display_image": "images/audi_q7_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/audi_q7_exterior_1.jpg",
-      "images/audi_q7_exterior_2.jpg",
-      "images/audi_q7_exterior_3.jpg",
-      "images/audi_q7_exterior_4.jpg",
-      "images/audi_q7_exterior_5.jpg",
-      "images/audi_q7_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/audi_q7_interior_1.jpg",
-      "images/audi_q7_interior_2.jpg",
-      "images/audi_q7_interior_3.jpg",
-      "images/audi_q7_interior_4.jpg",
-      "images/audi_q7_interior_5.jpg",
-      "images/audi_q7_interior_6.jpg",
-      "images/audi_q7_interior_7.jpg",
-      "images/audi_q7_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -1976,24 +2388,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 55,
-    "car_display_image": "images/subaru_outback_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/subaru_outback_exterior_1.jpg",
-      "images/subaru_outback_exterior_2.jpg",
-      "images/subaru_outback_exterior_3.jpg",
-      "images/subaru_outback_exterior_4.jpg",
-      "images/subaru_outback_exterior_5.jpg",
-      "images/subaru_outback_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/subaru_outback_interior_1.jpg",
-      "images/subaru_outback_interior_2.jpg",
-      "images/subaru_outback_interior_3.jpg",
-      "images/subaru_outback_interior_4.jpg",
-      "images/subaru_outback_interior_5.jpg",
-      "images/subaru_outback_interior_6.jpg",
-      "images/subaru_outback_interior_7.jpg",
-      "images/subaru_outback_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2027,24 +2439,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 90,
-    "car_display_image": "images/jeep_grand_cherokee_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/jeep_grand_cherokee_exterior_1.jpg",
-      "images/jeep_grand_cherokee_exterior_2.jpg",
-      "images/jeep_grand_cherokee_exterior_3.jpg",
-      "images/jeep_grand_cherokee_exterior_4.jpg",
-      "images/jeep_grand_cherokee_exterior_5.jpg",
-      "images/jeep_grand_cherokee_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/jeep_grand_cherokee_interior_1.jpg",
-      "images/jeep_grand_cherokee_interior_2.jpg",
-      "images/jeep_grand_cherokee_interior_3.jpg",
-      "images/jeep_grand_cherokee_interior_4.jpg",
-      "images/jeep_grand_cherokee_interior_5.jpg",
-      "images/jeep_grand_cherokee_interior_6.jpg",
-      "images/jeep_grand_cherokee_interior_7.jpg",
-      "images/jeep_grand_cherokee_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2078,24 +2490,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 65,
-    "car_display_image": "images/hyundai_santafe_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/hyundai_santafe_exterior_1.jpg",
-      "images/hyundai_santafe_exterior_2.jpg",
-      "images/hyundai_santafe_exterior_3.jpg",
-      "images/hyundai_santafe_exterior_4.jpg",
-      "images/hyundai_santafe_exterior_5.jpg",
-      "images/hyundai_santafe_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/hyundai_santafe_interior_1.jpg",
-      "images/hyundai_santafe_interior_2.jpg",
-      "images/hyundai_santafe_interior_3.jpg",
-      "images/hyundai_santafe_interior_4.jpg",
-      "images/hyundai_santafe_interior_5.jpg",
-      "images/hyundai_santafe_interior_6.jpg",
-      "images/hyundai_santafe_interior_7.jpg",
-      "images/hyundai_santafe_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2129,24 +2541,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 65,
-    "car_display_image": "images/kia_sorento_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/kia_sorento_exterior_1.jpg",
-      "images/kia_sorento_exterior_2.jpg",
-      "images/kia_sorento_exterior_3.jpg",
-      "images/kia_sorento_exterior_4.jpg",
-      "images/kia_sorento_exterior_5.jpg",
-      "images/kia_sorento_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/kia_sorento_interior_1.jpg",
-      "images/kia_sorento_interior_2.jpg",
-      "images/kia_sorento_interior_3.jpg",
-      "images/kia_sorento_interior_4.jpg",
-      "images/kia_sorento_interior_5.jpg",
-      "images/kia_sorento_interior_6.jpg",
-      "images/kia_sorento_interior_7.jpg",
-      "images/kia_sorento_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2180,24 +2592,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 60,
-    "car_display_image": "images/mazda_cx9_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/mazda_cx9_exterior_1.jpg",
-      "images/mazda_cx9_exterior_2.jpg",
-      "images/mazda_cx9_exterior_3.jpg",
-      "images/mazda_cx9_exterior_4.jpg",
-      "images/mazda_cx9_exterior_5.jpg",
-      "images/mazda_cx9_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/mazda_cx9_interior_1.jpg",
-      "images/mazda_cx9_interior_2.jpg",
-      "images/mazda_cx9_interior_3.jpg",
-      "images/mazda_cx9_interior_4.jpg",
-      "images/mazda_cx9_interior_5.jpg",
-      "images/mazda_cx9_interior_6.jpg",
-      "images/mazda_cx9_interior_7.jpg",
-      "images/mazda_cx9_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2231,24 +2643,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 80,
-    "car_display_image": "images/nissan_titan_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/nissan_titan_exterior_1.jpg",
-      "images/nissan_titan_exterior_2.jpg",
-      "images/nissan_titan_exterior_3.jpg",
-      "images/nissan_titan_exterior_4.jpg",
-      "images/nissan_titan_exterior_5.jpg",
-      "images/nissan_titan_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/nissan_titan_interior_1.jpg",
-      "images/nissan_titan_interior_2.jpg",
-      "images/nissan_titan_interior_3.jpg",
-      "images/nissan_titan_interior_4.jpg",
-      "images/nissan_titan_interior_5.jpg",
-      "images/nissan_titan_interior_6.jpg",
-      "images/nissan_titan_interior_7.jpg",
-      "images/nissan_titan_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2282,24 +2694,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 120,
-    "car_display_image": "images/landrover_defender_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/landrover_defender_exterior_1.jpg",
-      "images/landrover_defender_exterior_2.jpg",
-      "images/landrover_defender_exterior_3.jpg",
-      "images/landrover_defender_exterior_4.jpg",
-      "images/landrover_defender_exterior_5.jpg",
-      "images/landrover_defender_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/landrover_defender_interior_1.jpg",
-      "images/landrover_defender_interior_2.jpg",
-      "images/landrover_defender_interior_3.jpg",
-      "images/landrover_defender_interior_4.jpg",
-      "images/landrover_defender_interior_5.jpg",
-      "images/landrover_defender_interior_6.jpg",
-      "images/landrover_defender_interior_7.jpg",
-      "images/landrover_defender_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2333,24 +2745,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 80,
-    "car_display_image": "images/volvo_xc90_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/volvo_xc90_exterior_1.jpg",
-      "images/volvo_xc90_exterior_2.jpg",
-      "images/volvo_xc90_exterior_3.jpg",
-      "images/volvo_xc90_exterior_4.jpg",
-      "images/volvo_xc90_exterior_5.jpg",
-      "images/volvo_xc90_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/volvo_xc90_interior_1.jpg",
-      "images/volvo_xc90_interior_2.jpg",
-      "images/volvo_xc90_interior_3.jpg",
-      "images/volvo_xc90_interior_4.jpg",
-      "images/volvo_xc90_interior_5.jpg",
-      "images/volvo_xc90_interior_6.jpg",
-      "images/volvo_xc90_interior_7.jpg",
-      "images/volvo_xc90_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2384,24 +2796,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 85,
-    "car_display_image": "images/lexus_rx350_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/lexus_rx350_exterior_1.jpg",
-      "images/lexus_rx350_exterior_2.jpg",
-      "images/lexus_rx350_exterior_3.jpg",
-      "images/lexus_rx350_exterior_4.jpg",
-      "images/lexus_rx350_exterior_5.jpg",
-      "images/lexus_rx350_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/lexus_rx350_interior_1.jpg",
-      "images/lexus_rx350_interior_2.jpg",
-      "images/lexus_rx350_interior_3.jpg",
-      "images/lexus_rx350_interior_4.jpg",
-      "images/lexus_rx350_interior_5.jpg",
-      "images/lexus_rx350_interior_6.jpg",
-      "images/lexus_rx350_interior_7.jpg",
-      "images/lexus_rx350_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2435,24 +2847,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 80,
-    "car_display_image": "images/acura_mdx_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/acura_mdx_exterior_1.jpg",
-      "images/acura_mdx_exterior_2.jpg",
-      "images/acura_mdx_exterior_3.jpg",
-      "images/acura_mdx_exterior_4.jpg",
-      "images/acura_mdx_exterior_5.jpg",
-      "images/acura_mdx_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/acura_mdx_interior_1.jpg",
-      "images/acura_mdx_interior_2.jpg",
-      "images/acura_mdx_interior_3.jpg",
-      "images/acura_mdx_interior_4.jpg",
-      "images/acura_mdx_interior_5.jpg",
-      "images/acura_mdx_interior_6.jpg",
-      "images/acura_mdx_interior_7.jpg",
-      "images/acura_mdx_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2486,24 +2898,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 90,
-    "car_display_image": "images/infiniti_qx80_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/infiniti_qx80_exterior_1.jpg",
-      "images/infiniti_qx80_exterior_2.jpg",
-      "images/infiniti_qx80_exterior_3.jpg",
-      "images/infiniti_qx80_exterior_4.jpg",
-      "images/infiniti_qx80_exterior_5.jpg",
-      "images/infiniti_qx80_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/infiniti_qx80_interior_1.jpg",
-      "images/infiniti_qx80_interior_2.jpg",
-      "images/infiniti_qx80_interior_3.jpg",
-      "images/infiniti_qx80_interior_4.jpg",
-      "images/infiniti_qx80_interior_5.jpg",
-      "images/infiniti_qx80_interior_6.jpg",
-      "images/infiniti_qx80_interior_7.jpg",
-      "images/infiniti_qx80_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2537,24 +2949,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 110,
-    "car_display_image": "images/jaguar_f_pace_svr_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/jaguar_f_pace_svr_exterior_1.jpg",
-      "images/jaguar_f_pace_svr_exterior_2.jpg",
-      "images/jaguar_f_pace_svr_exterior_3.jpg",
-      "images/jaguar_f_pace_svr_exterior_4.jpg",
-      "images/jaguar_f_pace_svr_exterior_5.jpg",
-      "images/jaguar_f_pace_svr_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/jaguar_f_pace_svr_interior_1.jpg",
-      "images/jaguar_f_pace_svr_interior_2.jpg",
-      "images/jaguar_f_pace_svr_interior_3.jpg",
-      "images/jaguar_f_pace_svr_interior_4.jpg",
-      "images/jaguar_f_pace_svr_interior_5.jpg",
-      "images/jaguar_f_pace_svr_interior_6.jpg",
-      "images/jaguar_f_pace_svr_interior_7.jpg",
-      "images/jaguar_f_pace_svr_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2588,24 +3000,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 100,
-    "car_display_image": "images/maserati_grecale_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/maserati_grecale_exterior_1.jpg",
-      "images/maserati_grecale_exterior_2.jpg",
-      "images/maserati_grecale_exterior_3.jpg",
-      "images/maserati_grecale_exterior_4.jpg",
-      "images/maserati_grecale_exterior_5.jpg",
-      "images/maserati_grecale_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/maserati_grecale_interior_1.jpg",
-      "images/maserati_grecale_interior_2.jpg",
-      "images/maserati_grecale_interior_3.jpg",
-      "images/maserati_grecale_interior_4.jpg",
-      "images/maserati_grecale_interior_5.jpg",
-      "images/maserati_grecale_interior_6.jpg",
-      "images/maserati_grecale_interior_7.jpg",
-      "images/maserati_grecale_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2639,24 +3051,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 90,
-    "car_display_image": "images/porsche_macan_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/porsche_macan_exterior_1.jpg",
-      "images/porsche_macan_exterior_2.jpg",
-      "images/porsche_macan_exterior_3.jpg",
-      "images/porsche_macan_exterior_4.jpg",
-      "images/porsche_macan_exterior_5.jpg",
-      "images/porsche_macan_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/porsche_macan_interior_1.jpg",
-      "images/porsche_macan_interior_2.jpg",
-      "images/porsche_macan_interior_3.jpg",
-      "images/porsche_macan_interior_4.jpg",
-      "images/porsche_macan_interior_5.jpg",
-      "images/porsche_macan_interior_6.jpg",
-      "images/porsche_macan_interior_7.jpg",
-      "images/porsche_macan_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2690,24 +3102,24 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 70,
-    "car_display_image": "images/mercedes_glc_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/mercedes_glc_exterior_1.jpg",
-      "images/mercedes_glc_exterior_2.jpg",
-      "images/mercedes_glc_exterior_3.jpg",
-      "images/mercedes_glc_exterior_4.jpg",
-      "images/mercedes_glc_exterior_5.jpg",
-      "images/mercedes_glc_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/mercedes_glc_interior_1.jpg",
-      "images/mercedes_glc_interior_2.jpg",
-      "images/mercedes_glc_interior_3.jpg",
-      "images/mercedes_glc_interior_4.jpg",
-      "images/mercedes_glc_interior_5.jpg",
-      "images/mercedes_glc_interior_6.jpg",
-      "images/mercedes_glc_interior_7.jpg",
-      "images/mercedes_glc_interior_8.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "electric": false,
     "contact_agent": {
@@ -2741,22 +3153,22 @@
     "imported": true,
     "vat_included": true,
     "waiting_period_days": 80,
-    "car_display_image": "images/bmw_x3_display.jpg",
+    "car_display_image": "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
     "images": [
-      "images/bmw_x3_exterior_1.jpg",
-      "images/bmw_x3_exterior_2.jpg",
-      "images/bmw_x3_exterior_3.jpg",
-      "images/bmw_x3_exterior_4.jpg",
-      "images/bmw_x3_exterior_5.jpg",
-      "images/bmw_x3_exterior_6.jpg"
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
     ],
     "interior_images": [
-      "images/bmw_x3_interior_1.jpg",
-      "images/bmw_x3_interior_2.jpg",
-      "images/bmw_x3_interior_3.jpg",
-      "images/bmw_x3_interior_4.jpg",
-      "images/bmw_x3_interior_5.jpg"
-      ],
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image",
+      "https://placehold.co/800x600/00008B/FFFFFF?text=car+image"
+    ],
     "electric": false,
     "contact_agent": {
       "name": "Porsche Centre Nairobi",
