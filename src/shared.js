@@ -43,7 +43,7 @@ export function renderFooter(host) {
   const inner = document.createElement("div");
   inner.className = "shell footer-inner";
   const copyright = document.createElement("p");
-  copyright.textContent = "© onStore — discover our six shops.";
+  copyright.textContent = "© onStore — discover our seven shops.";
   const nav = document.createElement("nav");
   nav.setAttribute("aria-label", "Footer navigation");
   for (const [title, hash] of [["Shops", "#shops"], ["About", "#about"]]) {

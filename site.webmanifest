@@ -1,7 +1,7 @@
 {
   "name": "onStore",
   "short_name": "onStore",
-  "description": "Discover our six shops.",
+  "description": "Discover our seven shops.",
   "start_url": "./",
   "scope": "./",
   "display": "browser",

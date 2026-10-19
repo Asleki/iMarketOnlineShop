@@ -2,7 +2,7 @@
 
 **Status:** Stage 1 cleanup candidate. This branch prepares the shared architecture before the homepage, flash-sale timer and NoveGeo v015 catalogue are integrated.
 
-The project is being rebuilt inside `Asleki/iMarketOnlineShop` while preserving six original merchant names:
+The project is being rebuilt inside `Asleki/iMarketOnlineShop` with seven shops, preserving the six original merchants and adding NexaGreen:
 
 - Soko Properties
 - Click 'n Get
@@ -10,6 +10,7 @@ The project is being rebuilt inside `Asleki/iMarketOnlineShop` while preserving 
 - OfficeTech Solutions
 - Joy Totes
 - Nashaa Kicks
+- NexaGreen — Foods and Beverages only
 
 ## Minimal project structure
 
@@ -19,7 +20,7 @@ assets/site.css        single global token/layout/component stylesheet
 src/app.js             homepage entrypoint
 src/shared.js          reusable header and footer
 src/media.js           one image fallback for future NoveGeo media
-data/shops.json        single source for six shop names / categories
+data/shops.json        single source for seven shop names / categories
 images/placeholder.webp shared product fallback
 images/logo/*.webp    four original, verified shop-logo blobs
 tests/validate-foundation.mjs
@@ -52,7 +53,7 @@ Source of future product records and validated media: NoveGeo v015. See `docs/RE
 
 ## Merchant-logo preservation
 
-The rebuilt shop cards reuse four unchanged WebP logos recovered from the old `main` commit (Soko Properties, Click 'n Get, AutoGiant Motors, OfficeTech Solutions). Joy Totes and Nashaa Kicks did not have committed source-logo files; they temporarily show their shop initials instead of a misleading substitute. Logo links are defined in `data/shops.json`.
+The rebuilt shop cards reuse four unchanged WebP logos recovered from the old `main` commit (Soko Properties, Click 'n Get, AutoGiant Motors, OfficeTech Solutions). Joy Totes and Nashaa Kicks did not have committed source-logo files; they temporarily show their shop initials instead of a misleading substitute. NexaGreen also uses its initial until an approved logo is supplied. Logo links are defined in `data/shops.json`.
 
 ## Shared design system (Stage 1.2)
 

@@ -78,5 +78,17 @@
     ],
     "targetProducts": 30,
     "logoUrl": null
+  },
+  {
+    "id": "nexagreen",
+    "slug": "nexagreen",
+    "name": "NexaGreen",
+    "description": "Foods and beverages only.",
+    "categories": [
+      "Foods",
+      "Beverages"
+    ],
+    "targetProducts": 30,
+    "logoUrl": null
   }
 ]

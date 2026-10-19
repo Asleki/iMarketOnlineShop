@@ -40,7 +40,7 @@ async function main() {
     const response = await fetch(new URL("../data/shops.json", import.meta.url));
     if (!response.ok) throw new Error("Shop catalogue request failed");
     const shops = await response.json();
-    if (!Array.isArray(shops) || shops.length !== 6) throw new Error("Invalid shop configuration");
+    if (!Array.isArray(shops) || shops.length !== 7) throw new Error("Invalid shop configuration");
     grid.replaceChildren(...shops.map(createShopCard));
   } catch (error) {
     console.error("Could not load shops", error);
