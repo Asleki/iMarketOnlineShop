@@ -1,0 +1,17 @@
+import { readFileSync, existsSync } from "node:fs";
+import assert from "node:assert/strict";
+const read = path => readFileSync(new URL("../" + path, import.meta.url), "utf8");
+const shopList = JSON.parse(read("data/shops.json"));
+const expectedNames = ["Soko Properties", "Click 'n Get", "AutoGiant Motors", "OfficeTech Solutions", "Joy Totes", "Nashaa Kicks"];
+assert.deepEqual(shopList.map(s => s.name), expectedNames, "Original shop names must remain unchanged");
+assert.equal(new Set(shopList.map(s => s.id)).size, 6, "Unique shop identifiers");
+assert.equal(new Set(shopList.map(s => s.slug)).size, 6, "Unique shop URL slugs");
+assert.ok(shopList.every(s => s.targetProducts === 30), "Each shop targets 30 verified NoveGeo products");
+const index = read("index.html");
+assert.equal((index.match(/rel="stylesheet"/g) || []).length, 1, "Use one shared stylesheet");
+assert.equal((index.match(/<script\b/g) || []).length, 1, "Use one module entrypoint");
+assert.ok(index.includes("./src/app.js"), "Entrypoint is module");
+assert.ok(read("src/app.js").includes("./shared.js"), "Shared chrome is reused");
+assert.ok(read("src/media.js").includes("FALLBACK_IMAGE_URL"), "One shared image fallback");
+assert.ok(existsSync(new URL("../images/placeholder.webp", import.meta.url)), "Fallback image exists");
+console.log("PASS: six original shops, 30-slot targets, unified CSS/JS, shared chrome, one media fallback");
