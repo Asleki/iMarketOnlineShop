@@ -28,7 +28,7 @@ for (const shop of shopList) {
 }
 assert.ok(read("src/app.js").includes("shop.logoUrl"), "Shop cards use mapped logo assets");
 assert.ok(read("src/app.js").includes("showMonogram"), "Shop cards have a missing-logo fallback");
-console.log("PASS: six original shops, four restored WebP logos, two missing-logo fallbacks, shared CSS/JS and product media fallback");
+
 
 const css = read("assets/site.css");
 for (const name of ["--font-body","--font-display","--font-mono","--color-text","--color-brand","--color-bg","--color-focus","--radius-lg","--space-4"]) {
@@ -61,3 +61,4 @@ assert.equal(manifest.icons[0].src, "./assets/favicon.svg");
 assert.ok(existsSync(new URL("../assets/favicon.svg", import.meta.url)), "SVG favicon exists");
 assert.ok(read("src/seo.js").includes("canonicalUrl"), "Reusable SEO metadata helper");
 console.log("PASS: accessible light/dark tokens, font stacks, icon sprite, SVG favicon, staging SEO metadata and logo preservation");
+console.log("PASS: six shops, exact logos, shared CSS, light/dark tokens, accessible icon sprite, SVG favicon and staging SEO metadata");

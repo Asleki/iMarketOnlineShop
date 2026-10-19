@@ -1,0 +1,39 @@
+name: Storefront foundation checks
+on:
+  push:
+    branches:
+      - rebuild/stage-01-clean-foundation
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  foundation:
+    name: Verify shared storefront foundation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify foundation contracts
+        run: npm test
+      - name: Parse application JavaScript
+        run: |
+          for file in src/*.js tests/*.mjs; do
+            node --check "$file"
+          done
+      - name: Validate SVG icon and favicon syntax
+        run: |
+          python3 - <<'PY'
+          from xml.etree import ElementTree
+          for name in ('assets/icons.svg', 'assets/favicon.svg'):
+              root = ElementTree.parse(name).getroot()
+              assert root.tag.endswith('svg')
+              print('PASS:', name)
+          PY

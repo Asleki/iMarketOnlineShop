@@ -1,5 +1,4 @@
 // Shared site chrome: exactly one header and footer implementation.
-import { createIcon } from "./icons.js";
 import { bindThemeToggle } from "./theme.js";
 const HOME_URL = new URL("../index.html", import.meta.url);
 const urlOnHome = hash => new URL(HOME_URL.href + hash).href;

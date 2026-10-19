@@ -65,3 +65,7 @@ The rebuilt shop cards reuse four unchanged WebP logos recovered from the old `m
 - Font stacks prefer Inter for body and Manrope for headings when already available on the device. No external font downloads or font files are bundled; system fallbacks always work.
 
 See `docs/DESIGN_SYSTEM.md` and `docs/SEO_CONTRACT.md`.
+
+## Foundation CI
+
+The `.github/workflows/foundation.yml` workflow runs the Node foundation contract, JavaScript syntax checks and SVG syntax checks on rebuild branch pushes and pull requests to `main`. No build package or third-party runtime is required.

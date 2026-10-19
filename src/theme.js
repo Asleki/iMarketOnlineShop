@@ -13,7 +13,7 @@ export function bindThemeToggle(button) {
   function apply() {
     const mode = resolve();
     document.documentElement.dataset.theme = mode;
-    button.setAttribute("aria-label", mode === "dark" ? "Switch to light theme" : "Switch to dark theme");
+    button.setAttribute("aria-label", "Dark theme");
     button.setAttribute("title", mode === "dark" ? "Switch to light theme" : "Switch to dark theme");
     button.setAttribute("aria-pressed", String(mode === "dark"));
     button.replaceChildren(createIcon(mode === "dark" ? "sun" : "moon"));
