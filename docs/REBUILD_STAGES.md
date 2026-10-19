@@ -6,7 +6,7 @@ This branch is a cleanup/rebuild candidate, **not the public production release*
 ## Stage 1 — clean foundation (this branch)
 - Preserve original `main` and Git history; never force-push or replace the source baseline.
 - Retain six original shop names from `data/shops.json`, normalizing URL slugs.
-- Remove old HTML/CSS/JS/data/media from the branch; the only retained image is `images/placeholder.webp`.
+- Remove obsolete HTML/CSS/JS and nonessential product media from the branch; retain `images/placeholder.webp` plus four source-backed original shop-logo WebP images from the legacy commit.
 - New foundational files: one `index.html`, one `assets/site.css`, shared header/footer in `src/shared.js`, one `src/app.js` entry point, shared media helper, six-shop config and automated foundation test.
 - No claims of operational checkout, stock, shop contact endpoints or verified promotions at this stage.
 
@@ -37,3 +37,9 @@ This branch is a cleanup/rebuild candidate, **not the public production release*
 - The existing repo's assets are preserved in Git history at the source commit.
 - The NoveGeo Source of Truth stays outside the website; only a verified curated export is allowed inside the site.
 - Subsequent image additions update the media manifest without changing the product's canonical ID.
+
+## Original shop-logo retention (Stage 1 correction)
+- Preserve exact original Git blob SHA and filename for Soko Properties, Click 'n Get, AutoGiant Motors and OfficeTech Solutions.
+- Logo mappings live in `data/shops.json` and share the same reusable shop-card component.
+- The original repository referenced Joy Totes and Nashaa Kicks logos but did not commit those files; no approved standalone logo was located in the inspected linked Drive archive. Use a textual monogram for those two until a genuine logo is supplied.
+- Do not confuse the product-image placeholder with a merchant logo or invent a logo.

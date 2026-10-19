@@ -14,4 +14,18 @@ assert.ok(index.includes("./src/app.js"), "Entrypoint is module");
 assert.ok(read("src/app.js").includes("./shared.js"), "Shared chrome is reused");
 assert.ok(read("src/media.js").includes("FALLBACK_IMAGE_URL"), "One shared image fallback");
 assert.ok(existsSync(new URL("../images/placeholder.webp", import.meta.url)), "Fallback image exists");
-console.log("PASS: six original shops, 30-slot targets, unified CSS/JS, shared chrome, one media fallback");
+const expectedLogos = new Map([
+  ["soko_properties", "images/logo/soko-logo.webp"],
+  ["click_n_get", "images/logo/shop-clicknget.webp"],
+  ["autogiant_motors", "images/logo/autogiant-logo.webp"],
+  ["officetech_solutions", "images/logo/officetech-logo.webp"]
+]);
+assert.equal(shopList.filter(shop => shop.logoUrl).length, 4, "Four source-backed logos, no invented assets");
+for (const shop of shopList) {
+  const expected = expectedLogos.get(shop.id) ?? null;
+  assert.equal(shop.logoUrl, expected, "Logo mapping must match original brand identity");
+  if (expected) assert.ok(existsSync(new URL("../" + expected, import.meta.url)), "Original logo exists: " + expected);
+}
+assert.ok(read("src/app.js").includes("shop.logoUrl"), "Shop cards use mapped logo assets");
+assert.ok(read("src/app.js").includes("showMonogram"), "Shop cards have a missing-logo fallback");
+console.log("PASS: six original shops, four restored WebP logos, two missing-logo fallbacks, shared CSS/JS and product media fallback");

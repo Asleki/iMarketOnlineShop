@@ -41,7 +41,8 @@ h2 { font-size: clamp(1.6rem, 2.8vw, 2.15rem); line-height: 1.2; letter-spacing:
 .section-heading p:last-child { color: var(--muted); margin: 0; }
 .shop-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 18px; }
 .shop-card { border: 1px solid var(--line); border-radius: var(--radius); background: white; padding: 24px; box-shadow: var(--shadow); }
-.shop-icon { display: grid; place-items: center; width: 46px; height: 46px; border-radius: 14px; background: #e9f1fc; color: var(--accent); font-size: 1.3rem; font-weight: 800; margin-bottom: 16px; }
+.shop-icon { display: grid; place-items: center; width: 82px; height: 68px; padding: 8px; border-radius: 14px; background: #e9f1fc; color: var(--accent); font-size: 1.3rem; font-weight: 800; margin-bottom: 16px; }
+.shop-logo { display: block; max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; }
 .shop-card h3 { margin: 0 0 10px; font-size: 1.13rem; }
 .shop-card p { color: var(--muted); font-size: .92rem; margin: 0; }
 .section-quiet { background: var(--subtle); padding-inline: 26px; border-radius: var(--radius); margin-bottom: 60px; }

@@ -6,8 +6,24 @@ function createShopCard(shop) {
   article.id = "shop-" + shop.slug;
   const icon = document.createElement("div");
   icon.className = "shop-icon";
-  icon.textContent = shop.name.charAt(0).toUpperCase();
-  icon.setAttribute("aria-hidden", "true");
+  function showMonogram() {
+    const letter = document.createElement("span");
+    letter.setAttribute("aria-hidden", "true");
+    letter.textContent = shop.name.charAt(0).toUpperCase();
+    icon.replaceChildren(letter);
+  }
+  if (shop.logoUrl) {
+    const logo = document.createElement("img");
+    logo.className = "shop-logo";
+    logo.alt = shop.name + " logo";
+    logo.loading = "lazy";
+    logo.decoding = "async";
+    logo.addEventListener("error", showMonogram, { once: true });
+    logo.src = shop.logoUrl;
+    icon.append(logo);
+  } else {
+    showMonogram();
+  }
   const title = document.createElement("h3");
   title.textContent = shop.name;
   const summary = document.createElement("p");

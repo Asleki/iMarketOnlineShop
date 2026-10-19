@@ -9,7 +9,8 @@
       "Land",
       "Commercial Property"
     ],
-    "targetProducts": 30
+    "targetProducts": 30,
+    "logoUrl": "images/logo/soko-logo.webp"
   },
   {
     "id": "click_n_get",
@@ -21,7 +22,8 @@
       "Home & Kitchen",
       "Appliances"
     ],
-    "targetProducts": 30
+    "targetProducts": 30,
+    "logoUrl": "images/logo/shop-clicknget.webp"
   },
   {
     "id": "autogiant_motors",
@@ -33,7 +35,8 @@
       "Automotive Parts",
       "Motorcycles"
     ],
-    "targetProducts": 30
+    "targetProducts": 30,
+    "logoUrl": "images/logo/autogiant-logo.webp"
   },
   {
     "id": "officetech_solutions",
@@ -46,7 +49,8 @@
       "Office Furniture",
       "Accessories"
     ],
-    "targetProducts": 30
+    "targetProducts": 30,
+    "logoUrl": "images/logo/officetech-logo.webp"
   },
   {
     "id": "joy_totes",
@@ -58,7 +62,8 @@
       "Crossbody Bags",
       "Waist Bags"
     ],
-    "targetProducts": 30
+    "targetProducts": 30,
+    "logoUrl": null
   },
   {
     "id": "nashaa_kicks",
@@ -71,6 +76,7 @@
       "Sneakers",
       "Flats"
     ],
-    "targetProducts": 30
+    "targetProducts": 30,
+    "logoUrl": null
   }
 ]
