@@ -3,7 +3,7 @@
 ## Working rebuild branch
 - Head includes UTF-8, viewport, title, description, `lang="en"`, color-scheme and theme-color.
 - Open Graph `og:type`, `og:site_name`, title/description, Twitter summary card/title/description.
-- Favicon links to `assets/favicon.svg` and identity manifest to `site.webmanifest`.
+- Favicon links to approved `assets/brand/onstore-mark.svg` and `assets/brand/onstore-favicon.ico`; identity manifest icons point at generated 192px and 512px PNGs.
 - This working branch is intentionally marked `noindex, nofollow` until there is an approved, deployed production website. Do not accidentally index an empty shopping prototype.
 - A URL-less share description is preferable to a fabricated social image, company location or production hostname.
 

@@ -62,7 +62,10 @@ const manifest = JSON.parse(read("site.webmanifest"));
 assert.equal(manifest.name, "onStore");
 assert.equal(manifest.display, "browser", "This foundation is not yet an installable PWA");
 assert.equal(manifest.icons[0].src, "./assets/brand/onstore-mark-192.png");
-assert.ok(existsSync(new URL("../assets/favicon.svg", import.meta.url)), "SVG favicon exists");
+assert.ok(existsSync(new URL("../assets/brand/onstore-mark.svg", import.meta.url)), "Approved SVG favicon exists");
+for (const file of ["assets/brand/onstore-favicon.ico","assets/brand/onstore-mark-192.png","assets/brand/onstore-mark-512.png","assets/brand/nexagreen-mark-512.webp","assets/brand/onstore-social-1200x630.png"]) {
+  assert.ok(existsSync(new URL("../"+file, import.meta.url)), "Branded image variant missing: "+file);
+}
 assert.ok(read("src/seo.js").includes("canonicalUrl"), "Reusable SEO metadata helper");
 console.log("PASS: accessible light/dark tokens, font stacks, icon sprite, SVG favicon, staging SEO metadata and logo preservation");
 console.log("PASS: seven shops, exact logos, shared CSS, light/dark tokens, accessible icon sprite, SVG favicon and staging SEO metadata");

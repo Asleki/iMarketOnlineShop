@@ -43,14 +43,14 @@ This branch is a cleanup/rebuild candidate, **not the public production release*
 - Preserve exact original Git blob SHA and filename for Soko Properties, Click 'n Get, AutoGiant Motors and OfficeTech Solutions.
 - Logo mappings live in `data/shops.json` and share the same reusable shop-card component.
 - The original repository referenced Joy Totes and Nashaa Kicks logos but did not commit those files; no approved standalone logo was located in the inspected linked Drive archive. Use a textual monogram for those two until a genuine logo is supplied.
-- NexaGreen has no supplied logo; use its textual initial until an approved logo is supplied.
+- NexaGreen uses the approved N-leaf SVG (`assets/brand/nexagreen-mark.svg`), rendered with the shared shop-card code.
 - Do not confuse the product-image placeholder with a merchant logo or invent a logo.
 
 ## Stage 1.2 — design token and head metadata contract
 - Shared semantic light/dark tokens in the single `assets/site.css`.
 - One SVG icon sprite and reusable `createIcon` helper; a shared theme switch with persistent preference and OS-default behavior.
 - Favicon SVG and manifest identity; SEO/OG/Twitter head fields; staging remains `noindex` without fabricated domain canonical URLs or product rich results.
-- Four historical merchant logos remain byte-for-byte unchanged; Joy Totes, Nashaa Kicks and NexaGreen use initials.
+- Four historical merchant logos remain byte-for-byte unchanged; Joy Totes and Nashaa Kicks use initials pending approved standalone artwork; NexaGreen uses the green N-leaf SVG.
 - The flash-sale countdown and all shopping features remain in their approved later stages.
 
 ## Stage 1.3 — approved brand logos on the default branch
