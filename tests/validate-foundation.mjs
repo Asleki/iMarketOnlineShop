@@ -10,7 +10,7 @@ assert.ok(shopList.every(s => s.targetProducts === 30), "Each shop targets 30 ve
 const nexaGreen = shopList.find(shop => shop.id === "nexagreen");
 assert.equal(nexaGreen.slug, "nexagreen");
 assert.deepEqual(nexaGreen.categories, ["Foods", "Beverages"], "NexaGreen sells only foods and beverages");
-assert.equal(nexaGreen.logoUrl, "assets/brand/nexagreen-mark.svg", "NexaGreen uses the approved N leaf");
+assert.equal(nexaGreen.logoUrl, "images/brands/nexagreen/nexagreen-logo.webp", "NexaGreen uses the approved N leaf");
 const index = read("index.html");
 assert.equal((index.match(/rel="stylesheet"/g) || []).length, 1, "Use one shared stylesheet");
 assert.equal((index.match(/<script\b/g) || []).length, 1, "Use one module entrypoint");
@@ -19,14 +19,14 @@ assert.ok(read("src/app.js").includes("./shared.js"), "Shared chrome is reused")
 assert.ok(read("src/media.js").includes("FALLBACK_IMAGE_URL"), "One shared image fallback");
 assert.ok(existsSync(new URL("../images/placeholder.webp", import.meta.url)), "Fallback image exists");
 const expectedLogos = new Map([
-  ["soko_properties", "images/logo/soko-logo.webp"],
-  ["click_n_get", "images/logo/shop-clicknget.webp"],
-  ["autogiant_motors", "images/logo/autogiant-logo.webp"],
-  ["officetech_solutions", "images/logo/officetech-logo.webp"]
+  ["soko_properties", "images/brands/soko-properties/soko-properties-logo.webp"],
+  ["click_n_get", "images/brands/click-n-get/click-n-get-logo.webp"],
+  ["autogiant_motors", "images/brands/autogiant-motors/autogiant-motors-logo.webp"],
+  ["officetech_solutions", "images/brands/officetech-solutions/officetech-solutions-logo.webp"]
 ]);
 assert.equal(shopList.filter(shop => shop.logoUrl).length, 5, "Four original and one newly approved logo");
 for (const shop of shopList) {
-  const expected = shop.id === "nexagreen" ? "assets/brand/nexagreen-mark.svg" : (expectedLogos.get(shop.id) ?? null);
+  const expected = shop.id === "nexagreen" ? "images/brands/nexagreen/nexagreen-logo.webp" : (expectedLogos.get(shop.id) ?? null);
   assert.equal(shop.logoUrl, expected, "Logo mapping must match original brand identity");
   if (expected) assert.ok(existsSync(new URL("../" + expected, import.meta.url)), "Original logo exists: " + expected);
 }

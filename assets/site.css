@@ -141,3 +141,18 @@ h2 { font-size: var(--text-h2); line-height: 1.2; letter-spacing: -.035em; margi
   :root:not([data-theme]) .wordmark-on-dark { display: block; }
 }
 .hero-logo { display: block; width: min(65%, 180px); height: auto; aspect-ratio: 1; object-fit: contain; }
+
+/* Merchant artwork keeps its original colors on a stable neutral plate.
+   The rest of each card inherits the shared light/dark surface tokens. */
+:root { --color-logo-plate: #ffffff; }
+.shop-icon { width: 104px; height: 104px; background: var(--color-logo-plate); border: 1px solid var(--color-border); }
+.shop-icon > span { color: #175dbf; }
+.shop-wordmark { display: block; width: min(100%, 245px); height: 40px; }
+.shop-wordmark img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: left center; }
+.shop-wordmark .wordmark-dark { display: none; }
+:root[data-theme="dark"] .wordmark-light { display: none; }
+:root[data-theme="dark"] .wordmark-dark { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .wordmark-light { display: none; }
+  :root:not([data-theme]) .wordmark-dark { display: block; }
+}

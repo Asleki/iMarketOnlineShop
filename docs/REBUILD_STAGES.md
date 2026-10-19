@@ -40,10 +40,10 @@ This branch is a cleanup/rebuild candidate, **not the public production release*
 - Subsequent image additions update the media manifest without changing the product's canonical ID.
 
 ## Original shop-logo retention (Stage 1 correction)
-- Preserve exact original Git blob SHA and filename for Soko Properties, Click 'n Get, AutoGiant Motors and OfficeTech Solutions.
+- Preserve exact original Git blob SHA with standardized filenames for Soko Properties, Click 'n Get, AutoGiant Motors and OfficeTech Solutions.
 - Logo mappings live in `data/shops.json` and share the same reusable shop-card component.
 - The original repository referenced Joy Totes and Nashaa Kicks logos but did not commit those files; no approved standalone logo was located in the inspected linked Drive archive. Use a textual monogram for those two until a genuine logo is supplied.
-- NexaGreen uses the approved N-leaf SVG (`assets/brand/nexagreen-mark.svg`), rendered with the shared shop-card code.
+- NexaGreen uses the approved leaf N WebP in `images/brands/nexagreen/`; its text wordmark is separate. The existing shared brand SVG is preserved for compatibility.
 - Do not confuse the product-image placeholder with a merchant logo or invent a logo.
 
 ## Stage 1.2 — design token and head metadata contract
@@ -58,3 +58,7 @@ This branch is a cleanup/rebuild candidate, **not the public production release*
 - NexaGreen's approved N-leaf mark is now its shop logo. No unrelated photos and no invented wordmark.
 - Main-branch cleanup preserves the prior main snapshot on `archive/pre-onstore-main-2026-10-19` and in Git ancestry; no history rewrite.
 - A deterministic GitHub Actions workflow produces the PNG/WebP/ICO variants; production readiness requires successful workflow verification.
+
+## Merchant asset completion
+
+Standardized merchant paths, original WebP preservation, format derivatives, initial placeholders and metadata helpers are documented in `BRAND_ASSETS.md`. Existing onStore brand masters and generated files remain unchanged.

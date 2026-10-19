@@ -1,4 +1,5 @@
 import { renderHeader, renderFooter } from "./shared.js";
+import { createShopWordmark } from "./branding.js";
 
 function createShopCard(shop) {
   const article = document.createElement("article");
@@ -12,20 +13,20 @@ function createShopCard(shop) {
     letter.textContent = shop.name.charAt(0).toUpperCase();
     icon.replaceChildren(letter);
   }
-  if (shop.logoUrl) {
+  if (shop.logoUrl || shop.brandAssets?.icon) {
     const logo = document.createElement("img");
     logo.className = "shop-logo";
-    logo.alt = shop.name + " logo";
+    logo.alt = shop.name + (shop.logoUrl ? " logo" : " temporary initial");
     logo.loading = "lazy";
     logo.decoding = "async";
     logo.addEventListener("error", showMonogram, { once: true });
-    logo.src = shop.logoUrl;
+    logo.src = new URL("../" + (shop.logoUrl || shop.brandAssets.icon), import.meta.url).href;
     icon.append(logo);
   } else {
     showMonogram();
   }
   const title = document.createElement("h3");
-  title.textContent = shop.name;
+  title.append(createShopWordmark(shop));
   const summary = document.createElement("p");
   summary.textContent = shop.description;
   article.append(icon, title, summary);
@@ -51,3 +52,4 @@ async function main() {
 }
 
 main();
+

@@ -4,6 +4,6 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "test": "node tests/validate-foundation.mjs"
+    "test": "node tests/validate-foundation.mjs && node tests/validate-brand-assets.mjs"
   }
 }

@@ -10,7 +10,16 @@
       "Commercial Property"
     ],
     "targetProducts": 30,
-    "logoUrl": "images/logo/soko-logo.webp"
+    "logoUrl": "images/brands/soko-properties/soko-properties-logo.webp",
+    "brandAssets": {
+      "status": "retained-original",
+      "icon": "images/brands/soko-properties/soko-properties-icon.webp",
+      "favicon": "images/brands/soko-properties/soko-properties-favicon.ico",
+      "appleTouchIcon": "images/brands/soko-properties/soko-properties-apple-touch-icon.png",
+      "wordmarkLight": "images/brands/soko-properties/soko-properties-wordmark-light.svg",
+      "wordmarkDark": "images/brands/soko-properties/soko-properties-wordmark-dark.svg",
+      "social": "images/brands/soko-properties/soko-properties-social.png"
+    }
   },
   {
     "id": "click_n_get",
@@ -23,7 +32,16 @@
       "Appliances"
     ],
     "targetProducts": 30,
-    "logoUrl": "images/logo/shop-clicknget.webp"
+    "logoUrl": "images/brands/click-n-get/click-n-get-logo.webp",
+    "brandAssets": {
+      "status": "retained-original",
+      "icon": "images/brands/click-n-get/click-n-get-icon.webp",
+      "favicon": "images/brands/click-n-get/click-n-get-favicon.ico",
+      "appleTouchIcon": "images/brands/click-n-get/click-n-get-apple-touch-icon.png",
+      "wordmarkLight": "images/brands/click-n-get/click-n-get-wordmark-light.svg",
+      "wordmarkDark": "images/brands/click-n-get/click-n-get-wordmark-dark.svg",
+      "social": "images/brands/click-n-get/click-n-get-social.png"
+    }
   },
   {
     "id": "autogiant_motors",
@@ -36,7 +54,16 @@
       "Motorcycles"
     ],
     "targetProducts": 30,
-    "logoUrl": "images/logo/autogiant-logo.webp"
+    "logoUrl": "images/brands/autogiant-motors/autogiant-motors-logo.webp",
+    "brandAssets": {
+      "status": "retained-original",
+      "icon": "images/brands/autogiant-motors/autogiant-motors-icon.webp",
+      "favicon": "images/brands/autogiant-motors/autogiant-motors-favicon.ico",
+      "appleTouchIcon": "images/brands/autogiant-motors/autogiant-motors-apple-touch-icon.png",
+      "wordmarkLight": "images/brands/autogiant-motors/autogiant-motors-wordmark-light.svg",
+      "wordmarkDark": "images/brands/autogiant-motors/autogiant-motors-wordmark-dark.svg",
+      "social": "images/brands/autogiant-motors/autogiant-motors-social.png"
+    }
   },
   {
     "id": "officetech_solutions",
@@ -50,7 +77,16 @@
       "Accessories"
     ],
     "targetProducts": 30,
-    "logoUrl": "images/logo/officetech-logo.webp"
+    "logoUrl": "images/brands/officetech-solutions/officetech-solutions-logo.webp",
+    "brandAssets": {
+      "status": "retained-original",
+      "icon": "images/brands/officetech-solutions/officetech-solutions-icon.webp",
+      "favicon": "images/brands/officetech-solutions/officetech-solutions-favicon.ico",
+      "appleTouchIcon": "images/brands/officetech-solutions/officetech-solutions-apple-touch-icon.png",
+      "wordmarkLight": "images/brands/officetech-solutions/officetech-solutions-wordmark-light.svg",
+      "wordmarkDark": "images/brands/officetech-solutions/officetech-solutions-wordmark-dark.svg",
+      "social": "images/brands/officetech-solutions/officetech-solutions-social.png"
+    }
   },
   {
     "id": "joy_totes",
@@ -63,7 +99,16 @@
       "Waist Bags"
     ],
     "targetProducts": 30,
-    "logoUrl": null
+    "logoUrl": null,
+    "brandAssets": {
+      "status": "temporary-initial",
+      "icon": "images/brands/joy-totes/joy-totes-icon.webp",
+      "favicon": "images/brands/joy-totes/joy-totes-favicon.ico",
+      "appleTouchIcon": "images/brands/joy-totes/joy-totes-apple-touch-icon.png",
+      "wordmarkLight": "images/brands/joy-totes/joy-totes-wordmark-light.svg",
+      "wordmarkDark": "images/brands/joy-totes/joy-totes-wordmark-dark.svg",
+      "social": "images/brands/joy-totes/joy-totes-social.png"
+    }
   },
   {
     "id": "nashaa_kicks",
@@ -77,7 +122,16 @@
       "Flats"
     ],
     "targetProducts": 30,
-    "logoUrl": null
+    "logoUrl": null,
+    "brandAssets": {
+      "status": "temporary-initial",
+      "icon": "images/brands/nashaa-kicks/nashaa-kicks-icon.webp",
+      "favicon": "images/brands/nashaa-kicks/nashaa-kicks-favicon.ico",
+      "appleTouchIcon": "images/brands/nashaa-kicks/nashaa-kicks-apple-touch-icon.png",
+      "wordmarkLight": "images/brands/nashaa-kicks/nashaa-kicks-wordmark-light.svg",
+      "wordmarkDark": "images/brands/nashaa-kicks/nashaa-kicks-wordmark-dark.svg",
+      "social": "images/brands/nashaa-kicks/nashaa-kicks-social.png"
+    }
   },
   {
     "id": "nexagreen",
@@ -89,6 +143,15 @@
       "Beverages"
     ],
     "targetProducts": 30,
-    "logoUrl": "assets/brand/nexagreen-mark.svg"
+    "logoUrl": "images/brands/nexagreen/nexagreen-logo.webp",
+    "brandAssets": {
+      "status": "approved-leaf-symbol",
+      "icon": "images/brands/nexagreen/nexagreen-icon.webp",
+      "favicon": "images/brands/nexagreen/nexagreen-favicon.ico",
+      "appleTouchIcon": "images/brands/nexagreen/nexagreen-apple-touch-icon.png",
+      "wordmarkLight": "images/brands/nexagreen/nexagreen-wordmark-light.svg",
+      "wordmarkDark": "images/brands/nexagreen/nexagreen-wordmark-dark.svg",
+      "social": "images/brands/nexagreen/nexagreen-social.png"
+    }
   }
 ]

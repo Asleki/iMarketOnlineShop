@@ -39,8 +39,12 @@ Colors for success, warning, danger, surfaces, accent-contrast, hero, footer and
 - Runtime API: `createIcon("search")` in `src/icons.js`.
 - Examples: search, cart, account, heart, home, theme, shops, filter, navigation, gallery, category, promo, delivery, payment and contact.
 - Decorative icons use `aria-hidden="true"`; their actionable parent control must carry an accessible text/label.
-- Original merchant WebP logos are **not icons** and remain intact in `images/logo`.
+- Original merchant WebP logos are **not icons** and remain intact under standardized filenames in `images/brands/<slug>/`.
 - All product image fallbacks still use one `images/placeholder.webp`.
 
 ## Change policy
 Changes to palette, spacing, typography or shared icon definitions belong in this token system, accompanied by accessibility and browser regression checks. Update Stage 1.2 tests when new design-system capabilities become required.
+
+## Merchant identity surfaces
+
+A shared white `--color-logo-plate` preserves visibility of original artwork in both themes. Separate merchant wordmarks follow the shared theme selectors. Generic UI icons remain theme-inheriting SVGs. See `BRAND_ASSETS.md`.

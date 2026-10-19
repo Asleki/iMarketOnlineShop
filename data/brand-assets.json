@@ -1,0 +1,495 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "path": "images/brands/soko-properties/soko-properties-apple-touch-icon.png",
+      "bytes": 8988,
+      "sha256": "db1c1871c3e10bf966745fcf461d9284b5159ed1a1d46b104e5efa0c3df32c12"
+    },
+    {
+      "path": "images/brands/soko-properties/soko-properties-favicon.ico",
+      "bytes": 25574,
+      "sha256": "9efbac1c1134845d9b4b88c53864f240614e71ad42d03411956d6cb2dbc1b10f"
+    },
+    {
+      "path": "images/brands/soko-properties/soko-properties-icon.png",
+      "bytes": 47331,
+      "sha256": "d84d64981a1710eaf5f03447400611afde51479b3ce6ee363256cfc2431999a1"
+    },
+    {
+      "path": "images/brands/soko-properties/soko-properties-icon.webp",
+      "bytes": 29276,
+      "sha256": "aec8bd29d608d040951f7087576c4a5b6e42fb6ce4a861a2fc7cc96043cc3a7b"
+    },
+    {
+      "path": "images/brands/soko-properties/soko-properties-logo.png",
+      "bytes": 174954,
+      "sha256": "7e24565b8c884631ffdd5f08ee3a145c36e1826ead827f9194e20f65a1fb0fee"
+    },
+    {
+      "path": "images/brands/soko-properties/soko-properties-logo.svg",
+      "bytes": 13970,
+      "sha256": "d03d2a2d6d3a711517935848d07240343613b5a5bbc34a3588f54ed684ceaae7"
+    },
+    {
+      "path": "images/brands/soko-properties/soko-properties-logo.webp",
+      "bytes": 24762,
+      "sha256": "09e23b08cf1f79dcabc7e7c8eb67bb21a7a235b6295c4aa487f9f73bcdc7a7db"
+    },
+    {
+      "path": "images/brands/soko-properties/soko-properties-social.png",
+      "bytes": 56994,
+      "sha256": "2a23e707e8844cee00b8054eaad2db6988ad546403c937c02b6d3d7f9a088454"
+    },
+    {
+      "path": "images/brands/soko-properties/soko-properties-wordmark-dark.png",
+      "bytes": 19592,
+      "sha256": "c41ecb14f06dd5c4e2994dac2caab5c335fdb39b99bf83f16377d92c3c875103"
+    },
+    {
+      "path": "images/brands/soko-properties/soko-properties-wordmark-dark.svg",
+      "bytes": 3174,
+      "sha256": "572c6e19d14e8c21645150b55020af0fed843a4fd05bb5f8ba39ba521f020d5e"
+    },
+    {
+      "path": "images/brands/soko-properties/soko-properties-wordmark-dark.webp",
+      "bytes": 7106,
+      "sha256": "18d48d7aafe3c995abc4994bef084632388285999cb54e8818ada22173f2e188"
+    },
+    {
+      "path": "images/brands/soko-properties/soko-properties-wordmark-light.png",
+      "bytes": 22130,
+      "sha256": "4781ca581521debbf63c8f7be591690ad1f047d4c2c1d0bd538497ea82c26f2b"
+    },
+    {
+      "path": "images/brands/soko-properties/soko-properties-wordmark-light.svg",
+      "bytes": 3174,
+      "sha256": "8dcca6f06e65db4396d130ffd4179bf03a22a6bbc8b6fedcc887b63787e84e8c"
+    },
+    {
+      "path": "images/brands/soko-properties/soko-properties-wordmark-light.webp",
+      "bytes": 7274,
+      "sha256": "f4af22cb7eab19f5fe88b2fba1c84a2235aff5b140adcc3a5ae725bc7b4b1226"
+    },
+    {
+      "path": "images/brands/click-n-get/click-n-get-apple-touch-icon.png",
+      "bytes": 34295,
+      "sha256": "34820de1d4a078726cf11ea8656dfce5992c20133510dc3b45cbb0abc31e676b"
+    },
+    {
+      "path": "images/brands/click-n-get/click-n-get-favicon.ico",
+      "bytes": 90412,
+      "sha256": "a1fb75a0aa005f2e1333e74004cee9168d762b7bc8ea12114458d2d29e31709e"
+    },
+    {
+      "path": "images/brands/click-n-get/click-n-get-icon.png",
+      "bytes": 138466,
+      "sha256": "493670806e879f3a8912670a974cd0a19e400a601c81eee6b609f5c11046b324"
+    },
+    {
+      "path": "images/brands/click-n-get/click-n-get-icon.webp",
+      "bytes": 92810,
+      "sha256": "60e7183af01e0a1226939618e84b00d42322848ee1087bddaccb784cc22c6229"
+    },
+    {
+      "path": "images/brands/click-n-get/click-n-get-logo.png",
+      "bytes": 378384,
+      "sha256": "4e782b407cbc5b1854a58891e89377ee2b681fcd95ff177db9696af4b70e7c7b"
+    },
+    {
+      "path": "images/brands/click-n-get/click-n-get-logo.svg",
+      "bytes": 20595,
+      "sha256": "5279eb3483084de17f4f574adee4e5aa9e72f3b84095c9aa9ac1c639d1e94594"
+    },
+    {
+      "path": "images/brands/click-n-get/click-n-get-logo.webp",
+      "bytes": 58312,
+      "sha256": "6988dc7fe3dc4f59e0448d46a39f9cf7d8ca475738b9720e8f8ac5f0d2a2192e"
+    },
+    {
+      "path": "images/brands/click-n-get/click-n-get-social.png",
+      "bytes": 92890,
+      "sha256": "ebc1a98c18011b05e194b5c6bd11866b3ba2977ae1ca3d934e24d51ba0718883"
+    },
+    {
+      "path": "images/brands/click-n-get/click-n-get-wordmark-dark.png",
+      "bytes": 11968,
+      "sha256": "de06b2278f5cae660974370a0699a0ec8d5071d42745c0ee3f383a109360d370"
+    },
+    {
+      "path": "images/brands/click-n-get/click-n-get-wordmark-dark.svg",
+      "bytes": 1733,
+      "sha256": "4c6acd9cf813167c77b7cf01ddcfb3ea12f8e80cd55a3409d8a84f83d46cbed1"
+    },
+    {
+      "path": "images/brands/click-n-get/click-n-get-wordmark-dark.webp",
+      "bytes": 4248,
+      "sha256": "eb5b096bbe21b387b2741a13bb5771384d848bce7d7aff948feeea9ca7d591c2"
+    },
+    {
+      "path": "images/brands/click-n-get/click-n-get-wordmark-light.png",
+      "bytes": 13321,
+      "sha256": "d8c4f2b881bbde1b59a05344fdd612cbfa3b5b19339be022e0272f261b6730ed"
+    },
+    {
+      "path": "images/brands/click-n-get/click-n-get-wordmark-light.svg",
+      "bytes": 1733,
+      "sha256": "10226112f422c70eebdcdce301998f2b2511a86d9ee8a418be96ada78f486317"
+    },
+    {
+      "path": "images/brands/click-n-get/click-n-get-wordmark-light.webp",
+      "bytes": 4418,
+      "sha256": "b318afea46ac6471a1e27b3a88a057f36d908cadfc6cc1a3e6d47d439f8a870c"
+    },
+    {
+      "path": "images/brands/autogiant-motors/autogiant-motors-apple-touch-icon.png",
+      "bytes": 19153,
+      "sha256": "91ac17b1d33aeb27aec81d131dbd276fdb0627a89f82f31a83a4df1eff9c8bff"
+    },
+    {
+      "path": "images/brands/autogiant-motors/autogiant-motors-favicon.ico",
+      "bytes": 53459,
+      "sha256": "a3dd5143082d42065bfd564f55736581d1d9bb246e5f676e3c8339129647b6fa"
+    },
+    {
+      "path": "images/brands/autogiant-motors/autogiant-motors-icon.png",
+      "bytes": 104143,
+      "sha256": "bfb013c2d94dbf1fadb6163f43adfc634a431466f22488d55db616eee855467e"
+    },
+    {
+      "path": "images/brands/autogiant-motors/autogiant-motors-icon.webp",
+      "bytes": 50672,
+      "sha256": "b768a71b23050b0311deaeecdc5879683024e410532bee51029e0e9ac1a0f889"
+    },
+    {
+      "path": "images/brands/autogiant-motors/autogiant-motors-logo.png",
+      "bytes": 549088,
+      "sha256": "f19b8f4cb46f115df9a6bd4750fb3be90bc489832fb1f90a3b94fc33ebba2b30"
+    },
+    {
+      "path": "images/brands/autogiant-motors/autogiant-motors-logo.svg",
+      "bytes": 159930,
+      "sha256": "2b0770c2b8819715bc1735a9cde39196e097a871204008033df8cac70b048398"
+    },
+    {
+      "path": "images/brands/autogiant-motors/autogiant-motors-logo.webp",
+      "bytes": 269520,
+      "sha256": "47c95e63f59f5a7d31bb40ade57d9314bded2443755f0133294403c6f220de77"
+    },
+    {
+      "path": "images/brands/autogiant-motors/autogiant-motors-social.png",
+      "bytes": 80837,
+      "sha256": "661bb7c3b5d3215fb197c8557a28da1c043842d94730b6eec5bc03800abbca72"
+    },
+    {
+      "path": "images/brands/autogiant-motors/autogiant-motors-wordmark-dark.png",
+      "bytes": 19570,
+      "sha256": "25428da2c938a2e257be0879eaaa7627be3f4fd6c04f061c4624811258c169c6"
+    },
+    {
+      "path": "images/brands/autogiant-motors/autogiant-motors-wordmark-dark.svg",
+      "bytes": 3102,
+      "sha256": "eeb9543accee66e41dfe1747ccc0b88d8f9b474f7c7bb6cf62b8efd9bdc7c9e5"
+    },
+    {
+      "path": "images/brands/autogiant-motors/autogiant-motors-wordmark-dark.webp",
+      "bytes": 7214,
+      "sha256": "a02ee10dac5e8c7fa7dc7bb09595a23d6e9e7bd7a41b85edc7a8baee2ca55def"
+    },
+    {
+      "path": "images/brands/autogiant-motors/autogiant-motors-wordmark-light.png",
+      "bytes": 22092,
+      "sha256": "e8867e94df564fd28e00b444101c33f4586bd4745e63b4b25a99c3067b20929f"
+    },
+    {
+      "path": "images/brands/autogiant-motors/autogiant-motors-wordmark-light.svg",
+      "bytes": 3102,
+      "sha256": "28281b5fcf6696f539ccb4f7e72726dff462595e40d3312ec19cc8c8719d31b9"
+    },
+    {
+      "path": "images/brands/autogiant-motors/autogiant-motors-wordmark-light.webp",
+      "bytes": 7382,
+      "sha256": "217f76b400cfdafeaf1a5b9a08988989dfdd878c6d331004777bd164ed8f9920"
+    },
+    {
+      "path": "images/brands/officetech-solutions/officetech-solutions-apple-touch-icon.png",
+      "bytes": 7780,
+      "sha256": "2c28b314b9f758ab33dc6319fb85deda47c1480278f3d941eedd65b621325004"
+    },
+    {
+      "path": "images/brands/officetech-solutions/officetech-solutions-favicon.ico",
+      "bytes": 22838,
+      "sha256": "d2b12a547c8e278c65b1e7481b5a8b52aba5476d4942f37ea06a53cf30c9a250"
+    },
+    {
+      "path": "images/brands/officetech-solutions/officetech-solutions-icon.png",
+      "bytes": 36422,
+      "sha256": "2b13c0ee4bd80b3e9e28ee3127b8f90f9dca5d72998e19fce3484dbe56ffb55a"
+    },
+    {
+      "path": "images/brands/officetech-solutions/officetech-solutions-icon.webp",
+      "bytes": 21232,
+      "sha256": "1585c965c025df4c4869d7b2ae82b1ab79a57ea43106d9029d0a87c2d30958bf"
+    },
+    {
+      "path": "images/brands/officetech-solutions/officetech-solutions-logo.png",
+      "bytes": 154884,
+      "sha256": "317c998a0f4348b2d74e4cee1cc377d8e66f67bfbf1dcb838cfb9db2425203e4"
+    },
+    {
+      "path": "images/brands/officetech-solutions/officetech-solutions-logo.svg",
+      "bytes": 4436,
+      "sha256": "50ccde3f493df163a8cdaa710e4208c1d2a690b9d94cf58131dbaeaad8e560cf"
+    },
+    {
+      "path": "images/brands/officetech-solutions/officetech-solutions-logo.webp",
+      "bytes": 22262,
+      "sha256": "bf1199f0975c54bf8a44bcb9dc02def26236011bb15033482f4dc6d0f0600256"
+    },
+    {
+      "path": "images/brands/officetech-solutions/officetech-solutions-social.png",
+      "bytes": 59038,
+      "sha256": "5310044cee02f71e838eff0c729ad46a939c0d479bc3204af1bc523b0f4e4a80"
+    },
+    {
+      "path": "images/brands/officetech-solutions/officetech-solutions-wordmark-dark.png",
+      "bytes": 22513,
+      "sha256": "3e6389fd0b1ffadcd0960098b8bd7a293ece8b3466c5c92416cf72d7921e3b8a"
+    },
+    {
+      "path": "images/brands/officetech-solutions/officetech-solutions-wordmark-dark.svg",
+      "bytes": 3943,
+      "sha256": "3a71ba15aa7fef6e953cb0d89055bf7c102901bd30412a3db100c31f8ca9759f"
+    },
+    {
+      "path": "images/brands/officetech-solutions/officetech-solutions-wordmark-dark.webp",
+      "bytes": 8078,
+      "sha256": "7827b5335ed82f2eff7202f6e256cef1c40e0d678e4840ce911a1425b3ba84ae"
+    },
+    {
+      "path": "images/brands/officetech-solutions/officetech-solutions-wordmark-light.png",
+      "bytes": 25586,
+      "sha256": "b9cc0c9b1f47a93d0b50ce3c29968ebcf0038fe70facf6233b29ff44aa000967"
+    },
+    {
+      "path": "images/brands/officetech-solutions/officetech-solutions-wordmark-light.svg",
+      "bytes": 3943,
+      "sha256": "ab97cfdb10ab59b7232a63047b1078bb609fc2ddcba5377e8563f14983452ab0"
+    },
+    {
+      "path": "images/brands/officetech-solutions/officetech-solutions-wordmark-light.webp",
+      "bytes": 8248,
+      "sha256": "87890aad55eb9d6442775d09c80e4dab22482295e863668f10201519b81eed7b"
+    },
+    {
+      "path": "images/brands/joy-totes/joy-totes-apple-touch-icon.png",
+      "bytes": 2560,
+      "sha256": "d07ac262f74367f47a07f8bef420eabe1ccf20c5bf29ff522235e726cf49605e"
+    },
+    {
+      "path": "images/brands/joy-totes/joy-totes-favicon.ico",
+      "bytes": 8390,
+      "sha256": "914cdfe04ffd3e345f81b457bd059a6100b45b2b62416558ad3b775f2fe6ba45"
+    },
+    {
+      "path": "images/brands/joy-totes/joy-totes-icon.png",
+      "bytes": 5096,
+      "sha256": "74cddc7de02bee22b623c0be00c47a253a02aad40fa3f5384605bd89f1441601"
+    },
+    {
+      "path": "images/brands/joy-totes/joy-totes-icon.webp",
+      "bytes": 1100,
+      "sha256": "13b55b1aaf8323922dd10e2b3343fe4d2e87b1da1ddf53bb67523188dc97ad12"
+    },
+    {
+      "path": "images/brands/joy-totes/joy-totes-initial.png",
+      "bytes": 4054,
+      "sha256": "0228a9971953419d4832ecaf4bb19f8426904847ca16ec075134e747422702bc"
+    },
+    {
+      "path": "images/brands/joy-totes/joy-totes-initial.svg",
+      "bytes": 284,
+      "sha256": "4f3ed55ebe6cb7c9b24002f3750980b84c2756e4aa51c7cd0d0adb4a7d089f73"
+    },
+    {
+      "path": "images/brands/joy-totes/joy-totes-initial.webp",
+      "bytes": 1100,
+      "sha256": "13b55b1aaf8323922dd10e2b3343fe4d2e87b1da1ddf53bb67523188dc97ad12"
+    },
+    {
+      "path": "images/brands/joy-totes/joy-totes-social.png",
+      "bytes": 28994,
+      "sha256": "79c1ec0132604fe80436f7f1a32ccf67a3a8f326b163bb4ecc9f4bf51cd6d5b5"
+    },
+    {
+      "path": "images/brands/joy-totes/joy-totes-wordmark-dark.png",
+      "bytes": 11425,
+      "sha256": "09366a8dd19526630b6bfd71d2aefa65e796301f53c0416bef35eecd30b37657"
+    },
+    {
+      "path": "images/brands/joy-totes/joy-totes-wordmark-dark.svg",
+      "bytes": 1876,
+      "sha256": "ff5bc950be14f845e9a55c328ee3c6bdd56237a3aa49db4b89ccca60a0029f9a"
+    },
+    {
+      "path": "images/brands/joy-totes/joy-totes-wordmark-dark.webp",
+      "bytes": 4206,
+      "sha256": "54a5e360aea1491104bcb8fe66794fc5afa94e2de10d7b17d15e54f59990cd8e"
+    },
+    {
+      "path": "images/brands/joy-totes/joy-totes-wordmark-light.png",
+      "bytes": 12844,
+      "sha256": "21ec3b598f62f3d82305a0b73fb464d3b0ba87db7d5844b435b1942b133fe969"
+    },
+    {
+      "path": "images/brands/joy-totes/joy-totes-wordmark-light.svg",
+      "bytes": 1876,
+      "sha256": "10a9336ac72842908d18192abd5ba5f60c8fcaf580bd903f1e5ef594e02b73ec"
+    },
+    {
+      "path": "images/brands/joy-totes/joy-totes-wordmark-light.webp",
+      "bytes": 4378,
+      "sha256": "8b3b4152795805c5db2ed55a65a4b433cb45ac5a37991f773b08680befa36e76"
+    },
+    {
+      "path": "images/brands/nashaa-kicks/nashaa-kicks-apple-touch-icon.png",
+      "bytes": 3085,
+      "sha256": "a2835e148912ca40735d8d749f0ce2727f030f8dc41b83335c0a953f1ea1102a"
+    },
+    {
+      "path": "images/brands/nashaa-kicks/nashaa-kicks-favicon.ico",
+      "bytes": 10051,
+      "sha256": "8039751ba7aa61b6e3a693d68acf996603af895a4423681f83f0d5fc2c0bee3e"
+    },
+    {
+      "path": "images/brands/nashaa-kicks/nashaa-kicks-icon.png",
+      "bytes": 6278,
+      "sha256": "ae4ec26a26eabca8b7817975219790e8b773e09443fcc9bcd0aa3a8a36cbca01"
+    },
+    {
+      "path": "images/brands/nashaa-kicks/nashaa-kicks-icon.webp",
+      "bytes": 1366,
+      "sha256": "eaed19cfe9ba5abf115fc304b3289223db24b65159dfbc21567366b2e02b9c4b"
+    },
+    {
+      "path": "images/brands/nashaa-kicks/nashaa-kicks-initial.png",
+      "bytes": 5330,
+      "sha256": "98fe14c5443ed06ada499a9f6e3ccce7658b64265304c91182ba57d9199145b6"
+    },
+    {
+      "path": "images/brands/nashaa-kicks/nashaa-kicks-initial.svg",
+      "bytes": 187,
+      "sha256": "c750125886cdcc91d1b5da7a1289e9d16029e7ea92aa66d0ff9d68bf42040eab"
+    },
+    {
+      "path": "images/brands/nashaa-kicks/nashaa-kicks-initial.webp",
+      "bytes": 1366,
+      "sha256": "eaed19cfe9ba5abf115fc304b3289223db24b65159dfbc21567366b2e02b9c4b"
+    },
+    {
+      "path": "images/brands/nashaa-kicks/nashaa-kicks-social.png",
+      "bytes": 37283,
+      "sha256": "45762da1d5f2872720f35bb7ee525226000cdd8161330bc05910118d547a7b89"
+    },
+    {
+      "path": "images/brands/nashaa-kicks/nashaa-kicks-wordmark-dark.png",
+      "bytes": 16441,
+      "sha256": "45feafbf3025ccc2cf28cffed369f53392a720fadcd2fcddd3d894a5a01c1ddb"
+    },
+    {
+      "path": "images/brands/nashaa-kicks/nashaa-kicks-wordmark-dark.svg",
+      "bytes": 2999,
+      "sha256": "3e231a961ff76a9aa92105ef45c92738b295f9d9b69ef5ef59eaae5a85bf6b17"
+    },
+    {
+      "path": "images/brands/nashaa-kicks/nashaa-kicks-wordmark-dark.webp",
+      "bytes": 5892,
+      "sha256": "89ae1ac740fbdf5a7d3614fb8817a86b8d66627ef8ba7003c0007b7cdc19a5e9"
+    },
+    {
+      "path": "images/brands/nashaa-kicks/nashaa-kicks-wordmark-light.png",
+      "bytes": 18530,
+      "sha256": "11d2d7ee26be313238724580ccb1e8237dc24bedd2a60b5d413c1e5c63bd5e6d"
+    },
+    {
+      "path": "images/brands/nashaa-kicks/nashaa-kicks-wordmark-light.svg",
+      "bytes": 2999,
+      "sha256": "e089211d72cf425c184386d397d92b1763b97de93fb69479703d2342dc086dcf"
+    },
+    {
+      "path": "images/brands/nashaa-kicks/nashaa-kicks-wordmark-light.webp",
+      "bytes": 6062,
+      "sha256": "5aaad532af9c11a6c9c5c7d877183b3caf04088db4d0dbdd2e187ca87a5cb6df"
+    },
+    {
+      "path": "images/brands/nexagreen/nexagreen-apple-touch-icon.png",
+      "bytes": 16156,
+      "sha256": "11ccbbb713e7cb2226542e36bfe412fa8a00a21ccab85a458c7a69f3d235283d"
+    },
+    {
+      "path": "images/brands/nexagreen/nexagreen-favicon.ico",
+      "bytes": 46206,
+      "sha256": "a8b4ffdec2838ec9ea382f8907c2e976dfbe1c182506103ba4c49b75451c27b5"
+    },
+    {
+      "path": "images/brands/nexagreen/nexagreen-icon.png",
+      "bytes": 93603,
+      "sha256": "b2e29115898497b6c7eddc336e65458bb2b27041aa9e315bc0a51192681e81be"
+    },
+    {
+      "path": "images/brands/nexagreen/nexagreen-icon.webp",
+      "bytes": 53580,
+      "sha256": "50f3b7e7a1587161fd1cf8c080de5ee3aecf2b056bad48f1d2f638d813e39364"
+    },
+    {
+      "path": "images/brands/nexagreen/nexagreen-logo.png",
+      "bytes": 675198,
+      "sha256": "7763056b2405969bf0d6f66465eda02a7be7d0413dcbf409007408fe07c53100"
+    },
+    {
+      "path": "images/brands/nexagreen/nexagreen-logo.svg",
+      "bytes": 62413,
+      "sha256": "59fab9cd1630f04b3fe66160d0f92f92fb8bad8c5c857cbab7795bec01cbf082"
+    },
+    {
+      "path": "images/brands/nexagreen/nexagreen-logo.webp",
+      "bytes": 350374,
+      "sha256": "fd43905e4e2fea006ac64721d82e7118643f148a8c3340696952d0faf3eb488d"
+    },
+    {
+      "path": "images/brands/nexagreen/nexagreen-social.png",
+      "bytes": 68153,
+      "sha256": "72ef24768e414e51ee8669b6ce72028ded4a6aeab0161e65ec70961135395b74"
+    },
+    {
+      "path": "images/brands/nexagreen/nexagreen-wordmark-dark.png",
+      "bytes": 13854,
+      "sha256": "abe0f8f05a81c5b420d598f5e0e09984789499e8de6c4842309c039f2e2745cb"
+    },
+    {
+      "path": "images/brands/nexagreen/nexagreen-wordmark-dark.svg",
+      "bytes": 2242,
+      "sha256": "94f715b4fe54b357e910c251767eaea92cf9a391a41d43cfbb06a00191fbdc65"
+    },
+    {
+      "path": "images/brands/nexagreen/nexagreen-wordmark-dark.webp",
+      "bytes": 5012,
+      "sha256": "a14256b2c094bb95fee4374d9b2bc5971fce1f6dbc790c7cd0f34eac9a07d425"
+    },
+    {
+      "path": "images/brands/nexagreen/nexagreen-wordmark-light.png",
+      "bytes": 15606,
+      "sha256": "d7765d252f3405021511bc3b6cd4feb09705d167a24f9331ed8228dc58a14082"
+    },
+    {
+      "path": "images/brands/nexagreen/nexagreen-wordmark-light.svg",
+      "bytes": 2242,
+      "sha256": "1b03803cdc52b651ed3a210beb4153890ff250567b4a61c0ff973bf3eabeb515"
+    },
+    {
+      "path": "images/brands/nexagreen/nexagreen-wordmark-light.webp",
+      "bytes": 5178,
+      "sha256": "98f09dc0c79e80a312cac17a24109ec877432e90f4e8539e4a0595760fd84323"
+    }
+  ]
+}
