@@ -52,3 +52,9 @@ This branch is a cleanup/rebuild candidate, **not the public production release*
 - Favicon SVG and manifest identity; SEO/OG/Twitter head fields; staging remains `noindex` without fabricated domain canonical URLs or product rich results.
 - Four historical merchant logos remain byte-for-byte unchanged; Joy Totes, Nashaa Kicks and NexaGreen use initials.
 - The flash-sale countdown and all shopping features remain in their approved later stages.
+
+## Stage 1.3 — approved brand logos on the default branch
+- onStore shopping bag is the primary logo; user-approved wordmark is the secondary wordmark, with light/dark SVG variants.
+- NexaGreen's approved N-leaf mark is now its shop logo. No unrelated photos and no invented wordmark.
+- Main-branch cleanup preserves the prior main snapshot on `archive/pre-onstore-main-2026-10-19` and in Git ancestry; no history rewrite.
+- A deterministic GitHub Actions workflow produces the PNG/WebP/ICO variants; production readiness requires successful workflow verification.

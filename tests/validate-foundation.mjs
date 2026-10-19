@@ -10,7 +10,7 @@ assert.ok(shopList.every(s => s.targetProducts === 30), "Each shop targets 30 ve
 const nexaGreen = shopList.find(shop => shop.id === "nexagreen");
 assert.equal(nexaGreen.slug, "nexagreen");
 assert.deepEqual(nexaGreen.categories, ["Foods", "Beverages"], "NexaGreen sells only foods and beverages");
-assert.equal(nexaGreen.logoUrl, null, "NexaGreen uses the initial fallback until a logo is supplied");
+assert.equal(nexaGreen.logoUrl, "assets/brand/nexagreen-mark.svg", "NexaGreen uses the approved N leaf");
 const index = read("index.html");
 assert.equal((index.match(/rel="stylesheet"/g) || []).length, 1, "Use one shared stylesheet");
 assert.equal((index.match(/<script\b/g) || []).length, 1, "Use one module entrypoint");
@@ -24,9 +24,9 @@ const expectedLogos = new Map([
   ["autogiant_motors", "images/logo/autogiant-logo.webp"],
   ["officetech_solutions", "images/logo/officetech-logo.webp"]
 ]);
-assert.equal(shopList.filter(shop => shop.logoUrl).length, 4, "Four source-backed logos, no invented assets");
+assert.equal(shopList.filter(shop => shop.logoUrl).length, 5, "Four original and one newly approved logo");
 for (const shop of shopList) {
-  const expected = expectedLogos.get(shop.id) ?? null;
+  const expected = shop.id === "nexagreen" ? "assets/brand/nexagreen-mark.svg" : (expectedLogos.get(shop.id) ?? null);
   assert.equal(shop.logoUrl, expected, "Logo mapping must match original brand identity");
   if (expected) assert.ok(existsSync(new URL("../" + expected, import.meta.url)), "Original logo exists: " + expected);
 }
@@ -61,8 +61,16 @@ assert.ok(!index.includes('rel="canonical"'), "Do not invent the production cano
 const manifest = JSON.parse(read("site.webmanifest"));
 assert.equal(manifest.name, "onStore");
 assert.equal(manifest.display, "browser", "This foundation is not yet an installable PWA");
-assert.equal(manifest.icons[0].src, "./assets/favicon.svg");
+assert.equal(manifest.icons[0].src, "./assets/brand/onstore-mark-192.png");
 assert.ok(existsSync(new URL("../assets/favicon.svg", import.meta.url)), "SVG favicon exists");
 assert.ok(read("src/seo.js").includes("canonicalUrl"), "Reusable SEO metadata helper");
 console.log("PASS: accessible light/dark tokens, font stacks, icon sprite, SVG favicon, staging SEO metadata and logo preservation");
 console.log("PASS: seven shops, exact logos, shared CSS, light/dark tokens, accessible icon sprite, SVG favicon and staging SEO metadata");
+
+for (const file of ["assets/brand/onstore-mark.svg","assets/brand/nexagreen-mark.svg","assets/brand/onstore-wordmark-on-light.svg","assets/brand/onstore-wordmark-on-dark.svg"]) {
+  assert.ok(existsSync(new URL("../"+file, import.meta.url)), "Approved SVG master missing: " + file);
+  assert.ok(read(file).includes("<svg") && read(file).includes("viewBox="), "Native vector geometry required: " + file);
+}
+assert.ok(read("src/shared.js").includes("brand-mark") && read("src/shared.js").includes("wordmark-on-dark"), "Header uses bag logo and theme-aware wordmark");
+assert.ok(index.includes("onstore-mark.svg"), "Approved main logo used in homepage");
+console.log("PASS: approved onStore and NexaGreen branding wired into the shared website");
