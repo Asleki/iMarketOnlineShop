@@ -29,3 +29,35 @@ for (const shop of shopList) {
 assert.ok(read("src/app.js").includes("shop.logoUrl"), "Shop cards use mapped logo assets");
 assert.ok(read("src/app.js").includes("showMonogram"), "Shop cards have a missing-logo fallback");
 console.log("PASS: six original shops, four restored WebP logos, two missing-logo fallbacks, shared CSS/JS and product media fallback");
+
+const css = read("assets/site.css");
+for (const name of ["--font-body","--font-display","--font-mono","--color-text","--color-brand","--color-bg","--color-focus","--radius-lg","--space-4"]) {
+  assert.ok(css.includes(name + ":"), "Missing foundational token: " + name);
+}
+assert.ok(css.includes(':root[data-theme="dark"]'), "Explicit dark theme tokens exist");
+assert.ok(css.includes("prefers-color-scheme: dark"), "OS dark theme fallback exists");
+assert.ok(css.includes("prefers-reduced-motion"), "Reduced motion supported");
+assert.ok(css.includes(".theme-toggle"), "Single shared theme control style exists");
+assert.ok(read("src/shared.js").includes("bindThemeToggle"), "Shared header wires a theme toggle");
+assert.ok(read("src/theme.js").includes("window.localStorage"), "Theme choice is persisted");
+const sprite = read("assets/icons.svg");
+const ids = [...sprite.matchAll(/<symbol id="([a-z0-9-]+)"/g)].map(m => m[1]);
+assert.ok(ids.length >= 35, "Site-wide SVG icon set available");
+assert.equal(new Set(ids).size, ids.length, "SVG icon names must not duplicate");
+for (const icon of ["search","shopping-cart","heart","sun","moon","filter","truck","clock","tag","images","user-round","footprints","building","laptop"]) {
+  assert.ok(ids.includes(icon), "Required icon is missing: " + icon);
+}
+assert.ok(read("src/icons.js").includes('import.meta.url'), "Icon URLs resolve from the module, not from a fragile page path");
+assert.ok(index.includes('rel="icon"') && index.includes('rel="manifest"'), "Brand favicon and manifest are linked");
+for (const key of ['name="description"','name="robots"','property="og:title"','property="og:description"','name="twitter:card"','name="theme-color"']) {
+  assert.ok(index.includes(key), "SEO/metadata missing: " + key);
+}
+assert.ok(index.includes('noindex, nofollow'), "Non-production rebuild branch must not be indexed");
+assert.ok(!index.includes('rel="canonical"'), "Do not invent the production canonical URL");
+const manifest = JSON.parse(read("site.webmanifest"));
+assert.equal(manifest.name, "onStore");
+assert.equal(manifest.display, "browser", "This foundation is not yet an installable PWA");
+assert.equal(manifest.icons[0].src, "./assets/favicon.svg");
+assert.ok(existsSync(new URL("../assets/favicon.svg", import.meta.url)), "SVG favicon exists");
+assert.ok(read("src/seo.js").includes("canonicalUrl"), "Reusable SEO metadata helper");
+console.log("PASS: accessible light/dark tokens, font stacks, icon sprite, SVG favicon, staging SEO metadata and logo preservation");

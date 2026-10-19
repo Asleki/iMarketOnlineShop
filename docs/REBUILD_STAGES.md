@@ -43,3 +43,10 @@ This branch is a cleanup/rebuild candidate, **not the public production release*
 - Logo mappings live in `data/shops.json` and share the same reusable shop-card component.
 - The original repository referenced Joy Totes and Nashaa Kicks logos but did not commit those files; no approved standalone logo was located in the inspected linked Drive archive. Use a textual monogram for those two until a genuine logo is supplied.
 - Do not confuse the product-image placeholder with a merchant logo or invent a logo.
+
+## Stage 1.2 — design token and head metadata contract
+- Shared semantic light/dark tokens in the single `assets/site.css`.
+- One SVG icon sprite and reusable `createIcon` helper; a shared theme switch with persistent preference and OS-default behavior.
+- Favicon SVG and manifest identity; SEO/OG/Twitter head fields; staging remains `noindex` without fabricated domain canonical URLs or product rich results.
+- Four historical merchant logos remain byte-for-byte unchanged; missing two remain initials.
+- The flash-sale countdown and all shopping features remain in their approved later stages.

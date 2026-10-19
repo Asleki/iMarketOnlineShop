@@ -53,3 +53,15 @@ Source of future product records and validated media: NoveGeo v015. See `docs/RE
 ## Merchant-logo preservation
 
 The rebuilt shop cards reuse four unchanged WebP logos recovered from the old `main` commit (Soko Properties, Click 'n Get, AutoGiant Motors, OfficeTech Solutions). Joy Totes and Nashaa Kicks did not have committed source-logo files; they temporarily show their shop initials instead of a misleading substitute. Logo links are defined in `data/shops.json`.
+
+## Shared design system (Stage 1.2)
+
+- `assets/site.css` is the **only CSS file**: named semantic color tokens, typographic scales, spacing, borders, shadows, responsive components, light/dark themes and reduced-motion handling.
+- `src/theme.js` binds one accessible toggle in the shared header. It respects OS preference until a user manually selects light or dark; a setting is saved under `onstore.theme.v1` when storage is available.
+- `assets/icons.svg` defines 45 reusable monochrome line icons. Create with `src/icons.js` to inherit theme color; avoid per-shop icon copies.
+- `assets/favicon.svg` is a simple onStore shopping-bag brand mark, not a substitute for merchant logos.
+- `site.webmanifest` provides identity metadata only. No service worker or installable PWA claim.
+- `src/seo.js` centralizes future page metadata updates; the incomplete branch is marked `noindex, nofollow`. Domain-specific canonical URLs, sitemap, rich results and social preview image are explicitly deferred until verified.
+- Font stacks prefer Inter for body and Manrope for headings when already available on the device. No external font downloads or font files are bundled; system fallbacks always work.
+
+See `docs/DESIGN_SYSTEM.md` and `docs/SEO_CONTRACT.md`.

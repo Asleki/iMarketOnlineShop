@@ -1,0 +1,18 @@
+{
+  "name": "onStore",
+  "short_name": "onStore",
+  "description": "Discover our six shops.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "browser",
+  "background_color": "#f7f9fc",
+  "theme_color": "#175dbf",
+  "icons": [
+    {
+      "src": "./assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
