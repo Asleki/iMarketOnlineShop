@@ -1,0 +1,424 @@
+{
+  "schema": "onstore.discovery-artwork-plan.v1",
+  "requireComplete": false,
+  "sourceCatalogueSha256": "daec78983cea545840daa132a1cf8bfb82700b22709271886e252900e2e08de9",
+  "brands": [
+    {
+      "name": "Acura",
+      "slug": "acura",
+      "sourceUrl": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/bb2d661f28ce617dba8a51bdfc2069a3381a23b0/logos/original/acura.png",
+      "reference": "https://www.acura.com",
+      "kind": "published-colour-logo",
+      "sourceFormat": "png"
+    },
+    {
+      "name": "Adidas",
+      "slug": "adidas",
+      "sourceUrl": "https://raw.githubusercontent.com/simple-icons/simple-icons/c71c69e3a27e4436936b831c72643e6513b9f49b/icons/adidas.svg",
+      "reference": "https://www.adidas.com",
+      "kind": "published-monochrome-mark",
+      "sourceFormat": "svg"
+    },
+    {
+      "name": "Apple",
+      "slug": "apple",
+      "sourceUrl": "https://raw.githubusercontent.com/simple-icons/simple-icons/c71c69e3a27e4436936b831c72643e6513b9f49b/icons/apple.svg",
+      "reference": "https://www.apple.com",
+      "kind": "published-monochrome-mark",
+      "sourceFormat": "svg"
+    },
+    {
+      "name": "Aston Martin",
+      "slug": "aston-martin",
+      "sourceUrl": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/bb2d661f28ce617dba8a51bdfc2069a3381a23b0/logos/original/aston-martin.png",
+      "reference": "https://www.astonmartin.com",
+      "kind": "published-colour-logo",
+      "sourceFormat": "png"
+    },
+    {
+      "name": "Bentley",
+      "slug": "bentley",
+      "sourceUrl": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/bb2d661f28ce617dba8a51bdfc2069a3381a23b0/logos/original/bentley.png",
+      "reference": "https://en.wikipedia.org/wiki/File:Bentley_logo_2.svg",
+      "kind": "published-colour-logo",
+      "sourceFormat": "png"
+    },
+    {
+      "name": "BMW",
+      "slug": "bmw",
+      "sourceUrl": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/bb2d661f28ce617dba8a51bdfc2069a3381a23b0/logos/original/bmw.png",
+      "reference": "https://bmw.com",
+      "kind": "published-colour-logo",
+      "sourceFormat": "png"
+    },
+    {
+      "name": "Bosch",
+      "slug": "bosch",
+      "sourceUrl": "https://raw.githubusercontent.com/simple-icons/simple-icons/c71c69e3a27e4436936b831c72643e6513b9f49b/icons/bosch.svg",
+      "reference": "https://www.bosch.de",
+      "kind": "published-monochrome-mark",
+      "sourceFormat": "svg"
+    },
+    {
+      "name": "Bugatti",
+      "slug": "bugatti",
+      "sourceUrl": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/bb2d661f28ce617dba8a51bdfc2069a3381a23b0/logos/original/bugatti.png",
+      "reference": "https://newsroom.bugatti.com",
+      "kind": "published-colour-logo",
+      "sourceFormat": "png"
+    },
+    {
+      "name": "Chevrolet",
+      "slug": "chevrolet",
+      "sourceUrl": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/bb2d661f28ce617dba8a51bdfc2069a3381a23b0/logos/original/chevrolet.png",
+      "reference": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/shopping-tools/download-catalog/02-pdf/2019-chevrolet-corvette-catalog.pdf",
+      "kind": "published-colour-logo",
+      "sourceFormat": "png"
+    },
+    {
+      "name": "D&D Foods",
+      "slug": "dd-foods",
+      "sourcePath": "assets/discovery-sources/dd-foods.png",
+      "aliases": [
+        "D&D Foods",
+        "D$D Foods"
+      ],
+      "kind": "original-generated-logo",
+      "sourceFormat": "png"
+    },
+    {
+      "name": "Ferrari",
+      "slug": "ferrari",
+      "sourceUrl": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/bb2d661f28ce617dba8a51bdfc2069a3381a23b0/logos/original/ferrari.png",
+      "reference": "https://www.ferrari.com",
+      "kind": "published-colour-logo",
+      "sourceFormat": "png"
+    },
+    {
+      "name": "McLaren",
+      "slug": "mclaren",
+      "sourceUrl": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/bb2d661f28ce617dba8a51bdfc2069a3381a23b0/logos/original/mclaren.png",
+      "reference": "https://cars.mclaren.com",
+      "kind": "published-colour-logo",
+      "sourceFormat": "png"
+    },
+    {
+      "name": "Nike",
+      "slug": "nike",
+      "sourceUrl": "https://raw.githubusercontent.com/simple-icons/simple-icons/c71c69e3a27e4436936b831c72643e6513b9f49b/icons/nike.svg",
+      "reference": "https://www.nike.com",
+      "kind": "published-monochrome-mark",
+      "sourceFormat": "svg"
+    },
+    {
+      "name": "Nissan",
+      "slug": "nissan",
+      "sourceUrl": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/bb2d661f28ce617dba8a51bdfc2069a3381a23b0/logos/original/nissan.png",
+      "reference": "https://www.nissan.ie",
+      "kind": "published-colour-logo",
+      "sourceFormat": "png"
+    },
+    {
+      "name": "Samsung",
+      "slug": "samsung",
+      "sourceUrl": "https://raw.githubusercontent.com/simple-icons/simple-icons/c71c69e3a27e4436936b831c72643e6513b9f49b/icons/samsung.svg",
+      "reference": "https://www.samsung.com/us/about-us/brand-identity/logo/",
+      "kind": "published-monochrome-mark",
+      "sourceFormat": "svg"
+    },
+    {
+      "name": "Skechers",
+      "slug": "skechers",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Skechers_wordmark.svg",
+      "reference": "https://commons.wikimedia.org/wiki/File:Skechers_wordmark.svg",
+      "sourceFormat": "svg",
+      "kind": "published-wordmark"
+    },
+    {
+      "name": "Subaru",
+      "slug": "subaru",
+      "sourceUrl": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/bb2d661f28ce617dba8a51bdfc2069a3381a23b0/logos/original/subaru.png",
+      "reference": "https://commons.wikimedia.org/wiki/File:Subaru_logo.svg",
+      "kind": "published-colour-logo",
+      "sourceFormat": "png"
+    },
+    {
+      "name": "TopTaste",
+      "slug": "toptaste",
+      "sourcePath": "assets/discovery-sources/toptaste.png",
+      "aliases": [
+        "TopTaste"
+      ],
+      "kind": "original-generated-logo",
+      "sourceFormat": "png"
+    },
+    {
+      "name": "Toyota",
+      "slug": "toyota",
+      "sourceUrl": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/bb2d661f28ce617dba8a51bdfc2069a3381a23b0/logos/original/toyota.png",
+      "reference": "https://www.toyota.com/brandguidelines/logo/",
+      "kind": "published-colour-logo",
+      "sourceFormat": "png"
+    },
+    {
+      "name": "Umoja",
+      "slug": "umoja",
+      "sourcePath": "assets/discovery-sources/umoja.png",
+      "aliases": [
+        "Umoja"
+      ],
+      "kind": "original-generated-logo",
+      "sourceFormat": "png"
+    },
+    {
+      "name": "Volkswagen",
+      "slug": "volkswagen",
+      "sourceUrl": "https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/bb2d661f28ce617dba8a51bdfc2069a3381a23b0/logos/original/volkswagen.png",
+      "reference": "https://www.vw.com",
+      "kind": "published-colour-logo",
+      "sourceFormat": "png"
+    }
+  ],
+  "categories": [
+    {
+      "slug": "residential",
+      "name": "Residential",
+      "sourcePath": "assets/discovery-sources/residential.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A beautiful contemporary mid-rise apartment building with balconies and restrained landscaping, clear exterior architectural photograph, location-neutral."
+    },
+    {
+      "slug": "land",
+      "name": "Land",
+      "sourcePath": "assets/discovery-sources/land.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A broad gently sloping vacant green land parcel with a simple access track and distant trees, no boundary lines or labels, no claimed location."
+    },
+    {
+      "slug": "industrial-logistics",
+      "name": "Industrial & Logistics",
+      "sourcePath": "assets/discovery-sources/industrial-logistics.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A modern clean warehouse exterior with loading bays and a small freight logistics yard, no company signage."
+    },
+    {
+      "slug": "phones-tablets-wearables",
+      "name": "Phones, tablets & wearables",
+      "sourcePath": "assets/discovery-sources/phones-tablets-wearables.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A premium unbranded smartphone, tablet and smartwatch arranged together on a pale neutral studio surface."
+    },
+    {
+      "slug": "televisions",
+      "name": "Televisions",
+      "sourcePath": "assets/discovery-sources/televisions.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A thin modern unbranded large television on a simple low stand, screen showing a calm abstract blue landscape."
+    },
+    {
+      "slug": "audio-gaming",
+      "name": "Audio & gaming",
+      "sourcePath": "assets/discovery-sources/audio-gaming.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "Unbranded over-ear headphones, a gaming controller and compact speaker arranged as a tidy studio product group."
+    },
+    {
+      "slug": "home-appliances",
+      "name": "Home appliances",
+      "sourcePath": "assets/discovery-sources/home-appliances.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A modern unbranded refrigerator, front-loading washing machine and compact microwave arranged as a clean product group."
+    },
+    {
+      "slug": "accessories",
+      "name": "Accessories",
+      "sourcePath": "assets/discovery-sources/accessories.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A neatly arranged unbranded charging cable, wall charger, phone case and wireless charger, premium product photography."
+    },
+    {
+      "slug": "vehicles",
+      "name": "Vehicles",
+      "sourcePath": "assets/discovery-sources/vehicles.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A modern unbranded silver crossover SUV, three-quarter exterior view on a seamless pale neutral studio background."
+    },
+    {
+      "slug": "automotive-parts",
+      "name": "Automotive Parts",
+      "sourcePath": "assets/discovery-sources/automotive-parts.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A brake disc, clean brake pads, oil filter and spark plugs neatly arranged as realistic unbranded automotive spare parts."
+    },
+    {
+      "slug": "office-chairs",
+      "name": "Office chairs",
+      "sourcePath": "assets/discovery-sources/office-chairs.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A single premium ergonomic office chair in black mesh, clear three-quarter view on a pale studio background."
+    },
+    {
+      "slug": "printers",
+      "name": "Printers",
+      "sourcePath": "assets/discovery-sources/printers.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "An unbranded modern multifunction office printer with paper tray, three-quarter studio product photograph."
+    },
+    {
+      "slug": "business-desktops",
+      "name": "Business desktops",
+      "sourcePath": "assets/discovery-sources/business-desktops.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "An unbranded desktop computer tower, wide monitor, keyboard and mouse arranged as a clean business workstation on a pale studio background."
+    },
+    {
+      "slug": "business-laptops",
+      "name": "Business laptops",
+      "sourcePath": "assets/discovery-sources/business-laptops.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "One modern unbranded open business laptop with a neutral blue desktop on screen, three-quarter studio view."
+    },
+    {
+      "slug": "office-equipment",
+      "name": "Office equipment",
+      "sourcePath": "assets/discovery-sources/office-equipment.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "An unbranded document scanner, compact paper shredder and laminator neatly arranged as a realistic office equipment group."
+    },
+    {
+      "slug": "displays-storage",
+      "name": "Displays and storage",
+      "sourcePath": "assets/discovery-sources/displays-storage.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A widescreen computer monitor and two small external storage drives, tasteful clean studio arrangement."
+    },
+    {
+      "slug": "workplace-tablets",
+      "name": "Workplace tablets",
+      "sourcePath": "assets/discovery-sources/workplace-tablets.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A professional unbranded tablet with keyboard cover and stylus on a pale neutral studio background."
+    },
+    {
+      "slug": "specialist-office-systems",
+      "name": "Specialist office systems",
+      "sourcePath": "assets/discovery-sources/specialist-office-systems.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "An unbranded identity-enrollment workstation with a fingerprint reader, document scanner and small camera, realistic secure-office equipment, no readable personal data."
+    },
+    {
+      "slug": "bags-totes-backpacks",
+      "name": "Bags, Totes & Backpacks",
+      "sourcePath": "assets/discovery-sources/bags-totes-backpacks.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A beautiful unbranded canvas tote, compact leather handbag and everyday backpack arranged together on a pale studio background."
+    },
+    {
+      "slug": "footwear",
+      "name": "Footwear",
+      "sourcePath": "assets/discovery-sources/footwear.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "Three unbranded shoes: a white sneaker, black smart shoe and simple casual flat, arranged as a realistic clean studio product photograph."
+    },
+    {
+      "slug": "beverages",
+      "name": "Beverages",
+      "sourcePath": "assets/discovery-sources/beverages.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "Clear glasses of orange juice and sugarcane juice beside a ceramic cup of tea, appetizing realistic beverage photography on a light neutral surface."
+    },
+    {
+      "slug": "grains-flour-cooking-oil",
+      "name": "Grains, Flour & Cooking Oil",
+      "sourcePath": "assets/discovery-sources/grains-flour-cooking-oil.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "Bowls of rice, maize grain and wheat flour beside an unbranded clear glass bottle of golden cooking oil, clean appetizing studio food photograph."
+    },
+    {
+      "slug": "fresh-vegetables",
+      "name": "Fresh Vegetables",
+      "sourcePath": "assets/discovery-sources/fresh-vegetables.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "Fresh tomatoes, leafy kale, onions and carrots arranged naturally on a clean pale neutral surface, vivid realistic food photograph."
+    },
+    {
+      "slug": "meat-dairy-eggs",
+      "name": "Meat, Dairy & Eggs",
+      "sourcePath": "assets/discovery-sources/meat-dairy-eggs.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A hygienic separate arrangement of eggs, milk in a plain glass bottle and raw chicken on its own clean food-safe tray, realistic chilled-food studio photograph."
+    },
+    {
+      "slug": "fresh-fruit",
+      "name": "Fresh Fruit",
+      "sourcePath": "assets/discovery-sources/fresh-fruit.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "A fresh mango, oranges and a small bunch of bananas arranged naturally on a pale neutral surface, appetizing realistic food photograph."
+    },
+    {
+      "slug": "prepared-foods",
+      "name": "Prepared Foods",
+      "sourcePath": "assets/discovery-sources/prepared-foods.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "Fresh golden flatbread, a small savory baked pastry and a bowl of cooked food presented attractively on simple ceramic plates, clean food photography."
+    },
+    {
+      "slug": "herbs-spices",
+      "name": "Herbs & Spices",
+      "sourcePath": "assets/discovery-sources/herbs-spices.png",
+      "kind": "original-generated-category-image",
+      "scope": "catalogue-department",
+      "prompt": "Small ceramic bowls of ground turmeric, paprika and cumin with fresh green herbs, realistic appetizing studio food photograph."
+    },
+    {
+      "slug": "apartments",
+      "name": "Apartments",
+      "sourcePath": "assets/discovery-sources/apartments.png",
+      "kind": "original-generated-category-image",
+      "scope": "property-type",
+      "prompt": "Contemporary residential apartment building with generous balconies, wide exterior view, tasteful architectural photography, no signage or claimed address."
+    },
+    {
+      "slug": "villas",
+      "name": "Villas",
+      "sourcePath": "assets/discovery-sources/villas.png",
+      "kind": "original-generated-category-image",
+      "scope": "property-type",
+      "prompt": "A modern elegant detached villa with a small private pool and restrained garden, realistic location-neutral architecture photograph."
+    },
+    {
+      "slug": "detached-houses",
+      "name": "Detached Houses",
+      "sourcePath": "assets/discovery-sources/detached-houses.png",
+      "kind": "original-generated-category-image",
+      "scope": "property-type",
+      "prompt": "A welcoming contemporary detached family house with a simple lawn and driveway, realistic location-neutral architectural photograph."
+    }
+  ]
+}

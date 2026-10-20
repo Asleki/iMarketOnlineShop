@@ -1,0 +1,41 @@
+name: Build product-brand and category WebP artwork
+on:
+  push:
+    branches: [rebuild/stage-01-clean-foundation]
+    paths:
+      - 'assets/discovery-sources/**'
+      - 'tools/render-discovery-artwork.py'
+      - 'data/discovery-artwork-plan.json'
+      - '.github/workflows/discovery-artwork.yml'
+permissions:
+  contents: write
+concurrency:
+  group: discovery-artwork-rebuild
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: rebuild/stage-01-clean-foundation
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install raster conversion dependencies
+        run: python -m pip install 'Pillow==11.3.0' 'CairoSVG==2.8.2'
+      - name: Prepare destinations
+        run: mkdir -p images/product-brands images/categories images/property-types docs
+      - name: Render and validate WebP images
+        run: python tools/render-discovery-artwork.py
+      - name: Run existing checks
+        run: npm test
+      - name: Publish verified WebP images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images/product-brands images/categories images/property-types data/discovery-artwork.json docs/*-artwork-preview.jpg
+          if ! git diff --cached --quiet; then
+            git commit -m "build(artwork): publish verified product-brand and category WebP files"
+            git push origin HEAD:rebuild/stage-01-clean-foundation
+          fi
