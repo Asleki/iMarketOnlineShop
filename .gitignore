@@ -7,3 +7,8 @@ coverage/
 .env
 .env.*
 !.env.example
+
+# Local Python caches and commerce process locks
+__pycache__/
+*.py[cod]
+data/commerce/.*.lock

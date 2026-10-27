@@ -4,6 +4,6 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "test": "node tests/validate-foundation.mjs && node tests/validate-brand-assets.mjs"
+    "test": "node tests/validate-foundation.mjs && node tests/validate-brand-assets.mjs && node tests/validate-catalogue.mjs && node tests/validate-header-hero.mjs && node tests/validate-hero-five-cycle.mjs && node tests/validate-shop-grid.mjs && node tests/validate-sku-registry.mjs && node tests/validate-currency-pricing.mjs && node tests/validate-currency-picker-ui.mjs && node tests/validate-inventory-c3.mjs && node tests/validate-promotions-c4.mjs"
   }
 }

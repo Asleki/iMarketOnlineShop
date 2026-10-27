@@ -1,0 +1,211 @@
+sku,shop_slug,canonical_id,product_name,usd_cents,price_mode,unit_basis,price_basis,review_status
+OS-SOP-000001,soko-properties,NRE-000001-8,Three-Bedroom Poolside Garden House,18500000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000002,soko-properties,NRE-000002-6,Two-Bedroom Rooftop Terrace Apartment,13000000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000003,soko-properties,NRE-000004-2,Four-Bedroom Garden Detached House,26500000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000004,soko-properties,NRE-000005-9,One-Bedroom Pool Terrace Apartment,10500000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000005,soko-properties,NRE-000007-5,Three-Bedroom Gated Courtyard Townhouse,19800000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000006,soko-properties,NRE-000008-3,Compact Studio Apartment,7200000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000007,soko-properties,NRE-000010-9,Five-Bedroom Poolside Villa,58500000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000008,soko-properties,NRE-000011-7,Courtyard Two-Bedroom Apartment,11200000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000009,soko-properties,NRE-000013-3,Four-Bedroom Duplex Residence,27500000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000010,soko-properties,NRE-000015-8,Three-Bedroom Garden Bungalow,17500000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000011,soko-properties,NRE-000017-4,Two-Bedroom Balcony Apartment,11900000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000012,soko-properties,NRE-000019-0,Three-Bedroom Poolside Cottage,15600000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000013,soko-properties,NRE-000003-4,Commercial Plot,12500000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000014,soko-properties,NRE-000006-7,Agricultural Land,9400000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000015,soko-properties,NRE-000012-5,Undeveloped Land,3400000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000016,soko-properties,NRE-000014-1,Residential Plot,4500000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000017,soko-properties,NRE-000016-6,Commercial Plot,17000000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000018,soko-properties,NRE-000021-6,Development Land,34000000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000019,soko-properties,NRE-000023-2,Residential Plot,6200000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000020,soko-properties,NRE-000026-5,Gated Residential Plot,9900000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000021,soko-properties,NRE-000044-8,Beachfront Plot,47500000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000022,soko-properties,NRE-000018-2,Secure Office Warehouse,76000000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000023,soko-properties,NRE-000049-7,High-Clearance Eight-Bay Warehouse,270000000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000024,soko-properties,NRE-000050-5,Seven-Bay Manufacturing Facility,185000000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000025,soko-properties,NRE-000051-3,Compact Eight-Bay Warehouse,125000000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000026,soko-properties,NRE-000052-1,Secure Freight Logistics Yard,89000000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000027,soko-properties,NRE-000022-4,Two-Bedroom Gated Garden House,14000000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000028,soko-properties,NRE-000025-7,Three-Bedroom Family Apartment,19500000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000029,soko-properties,NRE-000027-3,Four-Bedroom Waterside Garden House,42500000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-SOP-000030,soko-properties,NRE-000053-9,Large Six-Bay Warehouse,220000000,design_scenario,reference design (not a real property listing),manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000001,click-n-get,NCP-000094-3,Apple iPad mini Tablet 128 GB,44900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000002,click-n-get,NCP-000097-6,Apple iPad Pro 11-Inch Tablet 128 GB,74900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000003,click-n-get,NCP-000106-5,Apple iPhone 14 Plus Smartphone 128 GB,54900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000004,click-n-get,NCP-000118-0,Apple iPhone 15 Pro Smartphone 128 GB,84900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000005,click-n-get,NCP-000127-1,Apple iPhone 16 Pro Max Smartphone 128 GB,119900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000006,click-n-get,NCP-000142-0,Apple Watch SE GPS 40 mm,22900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000007,click-n-get,NCP-000145-3,Apple Watch Ultra 2 GPS and Cellular,69900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000008,click-n-get,NCP-001984-4,Samsung Galaxy A16 5G Smartphone 128 GB,17900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000009,click-n-get,NCP-002007-3,Samsung Galaxy S25 Smartphone 256 GB,79900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000010,click-n-get,NCP-002010-7,Samsung Galaxy S25 Ultra Smartphone 256 GB,129900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000011,click-n-get,NCP-002012-3,Samsung Galaxy Tab A9 Tablet 128 GB,18900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000012,click-n-get,NCP-002014-9,Samsung Galaxy Tab S10 Ultra Tablet 128 GB,106900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000013,click-n-get,NCP-003238-3,Samsung Galaxy Watch7 40 mm,24900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000014,click-n-get,NCP-001973-7,Samsung Crystal UHD 4K Smart Television 43-Inch,28900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000015,click-n-get,NCP-002226-9,Umoja Advanced Smart Television,42900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000016,click-n-get,NCP-000086-9,Apple AirPods 4 Wireless Earbuds,11900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000017,click-n-get,NCP-003231-8,Samsung Galaxy Buds3 Wireless Earbuds,13500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000018,click-n-get,NCP-003214-4,Samsung Bespoke AI French Door Refrigerator,229900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000019,click-n-get,NCP-001972-9,Samsung 20000 mAh Battery Pack,4900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000020,click-n-get,NCP-001975-2,Samsung Crystal UHD 4K Smart Television 55-Inch,39900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000021,click-n-get,NCP-003249-0,Samsung Q80D QLED 4K Smart Television 55-Inch,69900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000022,click-n-get,NCP-003250-8,Samsung Q80D QLED 4K Smart Television 65-Inch,99900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000023,click-n-get,NCP-003215-1,Samsung Bespoke AI Laundry Combo,179900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000024,click-n-get,NCP-003216-9,Samsung Bespoke Jet AI Vacuum Cleaner,84900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000025,click-n-get,NCP-003221-9,Samsung Galaxy A26 5G Smartphone 128 GB,24900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000026,click-n-get,NCP-003243-3,Samsung Galaxy Z Fold7 Smartphone 256 GB,179900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000027,click-n-get,NCP-000143-8,Apple Watch Series 10 GPS 42 mm,32900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000028,click-n-get,NCP-000144-6,Apple Watch Series 10 GPS 46 mm,37900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000029,click-n-get,NCP-002048-7,Samsung Super Fast Wireless Charger Pad,3500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-CNG-000030,click-n-get,NCP-003217-7,Samsung Galaxy A06 Smartphone 128 GB,13900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000001,autogiant-motors,NCP-000001-8,Acura ADX,3700000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000002,autogiant-motors,NCP-000004-2,Acura Integra,3600000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000003,autogiant-motors,NCP-000013-3,Acura TLX,4250000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000004,autogiant-motors,NCP-000146-1,Aston Martin DB12,24500000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000005,autogiant-motors,NCP-000149-5,Aston Martin DBX707,27500000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000006,autogiant-motors,NCP-000151-1,Aston Martin One-77,195000000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000007,autogiant-motors,NCP-002194-9,Toyota Hilux,4500000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000008,autogiant-motors,NCP-002198-0,Toyota Land Cruiser Prado,6800000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000009,autogiant-motors,NCP-002206-1,Toyota Yaris,1950000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000010,autogiant-motors,NCP-000232-9,BMW X3 AC Schnitzer Edition,7250000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000011,autogiant-motors,NCP-000728-6,Ferrari F40,285000000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000012,autogiant-motors,NCP-000726-0,Ferrari Amalfi 701,32000000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000013,autogiant-motors,NCP-000332-7,Bugatti Tourbillon,430000000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000014,autogiant-motors,NCP-000408-5,Chevrolet Corvette ZR1X,22500000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000015,autogiant-motors,NCP-003066-8,Nissan Note,980000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000016,autogiant-motors,NCP-000238-6,Bosch Activated Carbon Cabin Air Filter,2999,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000017,autogiant-motors,NCP-000239-4,Bosch Automotive Starter Battery,14999,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000018,autogiant-motors,NCP-000240-2,Bosch Ceramic Front Brake Pad Set,8999,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000019,autogiant-motors,NCP-000248-5,Bosch Platinum Spark Plug Set 4 Pack,3500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000020,autogiant-motors,NCP-002313-5,Umoja Commercial Brake Pad Set,11499,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000021,autogiant-motors,NCP-002316-8,Umoja Commercial Engine Air Filter,4500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000022,autogiant-motors,NCP-002613-8,Umoja Performance Starter Battery,18999,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000023,autogiant-motors,NCP-002614-6,Umoja Performance Strut Bar,8500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000024,autogiant-motors,NCP-002767-2,Umoja Standard Brake Pad Set,7900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000025,autogiant-motors,NCP-002612-0,Umoja Performance Spark Plug Set,4200,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000026,autogiant-motors,NCP-000197-4,Bentley Mulsanne Grand Limousine,67500000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000027,autogiant-motors,NCP-000330-1,Bugatti Chiron Super Sport,360000000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000028,autogiant-motors,NCP-001438-1,McLaren P1 Tavarish by Frank Stephenson,135000000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000029,autogiant-motors,NCP-002139-4,Subaru Forester,3450000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-AGM-000030,autogiant-motors,NCP-002871-2,Volkswagen Golf GTI,3450000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000001,officetech-solutions,NCP-002406-7,Umoja Ergonomic Mesh Office Chair,15900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000002,officetech-solutions,NCP-002669-0,Umoja Professional Laser Printer,48900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000003,officetech-solutions,NCP-000087-7,Apple iMac 24-Inch M4 16 GB 512 GB,159900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000004,officetech-solutions,NCP-000136-2,Apple Mac mini M4 16 GB 512 GB,79900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000005,officetech-solutions,NCP-002255-8,Umoja Business Laptop Computer,69900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000006,officetech-solutions,NCP-002215-2,Umoja A3 Laminator,12900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000007,officetech-solutions,NCP-002310-1,Umoja Comb Binding Machine,15900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000008,officetech-solutions,NCP-002370-5,Umoja Cross-Cut Office Paper Shredder,24900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000009,officetech-solutions,NCP-002251-7,Umoja Business Desktop Computer,64900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000010,officetech-solutions,NCP-000137-0,Apple Mac Studio M2 Max 32 GB 1 TB,219900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000011,officetech-solutions,NCP-000138-8,Apple MacBook Air 13-Inch M3 16 GB 512 GB,109900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000012,officetech-solutions,NCP-000139-6,Apple MacBook Air 15-Inch M3 16 GB 512 GB,139900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000013,officetech-solutions,NCP-000140-4,Apple MacBook Pro 14-Inch M4 16 GB 512 GB,159900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000014,officetech-solutions,NCP-000141-2,Apple MacBook Pro 16-Inch M4 Pro 24 GB 1 TB,269900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000015,officetech-solutions,NCP-003227-6,Samsung Galaxy Book4 Pro 14-Inch Laptop 16 GB 512 GB,124900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000016,officetech-solutions,NCP-003228-4,Samsung Galaxy Book4 Pro 16-Inch Laptop 32 GB 1 TB,169900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000017,officetech-solutions,NCP-002049-5,Samsung T7 Shield 1 TB Portable SSD,11900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000018,officetech-solutions,NCP-003246-6,Samsung Odyssey OLED G8 32-Inch Gaming Monitor,99900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000019,officetech-solutions,NCP-000088-5,Apple iPad Air 11-Inch Tablet 128 GB,59900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000020,officetech-solutions,NCP-000089-3,Apple iPad Air 11-Inch Tablet 256 GB,74900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000021,officetech-solutions,NCP-000091-9,Apple iPad Air 13-Inch Tablet 128 GB,79900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000022,officetech-solutions,NCP-000092-7,Apple iPad Air 13-Inch Tablet 256 GB,94900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000023,officetech-solutions,NCP-000100-8,Apple iPad Pro 13-Inch Tablet 128 GB,139900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000024,officetech-solutions,NCP-000101-6,Apple iPad Pro 13-Inch Tablet 256 GB,159900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000025,officetech-solutions,NCP-002018-0,Samsung Galaxy Tab S9 FE Tablet 128 GB,42900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000026,officetech-solutions,NCP-002016-4,Samsung Galaxy Tab S10+ Tablet 128 GB,79900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000027,officetech-solutions,NCP-005049-2,Umoja Document authenticity scanner,109900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000028,officetech-solutions,NCP-005052-6,Umoja Secure credential printer,189900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000029,officetech-solutions,NCP-005048-4,Umoja Signature capture tablet,34900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-OTS-000030,officetech-solutions,NCP-005051-8,Umoja Contact and contactless smart-card encoder,49900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000001,joy-totes,NCP-002264-0,Umoja Chic Shoulder Bag,3900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000002,joy-totes,NCP-002291-3,Umoja Classic Leather Tote,11900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000003,joy-totes,NCP-002343-2,Umoja Compact Crossbody Bag,2900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000004,joy-totes,NCP-002353-1,Umoja Compact Laptop Backpack,5900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000005,joy-totes,NCP-002360-6,Umoja Compact School Backpack,3500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000006,joy-totes,NCP-002362-2,Umoja Compact Tote Bag,2500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000007,joy-totes,NCP-002363-0,Umoja Compact Travel Duffel,4900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000008,joy-totes,NCP-002389-5,Umoja Elegant Evening Clutch,3200,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000009,joy-totes,NCP-002417-4,Umoja Everyday Hobo Bag,4500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000010,joy-totes,NCP-002423-2,Umoja Fashion Mini Handbag,2900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000011,joy-totes,NCP-002424-0,Umoja Fashionable Bucket Bag,3500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000012,joy-totes,NCP-002544-5,Umoja Large Crossbody Bag,3500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000013,joy-totes,NCP-002547-8,Umoja Large Laptop Backpack,6900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000014,joy-totes,NCP-002550-2,Umoja Large School Backpack,4900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000015,joy-totes,NCP-002551-0,Umoja Large Tote Bag,3900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000016,joy-totes,NCP-002552-8,Umoja Large Travel Duffel,7900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000017,joy-totes,NCP-002565-0,Umoja Luxury Designer Handbag,18900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000018,joy-totes,NCP-002593-2,Umoja Multi-purpose Tote Bag,3500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000019,joy-totes,NCP-002696-3,Umoja Quilted Puffy Shoulder Bag,4900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000020,joy-totes,NCP-002754-0,Umoja Sophisticated Satchel Bag,7900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000021,joy-totes,NCP-002778-9,Umoja Standard Crossbody Bag,2400,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000022,joy-totes,NCP-002789-6,Umoja Standard Laptop Backpack,5500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000023,joy-totes,NCP-002794-6,Umoja Standard School Backpack,3500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000024,joy-totes,NCP-002801-9,Umoja Standard Tote Bag,2900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000025,joy-totes,NCP-002802-7,Umoja Standard Travel Duffel,5500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000026,joy-totes,NCP-002806-8,Umoja Stylish Evening Pouch,2500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000027,joy-totes,NCP-002818-3,Umoja Waterproof Crossbody Bag,3900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000028,joy-totes,NCP-002819-1,Umoja Waterproof Laptop Backpack,6900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000029,joy-totes,NCP-002820-9,Umoja Waterproof School Backpack,4500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-JOT-000030,joy-totes,NCP-002821-7,Umoja Waterproof Tote Bag,3500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000001,nashaa-kicks,NCP-000016-6,Adidas Adilette Comfort Men's Shoes,4000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000002,nashaa-kicks,NCP-000017-4,Adidas Adilette Comfort Women's Shoes,4000,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000003,nashaa-kicks,NCP-000018-2,Adidas Adizero Adios Pro 3 Men's Shoes,19900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000004,nashaa-kicks,NCP-000019-0,Adidas Adizero Adios Pro 3 Women's Shoes,19900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000005,nashaa-kicks,NCP-000023-2,Adidas Campus 00s Men's Shoes,9900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000006,nashaa-kicks,NCP-000024-0,Adidas Campus 00s Women's Shoes,9900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000007,nashaa-kicks,NCP-000042-2,Adidas Forum Low Men's Shoes,9900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000008,nashaa-kicks,NCP-000043-0,Adidas Forum Low Women's Shoes,9900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000009,nashaa-kicks,NCP-001583-4,Nike ACG Mountain Fly Hiking Shoes,15900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000010,nashaa-kicks,NCP-001584-2,Nike Air Force 1 Men's Shoes,11500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000011,nashaa-kicks,NCP-001585-9,Nike Air Force 1 Women's Shoes,11500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000012,nashaa-kicks,NCP-001590-9,Nike Air Max 90 Men's Shoes,13900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000013,nashaa-kicks,NCP-001591-7,Nike Air Max 90 Women's Shoes,13900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000014,nashaa-kicks,NCP-001598-2,Nike Air Zoom G.T. Jump 2 Basketball Shoes,16900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000015,nashaa-kicks,NCP-001599-0,Nike Alphafly 3 Men's Shoes,26900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000016,nashaa-kicks,NCP-001602-2,Nike Blazer Mid '77 Women's Shoes,10500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000017,nashaa-kicks,NCP-004222-6,Skechers Arch Fit 2.0 Shoes,8900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000018,nashaa-kicks,NCP-004224-2,Skechers D'Lites Biggest Fan Shoes,6900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000019,nashaa-kicks,NCP-004230-9,Skechers GO RUN Persistence 2 Running Shoes,11500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000020,nashaa-kicks,NCP-004233-3,Skechers GO WALK 7 Walking Shoes,8500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000021,nashaa-kicks,NCP-004235-8,Skechers GO WALK Arch Fit Sandals,6500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000022,nashaa-kicks,NCP-004242-4,Skechers Slip-ins Summits Shoes,6900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000023,nashaa-kicks,NCP-000020-8,Adidas Adizero Boston 12 Men's Shoes,13900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000024,nashaa-kicks,NCP-000021-6,Adidas Adizero Boston 12 Women's Shoes,13900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000025,nashaa-kicks,NCP-001586-7,Nike Air Max 1 Men's Shoes,13900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000026,nashaa-kicks,NCP-001587-5,Nike Air Max 1 Women's Shoes,13900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000027,nashaa-kicks,NCP-004223-4,Skechers BOBS Squad Chaos Shoes,5900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000028,nashaa-kicks,NCP-004225-9,Skechers Foamies Arch Fit Footsteps Sandals,4900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000029,nashaa-kicks,NCP-004229-1,Skechers GO GOLF Elite 5 Shoes,10500,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NAK-000030,nashaa-kicks,NCP-004236-6,Skechers Max Cushioning Elite 2.0 Running Shoes,10900,provisional_retail,one unit; specification to be confirmed,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000001,nexagreen,NCP-006662-1,Sugarcane Juice,250,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000002,nexagreen,NCP-006659-7,Passion Fruit Drink,225,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000003,nexagreen,NCP-002639-3,Tea Infusion,175,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000004,nexagreen,NCP-002701-1,Coffee Infusion,275,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000005,nexagreen,NCP-002437-2,Orange Juice,250,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000006,nexagreen,NCP-002425-7,Umoja Fine Maize Flour,225,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000007,nexagreen,NCP-002429-9,Umoja Fine Wheat Flour,250,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000008,nexagreen,NCP-002798-7,Umoja Standard Sunflower Cooking Oil,475,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000009,nexagreen,NCP-006445-1,Rice Grain,325,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000010,nexagreen,NCP-006444-4,Maize Grain,250,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000011,nexagreen,NCP-006466-7,Beans Dry Seed,350,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000012,nexagreen,NCP-006501-1,Tomato,150,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000013,nexagreen,NCP-006502-9,Onion,125,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000014,nexagreen,NCP-006495-6,Kale,149,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000015,nexagreen,NCP-006497-2,Spinach,149,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000016,nexagreen,NCP-006503-7,Carrot,149,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000017,nexagreen,NCP-006512-8,Garlic,250,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000018,nexagreen,NCP-006592-0,Cow Milk,165,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000019,nexagreen,NCP-006604-3,Chicken Egg,325,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000020,nexagreen,NCP-006602-7,Raw Chicken,699,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000021,nexagreen,NCP-006625-8,Whole Tilapia,425,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000022,nexagreen,NCP-006521-9,Banana Whole Fruit,150,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000023,nexagreen,NCP-006529-2,Orange Whole Fruit,175,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000024,nexagreen,NCP-006523-5,Mango Whole Fruit,225,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000025,nexagreen,NCP-006630-8,Maize Wholemeal Stiff Porridge,250,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000026,nexagreen,NCP-006634-0,Rice and Green Gram Pot,499,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000027,nexagreen,NCP-006656-3,Wheat Flatbread,99,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000028,nexagreen,NCP-006678-7,Dried Ginger Powder,299,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000029,nexagreen,NCP-006679-5,Turmeric Powder,250,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval
+OS-NGR-000030,nexagreen,NCP-006683-7,Onion Powder,275,provisional_retail,illustrative retail package or unit; pack size must be verified,manual_indicative_seed_2026_10,pending_shop_admin_approval

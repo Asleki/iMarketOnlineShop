@@ -1,0 +1,83 @@
+{
+  "source_sha256": "fc588582b467abe6b64d2d92a1884ccd4b9c75c136ed3c46810fcb8517a7c1cc",
+  "source_upload_sha256": "8ca05a5fb408e90193e93274a2b8c4e48da5841f48ffe5ef206d3bf030797d67",
+  "schema": "onstore.v1",
+  "products": 210,
+  "shops": {
+    "Soko Properties": 30,
+    "Click 'n Get": 30,
+    "AutoGiant Motors": 30,
+    "OfficeTech Solutions": 30,
+    "Joy Totes": 30,
+    "Nashaa Kicks": 30,
+    "NexaGreen": 30
+  },
+  "brands": {
+    "Click 'n Get": {
+      "Apple": 10,
+      "Samsung": 19,
+      "Umoja": 1
+    },
+    "AutoGiant Motors": {
+      "Acura": 3,
+      "Aston Martin": 3,
+      "Toyota": 3,
+      "BMW": 1,
+      "Ferrari": 2,
+      "Bugatti": 2,
+      "Chevrolet": 1,
+      "Nissan": 1,
+      "Bosch": 4,
+      "Umoja": 6,
+      "Bentley": 1,
+      "McLaren": 1,
+      "Subaru": 1,
+      "Volkswagen": 1
+    },
+    "OfficeTech Solutions": {
+      "Umoja": 11,
+      "Apple": 13,
+      "Samsung": 6
+    },
+    "Joy Totes": {
+      "Umoja": 30
+    },
+    "Nashaa Kicks": {
+      "Adidas": 10,
+      "Nike": 10,
+      "Skechers": 10
+    },
+    "NexaGreen": {
+      "D$D Foods": 22,
+      "Umoja": 3,
+      "TopTaste": 5
+    }
+  },
+  "illustrated": 180,
+  "pending_image_joy_totes": 30,
+  "copied_images": 1095,
+  "image_bytes": 198359054,
+  "gallery_roles": {
+    "MAIN": 180,
+    "GALLERY": 228,
+    "THUMBNAIL": 627,
+    "PRODUCT": 30,
+    "INGREDIENTS_AND_SERVING": 30
+  },
+  "copied_by_shop": {
+    "Soko Properties": 258,
+    "Click 'n Get": 143,
+    "AutoGiant Motors": 315,
+    "OfficeTech Solutions": 139,
+    "Nashaa Kicks": 150,
+    "NexaGreen": 90
+  },
+  "all_image_sha256_valid": true,
+  "source_zip_member_count": 3306,
+  "source_image_roles_excluded": [
+    "SOURCE_RECIPE",
+    "ARCHITECTURAL_PLAN",
+    "PLANNING_ONLY",
+    "SPECIFICATIONS"
+  ]
+}

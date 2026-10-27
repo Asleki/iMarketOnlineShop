@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "purpose": "onStore shop verification shields",
+  "icons": {
+    "bronze": {
+      "path": "images/verification/bronze.webp",
+      "sha256": "629f2848bc62b4b233dfd43d4ccf45fe2869c7226c8c213ee5d1aa50f8d11968"
+    },
+    "silver": {
+      "path": "images/verification/silver.webp",
+      "sha256": "8514f04cb4762896d5f7d1779e175fdfb2cfbc1590ebce191559570572c664d9"
+    },
+    "gold": {
+      "path": "images/verification/gold.webp",
+      "sha256": "c2466753e4610c453fb769fa710b3abe61c1d8ebff34eadd4a801bebcdc0e566"
+    },
+    "diamond": {
+      "path": "images/verification/diamond.webp",
+      "sha256": "10fd58b3fb9b631c60d862dd64d91a85511eaef21a8d9a79e71c8acc077d538b"
+    }
+  }
+}

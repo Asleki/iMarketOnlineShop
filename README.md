@@ -82,3 +82,8 @@ The `.github/workflows/foundation.yml` workflow runs the Node foundation contrac
 ## Merchant assets
 
 All seven shops have standardized PNG/WebP/SVG assets, multi-size ICO favicons, separate light/dark text wordmarks and 1200×630 sharing images. Joy Totes and Nashaa Kicks remain temporary initials. Four original WebPs retain their exact bytes. NexaGreen uses the approved leaf N raster source, separate from its text name. See `docs/BRAND_ASSETS.md` for format roles, provenance, theme behavior and future navigation integration.
+
+
+## Local Stage 2: 210-product catalogue preview
+
+Products render from `api/v1/catalogue.json` and `media/images/*.webp`; 30 canonical records per shop. Search/filter, product details and galleries are available from the homepage. Joy Totes uses the approved placeholder exception. No live pricing, stock, property location or sale authorization is asserted. Run `npm test`, then preview through an HTTP server (not `file://`).

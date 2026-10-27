@@ -74,6 +74,6 @@ for (const file of ["assets/brand/onstore-mark.svg","assets/brand/nexagreen-mark
   assert.ok(existsSync(new URL("../"+file, import.meta.url)), "Approved SVG master missing: " + file);
   assert.ok(read(file).includes("<svg") && read(file).includes("viewBox="), "Native vector geometry required: " + file);
 }
-assert.ok(read("src/shared.js").includes("brand-mark") && read("src/shared.js").includes("wordmark-on-dark"), "Header uses bag logo and theme-aware wordmark");
+assert.ok(read("src/shared.js").includes("brand-mark") && !read("src/shared.js").includes("brand-wordmark"), "Header uses one approved bag logo without image wordmarks");
 assert.ok(index.includes("onstore-mark.svg"), "Approved main logo used in homepage");
 console.log("PASS: approved onStore and NexaGreen branding wired into the shared website");

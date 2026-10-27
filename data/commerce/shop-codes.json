@@ -1,0 +1,13 @@
+{
+  "schema": "onstore.shop-codes.v1",
+  "sequence_min_width": 6,
+  "shops": [
+    {"slug": "soko-properties", "code": "SOP"},
+    {"slug": "click-n-get", "code": "CNG"},
+    {"slug": "autogiant-motors", "code": "AGM"},
+    {"slug": "officetech-solutions", "code": "OTS"},
+    {"slug": "joy-totes", "code": "JOT"},
+    {"slug": "nashaa-kicks", "code": "NAK"},
+    {"slug": "nexagreen", "code": "NGR"}
+  ]
+}

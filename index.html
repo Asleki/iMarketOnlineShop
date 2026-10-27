@@ -26,23 +26,38 @@
   <a class="skip-link" href="#main-content">Skip to main content</a>
   <div id="site-header"></div>
   <main id="main-content">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="shell hero-layout">
-        <div>
-          <p class="eyebrow">The marketplace for everyday discovery</p>
-          <h1 id="hero-title">Find what fits your day.</h1>
-          <p class="hero-copy">Explore shops for electronics, properties, cars, office essentials, bags, footwear, foods and beverages.</p>
-          <a class="button button-primary" href="#shops">Explore shops <span aria-hidden="true">→</span></a>
-        </div>
-        <div class="hero-art" aria-hidden="true"><img class="hero-logo" alt="" src="./assets/brand/onstore-mark.svg" width="180" height="180"></div>
-      </div>
+    <section id="featured" class="featured-hero" aria-label="Featured catalogue products">
+      <div id="hero-slider" aria-roledescription="carousel" aria-label="Featured product showcase"><p class="shell">Loading featured products…</p></div>
     </section>
     <section id="shops" class="section shell" aria-labelledby="shops-title">
       <div class="section-heading">
         <div><p class="eyebrow">Browse by shop</p><h2 id="shops-title">Our stores</h2></div>
-        <p>Seven shops, each with its own selection.</p>
       </div>
       <div id="shop-grid" class="shop-grid" aria-live="polite"></div>
+    </section>
+    <section id="catalogue" class="section shell catalogue-section" aria-labelledby="catalogue-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Explore our selection</p>
+          <h2 id="catalogue-title">Products across seven shops</h2>
+        </div>
+        <p id="catalogue-count" role="status" aria-live="polite">Loading catalogue…</p>
+      </div>
+      <p class="catalogue-disclaimer">Catalogue preview based on NoveGeo design and product records. Images are illustrative. Prices, availability, ownership and merchant authorization are not confirmed.</p>
+      <div class="catalogue-controls" role="search" aria-label="Search and filter products">
+        <label class="catalogue-control">Search products
+          <input id="product-search" type="search" placeholder="Name, brand or product ID" autocomplete="off">
+        </label>
+        <label class="catalogue-control">Shop
+          <select id="product-shop-filter"><option value="all">All seven shops</option></select>
+        </label>
+        <label class="catalogue-control">Department
+          <select id="product-department-filter"><option value="all">All departments</option></select>
+        </label>
+      </div>
+      <div id="product-grid" class="product-grid" aria-live="polite"></div>
+      <div class="catalogue-more"><button id="product-load-more" class="button button-primary" type="button" hidden>Load more products</button></div>
+      <dialog id="product-details" class="product-dialog" aria-label="Product details"></dialog>
     </section>
     <section id="about" class="section shell section-quiet" aria-labelledby="about-title">
       <p class="eyebrow">About onStore</p>

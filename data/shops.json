@@ -10,6 +10,7 @@
       "Commercial Property"
     ],
     "targetProducts": 30,
+    "verificationLevel": "bronze",
     "logoUrl": "images/brands/soko-properties/soko-properties-logo.webp",
     "brandAssets": {
       "status": "retained-original",
@@ -32,6 +33,7 @@
       "Appliances"
     ],
     "targetProducts": 30,
+    "verificationLevel": "bronze",
     "logoUrl": "images/brands/click-n-get/click-n-get-logo.webp",
     "brandAssets": {
       "status": "retained-original",
@@ -54,6 +56,7 @@
       "Motorcycles"
     ],
     "targetProducts": 30,
+    "verificationLevel": "bronze",
     "logoUrl": "images/brands/autogiant-motors/autogiant-motors-logo.webp",
     "brandAssets": {
       "status": "retained-original",
@@ -77,6 +80,7 @@
       "Accessories"
     ],
     "targetProducts": 30,
+    "verificationLevel": "bronze",
     "logoUrl": "images/brands/officetech-solutions/officetech-solutions-logo.webp",
     "brandAssets": {
       "status": "retained-original",
@@ -99,6 +103,7 @@
       "Waist Bags"
     ],
     "targetProducts": 30,
+    "verificationLevel": "bronze",
     "logoUrl": null,
     "brandAssets": {
       "status": "temporary-initial",
@@ -122,6 +127,7 @@
       "Flats"
     ],
     "targetProducts": 30,
+    "verificationLevel": "bronze",
     "logoUrl": null,
     "brandAssets": {
       "status": "temporary-initial",
@@ -143,6 +149,7 @@
       "Beverages"
     ],
     "targetProducts": 30,
+    "verificationLevel": "bronze",
     "logoUrl": "images/brands/nexagreen/nexagreen-logo.webp",
     "brandAssets": {
       "status": "approved-leaf-symbol",

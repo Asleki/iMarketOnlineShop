@@ -1,0 +1,30 @@
+{
+  "base_currency": "USD",
+  "history": [
+    {
+      "actor": "onstore-c2-bootstrap",
+      "at": "2026-10-20T11:19:00Z",
+      "currency": "KES",
+      "event_id": "b281f291-4d2a-4746-af7b-d3006f781fef",
+      "source": "dated_market_reference_unapproved",
+      "units_per_usd_scaled": 129732000
+    },
+    {
+      "actor": "onstore-c2-bootstrap",
+      "at": "2026-10-20T11:37:00Z",
+      "currency": "GBP",
+      "event_id": "7132f6f7-6b25-4a60-970e-8a731369311b",
+      "source": "dated_market_reference_unapproved",
+      "units_per_usd_scaled": 749586
+    }
+  ],
+  "rates_scaled": {
+    "GBP": 749586,
+    "KES": 129732000,
+    "USD": 1000000
+  },
+  "revision_count": 2,
+  "scale": 1000000,
+  "schema": "onstore.exchange-rates.v1",
+  "status": "initial_reference_rates_require_admin_approval"
+}

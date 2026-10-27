@@ -1,0 +1,2 @@
+{"actor":"onstore-c2-bootstrap","at":"2026-10-20T11:19:00Z","currency":"KES","event_id":"b281f291-4d2a-4746-af7b-d3006f781fef","schema":"onstore.rate-event.v1","source":"dated_market_reference_unapproved","type":"rate_set","units_per_usd_scaled":129732000}
+{"actor":"onstore-c2-bootstrap","at":"2026-10-20T11:37:00Z","currency":"GBP","event_id":"7132f6f7-6b25-4a60-970e-8a731369311b","schema":"onstore.rate-event.v1","source":"dated_market_reference_unapproved","type":"rate_set","units_per_usd_scaled":749586}

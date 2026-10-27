@@ -1,0 +1,220 @@
+{
+  "campaign_count": 8,
+  "campaigns": [
+    {
+      "campaign_id": "C4-AUTOGIAN-REGULAR-DISCOUNT-001",
+      "discount_bps": 1000,
+      "end_utc": null,
+      "name": "Shop Offers",
+      "start_utc": null,
+      "target_products": [
+        {
+          "canonical_id": "NCP-000001-8",
+          "shop_slug": "autogiant-motors"
+        },
+        {
+          "canonical_id": "NCP-000004-2",
+          "shop_slug": "autogiant-motors"
+        },
+        {
+          "canonical_id": "NCP-000013-3",
+          "shop_slug": "autogiant-motors"
+        },
+        {
+          "canonical_id": "NCP-000146-1",
+          "shop_slug": "autogiant-motors"
+        }
+      ],
+      "type": "regular_discount"
+    },
+    {
+      "campaign_id": "C4-CLICKNGE-REGULAR-DISCOUNT-001",
+      "discount_bps": 1000,
+      "end_utc": null,
+      "name": "Shop Offers",
+      "start_utc": null,
+      "target_products": [
+        {
+          "canonical_id": "NCP-000094-3",
+          "shop_slug": "click-n-get"
+        },
+        {
+          "canonical_id": "NCP-000097-6",
+          "shop_slug": "click-n-get"
+        },
+        {
+          "canonical_id": "NCP-000106-5",
+          "shop_slug": "click-n-get"
+        },
+        {
+          "canonical_id": "NCP-000118-0",
+          "shop_slug": "click-n-get"
+        }
+      ],
+      "type": "regular_discount"
+    },
+    {
+      "campaign_id": "C4-JOYTOTES-REGULAR-DISCOUNT-001",
+      "discount_bps": 1000,
+      "end_utc": null,
+      "name": "Shop Offers",
+      "start_utc": null,
+      "target_products": [
+        {
+          "canonical_id": "NCP-002264-0",
+          "shop_slug": "joy-totes"
+        },
+        {
+          "canonical_id": "NCP-002291-3",
+          "shop_slug": "joy-totes"
+        },
+        {
+          "canonical_id": "NCP-002343-2",
+          "shop_slug": "joy-totes"
+        },
+        {
+          "canonical_id": "NCP-002353-1",
+          "shop_slug": "joy-totes"
+        }
+      ],
+      "type": "regular_discount"
+    },
+    {
+      "campaign_id": "C4-MKT-FLASH-SALE-001",
+      "discount_bps": 1500,
+      "end_utc": "2026-10-21T15:21:44Z",
+      "name": "Flash Sale",
+      "start_utc": "2026-10-20T15:21:44Z",
+      "target_products": [
+        {
+          "canonical_id": "NCP-001984-4",
+          "shop_slug": "click-n-get"
+        },
+        {
+          "canonical_id": "NCP-002389-5",
+          "shop_slug": "joy-totes"
+        },
+        {
+          "canonical_id": "NCP-000043-0",
+          "shop_slug": "nashaa-kicks"
+        },
+        {
+          "canonical_id": "NCP-002198-0",
+          "shop_slug": "autogiant-motors"
+        },
+        {
+          "canonical_id": "NCP-002798-7",
+          "shop_slug": "nexagreen"
+        },
+        {
+          "canonical_id": "NCP-002370-5",
+          "shop_slug": "officetech-solutions"
+        }
+      ],
+      "type": "flash_sale"
+    },
+    {
+      "campaign_id": "C4-NASHAAKI-REGULAR-DISCOUNT-001",
+      "discount_bps": 1000,
+      "end_utc": null,
+      "name": "Shop Offers",
+      "start_utc": null,
+      "target_products": [
+        {
+          "canonical_id": "NCP-000016-6",
+          "shop_slug": "nashaa-kicks"
+        },
+        {
+          "canonical_id": "NCP-000017-4",
+          "shop_slug": "nashaa-kicks"
+        },
+        {
+          "canonical_id": "NCP-000018-2",
+          "shop_slug": "nashaa-kicks"
+        },
+        {
+          "canonical_id": "NCP-000019-0",
+          "shop_slug": "nashaa-kicks"
+        }
+      ],
+      "type": "regular_discount"
+    },
+    {
+      "campaign_id": "C4-NEXAGREE-HOST-SALE-001",
+      "discount_bps": 1200,
+      "end_utc": null,
+      "name": "Host Sale",
+      "start_utc": null,
+      "target_products": [
+        {
+          "canonical_id": "NCP-002437-2",
+          "shop_slug": "nexagreen"
+        },
+        {
+          "canonical_id": "NCP-002425-7",
+          "shop_slug": "nexagreen"
+        },
+        {
+          "canonical_id": "NCP-002429-9",
+          "shop_slug": "nexagreen"
+        }
+      ],
+      "type": "host_sale"
+    },
+    {
+      "campaign_id": "C4-NEXAGREE-REGULAR-DISCOUNT-001",
+      "discount_bps": 1000,
+      "end_utc": null,
+      "name": "Shop Offers",
+      "start_utc": null,
+      "target_products": [
+        {
+          "canonical_id": "NCP-006662-1",
+          "shop_slug": "nexagreen"
+        },
+        {
+          "canonical_id": "NCP-006659-7",
+          "shop_slug": "nexagreen"
+        },
+        {
+          "canonical_id": "NCP-002639-3",
+          "shop_slug": "nexagreen"
+        },
+        {
+          "canonical_id": "NCP-002701-1",
+          "shop_slug": "nexagreen"
+        }
+      ],
+      "type": "regular_discount"
+    },
+    {
+      "campaign_id": "C4-OFFICETE-REGULAR-DISCOUNT-001",
+      "discount_bps": 1000,
+      "end_utc": null,
+      "name": "Shop Offers",
+      "start_utc": null,
+      "target_products": [
+        {
+          "canonical_id": "NCP-002406-7",
+          "shop_slug": "officetech-solutions"
+        },
+        {
+          "canonical_id": "NCP-002669-0",
+          "shop_slug": "officetech-solutions"
+        },
+        {
+          "canonical_id": "NCP-000087-7",
+          "shop_slug": "officetech-solutions"
+        },
+        {
+          "canonical_id": "NCP-000136-2",
+          "shop_slug": "officetech-solutions"
+        }
+      ],
+      "type": "regular_discount"
+    }
+  ],
+  "environment": "simulation",
+  "schema": "onstore.public-promotions.v2",
+  "stacking": "best_eligible_only"
+}
