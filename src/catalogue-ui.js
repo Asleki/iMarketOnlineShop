@@ -59,7 +59,6 @@ function productCard(p, open) {
   image.height = 270;
   setProductImage(image, imageUrl(p.main_image), p.canonical_name + ' image');
   visual.append(image);
-  if (p.image_pending) visual.append(el('span', 'product-pending', 'Photo pending'));
   const body = el('div', 'product-card-body');
   body.append(el('p', 'product-store', p.shop), el('h3', '', p.canonical_name));
   body.append(createPromotionPriceNode(p, createPriceNode(p)));
@@ -105,8 +104,6 @@ function productDialog(dialog, p) {
       thumbs.append(thumb);
     }
     gallery.append(thumbs);
-  } else if (p.image_pending) {
-    gallery.append(el('p', 'product-help', 'Images for this item have not yet been approved.'));
   }
   const details = el('div', 'product-detail-info');
   details.append(createPromotionPriceNode(p, createPriceNode(p)));
@@ -122,7 +119,7 @@ function productDialog(dialog, p) {
     }
   }
   details.append(el('p', 'product-help', p.record_type === 'PROPERTY'
-    ? 'Design reference only. This is not a verified real estate listing, address, or offer.'
+    ? 'Property design reference.'
     : 'Stock availability will be confirmed before checkout.'));
   inner.append(gallery, details);
   dialog.replaceChildren(header, inner);

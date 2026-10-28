@@ -61,10 +61,8 @@ function refreshVisiblePrices() {
       return;
     }
     const amount = convertedMinor(price.usd_cents,data.rates_scaled[active],data.rate_scale);
-    node.textContent=(price.price_mode==='design_scenario' ? 'Indicative ' : price.review_status==='shop_reviewed' ? '' : 'Est. ')+formattedMoney(amount,active);
-    node.title=price.price_mode==='design_scenario'
-      ? 'Illustrative design scenario only; not an actual property listing or asking price'
-      : 'Provisional starting price. Shop-admin review and inventory confirmation required.';
+    node.textContent=formattedMoney(amount,active);
+    node.title=node.textContent;
     node.setAttribute('aria-label',node.textContent);
   });
 }
@@ -228,8 +226,8 @@ export function createPriceNode(product) {
   const price=dataIndex.get(rowKey(product.shop_slug,product.id));
   if (price && data) {
     const minor=convertedMinor(price.usd_cents,data.rates_scaled[active],data.rate_scale);
-    node.textContent=(price.price_mode==='design_scenario'?'Indicative ':price.review_status==='shop_reviewed'?'':'Est. ')+formattedMoney(minor,active);
-    node.title=price.price_mode==='design_scenario'?'Illustrative design scenario only, not an active property listing':'Provisional starting price pending shop review';
+    node.textContent=formattedMoney(minor,active);
+    node.title=node.textContent;
   }
   return node;
 }

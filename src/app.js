@@ -22,7 +22,7 @@ function createShopCard(shop) {
   if (shop.logoUrl || shop.brandAssets?.icon) {
     const logo = document.createElement("img");
     logo.className = "shop-logo";
-    logo.alt = shop.name + (shop.logoUrl ? " logo" : " temporary icon");
+    logo.alt = shop.name + (shop.logoUrl ? " logo" : " icon");
     logo.loading = "lazy";
     logo.decoding = "async";
     logo.addEventListener("error", showMonogram, { once: true });

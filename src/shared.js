@@ -66,7 +66,7 @@ export function renderHeader(host) {
   const register = element('button', 'commerce-menu-action', 'Register');
   signIn.type = register.type = 'button';
   signIn.disabled = register.disabled = true; // No authentication backend yet.
-  menu.append(signIn, register, element('p', 'commerce-menu-note', 'Account access will be enabled in a later stage.'));
+  menu.append(signIn, register);
   account.append(accountButton, menu);
   document.addEventListener('click', e => { if (!account.contains(e.target)) account.open = false; });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') account.open = false; });
@@ -83,7 +83,7 @@ export function renderHeader(host) {
   notice.setAttribute('role', 'status');
   cart.addEventListener('click', () => {
     notice.className = 'commerce-cart-message';
-    notice.textContent = 'Cart and checkout simulation are coming in a later stage.';
+    notice.textContent = 'Your cart is empty.';
   });
   const theme = element('button', 'theme-toggle');
   theme.type = 'button';

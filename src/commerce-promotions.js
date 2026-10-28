@@ -64,10 +64,10 @@ function updateCard(wrapper) {
   const currency = selectedCurrency();
   const price = formattedMoney(convertedMinor(after, rates.rates_scaled[currency], rates.rate_scale),currency);
   const display = saving.querySelector('.onstore-sale-value');
-  display.textContent = 'Est. ' + price;
-  display.title = 'Simulation only; estimated product price and demo discount, not a live offer';
-  badge.textContent = `Demo −${pct(offer.discount_bps)}`;
-  badge.title = offer.name + ' · simulated offer';
+  display.textContent = price;
+  display.title = price;
+  badge.textContent = `−${pct(offer.discount_bps)}`;
+  badge.title = offer.name;
   saving.hidden = false;
   base.classList.add('onstore-original-price');
   wrapper.classList.add('onstore-promo-active');
@@ -83,7 +83,7 @@ function updateBanner() {
   const current=campaigns.filter(eligibleNow);
   if (!current.length) {banner.hidden=true;return;}
   const biggest = Math.max(...current.map(c=>c.discount_bps));
-  banner.textContent = `Demo offers on selected products · up to ${pct(biggest)} off`;
+  banner.textContent = `Offers on selected products · up to ${pct(biggest)} off`;
   banner.hidden=false;
 }
 export async function initPromoData() {
