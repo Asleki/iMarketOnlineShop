@@ -40,9 +40,9 @@ This branch is a cleanup/rebuild candidate, **not the public production release*
 - Subsequent image additions update the media manifest without changing the product's canonical ID.
 
 ## Original shop-logo retention (Stage 1 correction)
-- Preserve exact original Git blob SHA with standardized filenames for Soko Properties, Click 'n Get, AutoGiant Motors and OfficeTech Solutions.
+- Preserve the former originals in Git history; current storefront assets are the newly approved designs, each recorded in the 98-item SHA-256 manifest.
 - Logo mappings live in `data/shops.json` and share the same reusable shop-card component.
-- The original repository referenced Joy Totes and Nashaa Kicks logos but did not commit those files; no approved standalone logo was located in the inspected linked Drive archive. Use a textual monogram for those two until a genuine logo is supplied.
+- Joy Totes Modern JT and Nashaa Kicks Sprint NK now use approved `logo.webp` files; obsolete placeholder files are excluded from the working tree.
 - NexaGreen uses the approved leaf N WebP in `images/brands/nexagreen/`; its text wordmark is separate. The existing shared brand SVG is preserved for compatibility.
 - Do not confuse the product-image placeholder with a merchant logo or invent a logo.
 
@@ -50,7 +50,7 @@ This branch is a cleanup/rebuild candidate, **not the public production release*
 - Shared semantic light/dark tokens in the single `assets/site.css`.
 - One SVG icon sprite and reusable `createIcon` helper; a shared theme switch with persistent preference and OS-default behavior.
 - Favicon SVG and manifest identity; SEO/OG/Twitter head fields; staging remains `noindex` without fabricated domain canonical URLs or product rich results.
-- Four historical merchant logos remain byte-for-byte unchanged; Joy Totes and Nashaa Kicks use initials pending approved standalone artwork; NexaGreen uses the green N-leaf SVG.
+- The seven shop identities use approved 2026-10-28 replacements; the historical originals remain retrievable in Git history.
 - The flash-sale countdown and all shopping features remain in their approved later stages.
 
 ## Stage 1.3 — approved brand logos on the default branch
@@ -61,4 +61,4 @@ This branch is a cleanup/rebuild candidate, **not the public production release*
 
 ## Merchant asset completion
 
-Standardized merchant paths, original WebP preservation, format derivatives, initial placeholders and metadata helpers are documented in `BRAND_ASSETS.md`. Existing onStore brand masters and generated files remain unchanged.
+Standardized merchant paths, all seven approved logos, 98 SHA-256-verified format derivatives, and metadata helpers are documented in `BRAND_ASSETS.md`. Shared onStore global brand masters and generated files remain unchanged.

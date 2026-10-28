@@ -13,7 +13,7 @@
     "verificationLevel": "bronze",
     "logoUrl": "images/brands/soko-properties/soko-properties-logo.webp",
     "brandAssets": {
-      "status": "retained-original",
+      "status": "approved-new-logo",
       "icon": "images/brands/soko-properties/soko-properties-icon.webp",
       "favicon": "images/brands/soko-properties/soko-properties-favicon.ico",
       "appleTouchIcon": "images/brands/soko-properties/soko-properties-apple-touch-icon.png",
@@ -36,7 +36,7 @@
     "verificationLevel": "bronze",
     "logoUrl": "images/brands/click-n-get/click-n-get-logo.webp",
     "brandAssets": {
-      "status": "retained-original",
+      "status": "approved-new-logo",
       "icon": "images/brands/click-n-get/click-n-get-icon.webp",
       "favicon": "images/brands/click-n-get/click-n-get-favicon.ico",
       "appleTouchIcon": "images/brands/click-n-get/click-n-get-apple-touch-icon.png",
@@ -59,7 +59,7 @@
     "verificationLevel": "bronze",
     "logoUrl": "images/brands/autogiant-motors/autogiant-motors-logo.webp",
     "brandAssets": {
-      "status": "retained-original",
+      "status": "approved-new-logo",
       "icon": "images/brands/autogiant-motors/autogiant-motors-icon.webp",
       "favicon": "images/brands/autogiant-motors/autogiant-motors-favicon.ico",
       "appleTouchIcon": "images/brands/autogiant-motors/autogiant-motors-apple-touch-icon.png",
@@ -83,7 +83,7 @@
     "verificationLevel": "bronze",
     "logoUrl": "images/brands/officetech-solutions/officetech-solutions-logo.webp",
     "brandAssets": {
-      "status": "retained-original",
+      "status": "approved-new-logo",
       "icon": "images/brands/officetech-solutions/officetech-solutions-icon.webp",
       "favicon": "images/brands/officetech-solutions/officetech-solutions-favicon.ico",
       "appleTouchIcon": "images/brands/officetech-solutions/officetech-solutions-apple-touch-icon.png",
@@ -104,9 +104,9 @@
     ],
     "targetProducts": 30,
     "verificationLevel": "bronze",
-    "logoUrl": null,
+    "logoUrl": "images/brands/joy-totes/joy-totes-logo.webp",
     "brandAssets": {
-      "status": "temporary-initial",
+      "status": "approved-new-logo",
       "icon": "images/brands/joy-totes/joy-totes-icon.webp",
       "favicon": "images/brands/joy-totes/joy-totes-favicon.ico",
       "appleTouchIcon": "images/brands/joy-totes/joy-totes-apple-touch-icon.png",
@@ -128,9 +128,9 @@
     ],
     "targetProducts": 30,
     "verificationLevel": "bronze",
-    "logoUrl": null,
+    "logoUrl": "images/brands/nashaa-kicks/nashaa-kicks-logo.webp",
     "brandAssets": {
-      "status": "temporary-initial",
+      "status": "approved-new-logo",
       "icon": "images/brands/nashaa-kicks/nashaa-kicks-icon.webp",
       "favicon": "images/brands/nashaa-kicks/nashaa-kicks-favicon.ico",
       "appleTouchIcon": "images/brands/nashaa-kicks/nashaa-kicks-apple-touch-icon.png",
@@ -152,7 +152,7 @@
     "verificationLevel": "bronze",
     "logoUrl": "images/brands/nexagreen/nexagreen-logo.webp",
     "brandAssets": {
-      "status": "approved-leaf-symbol",
+      "status": "approved-new-logo",
       "icon": "images/brands/nexagreen/nexagreen-icon.webp",
       "favicon": "images/brands/nexagreen/nexagreen-favicon.ico",
       "appleTouchIcon": "images/brands/nexagreen/nexagreen-apple-touch-icon.png",

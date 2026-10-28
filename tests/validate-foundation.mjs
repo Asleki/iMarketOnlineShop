@@ -18,17 +18,11 @@ assert.ok(index.includes("./src/app.js"), "Entrypoint is module");
 assert.ok(read("src/app.js").includes("./shared.js"), "Shared chrome is reused");
 assert.ok(read("src/media.js").includes("FALLBACK_IMAGE_URL"), "One shared image fallback");
 assert.ok(existsSync(new URL("../images/placeholder.webp", import.meta.url)), "Fallback image exists");
-const expectedLogos = new Map([
-  ["soko_properties", "images/brands/soko-properties/soko-properties-logo.webp"],
-  ["click_n_get", "images/brands/click-n-get/click-n-get-logo.webp"],
-  ["autogiant_motors", "images/brands/autogiant-motors/autogiant-motors-logo.webp"],
-  ["officetech_solutions", "images/brands/officetech-solutions/officetech-solutions-logo.webp"]
-]);
-assert.equal(shopList.filter(shop => shop.logoUrl).length, 5, "Four original and one newly approved logo");
+assert.equal(shopList.filter(shop => shop.logoUrl).length, 7, "Seven approved shop logos");
 for (const shop of shopList) {
-  const expected = shop.id === "nexagreen" ? "images/brands/nexagreen/nexagreen-logo.webp" : (expectedLogos.get(shop.id) ?? null);
-  assert.equal(shop.logoUrl, expected, "Logo mapping must match original brand identity");
-  if (expected) assert.ok(existsSync(new URL("../" + expected, import.meta.url)), "Original logo exists: " + expected);
+  const expected = `images/brands/${shop.slug}/${shop.slug}-logo.webp`;
+  assert.equal(shop.logoUrl, expected, "Approved logo mapping for " + shop.slug);
+  assert.ok(existsSync(new URL("../" + expected, import.meta.url)), "Approved logo exists: " + expected);
 }
 assert.ok(read("src/app.js").includes("shop.logoUrl"), "Shop cards use mapped logo assets");
 assert.ok(read("src/app.js").includes("showMonogram"), "Shop cards have a missing-logo fallback");
@@ -67,7 +61,7 @@ for (const file of ["assets/brand/onstore-favicon.ico","assets/brand/onstore-mar
   assert.ok(existsSync(new URL("../"+file, import.meta.url)), "Branded image variant missing: "+file);
 }
 assert.ok(read("src/seo.js").includes("canonicalUrl"), "Reusable SEO metadata helper");
-console.log("PASS: accessible light/dark tokens, font stacks, icon sprite, SVG favicon, staging SEO metadata and logo preservation");
+console.log("PASS: accessible light/dark tokens, font stacks, icon sprite, SVG favicon, staging SEO metadata and seven approved logos");
 console.log("PASS: seven shops, exact logos, shared CSS, light/dark tokens, accessible icon sprite, SVG favicon and staging SEO metadata");
 
 for (const file of ["assets/brand/onstore-mark.svg","assets/brand/nexagreen-mark.svg","assets/brand/onstore-wordmark-on-light.svg","assets/brand/onstore-wordmark-on-dark.svg"]) {
