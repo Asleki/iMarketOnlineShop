@@ -26,7 +26,7 @@ jobs:
         run: npm test
       - name: Parse application JavaScript
         run: |
-          for file in src/*.js tests/*.mjs; do
+          for file in src/*.js tests/*.mjs backend/*.mjs backend/tests/*.mjs; do
             node --check "$file"
           done
       - name: Validate SVG icon and favicon syntax

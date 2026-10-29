@@ -22,41 +22,17 @@
   <link rel="stylesheet" href="./assets/site.css">
   <script type="module" src="./src/app.js"></script>
 </head>
-<body>
+<body data-page="home">
   <a class="skip-link" href="#main-content">Skip to main content</a>
   <div id="site-header"></div>
   <main id="main-content">
     <section id="featured" class="featured-hero" aria-label="Featured catalogue products">
       <div id="hero-slider" aria-roledescription="carousel" aria-label="Featured product showcase"><p class="shell">Loading featured products…</p></div>
     </section>
-    <section id="shops" class="section shell" aria-labelledby="shops-title">
-      <div class="section-heading">
-        <div><p class="eyebrow">Browse by shop</p><h2 id="shops-title">Our stores</h2></div>
-      </div>
-      <div id="shop-grid" class="shop-grid" aria-live="polite"></div>
-    </section>
-    <section id="catalogue" class="section shell catalogue-section" aria-labelledby="catalogue-title">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Explore our selection</p>
-          <h2 id="catalogue-title">Products across seven shops</h2>
-        </div>
-        <p id="catalogue-count" role="status" aria-live="polite">Loading catalogue…</p>
-      </div>
-      <div class="catalogue-controls" role="search" aria-label="Search and filter products">
-        <label class="catalogue-control">Search products
-          <input id="product-search" type="search" placeholder="Name, brand or product ID" autocomplete="off">
-        </label>
-        <label class="catalogue-control">Shop
-          <select id="product-shop-filter"><option value="all">All seven shops</option></select>
-        </label>
-        <label class="catalogue-control">Department
-          <select id="product-department-filter"><option value="all">All departments</option></select>
-        </label>
-      </div>
-      <div id="product-grid" class="product-grid" aria-live="polite"></div>
-      <div class="catalogue-more"><button id="product-load-more" class="button button-primary" type="button" hidden>Load more products</button></div>
-      <dialog id="product-details" class="product-dialog" aria-label="Product details"></dialog>
+    <div id="home-offers"></div>
+    <section id="recommendations" class="section shell" aria-labelledby="recommendations-title">
+      <div class="section-heading"><div><p class="eyebrow">Picked around you</p><h2 id="recommendations-title">Your favourite categories</h2></div><button id="change-categories" class="button button-secondary" type="button">Edit categories</button></div>
+      <div id="category-products"></div>
     </section>
     <section id="about" class="section shell section-quiet" aria-labelledby="about-title">
       <p class="eyebrow">About onStore</p>

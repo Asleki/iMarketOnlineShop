@@ -2,6 +2,7 @@ import { createCurrencyPicker } from './commerce-prices.js';
 import { createIcon } from './icons.js';
 // Shared site chrome: exactly one header and footer implementation.
 import { bindThemeToggle } from "./theme.js";
+import {siteURL,loadSession,currentUser,cartItems} from './market-api.js';
 const HOME_URL = new URL("../index.html", import.meta.url);
 const urlOnHome = hash => new URL(HOME_URL.href + hash).href;
 export function renderHeader(host) {
@@ -41,15 +42,7 @@ export function renderHeader(host) {
   search.append(searchLabel, input, submit);
   search.addEventListener('submit', event => {
     event.preventDefault();
-    const catalogueSearch = document.querySelector('#product-search');
-    if (catalogueSearch) {
-      catalogueSearch.value = input.value.trim();
-      catalogueSearch.dispatchEvent(new Event('input', { bubbles: true }));
-      document.querySelector('#catalogue')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      catalogueSearch.focus({ preventScroll: true });
-    } else {
-      window.location.href = urlOnHome('#catalogue');
-    }
+    window.location.href = siteURL('search.html',{q:input.value.trim()});
   });
 
   const actions = element('div', 'commerce-actions');
@@ -65,8 +58,10 @@ export function renderHeader(host) {
   const signIn = element('button', 'commerce-menu-action', 'Sign In');
   const register = element('button', 'commerce-menu-action', 'Register');
   signIn.type = register.type = 'button';
-  signIn.disabled = register.disabled = true; // No authentication backend yet.
-  menu.append(signIn, register);
+  signIn.addEventListener('click',()=>{window.location.href=siteURL('profile.html',{mode:'login'});});
+  register.addEventListener('click',()=>{window.location.href=siteURL('profile.html',{mode:'register'});});
+  const profile=element('a','commerce-menu-action','My profile');profile.href=siteURL('profile.html');
+  menu.append(profile,signIn, register);
   account.append(accountButton, menu);
   document.addEventListener('click', e => { if (!account.contains(e.target)) account.open = false; });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') account.open = false; });
@@ -82,8 +77,7 @@ export function renderHeader(host) {
   const notice = element('div', 'sr-only');
   notice.setAttribute('role', 'status');
   cart.addEventListener('click', () => {
-    notice.className = 'commerce-cart-message';
-    notice.textContent = 'Your cart is empty.';
+    window.location.href=siteURL('cart.html');
   });
   const theme = element('button', 'theme-toggle');
   theme.type = 'button';
@@ -106,23 +100,32 @@ export function renderHeader(host) {
     ['Foods & beverages', 'nexagreen']
   ]) {
     const link = element('a', '', name);
-    link.href = urlOnHome('#catalogue');
+    link.href = siteURL('search.html',{shop:slug});
     link.dataset.shopFilter = slug;
     link.addEventListener('click', () => { categories.open = false; });
     catLinks.append(link);
   }
   categories.append(catLinks);
   navInner.append(categories);
-  for (const [name, hash] of [
-    ['Shops', '#shops'], ['Products', '#catalogue'], ['Featured', '#featured']
+  for (const [name, file] of [
+    ['Shops', 'shops.html'], ['Products', 'search.html'], ['Featured', 'index.html#featured']
   ]) {
     const link = element('a', 'commerce-nav-link', name);
-    link.href = urlOnHome(hash);
+    link.href = siteURL(file);
     navInner.append(link);
   }
   nav.append(navInner);
   site.append(top, nav, notice);
   host.replaceChildren(site);
+  function updateAccount(){
+    const user=currentUser();greeting.textContent=user?'Welcome '+user.username:'Hello, Guest';
+    menu.querySelector('.commerce-menu-greeting').textContent=greeting.textContent;
+    signIn.hidden=register.hidden=Boolean(user);
+  }
+  async function updateCart(){try{const items=await cartItems();const count=items.reduce((n,item)=>n+item.quantity,0);badge.textContent=String(count);cart.setAttribute('aria-label',`Cart, ${count} items`);}catch{/* Retain the last known count during service interruptions. */}}
+  document.addEventListener('onstore:session-changed',()=>{updateAccount();updateCart();});
+  document.addEventListener('onstore:cart-updated',updateCart);
+  loadSession().then(()=>{updateAccount();updateCart();});
 }
 
 export function renderFooter(host) {
@@ -132,12 +135,12 @@ export function renderFooter(host) {
   const inner = document.createElement("div");
   inner.className = "shell footer-inner";
   const copyright = document.createElement("p");
-  copyright.textContent = "© onStore — discover our seven shops.";
+  copyright.textContent = "© "+new Date().getFullYear()+" onStore. Explore more, together.";
   const nav = document.createElement("nav");
   nav.setAttribute("aria-label", "Footer navigation");
-  for (const [title, hash] of [["Shops", "#shops"], ["Catalogue", "#catalogue"], ["About", "#about"]]) {
+  for (const [title, file,params] of [["Shops", "shops.html"],["Products", "search.html"],["Hot deals","deals.html",{kind:'hot-deals'}],["New arrivals","deals.html",{kind:'new-arrivals'}],["Flash sales","deals.html",{kind:'flash-sales'}],["Contact","contact.html"],["Citations","citations.html"]]) {
     const link = document.createElement("a");
-    link.href = urlOnHome(hash);
+    link.href = siteURL(file,params);
     link.textContent = title;
     nav.append(link);
   }

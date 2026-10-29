@@ -36,8 +36,8 @@ assert.equal(convertedMinor(10000,129732000),1297320,'100 USD becomes 12,973.20 
 assert.equal(convertedMinor(10000,749586),7496,'100 USD becomes 74.96 GBP');
 assert.match(formattedMoney(10999,'GBP'),/109\.99/);
 const shared=readFileSync(new URL('../src/shared.js',import.meta.url),'utf8');
-const catalogue=readFileSync(new URL('../src/catalogue-ui.js',import.meta.url),'utf8');
+const catalogue=readFileSync(new URL('../src/market-ui.js',import.meta.url),'utf8');
 assert.ok(shared.includes('createCurrencyPicker()'),'Shared header currency picker');
-assert.ok(catalogue.includes('createPriceNode(p)'),'Catalogue cards show converted prices');
-assert.ok(catalogue.includes('createPriceNode(p)'),'Prices on cards');
+assert.ok(catalogue.includes('priceNode(product,market)'),'Catalogue cards show converted prices');
+assert.ok(catalogue.includes('priceNode(product,market)'),'Prices on cards');
 console.log('PASS: C2 210 individualized USD seeds, USD/KES/GBP conversion, shop SKU ownership, property design-price safeguards, shared price picker');

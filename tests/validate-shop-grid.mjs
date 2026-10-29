@@ -6,7 +6,7 @@ const root = new URL('../', import.meta.url);
 const read = p => readFileSync(new URL(p, root), 'utf8');
 const shops = JSON.parse(read('data/shops.json'));
 const manifest = JSON.parse(read('data/verification-assets.json'));
-const js = read('src/app.js');
+const js = read('src/market-ui.js');
 const css = read('assets/site.css');
 assert.equal(shops.length, 7);
 assert.ok(shops.every(s => s.targetProducts === 30));
@@ -19,15 +19,13 @@ for (const [tier, asset] of Object.entries(manifest.icons)) {
   assert.ok(existsSync(new URL(asset.path, root)));
   assert.equal(createHash('sha256').update(readFileSync(new URL(asset.path, root))).digest('hex'), asset.sha256);
 }
-const start = js.indexOf('function createShopCard(shop) {');
-const end = js.indexOf('\nasync function main()', start);
-assert.ok(start >= 0 && end > start, 'Shop component present');
-const source = js.slice(start, end);
-assert.ok(source.includes('dataset.shopFilter'), 'Shop filtering preserved');
-assert.ok(source.includes('shop.logoUrl') && source.includes('showMonogram'), 'Logo fallback preserved');
-assert.ok(!source.includes('shop.description'), 'No description on cards');
-assert.ok(!source.includes('🥉') && !source.includes('🥈') && !source.includes('🥇'), 'No medals');
-const create = new Function('document', source.replaceAll('import.meta.url', '"file:///tmp/src/app.js"') + '\nreturn createShopCard;');
+const start = js.indexOf('export function shopCard(shop){');
+const end = js.indexOf('export function field(', start);
+assert.ok(start >= 0 && end > start, 'Dedicated shop component present');
+const source = js.slice(start, end).replace('export ', '');
+assert.ok(source.includes('shop.logoUrl') && source.includes("addEventListener('error'"), 'Approved logo plus network fallback');
+assert.ok(!source.includes('shop.description'), 'Only name, logo and shield');
+const create = new Function('el','link','siteURL',source+'\nreturn shopCard;');
 class El {
   constructor(tag) { this.tag = tag; this.children = []; this.dataset = {}; this.attrs = {}; this.events = {}; }
   append(...v) { this.children.push(...v); }
@@ -35,13 +33,14 @@ class El {
   setAttribute(k,v) { this.attrs[k] = v; }
   addEventListener(k,v) { this.events[k] = v; }
 }
-const document = { createElement(tag) { return new El(tag); } };
-const render = create(document);
+const element=(tag,cls,text)=>{const node=new El(tag);node.className=cls;if(text!==undefined)node.textContent=text;return node;};
+const siteURL=(path)=>'file:///tmp/'+path;
+const link=(text,file,params,cls)=>{const node=element('a',cls,text);node.href=siteURL(file)+'?shop='+params.shop;return node;};
+const render = create(element,link,siteURL);
 for (const shop of shops) {
   const card = render(shop);
   assert.equal(card.tag, 'a');
-  assert.equal(card.href, '#catalogue');
-  assert.equal(card.dataset.shopFilter, shop.slug);
+  assert.equal(card.href, 'file:///tmp/shop.html?shop='+shop.slug);
   assert.equal(card.children.length, 3, 'Only logo, name, shield');
   assert.equal(card.children[1].textContent, shop.name);
   const level = card.children[2];

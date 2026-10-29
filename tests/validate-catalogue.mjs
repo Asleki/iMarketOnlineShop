@@ -51,7 +51,8 @@ for (const m of manifest.media) {
   assert.equal(bytes.length, m.bytes, 'Wrong size ' + m.path);
   assert.equal(createHash('sha256').update(bytes).digest('hex'), m.sha256, 'Corrupt image ' + m.path);
 }
-assert.ok(read('index.html').toString().includes('id="catalogue"'));
-assert.ok(read('src/app.js').toString().includes('initCatalogue'));
-assert.ok(read('src/catalogue-ui.js').toString().includes('api/v1/catalogue.json'));
-console.log('PASS: 210 products, 30 per shop, 1,095 sha256-verified images, canonical IDs, local catalogue UI');
+assert.ok(!read('index.html').toString().includes('id="shop-grid"'), 'Shops grid is not on the homepage');
+assert.ok(read('index.html').toString().includes('id="category-products"'));
+assert.ok(read('src/market-api.js').toString().includes('api/v1/catalogue.json'));
+assert.ok(read('src/market-ui.js').toString().includes("siteURL('product.html'"), 'Every card uses a canonical detail page');
+console.log('PASS: 210 products, 30 per shop, 1,095 sha256-verified images, canonical product pages and personalized homepage');

@@ -1,6 +1,10 @@
-# onStore — storefront rebuild
+# onStore — marketplace testing
 
-**Status:** Branded shared foundation (Stage 1.3), published to the default `main` branch. This branch prepares the shared architecture before the homepage, flash-sale timer and NoveGeo v015 catalogue are integrated.
+**Status:** Working marketplace testing frontend and Node.js/SQLite backend. Includes category onboarding, offers, dedicated product pages, shops, customer profiles, carts, reviews and scoped shop administration. Payments, checkout, merchant registration/billing and the future private GCP deployment remain deferred.
+
+Run `npm start` with Node.js 22.13+ and open `http://127.0.0.1:3000`. Accounts and server-managed data persist in the ignored `backend/data/` directory. Read [backend/README.md](backend/README.md) for configuration, test-admin provisioning, membership rules and data limitations. Do not use real customer data in this testing stage.
+
+GitHub Pages provides static browsing and guest preferences/cart only. It cannot run the backend or customer account services. All approved branding, catalogue source files and media remain unchanged.
 
 The project is being rebuilt inside `Asleki/iMarketOnlineShop` with seven shops, preserving the six original merchants and adding NexaGreen:
 
@@ -31,17 +35,21 @@ No per-shop HTML/CSS copies. Shop-specific appearance will be data-driven, not d
 
 ## Run locally
 
-Serve over HTTP; opening `index.html` using `file://` will block `fetch()` in many browsers.
-
 ```sh
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000`. Node.js is only required for tests:
-
-```sh
+npm start
+# http://127.0.0.1:3000
 npm test
 ```
+
+The frontend and `/api/marketplace/` API run on the same origin. Use `PORT`, `HOST`, `ONSTORE_DB_PATH` and (behind HTTPS) `COOKIE_SECURE` to configure the test service. Databases and credentials are excluded from source control.
+
+Browser integration tests require Python Playwright and Chromium:
+
+```sh
+python3 scripts/test-marketplace-browser.py
+```
+
+The browser script starts an isolated temporary backend, provisions a temporary shop administrator and cleans up its database after the journeys. Screenshots default to `/tmp/onstore-browser-evidence`.
 
 ## Historical recovery
 

@@ -12,3 +12,10 @@ coverage/
 __pycache__/
 *.py[cod]
 data/commerce/.*.lock
+
+# Private testing runtime state; never publish accounts or session databases.
+backend/data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.playwright/

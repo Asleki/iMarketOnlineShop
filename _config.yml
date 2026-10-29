@@ -1,0 +1,10 @@
+# GitHub Pages is a frontend-only preview. Runtime state and server code are not web assets.
+exclude:
+  - backend
+  - scripts
+  - tests
+  - tools
+  - docs
+  - README.md
+  - package.json
+  - package-lock.json

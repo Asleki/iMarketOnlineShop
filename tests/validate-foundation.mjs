@@ -15,7 +15,7 @@ const index = read("index.html");
 assert.equal((index.match(/rel="stylesheet"/g) || []).length, 1, "Use one shared stylesheet");
 assert.equal((index.match(/<script\b/g) || []).length, 1, "Use one module entrypoint");
 assert.ok(index.includes("./src/app.js"), "Entrypoint is module");
-assert.ok(read("src/app.js").includes("./shared.js"), "Shared chrome is reused");
+assert.ok(read("src/marketplace.js").includes("./shared.js"), "Shared chrome is reused on every page");
 assert.ok(read("src/media.js").includes("FALLBACK_IMAGE_URL"), "One shared image fallback");
 assert.ok(existsSync(new URL("../images/placeholder.webp", import.meta.url)), "Fallback image exists");
 assert.equal(shopList.filter(shop => shop.logoUrl).length, 7, "Seven approved shop logos");
@@ -24,8 +24,8 @@ for (const shop of shopList) {
   assert.equal(shop.logoUrl, expected, "Approved logo mapping for " + shop.slug);
   assert.ok(existsSync(new URL("../" + expected, import.meta.url)), "Approved logo exists: " + expected);
 }
-assert.ok(read("src/app.js").includes("shop.logoUrl"), "Shop cards use mapped logo assets");
-assert.ok(read("src/app.js").includes("showMonogram"), "Shop cards have a missing-logo fallback");
+assert.ok(read("src/market-ui.js").includes("shop.logoUrl"), "Shop cards use mapped logo assets");
+assert.ok(read("src/market-ui.js").includes("shop.name.charAt(0)"), "Shop cards have a network-error logo fallback");
 
 
 const css = read("assets/site.css");

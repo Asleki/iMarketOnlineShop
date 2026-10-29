@@ -40,13 +40,13 @@ for(const c of publicView.campaigns){
  assert.ok(c.target_products.length>0);
  assert.ok(!c.target_products.some(p=>p.shop_slug==='soko-properties'));
 }
-const ui=read('src/catalogue-ui.js'),promo=read('src/commerce-promotions.js'),pkg=json('package.json');
-assert.ok(ui.includes('createPromotionPriceNode'));
-assert.ok(ui.includes('initPromoData'));
-assert.ok(ui.includes('showDemoCampaignStrip'));
+const ui=read('src/marketplace.js'),promo=read('src/market-ui.js'),pkg=json('package.json');
+assert.ok(ui.includes('selectCollection'));
+assert.ok(ui.includes('market.offers'));
+assert.ok(ui.includes('flash-sales'));
 assert.ok(promo.includes('onstore:currency-changed'));
 assert.ok(promo.includes('convertedMinor'));
-assert.ok(promo.includes('best_eligible_only')||promo.includes('b.discount_bps - a.discount_bps'));
+assert.ok(promo.includes('b.discount_bps-a.discount_bps'));
 assert.ok(pkg.scripts.test.includes('validate-promotions-c4.mjs'));
 assert.ok(read('assets/site.css').includes('onstore.c4.simulated-offers'));
 console.log(`PASS: C4 ${state.campaign_count} campaigns, ${publicView.campaign_count} active demo campaigns, best-discount wins, multi-currency price cards`);

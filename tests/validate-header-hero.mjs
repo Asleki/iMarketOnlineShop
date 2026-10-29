@@ -7,7 +7,7 @@ const index = read('index.html');
 const shared = read('src/shared.js');
 const hero = read('src/hero.js');
 const catalogue = read('src/catalogue-ui.js');
-const main = read('src/app.js');
+const main = read('src/marketplace.js');
 const css = read('assets/site.css');
 const products = JSON.parse(read('api/v1/catalogue.json')).products;
 assert.ok(index.includes('id="featured"') && index.includes('id="hero-slider"'));
